@@ -1,0 +1,54 @@
+---------------- start ----------------
+Thu Jun 22 2017 14:04:09
+max threads: 2
+max memory: 10000 MB
+time limit: 100 hours
+use gpu: false
+---------------------------------------
+modelIndx, N_viewPairs, weight_AND_term:  (33, 9, 0)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 9, 3)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 9, 6)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 9, 9)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 7, 0)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 7, 3)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 7, 6)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 7, 9)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 5, 0)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 5, 3)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 5, 6)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 5, 9)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 3, 0)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 3, 3)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 3, 6)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 3, 9)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 1, 0)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 1, 3)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 1, 6)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (33, 1, 9)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+async eval_ply done.
+the matlab engine is exited.
+Done
+----------------- end -----------------
+Thu Jun 22 2017 14:04:16
+elapsed time: 000:00:06
+---------------------------------------

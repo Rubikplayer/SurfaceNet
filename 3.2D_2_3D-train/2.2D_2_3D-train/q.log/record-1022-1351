@@ -1,0 +1,191 @@
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is disabled, cuDNN 5103)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
+  warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
+
+current mode *** train_volumeNet_only / debug_ON True ***
+
+rectified imgs of indx: 5 are loaded
+rectified imgs of indx: 17 are loaded
+density Cube files are loaded
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+output shape: (None, 1, 32, 32, 32)
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 16, 8, 8, 8)
+shape of kshp_64 = [16  1  8  8  8]
+should be 1D tensor, shape of kshp = (None, 16, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [16  1  8  8  8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 16, 8, 8, 8)
+shape of kshp_64 = [16  1  8  8  8]
+should be 1D tensor, shape of kshp = (None, 16, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [16  1  8  8  8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+starting training...
+Epoch 1, batch 1: Loss 13571.9, acc 0.184926, acc_guess_all0 0.951833
+Epoch 1, batch 2: Loss 13723.7, acc 0.215052, acc_guess_all0 0.942502
+Epoch 1, batch 3: Loss 12580.5, acc 0.225647, acc_guess_all0 0.944165
+Epoch 1, batch 4: Loss 13074, acc 0.241591, acc_guess_all0 0.941121
+Epoch 1, batch 5: Loss 12312.5, acc 0.231667, acc_guess_all0 0.941197
+Epoch 1, batch 6: Loss 11512.2, acc 0.239184, acc_guess_all0 0.942744
+Epoch 1, batch 7: Loss 12405.9, acc 0.22581, acc_guess_all0 0.942657
+Epoch 1, batch 8: Loss 12161.3, acc 0.209958, acc_guess_all0 0.942944
+Epoch 1, batch 9: Loss 12353.9, acc 0.193681, acc_guess_all0 0.942925
+Epoch 1, batch 10: Loss 13088.8, acc 0.180723, acc_guess_all0 0.942222
+starting validation...
+val_acc 0.803447
+starting training...
+Epoch 2, batch 1: Loss 13188.6, acc 0.0688324, acc_guess_all0 0.931168
+Epoch 2, batch 2: Loss 12534.4, acc 0.0654755, acc_guess_all0 0.935315
+Epoch 2, batch 3: Loss 11135, acc 0.0569967, acc_guess_all0 0.943531
+Epoch 2, batch 4: Loss 13452, acc 0.0608342, acc_guess_all0 0.939561
+Epoch 2, batch 5: Loss 11743.4, acc 0.0586782, acc_guess_all0 0.941638
+Epoch 2, batch 6: Loss 12371.1, acc 0.0585878, acc_guess_all0 0.941676
+Epoch 2, batch 7: Loss 12841.7, acc 0.0594359, acc_guess_all0 0.94079
+Epoch 2, batch 8: Loss 12166.7, acc 0.0591202, acc_guess_all0 0.941078
+Epoch 2, batch 9: Loss 12765, acc 0.0595488, acc_guess_all0 0.940627
+Epoch 2, batch 10: Loss 13564.6, acc 0.060881, acc_guess_all0 0.939277
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-2-0.0609_0.939.model
+starting validation...
+val_acc 0.247965
+starting training...
+Epoch 3, batch 1: Loss 13053.1, acc 0.0693614, acc_guess_all0 0.930791
+Epoch 3, batch 2: Loss 14581, acc 0.0809453, acc_guess_all0 0.919195
+Epoch 3, batch 3: Loss 11694.1, acc 0.0658434, acc_guess_all0 0.934389
+Epoch 3, batch 4: Loss 13448.2, acc 0.0683975, acc_guess_all0 0.932746
+Epoch 3, batch 5: Loss 12300, acc 0.066569, acc_guess_all0 0.934628
+Epoch 3, batch 6: Loss 13839.7, acc 0.0689248, acc_guess_all0 0.932287
+Epoch 3, batch 7: Loss 13199.9, acc 0.0702042, acc_guess_all0 0.931554
+Epoch 3, batch 8: Loss 13565.8, acc 0.0723349, acc_guess_all0 0.930033
+Epoch 3, batch 9: Loss 13239, acc 0.0739243, acc_guess_all0 0.929751
+Epoch 3, batch 10: Loss 12539.8, acc 0.0744349, acc_guess_all0 0.930335
+starting validation...
+val_acc 0.09608
+starting training...
+Epoch 4, batch 1: Loss 14638.5, acc 0.13414, acc_guess_all0 0.898046
+Epoch 4, batch 2: Loss 12560.4, acc 0.117246, acc_guess_all0 0.92323
+Epoch 4, batch 3: Loss 12257.2, acc 0.110331, acc_guess_all0 0.929126
+^CTraceback (most recent call last):
+  File "ConvAE_3D.py", line 278, in <module>
+    main()
+  File "ConvAE_3D.py", line 174, in main
+    _loss, acc, predict_train = train_fn(train_X_sub, train_gt_sub)
+  File "/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/theano/compile/function_module.py", line 866, in __call__
+    self.fn() if output_subset is None else\
+  File "/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/theano/gof/op.py", line 865, in rval
+    def rval(p=p, i=node_input_storage, o=node_output_storage, n=node):
+KeyboardInterrupt
+

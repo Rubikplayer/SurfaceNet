@@ -1,0 +1,1072 @@
+---------------- start ----------------
+Mi 21. Dez 10:51:20 CET 2016
+max threads: 3
+max memory: 55000 MB
+time limit: 24 hours
+use gpu: false
+.qsub-4.3.sh.1  1
+---------------------------------------
+
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
+  warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
+WARNING (theano.sandbox.cuda): CUDA is installed, but device gpu is not available  (error: Unable to get the number of gpus available: no CUDA-capable device is detected)
+load prediction: orig
+loaded 256 / 643 cubes
+0
+loaded 242 / 685 cubes
+1
+Warning: file not exist / valid: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params/model17-6viewPairs-resol0.400-strideRatio0.500/batch-2_75.npz
+2
+loaded 516 / 1628 cubes
+3
+loaded 371 / 972 cubes
+4
+loaded 347 / 849 cubes
+5
+loaded 354 / 989 cubes
+6
+loaded 361 / 1015 cubes
+7
+loaded 295 / 938 cubes
+8
+loaded 438 / 1120 cubes
+9
+loaded 415 / 1004 cubes
+10
+loaded 443 / 1186 cubes
+11
+loaded 376 / 1027 cubes
+12
+Warning: file not exist / valid: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params/model17-6viewPairs-resol0.400-strideRatio0.500/batch-13_75.npz
+13
+loaded 961 / 2426 cubes
+14
+loaded 498 / 1219 cubes
+15
+loaded 539 / 1191 cubes
+16
+loaded 361 / 1153 cubes
+17
+loaded 549 / 1383 cubes
+18
+loaded 584 / 1297 cubes
+19
+loaded 519 / 1285 cubes
+20
+loaded 470 / 1449 cubes
+21
+loaded 656 / 1670 cubes
+22
+loaded 708 / 1570 cubes
+23
+loaded 723 / 1779 cubes
+24
+loaded 609 / 1698 cubes
+25
+loaded 963 / 2253 cubes
+26
+Warning: file not exist / valid: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params/model17-6viewPairs-resol0.400-strideRatio0.500/batch-27_75.npz
+27
+loaded 2153 / 4445 cubes
+28
+loaded 689 / 1986 cubes
+29
+loaded 1123 / 2493 cubes
+30
+loaded 1194 / 2399 cubes
+31
+loaded 880 / 2084 cubes
+32
+loaded 812 / 2071 cubes
+33
+loaded 1039 / 2505 cubes
+34
+loaded 1137 / 2402 cubes
+35
+loaded 678 / 1819 cubes
+36
+loaded 920 / 2173 cubes
+37
+loaded 1033 / 2355 cubes
+38
+loaded 1008 / 2101 cubes
+39
+loaded 472 / 1464 cubes
+40
+loaded 903 / 2162 cubes
+41
+loaded 875 / 2103 cubes
+42
+Warning: file not exist / valid: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params/model17-6viewPairs-resol0.400-strideRatio0.500/batch-43_75.npz
+43
+loaded 1295 / 3039 cubes
+44
+loaded 880 / 1953 cubes
+45
+loaded 757 / 1819 cubes
+46
+loaded 462 / 1252 cubes
+47
+loaded 802 / 1820 cubes
+48
+loaded 722 / 1676 cubes
+49
+loaded 649 / 1514 cubes
+50
+loaded 363 / 1086 cubes
+51
+loaded 732 / 1828 cubes
+52
+loaded 379 / 1175 cubes
+53
+loaded 353 / 1199 cubes
+54
+loaded 397 / 1107 cubes
+55
+loaded 410 / 1351 cubes
+56
+loaded 213 / 725 cubes
+57
+loaded 305 / 852 cubes
+58
+Warning: file not exist / valid: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params/model17-6viewPairs-resol0.400-strideRatio0.500/batch-59_75.npz
+59
+loaded 656 / 2023 cubes
+60
+loaded 248 / 795 cubes
+61
+loaded 369 / 828 cubes
+62
+loaded 378 / 1071 cubes
+63
+loaded 208 / 658 cubes
+64
+Warning: file not exist / valid: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params/model17-6viewPairs-resol0.400-strideRatio0.500/batch-65_75.npz
+65
+loaded 649 / 1726 cubes
+66
+loaded 229 / 731 cubes
+67
+loaded 206 / 568 cubes
+68
+loaded 308 / 726 cubes
+69
+loaded 326 / 867 cubes
+70
+loaded 161 / 561 cubes
+71
+Warning: file not exist / valid: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params/model17-6viewPairs-resol0.400-strideRatio0.500/batch-72_75.npz
+72
+Warning: file not exist / valid: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params/model17-6viewPairs-resol0.400-strideRatio0.500/batch-73_75.npz
+73
+loaded 589 / 1877 cubes
+74
+Warning: file not exist / valid: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params/model17-6viewPairs-resol0.400-strideRatio0.500/batch-75_75.npz
+75
+loaded sparse_dict from file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params/model17-6viewPairs-resol0.400-strideRatio0.500/rayPool_votes_model17_batch0_75_maxThresh2.0.npz
+thresh_NO_viewPairs_decisions: 10
+init_adapThresh: 2.0
+loaded the initial point cloud data
+start updating the threshold
+updated iteration 0
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_realColor.ply
+saving ply in new process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_visualize_update.ply
+saving ply in new process
+.
+updated iteration 1
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 2
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 3
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 4
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 5
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 6
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 7
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 8
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 9
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 10
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 11
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 12
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 13
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 14
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter14_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter14_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 15
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter15_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-2_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter15_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+done
+thresh_NO_viewPairs_decisions: 10
+init_adapThresh: 2.0
+loaded the initial point cloud data
+start updating the threshold
+updated iteration 0
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 1
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 2
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 3
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 4
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 5
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 6
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 7
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 8
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 9
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 10
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 11
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 12
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 13
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 14
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter14_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter14_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 15
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter15_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-4_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter15_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+done
+thresh_NO_viewPairs_decisions: 10
+init_adapThresh: 2.0
+loaded the initial point cloud data
+start updating the threshold
+updated iteration 0
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 1
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 2
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 3
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 4
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 5
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 6
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 7
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 8
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 9
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 10
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 11
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 12
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 13
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 14
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter14_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter14_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 15
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter15_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-6_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter15_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+done
+thresh_NO_viewPairs_decisions: 10
+init_adapThresh: 2.0
+loaded the initial point cloud data
+start updating the threshold
+updated iteration 0
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 1
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 2
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 3
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 4
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 5
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 6
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 7
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 8
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 9
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 10
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 11
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 12
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 13
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 14
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter14_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter14_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 15
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter15_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-8_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter15_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+done
+thresh_NO_viewPairs_decisions: 10
+init_adapThresh: 2.0
+loaded the initial point cloud data
+start updating the threshold
+updated iteration 0
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 1
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 2
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 3
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 4
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 5
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 6
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 7
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 8
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 9
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 10
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 11
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 12
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 13
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 14
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter14_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter14_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 15
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter15_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-10_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter15_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+done
+thresh_NO_viewPairs_decisions: 10
+init_adapThresh: 2.0
+loaded the initial point cloud data
+start updating the threshold
+updated iteration 0
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 1
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 2
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 3
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 4
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 5
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 6
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 7
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 8
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 9
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 10
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 11
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 12
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 13
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 14
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter14_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter14_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 15
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter15_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-12_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter15_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+done
+thresh_NO_viewPairs_decisions: 10
+init_adapThresh: 2.0
+loaded the initial point cloud data
+start updating the threshold
+updated iteration 0
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 1
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 2
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 3
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 4
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 5
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 6
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 7
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 8
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 9
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 10
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 11
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 12
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 13
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 14
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter14_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter14_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 15
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter15_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-14_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter15_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+done
+thresh_NO_viewPairs_decisions: 10
+init_adapThresh: 2.0
+loaded the initial point cloud data
+start updating the threshold
+updated iteration 0
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 1
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 2
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 3
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 4
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 5
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 6
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 7
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 8
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 9
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 10
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 11
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 12
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 13
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 14
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter14_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter14_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 15
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter15_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-16_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter15_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+done
+thresh_NO_viewPairs_decisions: 10
+init_adapThresh: 2.0
+loaded the initial point cloud data
+start updating the threshold
+updated iteration 0
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter0_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 1
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter1_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 2
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter2_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 3
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter3_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 4
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter4_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 5
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter5_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 6
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter6_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 7
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter7_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 8
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter8_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 9
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter9_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 10
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter10_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 11
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter11_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 12
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter12_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 13
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter13_visualize_update.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.
+updated iteration 14
+saving ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model17-6viewPairs-resol0.400-strideRatio0.500/0-75-18_and/adapThresh_rayPool_On-init2.0_Ndecision10_iter14_realColor.ply
+Cannot start new process to saving ply. Run it in the orignal process
+.qsub-4.3.sh.1: line 6: 17518 Killed                  python -u test-adaptive_threshold.py
+Done
+
+----------------- end -----------------
+Do 22. Dez 10:40:10 CET 2016
+elapsed time: 023:48:50
+---------------------------------------

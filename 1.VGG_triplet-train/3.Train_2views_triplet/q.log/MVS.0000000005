@@ -1,0 +1,1584 @@
+---------------- start ----------------
+Do 22. Sep 10:40:12 CEST 2016
+max threads: 4
+max memory: 28000 MB
+time limit: 36 hours
+gpu device id: 0
+.VGGface_MVS-train.sh.1  1
+---------------------------------------
+
+This is VGGface_MVS-train5.py
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is enabled with initial size: 95.0% of memory, cuDNN 5103)
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(140331, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(140085, 3, 64, 64)
+lr_coefficient of previous layers: 0
+VGGface_MVS-train5.py:255: UserWarning: The parameter 'updates' of theano.function() expects an OrderedDict, got <type 'dict'>. Using a standard dictionary here results in non-deterministic behavior. You should use an OrderedDict if you are using Python 2.7 (theano.compat.OrderedDict for older python), or use a list of (shared, update) pairs. Do not just convert your dictionary to this type before the call as the conversion will still be non-deterministic.
+  get_dist_from_feature_embed(feature_embed), updates=updates)
+loaded the weight: /media/mengqi/data/mengqi/dataset/miniDataset/lasagne/save_model_2views_triplet/20160921/1.vgg-to-epoch99_thresh7.62327.model
+learning rate: 0.001, batch size: 1500, triplet_alpha: 30, shuffle_sample_ON: True, weight_decay: 0.1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/005_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/085_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/036_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(558069, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(483747, 3, 64, 64)
+training loss:		6.996025
+||Xanchor-Xpos||_2  counter: 
+[  510  5666 20185 32399 32554 25099 17241 11018  6961  4114  2484  1524
+   836   430   156    48    19     4     1     0]
+||Xanchor-Xneg||_2  counter: 
+[   15    37   184   700  2266  5773 11224 18158 25492 28307 26520 20508
+ 12670  6304  2296   619   148    24     1     2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.73843145   1.72526133   2.71209121   3.69892108   4.68575096
+   5.67258084   6.65941072   7.64624059   8.63307047   9.61990035
+  10.60673022  11.5935601   12.58038998  13.56721985  14.55404973
+  15.54087961  16.52770948  17.51453936  18.50136924  19.48819911
+  20.47502899]
+distance difference  counter: 
+(array([    2,     8,    52,   181,   641,  2024,  5069, 10471, 18175,
+       26634, 31953, 30678, 22179,  9454,  2658,   781,   212,    52,
+          22,     3]), array([ -3.12238464e+02,  -2.86235540e+02,  -2.60232616e+02,
+        -2.34229691e+02,  -2.08226767e+02,  -1.82223843e+02,
+        -1.56220918e+02,  -1.30217994e+02,  -1.04215070e+02,
+        -7.82121452e+01,  -5.22092209e+01,  -2.62062965e+01,
+        -2.03372192e-01,   2.57995522e+01,   5.18024765e+01,
+         7.78054008e+01,   1.03808325e+02,   1.29811250e+02,
+         1.55814174e+02,   1.81817098e+02,   2.07820023e+02]))
+||Xanchor-Xpos||_2  counter: 
+[ 229 2357 7019 9717 8961 6711 4846 3017 1829 1073  532  258   84   42   13
+    3    3    1    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   2    6   19   87  342  993 2326 4470 6850 8511 8354 6791 4363 2321  896
+  271   76   14    1    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.23144615   2.1457866    3.06012706   3.97446751   4.88880796
+   5.80314842   6.71748887   7.63182933   8.54616978   9.46051024
+  10.37485069  11.28919114  12.2035316   13.11787205  14.03221251
+  14.94655296  15.86089342  16.77523387  17.68957433  18.60391478
+  19.51825523]
+distance difference  counter: 
+(array([  10,   23,   84,  195,  486, 1124, 2286, 3710, 5649, 7555, 8545,
+       7767, 5458, 2529,  887,  250,   81,   37,   15,    4]), array([-253.58389282, -233.04186172, -212.49983063, -191.95779953,
+       -171.41576843, -150.87373734, -130.33170624, -109.78967514,
+        -89.24764404,  -68.70561295,  -48.16358185,  -27.62155075,
+         -7.07951965,   13.46251144,   34.00454254,   54.54657364,
+         75.08860474,   95.63063583,  116.17266693,  136.71469803,
+        157.25672913]))
+train/val Accuracy = 0.850076589622 / 0.885715815398 
+ with threshold: [[ 7.88238735]]
+============ epoch 1 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/045_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/124_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/036_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/097_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(555909, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(532830, 3, 64, 64)
+training loss:		10.750342
+||Xanchor-Xpos||_2  counter: 
+[ 1109 12541 31809 35030 26703 19713 15430 12725  9683  6380  3537  1776
+   756   244   104    47    16     7     0     0]
+||Xanchor-Xneg||_2  counter: 
+[    5    60   493  1953  5875 14381 28128 38915 38721 27317 13764  5362
+  1665   559   216    93    49    27    21     6]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.60188222   1.78492936   2.9679765    4.15102364   5.33407078
+   6.51711792   7.70016506   8.8832122   10.06625934  11.24930648
+  12.43235362  13.61540076  14.7984479   15.98149503  17.16454217
+  18.34758931  19.53063645  20.71368359  21.89673073  23.07977787
+  24.26282501]
+distance difference  counter: 
+(array([    5,    19,    84,   426,  1374,  3768,  8734, 16873, 27158,
+       35018, 34564, 26490, 14145,  5918,  2087,   677,   199,    57,
+          10,     4]), array([-275.72103882, -250.3880394 , -225.05503998, -199.72204056,
+       -174.38904114, -149.05604172, -123.7230423 ,  -98.39004288,
+        -73.05704346,  -47.72404404,  -22.39104462,    2.9419548 ,
+         28.27495422,   53.60795364,   78.94095306,  104.27395248,
+        129.6069519 ,  154.93995132,  180.27295074,  205.60595016,
+        230.93894958]))
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch1_thresh8.23517.model *****
+||Xanchor-Xpos||_2  counter: 
+[  198  2497  7601 10394  9221  6750  4597  2687  1517   738   331   107
+    34    12     5     4     2     0     0     0]
+||Xanchor-Xneg||_2  counter: 
+[   2    5   25  111  461 1392 3409 6361 8941 9749 7887 4917 2328  795  234
+   64    9    2    1    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.11589837   2.02096056   2.92602274   3.83108493   4.73614712
+   5.6412093    6.54627149   7.45133368   8.35639586   9.26145805
+  10.16652024  11.07158242  11.97664461  12.8817068   13.78676898
+  14.69183117  15.59689336  16.50195554  17.40701773  18.31207992
+  19.21714211]
+distance difference  counter: 
+(array([  10,   14,   52,  157,  353,  860, 1746, 3060, 4859, 6864, 8233,
+       8196, 6465, 3691, 1459,  454,  137,   48,   29,    8]), array([-206.61196899, -190.06163406, -173.51129913, -156.9609642 ,
+       -140.41062927, -123.86029434, -107.30995941,  -90.75962448,
+        -74.20928955,  -57.65895462,  -41.10861969,  -24.55828476,
+         -8.00794983,    8.5423851 ,   25.09272003,   41.64305496,
+         58.19338989,   74.74372482,   91.29405975,  107.84439468,
+        124.39472961]))
+train/val Accuracy = 0.783900118237 / 0.852821501231 
+ with threshold: [[ 8.2351669]]
+============ epoch 2 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/042_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/045_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/062_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/105_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(567648, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(552648, 3, 64, 64)
+training loss:		8.994345
+||Xanchor-Xpos||_2  counter: 
+[  724 14066 39235 42060 31057 20710 13477  8629  6031  3944  2385  1157
+   440   153    58    39    32    14     5     0]
+||Xanchor-Xneg||_2  counter: 
+[   27   253  1182  4159 10771 21101 31763 38171 35069 23941 11811  4099
+  1093   356   163    99    69    56    30     2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.30017123   1.49140332   2.68263541   3.8738675    5.0650996
+   6.25633169   7.44756378   8.63879588   9.83002797  11.02126006
+  12.21249215  13.40372425  14.59495634  15.78618843  16.97742052
+  18.16865262  19.35988471  20.5511168   21.74234889  22.93358099
+  24.12481308]
+distance difference  counter: 
+(array([    1,     7,    15,    55,   315,  1365,  4465, 12068, 24772,
+       38246, 46005, 38910, 13237,  3412,   985,   242,    87,    26,
+           2,     1]), array([ -3.10198334e+02,  -2.82022782e+02,  -2.53847231e+02,
+        -2.25671679e+02,  -1.97496127e+02,  -1.69320576e+02,
+        -1.41145024e+02,  -1.12969473e+02,  -8.47939209e+01,
+        -5.66183693e+01,  -2.84428177e+01,  -2.67266083e-01,
+         2.79082855e+01,   5.60838371e+01,   8.42593887e+01,
+         1.12434940e+02,   1.40610492e+02,   1.68786044e+02,
+         1.96961595e+02,   2.25137147e+02,   2.53312698e+02]))
+||Xanchor-Xpos||_2  counter: 
+[  131  2103  7028 10163  9394  6967  4760  2959  1717   856   395   148
+    44    17     5     7     1     0     0     0]
+||Xanchor-Xneg||_2  counter: 
+[   1    5   20   90  370 1151 2868 5623 8291 9484 8411 5727 2946 1214  376
+   95   17    3    1    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.02869821   1.93690399   2.84510977   3.75331556   4.66152134
+   5.56972712   6.47793291   7.38613869   8.29434447   9.20255026
+  10.11075604  11.01896182  11.92716761  12.83537339  13.74357917
+  14.65178496  15.55999074  16.46819652  17.37640231  18.28460809
+  19.19281387]
+distance difference  counter: 
+(array([   5,   12,   30,  119,  253,  637, 1361, 2545, 4106, 6182, 7882,
+       8412, 7474, 4671, 2025,  672,  212,   56,   25,   16]), array([-224.94668579, -207.51865387, -190.09062195, -172.66259003,
+       -155.23455811, -137.80652618, -120.37849426, -102.95046234,
+        -85.52243042,  -68.0943985 ,  -50.66636658,  -33.23833466,
+        -15.81030273,    1.61772919,   19.04576111,   36.47379303,
+         53.90182495,   71.32985687,   88.75788879,  106.18592072,
+        123.61395264]))
+train/val Accuracy = 0.800869631302 / 0.885951386658 
+ with threshold: [[ 7.37948938]]
+============ epoch 3 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/049_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/104_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/096_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/021_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(554568, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(492654, 3, 64, 64)
+training loss:		12.285120
+||Xanchor-Xpos||_2  counter: 
+[ 1627 16610 34090 30955 22715 16735 13477 10752  8115  4966  2406  1012
+   439   190    61    28    32     7     1     0]
+||Xanchor-Xneg||_2  counter: 
+[    4   254  1933  6306 13383 22206 30832 34698 28171 15746  6642  2385
+   916   378   174    97    47    25    15     6]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.84917051   2.05089972   3.25262893   4.45435814   5.65608735
+   6.85781656   8.05954577   9.26127498  10.4630042   11.66473341
+  12.86646262  14.06819183  15.26992104  16.47165025  17.67337946
+  18.87510867  20.07683789  21.2785671   22.48029631  23.68202552
+  24.88375473]
+distance difference  counter: 
+(array([    3,    31,   167,   705,  2255,  5830, 12828, 22151, 31886,
+       37850, 32222, 12463,  4174,  1231,   301,    90,    22,     7,
+           1,     1]), array([-255.78378296, -229.34788971, -202.91199646, -176.47610321,
+       -150.04020996, -123.60431671,  -97.16842346,  -70.73253021,
+        -44.29663696,  -17.86074371,    8.57514954,   35.01104279,
+         61.44693604,   87.88282928,  114.31872253,  140.75461578,
+        167.19050903,  193.62640228,  220.06229553,  246.49818878,
+        272.93408203]))
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch3_thresh7.86564.model *****
+||Xanchor-Xpos||_2  counter: 
+[  79 1279 5224 8920 9203 7716 5493 3901 2333 1358  693  323  111   33   19
+    5    5    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   0    5   15   43  190  634 1607 3391 6089 8193 8825 7731 5269 2912 1197
+  437  113   36    5    3]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.95347941   1.77234558   2.59121176   3.41007794   4.22894411
+   5.04781029   5.86667646   6.68554264   7.50440881   8.32327499
+   9.14214116   9.96100734  10.77987351  11.59873969  12.41760587
+  13.23647204  14.05533822  14.87420439  15.69307057  16.51193674
+  17.33080292]
+distance difference  counter: 
+(array([  12,   22,   63,  166,  353,  833, 1684, 2961, 4585, 6388, 7974,
+       8115, 6777, 4140, 1759,  598,  168,   64,   27,    6]), array([-201.32684326, -185.41342316, -169.50000305, -153.58658295,
+       -137.67316284, -121.75974274, -105.84632263,  -89.93290253,
+        -74.01948242,  -58.10606232,  -42.19264221,  -26.27922211,
+        -10.365802  ,    5.5476181 ,   21.46103821,   37.37445831,
+         53.28787842,   69.20129852,   85.11471863,  101.02813873,
+        116.94155884]))
+train/val Accuracy = 0.744927474455 / 0.871774279901 
+ with threshold: [[ 7.8656397]]
+============ epoch 4 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/063_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/037_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/097_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/128_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(565977, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(517815, 3, 64, 64)
+training loss:		11.813798
+||Xanchor-Xpos||_2  counter: 
+[  508  8520 26883 34063 28170 20798 15801 12735 10072  7263  4386  2143
+   788   291   107    59    12     5     1     0]
+||Xanchor-Xneg||_2  counter: 
+[    6    68   460  2057  7046 17536 29317 36482 34963 24595 12515  4922
+  1660   595   213    86    39    21    17     7]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.80838472   1.91088531   3.0133859    4.11588649   5.21838708
+   6.32088767   7.42338826   8.52588885   9.62838944  10.73089003
+  11.83339062  12.93589121  14.0383918   15.1408924   16.24339299
+  17.34589358  18.44839417  19.55089476  20.65339535  21.75589594
+  22.85839653]
+distance difference  counter: 
+(array([   15,    67,   242,   818,  2262,  5700, 11921, 20913, 30878,
+       37033, 31112, 18593,  8535,  3167,   932,   318,    83,    11,
+           3,     2]), array([-218.28901672, -196.39562531, -174.50223389, -152.60884247,
+       -130.71545105, -108.82205963,  -86.92866821,  -65.03527679,
+        -43.14188538,  -21.24849396,    0.64489746,   22.53828888,
+         44.4316803 ,   66.32507172,   88.21846313,  110.11185455,
+        132.00524597,  153.89863739,  175.79202881,  197.68542023,
+        219.57881165]))
+||Xanchor-Xpos||_2  counter: 
+[  99 1406 5552 8869 9175 7580 5431 3862 2261 1304  673  294  121   39   19
+    4    6    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   1    3   18   51  211  625 1690 3484 6061 8180 8744 7598 5251 2894 1265
+  449  123   38    5    4]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.02146173   1.81666921   2.6118767    3.40708419   4.20229168
+   4.99749917   5.79270666   6.58791414   7.38312163   8.17832912
+   8.97353661   9.7687441   10.56395159  11.35915908  12.15436656
+  12.94957405  13.74478154  14.53998903  15.33519652  16.13040401
+  16.9256115 ]
+distance difference  counter: 
+(array([   8,   17,   42,  108,  290,  659, 1441, 2605, 4341, 6312, 8098,
+       8410, 7262, 4464, 1822,  554,  174,   60,   21,    7]), array([-201.76515198, -185.79688873, -169.82862549, -153.86036224,
+       -137.892099  , -121.92383575, -105.95557251,  -89.98730927,
+        -74.01904602,  -58.05078278,  -42.08251953,  -26.11425629,
+        -10.14599304,    5.8222702 ,   21.79053345,   37.75879669,
+         53.72705994,   69.69532318,   85.66358643,  101.63184967,
+        117.60011292]))
+train/val Accuracy = 0.752872164769 / 0.859974301317 
+ with threshold: [[ 7.94897762]]
+============ epoch 5 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/045_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/062_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/063_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(570786, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(547935, 3, 64, 64)
+training loss:		5.858268
+||Xanchor-Xpos||_2  counter: 
+[  129  3888 18886 35602 39104 31560 21804 13896  8565  4902  2516  1078
+   456   168    60    23     6     0     2     0]
+||Xanchor-Xneg||_2  counter: 
+[   12   106   367  1067  2792  5970 11461 18241 25093 29859 29943 25442
+ 17361  9173  4025  1303   320    89    16     4]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.20542872   1.1214766    2.03752447   2.95357235   3.86962023
+   4.7856681    5.70171598   6.61776386   7.53381174   8.44985961
+   9.36590749  10.28195537  11.19800324  12.11405112  13.030099
+  13.94614688  14.86219475  15.77824263  16.69429051  17.61033838
+  18.52638626]
+distance difference  counter: 
+(array([    4,    28,    72,   290,   938,  2476,  5383, 11018, 18405,
+       26573, 32993, 34856, 29499, 15638,  3299,   838,   238,    67,
+          24,     6]), array([-244.26977539, -224.22230988, -204.17484436, -184.12737885,
+       -164.07991333, -144.03244781, -123.9849823 , -103.93751678,
+        -83.89005127,  -63.84258575,  -43.79512024,  -23.74765472,
+         -3.70018921,   16.34727631,   36.39474182,   56.44220734,
+         76.48967285,   96.53713837,  116.58460388,  136.6320694 ,
+        156.67953491]))
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch5_thresh6.94187.model *****
+||Xanchor-Xpos||_2  counter: 
+[ 215 2222 6547 9208 8870 6825 5002 3360 2102 1181  652  320  117   45   16
+   13    0    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   0    9   14   71  253  772 1768 3541 5945 7796 8339 7466 5251 3187 1448
+  572  198   44   15    6]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.22047436   2.06714899   2.91382362   3.76049824   4.60717287
+   5.4538475    6.30052212   7.14719675   7.99387138   8.84054601
+   9.68722063  10.53389526  11.38056989  12.22724451  13.07391914
+  13.92059377  14.7672684   15.61394302  16.46061765  17.30729228
+  18.1539669 ]
+distance difference  counter: 
+(array([   6,    8,   36,   68,  194,  496, 1030, 2138, 3754, 5727, 7695,
+       8695, 8103, 5356, 2332,  735,  219,   66,   26,   11]), array([-259.59988403, -239.92616501, -220.25244598, -200.57872696,
+       -180.90500793, -161.23128891, -141.55756989, -121.88385086,
+       -102.21013184,  -82.53641281,  -62.86269379,  -43.18897476,
+        -23.51525574,   -3.84153671,   15.83218231,   35.50590134,
+         55.17962036,   74.85333939,   94.52705841,  114.20077744,
+        133.87449646]))
+train/val Accuracy = 0.853494483835 / 0.880244137488 
+ with threshold: [[ 6.94187155]]
+============ epoch 6 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/105_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/093_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/045_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/037_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(558759, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(525006, 3, 64, 64)
+training loss:		11.806957
+||Xanchor-Xpos||_2  counter: 
+[ 1364 12763 26501 31795 28152 22226 16977 12864  9891  6508  3652  1464
+   525   174    85    43    14     4     0     0]
+||Xanchor-Xneg||_2  counter: 
+[    4   123   766  2734  7318 17015 29928 39106 36622 24364 11500  3774
+  1051   351   146    96    70    25     8     1]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.6023289    1.78572707   2.96912524   4.1525234    5.33592157
+   6.51931974   7.70271791   8.88611608  10.06951425  11.25291242
+  12.43631059  13.61970876  14.80310693  15.9865051   17.16990327
+  18.35330144  19.5366996   20.72009777  21.90349594  23.08689411
+  24.27029228]
+distance difference  counter: 
+(array([    2,     4,    58,   321,  1406,  4558, 11811, 22815, 34333,
+       39625, 33453, 17382,  6254,  2146,   593,   175,    51,    10,
+           2,     3]), array([ -2.70289093e+02,  -2.43266643e+02,  -2.16244193e+02,
+        -1.89221742e+02,  -1.62199292e+02,  -1.35176842e+02,
+        -1.08154391e+02,  -8.11319412e+01,  -5.41094910e+01,
+        -2.70870407e+01,  -6.45904541e-02,   2.69578598e+01,
+         5.39803101e+01,   8.10027603e+01,   1.08025211e+02,
+         1.35047661e+02,   1.62070111e+02,   1.89092561e+02,
+         2.16115012e+02,   2.43137462e+02,   2.70159912e+02]))
+||Xanchor-Xpos||_2  counter: 
+[  94 1550 5977 9349 9352 7484 5302 3538 2072 1082  543  234   69   30   12
+    6    1    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   0    3   19   61  242  780 2070 4229 7126 8972 8795 6955 4346 2033  773
+  213   62   10    4    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.9758693    1.80645654   2.63704377   3.46763101   4.29821825
+   5.12880549   5.95939273   6.78997996   7.6205672    8.45115444
+   9.28174168  10.11232892  10.94291615  11.77350339  12.60409063
+  13.43467787  14.26526511  15.09585235  15.92643958  16.75702682
+  17.58761406]
+distance difference  counter: 
+(array([   5,   15,   27,  134,  263,  666, 1411, 2666, 4419, 6336, 8148,
+       8652, 7178, 4295, 1721,  521,  151,   60,   21,    6]), array([-203.34950256, -187.21733627, -171.08516998, -154.95300369,
+       -138.8208374 , -122.68867111, -106.55650482,  -90.42433853,
+        -74.29217224,  -58.16000595,  -42.02783966,  -25.89567337,
+         -9.76350708,    6.36865921,   22.5008255 ,   38.63299179,
+         54.76515808,   70.89732437,   87.02949066,  103.16165695,
+        119.29382324]))
+train/val Accuracy = 0.762948423447 / 0.847596102366 
+ with threshold: [[ 8.1466232]]
+============ epoch 7 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/061_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/096_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/063_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/104_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(578883, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(514866, 3, 64, 64)
+training loss:		11.367380
+||Xanchor-Xpos||_2  counter: 
+[ 1448 12865 29926 33997 26809 19918 15458 11999  8946  5427  2686  1217
+   527   240    78    32    28    18     3     0]
+||Xanchor-Xneg||_2  counter: 
+[    0    93   738  3494 10503 21989 32494 36632 31910 19790  8544  3292
+  1150   539   205   139    50    32    13    15]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.72736883   1.86523354   3.00309825   4.14096296   5.27882767
+   6.41669238   7.55455709   8.69242179   9.8302865   10.96815121
+  12.10601592  13.24388063  14.38174534  15.51961005  16.65747476
+  17.79533947  18.93320417  20.07106888  21.20893359  22.3467983
+  23.48466301]
+distance difference  counter: 
+(array([    5,    21,   115,   441,  1599,  4893, 11798, 22273, 34491,
+       42133, 32586, 14298,  5030,  1425,   393,    90,    21,     9,
+           0,     1]), array([-239.32424927, -214.7826828 , -190.24111633, -165.69954987,
+       -141.1579834 , -116.61641693,  -92.07485046,  -67.533284  ,
+        -42.99171753,  -18.45015106,    6.09141541,   30.63298187,
+         55.17454834,   79.71611481,  104.25768127,  128.79924774,
+        153.34081421,  177.88238068,  202.42394714,  226.96551361,
+        251.50708008]))
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch7_thresh7.68197.model *****
+||Xanchor-Xpos||_2  counter: 
+[ 111 1527 5785 9054 9253 7447 5332 3745 2195 1214  632  252   84   42   11
+   10    1    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   0    5   17   55  197  720 1770 3725 6420 8326 8981 7446 4937 2545 1075
+  352   90   26    6    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.02210355   1.83273896   2.64337437   3.45400978   4.2646452
+   5.07528061   5.88591602   6.69655143   7.50718684   8.31782225
+   9.12845767   9.93909308  10.74972849  11.5603639   12.37099931
+  13.18163472  13.99227014  14.80290555  15.61354096  16.42417637
+  17.23481178]
+distance difference  counter: 
+(array([   6,   12,   33,  126,  254,  638, 1406, 2604, 4295, 6415, 8079,
+       8453, 7366, 4354, 1854,  552,  165,   58,   18,    7]), array([-204.9475708 , -188.78131523, -172.61505966, -156.44880409,
+       -140.28254852, -124.11629295, -107.95003738,  -91.78378181,
+        -75.61752625,  -59.45127068,  -43.28501511,  -27.11875954,
+        -10.95250397,    5.2137516 ,   21.38000717,   37.54626274,
+         53.71251831,   69.87877388,   86.04502945,  102.21128502,
+        118.37754059]))
+train/val Accuracy = 0.753329992658 / 0.876806938644 
+ with threshold: [[ 7.6819742]]
+============ epoch 8 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/042_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/063_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/045_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/061_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(578238, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(567519, 3, 64, 64)
+training loss:		4.606212
+||Xanchor-Xpos||_2  counter: 
+[  739  9183 27621 39255 38045 28555 18965 12215  7274  3924  1951   876
+   369   125    46    23     5     1     0     1]
+||Xanchor-Xneg||_2  counter: 
+[    0    20   155   590  2171  5284 11025 18811 25765 30429 30798 26546
+ 18975 11101  4992  1847   494   138    23     9]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.56234038   1.44791412   2.33348786   3.2190616    4.10463533
+   4.99020907   5.87578281   6.76135655   7.64693029   8.53250403
+   9.41807777  10.30365151  11.18922524  12.07479898  12.96037272
+  13.84594646  14.7315202   15.61709394  16.50266768  17.38824142
+  18.27381516]
+distance difference  counter: 
+(array([   14,    39,   130,   456,  1497,  3565,  7633, 14279, 22599,
+       30677, 36297, 35687, 24547,  9348,  1700,   496,   147,    42,
+          17,     3]), array([-239.66760254, -219.75329895, -199.83899536, -179.92469177,
+       -160.01038818, -140.09608459, -120.18178101, -100.26747742,
+        -80.35317383,  -60.43887024,  -40.52456665,  -20.61026306,
+         -0.69595947,   19.21834412,   39.13264771,   59.04695129,
+         78.96125488,   98.87555847,  118.78986206,  138.70416565,
+        158.61846924]))
+||Xanchor-Xpos||_2  counter: 
+[  74 1248 5167 8675 9036 7652 5481 3918 2452 1529  800  390  176   62   19
+    9    7    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   1    2   17   39  169  526 1351 2822 5069 7322 8334 7961 6191 3885 1895
+  790  237   59   20    5]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.95418727   1.79730223   2.64041718   3.48353214   4.32664709
+   5.16976205   6.012877     6.85599195   7.69910691   8.54222186
+   9.38533682  10.22845177  11.07156672  11.91468168  12.75779663
+  13.60091159  14.44402654  15.2871415   16.13025645  16.9733714
+  17.81648636]
+distance difference  counter: 
+(array([   6,    9,   26,   90,  218,  544, 1200, 2387, 4054, 5964, 7831,
+       8684, 7648, 4931, 2144,  672,  192,   66,   22,    7]), array([-250.68347168, -231.54524841, -212.40702515, -193.26880188,
+       -174.13057861, -154.99235535, -135.85413208, -116.71590881,
+        -97.57768555,  -78.43946228,  -59.30123901,  -40.16301575,
+        -21.02479248,   -1.88656921,   17.25165405,   36.38987732,
+         55.52810059,   74.66632385,   93.80454712,  112.94277039,
+        132.08099365]))
+train/val Accuracy = 0.87751951917 / 0.881079344684 
+ with threshold: [[ 6.98064334]]
+============ epoch 9 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/062_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/093_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/124_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/005_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(557451, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(522363, 3, 64, 64)
+training loss:		11.065335
+||Xanchor-Xpos||_2  counter: 
+[  346  9128 29667 35971 28949 21423 16194 12184  8853  6031  3283  1369
+   475   148    60    29     9     2     0     0]
+||Xanchor-Xneg||_2  counter: 
+[   20   233  1115  3467  8311 16611 27942 36373 36648 25489 12287  4072
+  1006   306   128    64    35     9     3     1]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.20933405   1.42260029   2.63586654   3.84913278   5.06239903
+   6.27566528   7.48893152   8.70219777   9.91546401  11.12873026
+  12.34199651  13.55526275  14.768529    15.98179524  17.19506149
+  18.40832774  19.62159398  20.83486023  22.04812647  23.26139272
+  24.47465897]
+distance difference  counter: 
+(array([    9,    41,   263,  1059,  3532,  8686, 16954, 26020, 33303,
+       35743, 28831, 12614,  4622,  1645,   536,   194,    52,    10,
+           5,     2]), array([-238.8302002 , -214.22701645, -189.6238327 , -165.02064896,
+       -140.41746521, -115.81428146,  -91.21109772,  -66.60791397,
+        -42.00473022,  -17.40154648,    7.20163727,   31.80482101,
+         56.40800476,   81.01118851,  105.61437225,  130.217556  ,
+        154.82073975,  179.42392349,  204.02710724,  228.63029099,
+        253.23347473]))
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch9_thresh7.87778.model *****
+||Xanchor-Xpos||_2  counter: 
+[ 102 1772 6415 9673 9436 7153 5106 3364 1944 1005  469  161   63   18    9
+    3    2    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   0    6   13   71  258  934 2279 4755 7772 9429 8932 6468 3631 1474  493
+  131   41    3    3    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.98183012   1.84724295   2.71265578   3.57806861   4.44348145
+   5.30889428   6.17430711   7.03971994   7.90513277   8.7705456
+   9.63595843  10.50137126  11.3667841   12.23219693  13.09760976
+  13.96302259  14.82843542  15.69384825  16.55926108  17.42467391
+  18.29008675]
+distance difference  counter: 
+(array([   4,   12,   35,  104,  247,  607, 1374, 2589, 4284, 6415, 8033,
+       8621, 7179, 4414, 1901,  599,  197,   49,   24,    7]), array([-209.74307251, -193.30000687, -176.85694122, -160.41387558,
+       -143.97080994, -127.52774429, -111.08467865,  -94.64161301,
+        -78.19854736,  -61.75548172,  -45.31241608,  -28.86935043,
+        -12.42628479,    4.01678085,   20.4598465 ,   36.90291214,
+         53.34597778,   69.78904343,   86.23210907,  102.67517471,
+        119.11824036]))
+train/val Accuracy = 0.769014076418 / 0.873080629618 
+ with threshold: [[ 7.87778491]]
+============ epoch 10 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/050_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/037_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/049_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/097_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(548478, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(528840, 3, 64, 64)
+training loss:		9.247498
+||Xanchor-Xpos||_2  counter: 
+[  586  9500 31962 41002 32475 21772 14049  9836  6576  3965  2255  1204
+   608   291   109    65    20     3     2     0]
+||Xanchor-Xneg||_2  counter: 
+[    3   113   953  3119  8465 18294 31501 38617 35230 22957 10932  3885
+  1301   509   227    86    45    18    15    10]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.76604623   1.8795763    2.99310638   4.10663646   5.22016654
+   6.33369662   7.4472267    8.56075678   9.67428685  10.78781693
+  11.90134701  13.01487709  14.12840717  15.24193725  16.35546733
+  17.4689974   18.58252748  19.69605756  20.80958764  21.92311772
+  23.0366478 ]
+distance difference  counter: 
+(array([    1,     6,    40,   230,   796,  2413,  6048, 13216, 24211,
+       36460, 41393, 30923, 13359,  4760,  1721,   504,   152,    42,
+           3,     2]), array([-250.01049805, -227.06079788, -204.11109772, -181.16139755,
+       -158.21169739, -135.26199722, -112.31229706,  -89.36259689,
+        -66.41289673,  -43.46319656,  -20.5134964 ,    2.43620377,
+         25.38590393,   48.3356041 ,   71.28530426,   94.23500443,
+        117.18470459,  140.13440475,  163.08410492,  186.03380508,
+        208.98350525]))
+||Xanchor-Xpos||_2  counter: 
+[  77 1540 5973 9490 9401 7395 5302 3522 2043 1077  547  214   64   32   10
+    7    1    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   1    4   19   60  237  785 2024 4140 7023 8854 8809 7083 4361 2142  787
+  260   79   20    5    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.9531129    1.81793313   2.68275335   3.54757358   4.41239381
+   5.27721404   6.14203426   7.00685449   7.87167472   8.73649494
+   9.60131517  10.4661354   11.33095562  12.19577585  13.06059608
+  13.92541631  14.79023653  15.65505676  16.51987699  17.38469721
+  18.24951744]
+distance difference  counter: 
+(array([   5,    9,   27,   62,  169,  377,  876, 1880, 3328, 5402, 7433,
+       8751, 8425, 5844, 2866,  849,  287,   70,   24,   11]), array([-238.67721558, -220.64068222, -202.60414886, -184.56761551,
+       -166.53108215, -148.4945488 , -130.45801544, -112.42148209,
+        -94.38494873,  -76.34841537,  -58.31188202,  -40.27534866,
+        -22.23881531,   -4.20228195,   13.8342514 ,   31.87078476,
+         49.90731812,   67.94385147,   85.98038483,  104.01691818,
+        122.05345154]))
+train/val Accuracy = 0.798502382573 / 0.88760038548 
+ with threshold: [[ 7.57577191]]
+============ epoch 11 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/037_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/085_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/105_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/019_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(549159, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(479289, 3, 64, 64)
+training loss:		11.021637
+||Xanchor-Xpos||_2  counter: 
+[  427  6743 21021 30688 30028 23368 16267 11086  8006  5616  3617  1730
+   694   286    85    52    29    15     2     3]
+||Xanchor-Xneg||_2  counter: 
+[    0    21   279  1556  5389 12965 23221 31999 33695 26003 15238  6296
+  1973   605   248    98    78    60    26    13]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.70875937   1.79928747   2.88981557   3.98034368   5.07087178
+   6.16139989   7.25192799   8.34245609   9.4329842   10.5235123
+  11.6140404   12.70456851  13.79509661  14.88562472  15.97615282
+  17.06668092  18.15720903  19.24773713  20.33826523  21.42879334
+  22.51932144]
+distance difference  counter: 
+(array([    5,    17,    91,   370,  1137,  3394,  7944, 15269, 24667,
+       32149, 34842, 24869, 10261,  3265,  1046,   299,   110,    23,
+           4,     1]), array([-259.15087891, -234.53353958, -209.91620026, -185.29886093,
+       -160.68152161, -136.06418228, -111.44684296,  -86.82950363,
+        -62.21216431,  -37.59482498,  -12.97748566,   11.63985367,
+         36.25719299,   60.87453232,   85.49187164,  110.10921097,
+        134.72655029,  159.34388962,  183.96122894,  208.57856827,
+        233.19590759]))
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch11_thresh7.92913.model *****
+||Xanchor-Xpos||_2  counter: 
+[  80 1444 5941 9332 9475 7513 5280 3584 2107 1075  541  211   65   27   11
+    7    2    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   1    4   15   53  228  783 2044 4211 7156 8948 8912 6981 4293 2003  759
+  225   61   13    2    3]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.94488055   1.79300509   2.64112964   3.48925419   4.33737874
+   5.18550329   6.03362784   6.88175239   7.72987694   8.57800148
+   9.42612603  10.27425058  11.12237513  11.97049968  12.81862423
+  13.66674878  14.51487333  15.36299787  16.21112242  17.05924697
+  17.90737152]
+distance difference  counter: 
+(array([   8,   21,   43,  138,  293,  656, 1438, 2670, 4164, 6098, 7910,
+       8348, 7326, 4604, 2022,  657,  203,   60,   25,   11]), array([-207.46496582, -191.25518761, -175.04540939, -158.83563118,
+       -142.62585297, -126.41607475, -110.20629654,  -93.99651833,
+        -77.78674011,  -61.5769619 ,  -45.36718369,  -29.15740547,
+        -12.94762726,    3.26215096,   19.47192917,   35.68170738,
+         51.8914856 ,   68.10126381,   84.31104202,  100.52082024,
+        116.73059845]))
+train/val Accuracy = 0.77997095698 / 0.869964664311 
+ with threshold: [[ 7.92912504]]
+============ epoch 12 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/105_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/042_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/061_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/063_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(573915, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(560265, 3, 64, 64)
+training loss:		8.181131
+||Xanchor-Xpos||_2  counter: 
+[ 1553 15423 35687 40552 31616 21870 14649  9347  6435  4402  2779  1438
+   558   251    94    46    35    14     3     3]
+||Xanchor-Xneg||_2  counter: 
+[    2    62   451  2221  7712 18331 30586 37357 35984 27326 16181  6951
+  2328   717   259   114    70    60    31    12]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.74364924   1.83086835   2.91808746   4.00530657   5.09252567
+   6.17974478   7.26696389   8.35418299   9.4414021   10.52862121
+  11.61584032  12.70305942  13.79027853  14.87749764  15.96471674
+  17.05193585  18.13915496  19.22637407  20.31359317  21.40081228
+  22.48803139]
+distance difference  counter: 
+(array([    2,     8,    48,   197,   773,  2445,  6797, 15139, 27713,
+       40649, 46782, 30688, 10523,  3471,  1092,   296,   103,    23,
+           5,     1]), array([-273.57510376, -248.37325134, -223.17139893, -197.96954651,
+       -172.76769409, -147.56584167, -122.36398926,  -97.16213684,
+        -71.96028442,  -46.75843201,  -21.55657959,    3.64527283,
+         28.84712524,   54.04897766,   79.25083008,  104.4526825 ,
+        129.65453491,  154.85638733,  180.05823975,  205.26009216,
+        230.46194458]))
+||Xanchor-Xpos||_2  counter: 
+[ 125 1796 6289 9405 9283 7202 5142 3474 2029 1086  528  215   75   27   11
+    5    3    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   1    4   18   54  255  838 2028 4194 7053 8882 8870 7009 4397 2050  739
+  230   58   10    3    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.04406762   1.90101169   2.75795577   3.61489984   4.47184391
+   5.32878798   6.18573205   7.04267613   7.8996202    8.75656427
+   9.61350834  10.47045242  11.32739649  12.18434056  13.04128463
+  13.8982287   14.75517278  15.61211685  16.46906092  17.32600499
+  18.18294907]
+distance difference  counter: 
+(array([   6,    9,   49,  139,  300,  748, 1713, 2943, 4914, 6888, 8508,
+       8513, 6520, 3620, 1263,  383,  110,   51,   15,    3]), array([-218.21185303, -200.76455994, -183.31726685, -165.86997375,
+       -148.42268066, -130.97538757, -113.52809448,  -96.08080139,
+        -78.6335083 ,  -61.18621521,  -43.73892212,  -26.29162903,
+         -8.84433594,    8.60295715,   26.05025024,   43.49754333,
+         60.94483643,   78.39212952,   95.83942261,  113.2867157 ,
+        130.73400879]))
+train/val Accuracy = 0.811065299457 / 0.888007281294 
+ with threshold: [[ 7.4775936]]
+============ epoch 13 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/063_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/021_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/042_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(561093, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(545808, 3, 64, 64)
+training loss:		4.897293
+||Xanchor-Xpos||_2  counter: 
+[  464  7061 24770 37484 36758 28059 19159 12352  7541  4160  2080  1057
+   527   271   130    41    15     5     2     0]
+||Xanchor-Xneg||_2  counter: 
+[    9    41   195   652  1928  4852 10122 17848 24579 29148 29292 25081
+ 18571 11137  5541  2085   665   149    34     5]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.73250616   1.62374998   2.5149938    3.40623762   4.29748144
+   5.18872526   6.07996908   6.97121291   7.86245673   8.75370055
+   9.64494437  10.53618819  11.42743201  12.31867583  13.20991966
+  14.10116348  14.9924073   15.88365112  16.77489494  17.66613876
+  18.55738258]
+distance difference  counter: 
+(array([    1,    14,    65,   271,   710,  2027,  4212,  8498, 14726,
+       22474, 30253, 35365, 33313, 20522,  6925,  1744,   561,   181,
+          58,    16]), array([-267.44015503, -246.68854599, -225.93693695, -205.18532791,
+       -184.43371887, -163.68210983, -142.93050079, -122.17889175,
+       -101.42728271,  -80.67567368,  -59.92406464,  -39.1724556 ,
+        -18.42084656,    2.33076248,   23.08237152,   43.83398056,
+         64.5855896 ,   85.33719864,  106.08880768,  126.84041672,
+        147.59202576]))
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch13_thresh7.27913.model *****
+||Xanchor-Xpos||_2  counter: 
+[  85 1452 5776 9048 9248 7469 5292 3689 2199 1306  649  310  106   41   16
+    6    3    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   1    3   14   47  210  668 1642 3450 5842 8098 8724 7791 5342 3059 1214
+  439  118   24    7    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.97727323   1.85781935   2.73836548   3.61891161   4.49945774
+   5.38000387   6.26055      7.14109613   8.02164226   8.90218838
+   9.78273451  10.66328064  11.54382677  12.4243729   13.30491903
+  14.18546516  15.06601129  15.94655741  16.82710354  17.70764967
+  18.5881958 ]
+distance difference  counter: 
+(array([   7,   10,   36,   96,  240,  633, 1339, 2670, 4469, 6514, 8257,
+       8667, 7048, 4250, 1695,  527,  154,   59,   18,    6]), array([-253.56686401, -233.93828125, -214.30969849, -194.68111572,
+       -175.05253296, -155.4239502 , -135.79536743, -116.16678467,
+        -96.5382019 ,  -76.90961914,  -57.28103638,  -37.65245361,
+        -18.02387085,    1.60471191,   21.23329468,   40.86187744,
+         60.49046021,   80.11904297,   99.74762573,  119.3762085 ,
+        139.00479126]))
+train/val Accuracy = 0.872738215636 / 0.885919263304 
+ with threshold: [[ 7.27912825]]
+============ epoch 14 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/045_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/018_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/038_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/021_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(557094, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(553389, 3, 64, 64)
+training loss:		3.816258
+||Xanchor-Xpos||_2  counter: 
+[  483  7353 25817 39969 38458 28541 18814 11407  6371  3481  1918   858
+   463   241   166    67    31    17     6     2]
+||Xanchor-Xneg||_2  counter: 
+[    0     7    72   364  1121  2606  5369 10468 17055 24168 29283 30542
+ 26169 19036 10890  5023  1729   467    82    12]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.58345634   1.4627099    2.34196346   3.22121703   4.10047059
+   4.97972415   5.85897772   6.73823128   7.61748484   8.49673841
+   9.37599197  10.25524553  11.1344991   12.01375266  12.89300622
+  13.77225979  14.65151335  15.53076691  16.41002048  17.28927404
+  18.1685276 ]
+distance difference  counter: 
+(array([    7,    33,   162,   666,  1999,  5009, 10409, 18542, 26997,
+       34386, 35192, 28681, 16268,  5079,   775,   185,    54,    15,
+           3,     1]), array([-280.331604  , -256.884198  , -233.43679199, -209.98938599,
+       -186.54197998, -163.09457397, -139.64716797, -116.19976196,
+        -92.75235596,  -69.30494995,  -45.85754395,  -22.41013794,
+          1.03726807,   24.48467407,   47.93208008,   71.37948608,
+         94.82689209,  118.2742981 ,  141.7217041 ,  165.16911011,
+        188.61651611]))
+||Xanchor-Xpos||_2  counter: 
+[ 163 1979 6281 9249 8874 7001 5026 3432 2203 1260  670  344  137   48   16
+    8    4    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   1    3   18   61  232  731 1644 3328 5674 7547 8323 7762 5699 3345 1537
+  553  177   44   13    3]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.15437806   2.03139445   2.90841085   3.78542724   4.66244364
+   5.53946003   6.41647643   7.29349282   8.17050922   9.04752561
+   9.92454201  10.80155841  11.6785748   12.5555912   13.43260759
+  14.30962399  15.18664038  16.06365678  16.94067317  17.81768957
+  18.69470596]
+distance difference  counter: 
+(array([   6,   18,   30,   95,  242,  649, 1383, 2649, 4600, 6462, 8241,
+       8588, 6989, 4326, 1646,  544,  149,   52,   18,    8]), array([-268.48028564, -247.80579453, -227.13130341, -206.45681229,
+       -185.78232117, -165.10783005, -144.43333893, -123.75884781,
+       -103.08435669,  -82.40986557,  -61.73537445,  -41.06088333,
+        -20.38639221,    0.28809891,   20.96259003,   41.63708115,
+         62.31157227,   82.98606339,  103.6605545 ,  124.33504562,
+        145.00953674]))
+train/val Accuracy = 0.911391444355 / 0.885394581861 
+ with threshold: [[ 7.37128345]]
+============ epoch 15 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/045_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/018_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/097_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/093_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(565464, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(522927, 3, 64, 64)
+training loss:		11.202901
+||Xanchor-Xpos||_2  counter: 
+[ 1483 16355 32368 30288 23570 18973 15579 12944  9735  6422  3627  1777
+   766   251   112    44    12     3     0     0]
+||Xanchor-Xneg||_2  counter: 
+[   11   138   787  2591  6587 14078 25252 36136 38171 28265 14397  5384
+  1634   524   196    87    38    16    15     2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.61311656   1.79646525   2.97981394   4.16316263   5.34651132   6.52986
+   7.71320869   8.89655738  10.07990607  11.26325476  12.44660345
+  13.62995214  14.81330082  15.99664951  17.1799982   18.36334689
+  19.54669558  20.73004427  21.91339296  23.09674164  24.28009033]
+distance difference  counter: 
+(array([    4,    31,   173,   736,  2513,  6772, 14499, 23836, 31093,
+       33218, 30194, 19117,  7961,  2937,   882,   262,    59,    16,
+           4,     2]), array([-267.38360596, -241.21365356, -215.04370117, -188.87374878,
+       -162.70379639, -136.53384399, -110.3638916 ,  -84.19393921,
+        -58.02398682,  -31.85403442,   -5.68408203,   20.48587036,
+         46.65582275,   72.82577515,   98.99572754,  125.16567993,
+        151.33563232,  177.50558472,  203.67553711,  229.8454895 ,
+        256.01544189]))
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch15_thresh8.24459.model *****
+||Xanchor-Xpos||_2  counter: 
+[ 132 2015 6678 9693 9356 7084 4955 3263 1863  951  457  162   52   20    8
+    5    1    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   1    5   20   75  287  949 2344 4778 7666 9173 8861 6528 3704 1569  528
+  155   40    9    1    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.05027497   1.91018702   2.77009908   3.63001114   4.48992319
+   5.34983525   6.2097473    7.06965936   7.92957141   8.78948347
+   9.64939553  10.50930758  11.36921964  12.22913169  13.08904375
+  13.9489558   14.80886786  15.66877992  16.52869197  17.38860403
+  18.24851608]
+distance difference  counter: 
+(array([   8,   13,   42,  123,  263,  655, 1429, 2609, 4360, 6305, 7971,
+       8425, 7172, 4508, 1931,  607,  187,   55,   26,    6]), array([-210.47053528, -194.0025032 , -177.53447113, -161.06643906,
+       -144.59840698, -128.13037491, -111.66234283,  -95.19431076,
+        -78.72627869,  -62.25824661,  -45.79021454,  -29.32218246,
+        -12.85415039,    3.61388168,   20.08191376,   36.54994583,
+         53.01797791,   69.48600998,   85.95404205,  102.42207413,
+        118.8901062 ]))
+train/val Accuracy = 0.776546248329 / 0.853035656923 
+ with threshold: [[ 8.24459111]]
+============ epoch 16 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/128_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/063_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/016_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/097_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(569526, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(520827, 3, 64, 64)
+training loss:		11.566570
+||Xanchor-Xpos||_2  counter: 
+[  798 11683 30770 33824 25795 19717 15434 12352  9634  6719  3956  1802
+   685   260   102    55    17     5     1     0]
+||Xanchor-Xneg||_2  counter: 
+[    7    85   538  2434  7900 18335 30119 37327 35041 23604 11518  4336
+  1420   553   218    78    45    24    20     7]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.8054691    1.92258671   3.03970433   4.15682195   5.27393956
+   6.39105718   7.50817479   8.62529241   9.74241003  10.85952764
+  11.97664526  13.09376288  14.21088049  15.32799811  16.44511573
+  17.56223334  18.67935096  19.79646858  20.91358619  22.03070381
+  23.14782143]
+distance difference  counter: 
+(array([    2,    17,    57,   170,   681,  1835,  4751, 10144, 18573,
+       27470, 34421, 34250, 23894, 11268,  4293,  1267,   387,   110,
+          15,     4]), array([-251.09460449, -228.92525177, -206.75589905, -184.58654633,
+       -162.4171936 , -140.24784088, -118.07848816,  -95.90913544,
+        -73.73978271,  -51.57042999,  -29.40107727,   -7.23172455,
+         14.93762817,   37.1069809 ,   59.27633362,   81.44568634,
+        103.61503906,  125.78439178,  147.95374451,  170.12309723,
+        192.29244995]))
+||Xanchor-Xpos||_2  counter: 
+[ 240 2386 6800 9498 8998 6915 4918 3239 1938  978  490  190   56   31   10
+    6    2    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   2    5   20   74  294  905 2209 4497 7192 8944 8695 6791 4158 1926  697
+  217   50   14    3    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.18515265   2.00423574   2.82331883   3.64240192   4.461485
+   5.28056809   6.09965118   6.91873427   7.73781736   8.55690045
+   9.37598354  10.19506662  11.01414971  11.8332328   12.65231589
+  13.47139898  14.29048207  15.10956516  15.92864825  16.74773133
+  17.56681442]
+distance difference  counter: 
+(array([   9,    9,   26,  102,  209,  522, 1153, 2217, 3696, 5619, 7405,
+       8337, 7776, 5479, 2767,  950,  279,   87,   34,   19]), array([-205.65063477, -189.91386108, -174.1770874 , -158.44031372,
+       -142.70354004, -126.96676636, -111.22999268,  -95.49321899,
+        -79.75644531,  -64.01967163,  -48.28289795,  -32.54612427,
+        -16.80935059,   -1.0725769 ,   14.66419678,   30.40097046,
+         46.13774414,   61.87451782,   77.6112915 ,   93.34806519,
+        109.08483887]))
+train/val Accuracy = 0.758978509179 / 0.867469750509 
+ with threshold: [[ 7.89155354]]
+============ epoch 17 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/059_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/045_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/100_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/085_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(566811, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(491346, 3, 64, 64)
+training loss:		9.971584
+||Xanchor-Xpos||_2  counter: 
+[ 1771 17845 33464 31720 24270 17010 12134  9148  6885  4763  2880  1210
+   466   131    51    19     9     5     1     0]
+||Xanchor-Xneg||_2  counter: 
+[    1    69   512  2648  8038 16163 25529 33645 34388 24973 12323  4002
+  1002   282    92    46    35    17    12     5]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.55230868   1.66299376   2.77367884   3.88436392   4.995049
+   6.10573408   7.21641916   8.32710424   9.43778932  10.5484744
+  11.65915948  12.76984456  13.88052964  14.99121472  16.1018998
+  17.21258488  18.32326996  19.43395504  20.54464012  21.6553252
+  22.76601028]
+distance difference  counter: 
+(array([    5,    24,   132,   698,  2392,  5995, 12245, 19675, 25688,
+       27488, 26910, 22886, 12047,  4765,  1880,   652,   220,    63,
+          14,     3]), array([-211.93185425, -191.93798752, -171.94412079, -151.95025406,
+       -131.95638733, -111.9625206 ,  -91.96865387,  -71.97478714,
+        -51.98092041,  -31.98705368,  -11.99318695,    8.00067978,
+         27.99454651,   47.98841324,   67.98227997,   87.9761467 ,
+        107.97001343,  127.96388016,  147.95774689,  167.95161362,
+        187.94548035]))
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch17_thresh7.38355.model *****
+||Xanchor-Xpos||_2  counter: 
+[  207  2469  7267 10002  9001  6879  4745  3001  1701   839   394   115
+    47    15     6     7     0     0     0     0]
+||Xanchor-Xneg||_2  counter: 
+[   0    6   25   94  353 1095 2658 5360 8181 9291 8537 6036 3194 1285  419
+  125   27    5    2    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.13603067   1.98504865   2.83406663   3.68308461   4.53210258
+   5.38112056   6.23013854   7.07915652   7.9281745    8.77719247
+   9.62621045  10.47522843  11.32424641  12.17326438  13.02228236
+  13.87130034  14.72031832  15.5693363   16.41835427  17.26737225
+  18.11639023]
+distance difference  counter: 
+(array([   3,    9,   17,   64,  164,  430, 1056, 2051, 3666, 5699, 7669,
+       8880, 8067, 5389, 2462,  751,  221,   69,   22,    6]), array([-214.1776123 , -197.65206108, -181.12650986, -164.60095863,
+       -148.07540741, -131.54985619, -115.02430496,  -98.49875374,
+        -81.97320251,  -65.44765129,  -48.92210007,  -32.39654884,
+        -15.87099762,    0.6545536 ,   17.18010483,   33.70565605,
+         50.23120728,   66.7567585 ,   83.28230972,   99.80786095,
+        116.33341217]))
+train/val Accuracy = 0.797822715561 / 0.885758646536 
+ with threshold: [[ 7.38355126]]
+============ epoch 18 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/042_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/097_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/061_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/096_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(574806, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(547866, 3, 64, 64)
+training loss:		11.409066
+||Xanchor-Xpos||_2  counter: 
+[ 1509 15230 32025 33917 27326 21899 17267 13523  9437  5421  2771  1341
+   568   220    92    48    19     6     3     0]
+||Xanchor-Xneg||_2  counter: 
+[    6   111   819  3547 10427 21594 33907 40275 35325 21721  9429  3333
+  1171   505   221   119    56    22    24    10]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.64506096   1.78698966   2.92891836   4.07084706   5.21277575
+   6.35470445   7.49663315   8.63856185   9.78049055  10.92241925
+  12.06434795  13.20627665  14.34820535  15.49013405  16.63206275
+  17.77399145  18.91592015  20.05784885  21.19977755  22.34170625
+  23.48363495]
+distance difference  counter: 
+(array([    5,    13,    57,   263,   923,  2875,  7426, 14901, 24801,
+       34210, 40129, 32248, 16070,  6085,  1939,   516,   126,    26,
+           3,     6]), array([-242.84526062, -220.18048477, -197.51570892, -174.85093307,
+       -152.18615723, -129.52138138, -106.85660553,  -84.19182968,
+        -61.52705383,  -38.86227798,  -16.19750214,    6.46727371,
+         29.13204956,   51.79682541,   74.46160126,   97.12637711,
+        119.79115295,  142.4559288 ,  165.12070465,  187.7854805 ,
+        210.45025635]))
+||Xanchor-Xpos||_2  counter: 
+[ 234 2393 6803 9683 9006 6862 4905 3210 1906  954  470  176   52   25    9
+    5    2    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   2    5   25   70  291  939 2353 4677 7582 9127 8613 6501 3875 1765  597
+  207   47   13    3    3]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.15707219   1.97660744   2.79614269   3.61567793   4.43521318
+   5.25474843   6.07428368   6.89381893   7.71335418   8.53288943
+   9.35242468  10.17195993  10.99149518  11.81103043  12.63056568
+  13.45010093  14.26963618  15.08917143  15.90870668  16.72824193
+  17.54777718]
+distance difference  counter: 
+(array([   9,    7,   30,   97,  226,  533, 1196, 2206, 3803, 5698, 7612,
+       8439, 7861, 5297, 2487,  814,  270,   72,   27,   11]), array([-202.2192688 , -186.58430786, -170.94934692, -155.31438599,
+       -139.67942505, -124.04446411, -108.40950317,  -92.77454224,
+        -77.1395813 ,  -61.50462036,  -45.86965942,  -30.23469849,
+        -14.59973755,    1.03522339,   16.67018433,   32.30514526,
+         47.9401062 ,   63.57506714,   79.21002808,   94.84498901,
+        110.47994995]))
+train/val Accuracy = 0.756798195179 / 0.874012206874 
+ with threshold: [[ 7.66859747]]
+============ epoch 19 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/128_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/105_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/042_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(562374, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(511866, 3, 64, 64)
+training loss:		11.918430
+||Xanchor-Xpos||_2  counter: 
+[  717  9923 26019 31590 26889 21259 15948 12161 10172  7786  4746  2156
+   790   256    99    68    30     9     4     0]
+||Xanchor-Xneg||_2  counter: 
+[   19    99   552  2310  7616 17230 27933 34675 33275 24843 13728  5515
+  1684   613   230   146    71    56    20     6]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.71378261   1.79995894   2.88613527   3.97231161   5.05848794
+   6.14466427   7.23084061   8.31701694   9.40319327  10.4893696
+  11.57554594  12.66172227  13.7478986   14.83407494  15.92025127
+  17.0064276   18.09260393  19.17878027  20.2649566   21.35113293
+  22.43730927]
+distance difference  counter: 
+(array([    1,     9,    23,   119,   519,  1820,  5699, 12926, 23665,
+       34549, 40435, 30597, 13853,  4564,  1378,   327,   105,    29,
+           3,     1]), array([-254.30693054, -230.32830124, -206.34967194, -182.37104263,
+       -158.39241333, -134.41378403, -110.43515472,  -86.45652542,
+        -62.47789612,  -38.49926682,  -14.52063751,    9.45799179,
+         33.43662109,   57.4152504 ,   81.3938797 ,  105.372509  ,
+        129.35113831,  153.32976761,  177.30839691,  201.28702621,
+        225.26565552]))
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch19_thresh7.78115.model *****
+||Xanchor-Xpos||_2  counter: 
+[  90 1460 5522 9045 9253 7588 5398 3830 2224 1265  608  273   81   37   13
+    4    4    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   0    2   21   42  196  672 1725 3772 6356 8512 8935 7488 4934 2544 1047
+  344   79   19    5    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.97772831   1.77852985   2.57933139   3.38013293   4.18093448
+   4.98173602   5.78253756   6.5833391    7.38414065   8.18494219
+   8.98574373   9.78654527  10.58734682  11.38814836  12.1889499
+  12.98975144  13.79055299  14.59135453  15.39215607  16.19295761
+  16.99375916]
+distance difference  counter: 
+(array([   5,    8,   22,   71,  217,  509, 1166, 2306, 3987, 6130, 7966,
+       8938, 7699, 4855, 1992,  570,  171,   61,   18,    4]), array([-205.24346924, -189.09471931, -172.94596939, -156.79721947,
+       -140.64846954, -124.49971962, -108.3509697 ,  -92.20221977,
+        -76.05346985,  -59.90471992,  -43.75597   ,  -27.60722008,
+        -11.45847015,    4.69027977,   20.83902969,   36.98777962,
+         53.13652954,   69.28527946,   85.43402939,  101.58277931,
+        117.73152924]))
+train/val Accuracy = 0.746893718278 / 0.866655958882 
+ with threshold: [[ 7.78114503]]
+============ epoch 20 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/100_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/097_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/089_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/096_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(565311, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(471477, 3, 64, 64)
+training loss:		18.168687
+||Xanchor-Xpos||_2  counter: 
+[  197  3477 12376 20349 23616 23316 22052 19311 14438  9132  4999  2346
+   943   328   151    68    34    19     4     2]
+||Xanchor-Xneg||_2  counter: 
+[    6   120   845  3952 10008 18123 26536 31838 29118 19270  9809  4296
+  1742   755   352   183   104    45    36    21]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.74816924   1.84625444   2.94433964   4.04242484   5.14051003
+   6.23859523   7.33668043   8.43476563   9.53285083  10.63093602
+  11.72902122  12.82710642  13.92519162  15.02327681  16.12136201
+  17.21944721  18.31753241  19.41561761  20.5137028   21.611788    22.7098732 ]
+distance difference  counter: 
+(array([    5,    14,    54,   167,   539,  1550,  3685,  7769, 13966,
+       22236, 32881, 37271, 23579,  9370,  2943,   854,   215,    46,
+          10,     5]), array([-223.71730042, -202.57380447, -181.43030853, -160.28681259,
+       -139.14331665, -117.99982071,  -96.85632477,  -75.71282883,
+        -54.56933289,  -33.42583694,  -12.282341  ,    8.86115494,
+         30.00465088,   51.14814682,   72.29164276,   93.4351387 ,
+        114.57863464,  135.72213058,  156.86562653,  178.00912247,
+        199.15261841]))
+||Xanchor-Xpos||_2  counter: 
+[ 137 1837 6567 9949 9408 7333 5153 3161 1785  826  355  112   45   16    6
+    4    1    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   1    4   20   75  307 1135 2819 5747 8743 9534 8385 5469 2838 1131  360
+   93   25    5    2    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.97828484   1.78682623   2.59536762   3.40390902   4.21245041
+   5.0209918    5.8295332    6.63807459   7.44661598   8.25515738
+   9.06369877   9.87224016  10.68078156  11.48932295  12.29786434
+  13.10640574  13.91494713  14.72348852  15.53202991  16.34057131
+  17.1491127 ]
+distance difference  counter: 
+(array([   2,    5,   16,   41,  117,  316,  740, 1622, 2837, 4781, 6953,
+       8672, 8878, 6728, 3468, 1101,  275,  106,   29,    8]), array([-189.01220703, -174.45748787, -159.90276871, -145.34804955,
+       -130.79333038, -116.23861122, -101.68389206,  -87.1291729 ,
+        -72.57445374,  -58.01973457,  -43.46501541,  -28.91029625,
+        -14.35557709,    0.19914207,   14.75386124,   29.3085804 ,
+         43.86329956,   58.41801872,   72.97273788,   87.52745705,
+        102.08217621]))
+train/val Accuracy = 0.651515344333 / 0.788960274119 
+ with threshold: [[ 8.20550971]]
+============ epoch 21 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/016_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/105_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/037_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/036_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(552693, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(545772, 3, 64, 64)
+training loss:		8.599974
+||Xanchor-Xpos||_2  counter: 
+[  820 11831 33785 41119 33597 22821 14495  8919  6047  4014  2434  1188
+   489   204    67    41    33    12     6     2]
+||Xanchor-Xneg||_2  counter: 
+[    1    22   357  1658  6057 16394 32684 42343 38343 25211 12130  4498
+  1341   428   180    99    80    51    32    15]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.86507094   1.90294237   2.94081379   3.97868522   5.01655664
+   6.05442807   7.0922995    8.13017092   9.16804235  10.20591378
+  11.2437852   12.28165663  13.31952806  14.35739948  15.39527091
+  16.43314233  17.47101376  18.50888519  19.54675661  20.58462804
+  21.62249947]
+distance difference  counter: 
+(array([    1,     4,    22,    94,   380,  1435,  4580, 12357, 26199,
+       42078, 46989, 31698, 11634,  3164,   916,   270,    77,    22,
+           3,     1]), array([-257.66842651, -233.76362915, -209.85883179, -185.95403442,
+       -162.04923706, -138.1444397 , -114.23964233,  -90.33484497,
+        -66.43004761,  -42.52525024,  -18.62045288,    5.28434448,
+         29.18914185,   53.09393921,   76.99873657,  100.90353394,
+        124.8083313 ,  148.71312866,  172.61792603,  196.52272339,
+        220.42752075]))
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch21_thresh7.2867.model *****
+||Xanchor-Xpos||_2  counter: 
+[  74 1309 5459 9095 9421 7726 5483 3768 2184 1199  598  250   76   33   11
+    6    3    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   0    3   13   45  217  712 1847 3949 6729 8622 8862 7160 4771 2439  913
+  322   73   14    2    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.92300344   1.73457183   2.54614022   3.35770861   4.169277
+   4.98084539   5.79241378   6.60398217   7.41555057   8.22711896
+   9.03868735   9.85025574  10.66182413  11.47339252  12.28496091
+  13.0965293   13.9080977   14.71966609  15.53123448  16.34280287
+  17.15437126]
+distance difference  counter: 
+(array([   9,   11,   29,  118,  255,  608, 1325, 2435, 3956, 5865, 7654,
+       8420, 7672, 5020, 2290,  697,  218,   70,   34,    9]), array([-198.35519409, -182.83892517, -167.32265625, -151.80638733,
+       -136.29011841, -120.77384949, -105.25758057,  -89.74131165,
+        -74.22504272,  -58.7087738 ,  -43.19250488,  -27.67623596,
+        -12.15996704,    3.35630188,   18.8725708 ,   34.38883972,
+         49.90510864,   65.42137756,   80.93764648,   96.45391541,
+        111.97018433]))
+train/val Accuracy = 0.823758822365 / 0.884388050112 
+ with threshold: [[ 7.28669759]]
+============ epoch 22 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/059_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/105_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/019_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/097_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(569850, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(545361, 3, 64, 64)
+training loss:		10.861002
+||Xanchor-Xpos||_2  counter: 
+[ 1483 15248 30941 31956 27103 21196 16404 12942  9974  6841  4059  2097
+   916   372   123    77    38    13     3     1]
+||Xanchor-Xneg||_2  counter: 
+[    3    78   432  1762  6168 15021 27735 38017 38577 28499 15561  6390
+  2073   794   307   157    92    69    35    17]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.68290174   1.75962568   2.83634962   3.91307356   4.9897975
+   6.06652144   7.14324538   8.21996931   9.29669325  10.37341719
+  11.45014113  12.52686507  13.60358901  14.68031295  15.75703689
+  16.83376083  17.91048477  18.98720871  20.06393265  21.14065658
+  22.21738052]
+distance difference  counter: 
+(array([    4,    10,    62,   311,  1145,  3412,  8077, 15823, 25644,
+       33873, 37685, 30965, 16053,  6087,  1895,   536,   157,    40,
+           6,     2]), array([-244.80117798, -222.09037018, -199.37956238, -176.66875458,
+       -153.95794678, -131.24713898, -108.53633118,  -85.82552338,
+        -63.11471558,  -40.40390778,  -17.69309998,    5.01770782,
+         27.72851562,   50.43932343,   73.15013123,   95.86093903,
+        118.57174683,  141.28255463,  163.99336243,  186.70417023,
+        209.41497803]))
+||Xanchor-Xpos||_2  counter: 
+[  99 1594 6055 9662 9526 7446 5247 3387 1964  993  471  159   51   28    5
+    5    3    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   1    4   16   65  265  920 2351 4875 7781 9287 8705 6337 3712 1616  562
+  153   37    4    2    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.95306724   1.77911851   2.60516977   3.43122103   4.25727229
+   5.08332355   5.90937482   6.73542608   7.56147734   8.3875286
+   9.21357986  10.03963113  10.86568239  11.69173365  12.51778491
+  13.34383617  14.16988744  14.9959387   15.82198996  16.64804122
+  17.47409248]
+distance difference  counter: 
+(array([   3,   10,   32,   84,  239,  524, 1256, 2341, 3797, 5914, 7780,
+       8706, 7773, 5104, 2185,  661,  192,   64,   20,   10]), array([-195.75285339, -180.34722557, -164.94159775, -149.53596992,
+       -134.1303421 , -118.72471428, -103.31908646,  -87.91345863,
+        -72.50783081,  -57.10220299,  -41.69657516,  -26.29094734,
+        -10.88531952,    4.5203083 ,   19.92593613,   35.33156395,
+         50.73719177,   66.1428196 ,   81.54844742,   96.95407524,
+        112.35970306]))
+train/val Accuracy = 0.776972500784 / 0.86183745583 
+ with threshold: [[ 7.69848309]]
+============ epoch 23 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/049_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/018_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/061_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/062_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(560271, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(545310, 3, 64, 64)
+training loss:		6.058497
+||Xanchor-Xpos||_2  counter: 
+[  203  5892 25782 42210 40226 28450 18150 10470  5485  2732  1162   502
+   251   146    60    29    12     2     4     2]
+||Xanchor-Xneg||_2  counter: 
+[   12   109   472  1734  4517  9172 14993 21395 26781 29714 28432 21908
+ 13368  6193  2209   593   139    22     4     2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.29023522   1.23246556   2.17469589   3.11692623   4.05915656
+   5.0013869    5.94361723   6.88584757   7.8280779    8.77030824
+   9.71253857  10.65476891  11.59699924  12.53922957  13.48145991
+  14.42369024  15.36592058  16.30815091  17.25038125  18.19261158
+  19.13484192]
+distance difference  counter: 
+(array([    4,    19,    64,   301,   816,  2164,  5446, 10640, 17766,
+       25550, 31780, 34663, 32262, 17031,  2635,   486,    94,    36,
+           9,     4]), array([-256.17852783, -235.12967377, -214.0808197 , -193.03196564,
+       -171.98311157, -150.93425751, -129.88540344, -108.83654938,
+        -87.78769531,  -66.73884125,  -45.68998718,  -24.64113312,
+         -3.59227905,   17.45657501,   38.50542908,   59.55428314,
+         80.60313721,  101.65199127,  122.70084534,  143.7496994 ,
+        164.79855347]))
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch23_thresh6.69392.model *****
+||Xanchor-Xpos||_2  counter: 
+[ 141 2091 6869 9862 9292 6956 4869 3066 1856  959  471  179   46   25    6
+    6    1    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   1    4   18   77  306  969 2361 4716 7541 8891 8587 6483 3981 1817  669
+  213   45   13    1    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.05384445   1.95656958   2.8592947    3.76201982   4.66474495
+   5.56747007   6.4701952    7.37292032   8.27564545   9.17837057
+  10.0810957   10.98382082  11.88654594  12.78927107  13.69199619
+  14.59472132  15.49744644  16.40017157  17.30289669  18.20562181
+  19.10834694]
+distance difference  counter: 
+(array([   9,    8,   45,  118,  273,  613, 1329, 2510, 4124, 6067, 7834,
+       8630, 7520, 4740, 2007,  591,  194,   54,   22,    7]), array([ -2.44646027e+02,  -2.25825663e+02,  -2.07005299e+02,
+        -1.88184936e+02,  -1.69364572e+02,  -1.50544209e+02,
+        -1.31723845e+02,  -1.12903481e+02,  -9.40831177e+01,
+        -7.52627541e+01,  -5.64423904e+01,  -3.76220268e+01,
+        -1.88016632e+01,   1.87004089e-02,   1.88390640e+01,
+         3.76594276e+01,   5.64797913e+01,   7.53001549e+01,
+         9.41205185e+01,   1.12940882e+02,   1.31761246e+02]))
+train/val Accuracy = 0.858948121252 / 0.872138344577 
+ with threshold: [[ 6.69391679]]
+============ epoch 24 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/037_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/093_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/016_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/085_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(550854, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(465018, 3, 64, 64)
+training loss:		10.918701
+||Xanchor-Xpos||_2  counter: 
+[  982 11374 27392 32428 27295 19707 13362  8889  6126  4027  2114   866
+   283   101    32    22     5     1     0     0]
+||Xanchor-Xneg||_2  counter: 
+[   11   137   889  3394  8836 17760 28044 33710 30488 19262  8759  2772
+   657   162    68    35    15     3     3     1]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.90153056   2.07721495   3.25289934   4.42858373   5.60426812
+   6.77995251   7.9556369    9.13132129  10.30700568  11.48269007
+  12.65837446  13.83405885  15.00974324  16.18542763  17.36111202
+  18.53679641  19.7124808   20.88816518  22.06384957  23.23953396
+  24.41521835]
+distance difference  counter: 
+(array([    2,    13,    71,   371,  1287,  4088,  9445, 17906, 26756,
+       32957, 32338, 20148,  6622,  2063,   656,   214,    53,     9,
+           6,     1]), array([-272.59307861, -246.12166595, -219.6502533 , -193.17884064,
+       -166.70742798, -140.23601532, -113.76460266,  -87.29319   ,
+        -60.82177734,  -34.35036469,   -7.87895203,   18.59246063,
+         45.06387329,   71.53528595,   98.00669861,  124.47811127,
+        150.94952393,  177.42093658,  203.89234924,  230.3637619 ,
+        256.83517456]))
+||Xanchor-Xpos||_2  counter: 
+[  82 1436 5783 9435 9400 7575 5217 3578 2107 1154  588  219   75   27   11
+    8    0    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   1    4   13   55  222  767 1914 3993 6918 8709 8796 7118 4652 2257  905
+  278   70   18    3    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.9459762    1.80291122   2.65984625   3.51678128   4.37371631
+   5.23065133   6.08758636   6.94452139   7.80145642   8.65839144
+   9.51532647  10.3722615   11.22919652  12.08613155  12.94306658
+  13.80000161  14.65693663  15.51387166  16.37080669  17.22774172
+  18.08467674]
+distance difference  counter: 
+(array([  10,   10,   40,  110,  246,  591, 1292, 2411, 4011, 5863, 7715,
+       8553, 7614, 4987, 2242,  671,  230,   61,   30,    8]), array([-222.97225952, -205.77660294, -188.58094635, -171.38528976,
+       -154.18963318, -136.99397659, -119.79832001, -102.60266342,
+        -85.40700684,  -68.21135025,  -51.01569366,  -33.82003708,
+        -16.62438049,    0.57127609,   17.76693268,   34.96258926,
+         52.15824585,   69.35390244,   86.54955902,  103.74521561,
+        120.94087219]))
+train/val Accuracy = 0.783001948312 / 0.870960488275 
+ with threshold: [[ 8.01457105]]
+============ epoch 25 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/128_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/093_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/059_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(569109, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(500142, 3, 64, 64)
+training loss:		11.123570
+||Xanchor-Xpos||_2  counter: 
+[ 1560 15742 31199 30914 24166 18290 13540 10833  8896  6410  3285  1256
+   392   134    62    27     6     2     0     0]
+||Xanchor-Xneg||_2  counter: 
+[   23   173   850  2861  8081 17415 28841 37213 34698 22519  9900  2922
+   771   259   105    43    24     7     7     1]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.63351732   1.80462981   2.9757423    4.14685479   5.31796727
+   6.48907976   7.66019225   8.83130473  10.00241722  11.17352971
+  12.34464219  13.51575468  14.68686717  15.85797965  17.02909214
+  18.20020463  19.37131711  20.5424296   21.71354209  22.88465457
+  24.05576706]
+distance difference  counter: 
+(array([    3,    17,   133,   680,  2565,  7261, 14828, 23822, 30187,
+       32609, 28418, 16340,  6515,  2333,   711,   219,    56,     8,
+           8,     1]), array([-230.01376343, -206.8544754 , -183.69518738, -160.53589935,
+       -137.37661133, -114.2173233 ,  -91.05803528,  -67.89874725,
+        -44.73945923,  -21.5801712 ,    1.57911682,   24.73840485,
+         47.89769287,   71.0569809 ,   94.21626892,  117.37555695,
+        140.53484497,  163.694133  ,  186.85342102,  210.01270905,
+        233.17199707]))
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch25_thresh7.89346.model *****
+||Xanchor-Xpos||_2  counter: 
+[ 172 1970 6204 9218 8927 7196 5143 3534 2132 1187  620  259   71   39   13
+    9    1    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   1    3   16   63  228  760 1836 3817 6565 8409 8753 7182 4936 2569 1083
+  354   95   18    5    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.1458137    1.94714509   2.74847648   3.54980787   4.35113926
+   5.15247065   5.95380204   6.75513343   7.55646482   8.3577962
+   9.15912759   9.96045898  10.76179037  11.56312176  12.36445315
+  13.16578454  13.96711593  14.76844732  15.5697787   16.37111009
+  17.17244148]
+distance difference  counter: 
+(array([   8,   11,   24,  110,  271,  585, 1330, 2525, 4148, 6183, 7918,
+       8679, 7417, 4635, 2007,  569,  181,   66,   23,    5]), array([-207.23884583, -190.96637688, -174.69390793, -158.42143898,
+       -142.14897003, -125.87650108, -109.60403214,  -93.33156319,
+        -77.05909424,  -60.78662529,  -44.51415634,  -28.24168739,
+        -11.96921844,    4.3032505 ,   20.57571945,   36.8481884 ,
+         53.12065735,   69.3931263 ,   85.66559525,  101.93806419,
+        118.21053314]))
+train/val Accuracy = 0.771809806015 / 0.866291894207 
+ with threshold: [[ 7.8934612]]
+============ epoch 26 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/049_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/104_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/016_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(558678, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(490569, 3, 64, 64)
+training loss:		9.067308
+||Xanchor-Xpos||_2  counter: 
+[  948 12972 34271 37567 27403 18209 11854  8003  5567  3549  1761   804
+   350   164    49    21    19    10     2     0]
+||Xanchor-Xneg||_2  counter: 
+[   22   174  1178  4060  9893 18459 28101 34562 31985 20702  9572  3232
+   974   333   124    69    48    20     6     8]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.73528957   1.8675736    2.99985762   4.13214164   5.26442566
+   6.39670968   7.5289937    8.66127772   9.79356174  10.92584577
+  12.05812979  13.19041381  14.32269783  15.45498185  16.58726587
+  17.71954989  18.85183392  19.98411794  21.11640196  22.24868598  23.38097   ]
+distance difference  counter: 
+(array([    5,    18,    79,   371,  1450,  4374, 10391, 19523, 29172,
+       35647, 34740, 19827,  5496,  1714,   502,   156,    42,    15,
+           0,     1]), array([-246.64572144, -222.63837662, -198.6310318 , -174.62368698,
+       -150.61634216, -126.60899734, -102.60165253,  -78.59430771,
+        -54.58696289,  -30.57961807,   -6.57227325,   17.43507156,
+         41.44241638,   65.4497612 ,   89.45710602,  113.46445084,
+        137.47179565,  161.47914047,  185.48648529,  209.49383011,
+        233.50117493]))
+||Xanchor-Xpos||_2  counter: 
+[  95 1384 5332 8514 9004 7535 5550 3900 2465 1490  800  387  150   53   25
+    7    4    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   0    3   17   44  152  538 1377 2823 5220 7447 8432 8013 5985 3781 1866
+  692  234   51   15    5]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.04497635   1.84957091   2.65416547   3.45876003   4.26335459
+   5.06794915   5.8725437    6.67713826   7.48173282   8.28632738
+   9.09092194   9.8955165   10.70011106  11.50470561  12.30930017
+  13.11389473  13.91848929  14.72308385  15.52767841  16.33227296
+  17.13686752]
+distance difference  counter: 
+(array([   8,    8,   25,   80,  220,  535, 1208, 2329, 4017, 5971, 7809,
+       8803, 7645, 4927, 2173,  643,  206,   55,   29,    4]), array([-229.79833984, -212.06844063, -194.33854141, -176.6086422 ,
+       -158.87874298, -141.14884377, -123.41894455, -105.68904533,
+        -87.95914612,  -70.2292469 ,  -52.49934769,  -34.76944847,
+        -17.03954926,    0.69034996,   18.42024918,   36.15014839,
+         53.88004761,   71.60994682,   89.33984604,  107.06974525,
+        124.79964447]))
+train/val Accuracy = 0.800468435633 / 0.889495663347 
+ with threshold: [[ 7.43543961]]
+============ epoch 27 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/124_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/096_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/049_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/037_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(541383, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(525450, 3, 64, 64)
+training loss:		11.792202
+||Xanchor-Xpos||_2  counter: 
+[  862  9953 27785 34072 28846 22207 17143 13152  9695  6317  3134  1296
+   434   151    50    35     9     7     2     0]
+||Xanchor-Xneg||_2  counter: 
+[    1   106  1186  4003  9320 17942 29508 37080 35544 24020 11055  3643
+  1039   382   153   107    35    12     6     8]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.84565622   1.95343578   3.06121534   4.16899489   5.27677445
+   6.38455401   7.49233357   8.60011313   9.70789269  10.81567225
+  11.92345181  13.03123137  14.13901093  15.24679049  16.35457005
+  17.46234961  18.57012917  19.67790873  20.78568829  21.89346785
+  23.00124741]
+distance difference  counter: 
+(array([    7,    14,   103,   383,  1312,  3838,  8388, 15982, 25121,
+       33418, 36513, 29088, 13280,  5121,  1747,   563,   204,    44,
+          14,    10]), array([-228.57855225, -206.84982452, -185.1210968 , -163.39236908,
+       -141.66364136, -119.93491364,  -98.20618591,  -76.47745819,
+        -54.74873047,  -33.02000275,  -11.29127502,   10.4374527 ,
+         32.16618042,   53.89490814,   75.62363586,   97.35236359,
+        119.08109131,  140.80981903,  162.53854675,  184.26727448,
+        205.9960022 ]))
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch27_thresh7.82406.model *****
+||Xanchor-Xpos||_2  counter: 
+[ 156 1917 6027 9049 8982 7251 5211 3677 2141 1257  614  272   87   35    9
+    7    3    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   1    5   14   60  230  694 1813 3693 6550 8493 8991 7382 4870 2488  991
+  315   84   15    3    3]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.1473608    1.94913306   2.75090532   3.55267758   4.35444984
+   5.15622211   5.95799437   6.75976663   7.56153889   8.36331115
+   9.16508341   9.96685567  10.76862793  11.57040019  12.37217245
+  13.17394471  13.97571697  14.77748923  15.57926149  16.38103375
+  17.18280602]
+distance difference  counter: 
+(array([   8,    7,   26,   92,  244,  582, 1296, 2511, 4157, 6275, 7837,
+       8699, 7356, 4589, 2104,  619,  193,   72,   22,    6]), array([-203.94856262, -187.97489128, -172.00121994, -156.0275486 ,
+       -140.05387726, -124.08020592, -108.10653458,  -92.13286324,
+        -76.15919189,  -60.18552055,  -44.21184921,  -28.23817787,
+        -12.26450653,    3.70916481,   19.68283615,   35.65650749,
+         51.63017883,   67.60385017,   83.57752151,   99.55119286,
+        115.5248642 ]))
+train/val Accuracy = 0.754407650585 / 0.871967020024 
+ with threshold: [[ 7.82405751]]
+============ epoch 28 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/085_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/093_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/061_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(561816, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(458916, 3, 64, 64)
+training loss:		10.905272
+||Xanchor-Xpos||_2  counter: 
+[ 1098 11507 26273 31098 26766 19963 13770  9266  6414  3905  1854   711
+   228    71    29    16     2     1     0     0]
+||Xanchor-Xneg||_2  counter: 
+[   18   162   857  3455  9742 19101 28467 33878 29315 17878  7308  2074
+   489   124    54    35     7     3     3     1]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.58670813   1.76912266   2.95153719   4.13395171   5.31636624
+   6.49878077   7.6811953    8.86360983  10.04602436  11.22843889
+  12.41085342  13.59326794  14.77568247  15.958097    17.14051153
+  18.32292606  19.50534059  20.68775512  21.87016965  23.05258417
+  24.2349987 ]
+distance difference  counter: 
+(array([   18,   123,   511,  1661,  4534,  9804, 16304, 22932, 28128,
+       30287, 23143, 10070,  3607,  1260,   417,   124,    33,     9,
+           5,     2]), array([-205.21685791, -183.50299149, -161.78912506, -140.07525864,
+       -118.36139221,  -96.64752579,  -74.93365936,  -53.21979294,
+        -31.50592651,   -9.79206009,   11.92180634,   33.63567276,
+         55.34953918,   77.06340561,   98.77727203,  120.49113846,
+        142.20500488,  163.91887131,  185.63273773,  207.34660416,
+        229.06047058]))
+||Xanchor-Xpos||_2  counter: 
+[  76 1348 5593 9076 9234 7705 5377 3804 2177 1312  595  262   82   35   10
+    8    1    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   1    2   15   49  186  663 1747 3716 6619 8680 9050 7326 4924 2411  920
+  300   64   18    2    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.95508653   1.78542487   2.61576322   3.44610156   4.27643991
+   5.10677825   5.93711659   6.76745494   7.59779328   8.42813163
+   9.25846997  10.08880831  10.91914666  11.749485    12.57982334
+  13.41016169  14.24050003  15.07083838  15.90117672  16.73151506
+  17.56185341]
+distance difference  counter: 
+(array([   7,   10,   46,  132,  308,  712, 1555, 2819, 4488, 6522, 8068,
+       8506, 6902, 4167, 1682,  524,  170,   54,   16,    7]), array([-205.23100281, -188.99125519, -172.75150757, -156.51175995,
+       -140.27201233, -124.03226471, -107.79251709,  -91.55276947,
+        -75.31302185,  -59.07327423,  -42.83352661,  -26.59377899,
+        -10.35403137,    5.88571625,   22.12546387,   38.36521149,
+         54.60495911,   70.84470673,   87.08445435,  103.32420197,
+        119.56394958]))
+train/val Accuracy = 0.77235703266 / 0.880683156655 
+ with threshold: [[ 7.6874668]]
+============ epoch 29 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/045_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/061_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/021_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(565545, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(556053, 3, 64, 64)
+training loss:		4.232845
+||Xanchor-Xpos||_2  counter: 
+[  681  8983 27815 38932 36296 27333 18715 11656  6908  3821  2046  1050
+   524   318   155    73    24    15     5     1]
+||Xanchor-Xneg||_2  counter: 
+[    0    13   103   450  1392  3304  6500 11217 17416 24232 29924 30934
+ 26795 17989  9678  3939  1183   245    31     6]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.57309008   1.42101247   2.26893487   3.11685727   3.96477966
+   4.81270206   5.66062446   6.50854685   7.35646925   8.20439165
+   9.05231404   9.90023644  10.74815884  11.59608123  12.44400363
+  13.29192603  14.13984842  14.98777082  15.83569322  16.68361561
+  17.53153801]
+distance difference  counter: 
+(array([   11,    41,   228,   764,  2298,  5513, 10984, 18592, 26323,
+       31229, 32052, 27561, 19309,  8307,  1568,   407,   116,    35,
+          10,     3]), array([-237.39547729, -217.66464233, -197.93380737, -178.20297241,
+       -158.47213745, -138.74130249, -119.01046753,  -99.27963257,
+        -79.54879761,  -59.81796265,  -40.08712769,  -20.35629272,
+         -0.62545776,   19.1053772 ,   38.83621216,   58.56704712,
+         78.29788208,   98.02871704,  117.759552  ,  137.49038696,
+        157.22122192]))
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch29_thresh7.07309.model *****
+||Xanchor-Xpos||_2  counter: 
+[  80 1423 5815 9286 9292 7389 5202 3621 2239 1244  655  300   93   35   13
+    7    1    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   0    4   13   49  188  672 1697 3614 6196 8307 8889 7669 5196 2690 1075
+  335   75   22    2    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.96315289   1.83129859   2.69944429   3.56759      4.4357357
+   5.30388141   6.17202711   7.04017282   7.90831852   8.77646422
+   9.64460993  10.51275563  11.38090134  12.24904704  13.11719275
+  13.98533845  14.85348415  15.72162986  16.58977556  17.45792127
+  18.32606697]
+distance difference  counter: 
+(array([   8,   13,   35,  114,  325,  743, 1551, 2925, 4627, 6502, 8123,
+       8319, 6795, 4152, 1653,  548,  176,   60,   21,    5]), array([-230.33340454, -212.38913345, -194.44486237, -176.50059128,
+       -158.55632019, -140.6120491 , -122.66777802, -104.72350693,
+        -86.77923584,  -68.83496475,  -50.89069366,  -32.94642258,
+        -15.00215149,    2.9421196 ,   20.88639069,   38.83066177,
+         56.77493286,   74.71920395,   92.66347504,  110.60774612,
+        128.55201721]))
+train/val Accuracy = 0.900753165616 / 0.884741407003 
+ with threshold: [[ 7.07309232]]
+============ epoch 30 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/036_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/097_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/042_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/045_hard_inputs.data
+Traceback (most recent call last):
+  File "VGGface_MVS-train5.py", line 290, in <module>
+    triplet_stack_train = load_dataset_list(random.sample(sampleIndx_list_train,4)) # to save memory, we don't store all the training data in the memory
+  File "VGGface_MVS-train5.py", line 145, in load_dataset_list
+    inputs_stack = np.vstack(inputs_stack) 
+  File "/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/shape_base.py", line 230, in vstack
+    return _nx.concatenate([atleast_2d(_m) for _m in tup], 0)
+MemoryError
+Done
+
+----------------- end -----------------
+Do 22. Sep 14:59:22 CEST 2016
+elapsed time: 004:19:10
+---------------------------------------

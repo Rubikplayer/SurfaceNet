@@ -1,0 +1,392 @@
+---------------- start ----------------
+Fr 16. Sep 10:17:00 CEST 2016
+max threads: 8
+max memory: 6000 MB
+time limit: 24 hours
+use gpu: false
+.TripletData_generator_qsub.sh.1  1
+---------------------------------------
+
+This is a python program in the queue
+rectified imgs are loaded
+87: 6000th set
+87: 12000th set
+87: 18000th set
+87: 24000th set
+87: 30000th set
+87: 36000th set
+rectified imgs are loaded
+82: 6000th set
+82: 12000th set
+82: 18000th set
+82: 24000th set
+82: 30000th set
+82: 36000th set
+rectified imgs are loaded
+91: 6000th set
+91: 12000th set
+91: 18000th set
+91: 24000th set
+91: 30000th set
+91: 36000th set
+rectified imgs are loaded
+83: 6000th set
+83: 12000th set
+83: 18000th set
+83: 24000th set
+83: 30000th set
+83: 36000th set
+83: 42000th set
+rectified imgs are loaded
+88: 6000th set
+88: 12000th set
+88: 18000th set
+88: 24000th set
+88: 30000th set
+88: 36000th set
+88: 42000th set
+rectified imgs are loaded
+86: 6000th set
+86: 12000th set
+86: 18000th set
+86: 24000th set
+86: 30000th set
+86: 36000th set
+86: 42000th set
+rectified imgs are loaded
+85: 6000th set
+85: 12000th set
+85: 18000th set
+85: 24000th set
+85: 30000th set
+85: 36000th set
+85: 42000th set
+rectified imgs are loaded
+92: 6000th set
+92: 12000th set
+92: 18000th set
+92: 24000th set
+92: 30000th set
+92: 36000th set
+92: 42000th set
+rectified imgs are loaded
+89: 6000th set
+89: 12000th set
+89: 18000th set
+89: 24000th set
+89: 30000th set
+89: 36000th set
+89: 42000th set
+rectified imgs are loaded
+90: 6000th set
+90: 12000th set
+90: 18000th set
+90: 24000th set
+90: 30000th set
+90: 36000th set
+90: 42000th set
+rectified imgs are loaded
+84: 6000th set
+84: 12000th set
+84: 18000th set
+84: 24000th set
+84: 30000th set
+84: 36000th set
+84: 42000th set
+rectified imgs are loaded
+93: 6000th set
+93: 12000th set
+93: 18000th set
+93: 24000th set
+93: 30000th set
+93: 36000th set
+93: 42000th set
+rectified imgs are loaded
+95: 6000th set
+95: 12000th set
+95: 18000th set
+95: 24000th set
+95: 30000th set
+95: 36000th set
+95: 42000th set
+rectified imgs are loaded
+96: 6000th set
+96: 12000th set
+96: 18000th set
+96: 24000th set
+96: 30000th set
+96: 36000th set
+96: 42000th set
+rectified imgs are loaded
+94: 6000th set
+94: 12000th set
+94: 18000th set
+94: 24000th set
+94: 30000th set
+94: 36000th set
+94: 42000th set
+94: 48000th set
+rectified imgs are loaded
+98: 6000th set
+98: 12000th set
+98: 18000th set
+98: 24000th set
+98: 30000th set
+98: 36000th set
+98: 42000th set
+rectified imgs are loaded
+97: 6000th set
+97: 12000th set
+97: 18000th set
+97: 24000th set
+97: 30000th set
+97: 36000th set
+97: 42000th set
+rectified imgs are loaded
+100: 6000th set
+100: 12000th set
+100: 18000th set
+100: 24000th set
+100: 30000th set
+100: 36000th set
+100: 42000th set
+rectified imgs are loaded
+102: 6000th set
+102: 12000th set
+102: 18000th set
+102: 24000th set
+102: 30000th set
+102: 36000th set
+102: 42000th set
+rectified imgs are loaded
+99: 6000th set
+99: 12000th set
+99: 18000th set
+99: 24000th set
+99: 30000th set
+99: 36000th set
+99: 42000th set
+99: 48000th set
+rectified imgs are loaded
+101: 6000th set
+101: 12000th set
+101: 18000th set
+101: 24000th set
+101: 30000th set
+101: 36000th set
+101: 42000th set
+101: 48000th set
+rectified imgs are loaded
+105: 6000th set
+105: 12000th set
+105: 18000th set
+105: 24000th set
+105: 30000th set
+105: 36000th set
+105: 42000th set
+rectified imgs are loaded
+103: 6000th set
+103: 12000th set
+103: 18000th set
+103: 24000th set
+103: 30000th set
+103: 36000th set
+103: 42000th set
+rectified imgs are loaded
+104: 6000th set
+104: 12000th set
+104: 18000th set
+104: 24000th set
+104: 30000th set
+104: 36000th set
+104: 42000th set
+104: 48000th set
+rectified imgs are loaded
+107: 6000th set
+107: 12000th set
+107: 18000th set
+107: 24000th set
+107: 30000th set
+107: 36000th set
+107: 42000th set
+rectified imgs are loaded
+108: 6000th set
+108: 12000th set
+108: 18000th set
+108: 24000th set
+108: 30000th set
+108: 36000th set
+108: 42000th set
+rectified imgs are loaded
+109: 6000th set
+109: 12000th set
+109: 18000th set
+109: 24000th set
+109: 30000th set
+109: 36000th set
+109: 42000th set
+rectified imgs are loaded
+106: 6000th set
+106: 12000th set
+106: 18000th set
+106: 24000th set
+106: 30000th set
+106: 36000th set
+106: 42000th set
+rectified imgs are loaded
+117: 6000th set
+117: 12000th set
+117: 18000th set
+117: 24000th set
+117: 30000th set
+117: 36000th set
+117: 42000th set
+rectified imgs are loaded
+110: 6000th set
+110: 12000th set
+110: 18000th set
+110: 24000th set
+110: 30000th set
+110: 36000th set
+110: 42000th set
+110: 48000th set
+rectified imgs are loaded
+116: 6000th set
+116: 12000th set
+116: 18000th set
+116: 24000th set
+116: 30000th set
+116: 36000th set
+116: 42000th set
+rectified imgs are loaded
+115: 6000th set
+115: 12000th set
+115: 18000th set
+115: 24000th set
+115: 30000th set
+115: 36000th set
+115: 42000th set
+rectified imgs are loaded
+111: 6000th set
+111: 12000th set
+111: 18000th set
+111: 24000th set
+111: 30000th set
+111: 36000th set
+111: 42000th set
+111: 48000th set
+rectified imgs are loaded
+113: 6000th set
+113: 12000th set
+113: 18000th set
+113: 24000th set
+113: 30000th set
+113: 36000th set
+113: 42000th set
+113: 48000th set
+rectified imgs are loaded
+112: 6000th set
+112: 12000th set
+112: 18000th set
+112: 24000th set
+112: 30000th set
+112: 36000th set
+112: 42000th set
+112: 48000th set
+rectified imgs are loaded
+exception(<type 'exceptions.IOError'>, IOError(2, 'No such file or directory'), <traceback object at 0x7f410067e050>)
+rectified imgs are loaded
+114: 6000th set
+114: 12000th set
+114: 18000th set
+114: 24000th set
+114: 30000th set
+114: 36000th set
+114: 42000th set
+114: 48000th set
+rectified imgs are loaded
+119: 6000th set
+119: 12000th set
+119: 18000th set
+119: 24000th set
+119: 30000th set
+119: 36000th set
+rectified imgs are loaded
+118: 6000th set
+118: 12000th set
+118: 18000th set
+118: 24000th set
+118: 30000th set
+118: 36000th set
+118: 42000th set
+rectified imgs are loaded
+121: 6000th set
+121: 12000th set
+121: 18000th set
+121: 24000th set
+121: 30000th set
+121: 36000th set
+121: 42000th set
+rectified imgs are loaded
+120: 6000th set
+120: 12000th set
+120: 18000th set
+120: 24000th set
+120: 30000th set
+120: 36000th set
+120: 42000th set
+rectified imgs are loaded
+122: 6000th set
+122: 12000th set
+122: 18000th set
+122: 24000th set
+122: 30000th set
+122: 36000th set
+122: 42000th set
+rectified imgs are loaded
+125: 6000th set
+125: 12000th set
+125: 18000th set
+125: 24000th set
+125: 30000th set
+125: 36000th set
+125: 42000th set
+rectified imgs are loaded
+123: 6000th set
+123: 12000th set
+123: 18000th set
+123: 24000th set
+123: 30000th set
+123: 36000th set
+123: 42000th set
+rectified imgs are loaded
+124: 6000th set
+124: 12000th set
+124: 18000th set
+124: 24000th set
+124: 30000th set
+124: 36000th set
+124: 42000th set
+rectified imgs are loaded
+128: 6000th set
+128: 12000th set
+128: 18000th set
+128: 24000th set
+128: 30000th set
+128: 36000th set
+128: 42000th set
+rectified imgs are loaded
+126: 6000th set
+126: 12000th set
+126: 18000th set
+126: 24000th set
+126: 30000th set
+126: 36000th set
+126: 42000th set
+126: 48000th set
+Done 
+
+----------------- end -----------------
+Fr 16. Sep 11:57:50 CEST 2016
+elapsed time: 001:40:50
+---------------------------------------

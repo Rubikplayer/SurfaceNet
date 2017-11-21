@@ -1,0 +1,281 @@
+---------------- start ----------------
+Do 6. Okt 22:10:20 CEST 2016
+max threads: 4
+max memory: 28000 MB
+time limit: 36 hours
+gpu device id: 0
+.qsub-2D_2_3D-train.sh.1  1
+---------------------------------------
+
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is enabled with initial size: 95.0% of memory, cuDNN 5103)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
+  warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
+compressed 1.npz is saved
+rectified imgs of indx: 1 are loaded
+compressed 2.npz is saved
+rectified imgs of indx: 2 are loaded
+compressed 17.npz is saved
+rectified imgs of indx: 17 are loaded
+compressed 17.npz is saved
+rectified imgs of indx: 17 are loaded
+density Cube files are loaded
+output shape: (None, 1, 32, 32, 32)
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 66, 40, 40, 40)
+shape of kshp_64 = [66  1 40 40 40]
+should be 1D tensor, shape of kshp = (None, 66, 40, 40, 40)
+now inside dnn_gradweight3D
+kshp = [66  1 40 40 40]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 68, 32, 32, 32)
+shape of kshp_64 = [68  1 32 32 32]
+should be 1D tensor, shape of kshp = (None, 68, 32, 32, 32)
+now inside dnn_gradweight3D
+kshp = [68  1 32 32 32]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 66, 40, 40, 40)
+shape of kshp_64 = [66  1 40 40 40]
+should be 1D tensor, shape of kshp = (None, 66, 40, 40, 40)
+now inside dnn_gradweight3D
+kshp = [66  1 40 40 40]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 68, 32, 32, 32)
+shape of kshp_64 = [68  1 32 32 32]
+should be 1D tensor, shape of kshp = (None, 68, 32, 32, 32)
+now inside dnn_gradweight3D
+kshp = [68  1 32 32 32]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+starting training...
+Epoch 1, batch 1: Loss 4423.53, acc 0.177109, acc_guess_all0 0.957581
+Epoch 1, batch 2: Loss 3141.45, acc 0.13163, acc_guess_all0 0.965645
+Epoch 1, batch 3: Loss 2780.44, acc 0.23499, acc_guess_all0 0.969401
+Epoch 1, batch 4: Loss 3238.64, acc 0.417824, acc_guess_all0 0.968632
+Epoch 1, batch 5: Loss 4400.47, acc 0.523624, acc_guess_all0 0.96427
+Epoch 1, batch 6: Loss 4209.07, acc 0.594528, acc_guess_all0 0.961734
+Epoch 1, batch 7: Loss 2150.66, acc 0.650449, acc_guess_all0 0.965197
+Epoch 1, batch 8: Loss 2822.33, acc 0.690842, acc_guess_all0 0.966246
+Epoch 1, batch 9: Loss 4831.59, acc 0.718394, acc_guess_all0 0.963197
+Epoch 1, batch 10: Loss 2860.75, acc 0.743886, acc_guess_all0 0.964209
+Epoch 1, batch 11: Loss 5563.74, acc 0.759748, acc_guess_all0 0.960041
+Epoch 1, batch 12: Loss 4135.02, acc 0.701206, acc_guess_all0 0.9586
+Epoch 1, batch 13: Loss 3963.16, acc 0.651308, acc_guess_all0 0.957744
+Epoch 1, batch 14: Loss 3715.28, acc 0.607774, acc_guess_all0 0.957775
+Epoch 1, batch 15: Loss 3441.6, acc 0.569261, acc_guess_all0 0.958585
+Epoch 1, batch 16: Loss 3302.81, acc 0.535364, acc_guess_all0 0.959491
+Epoch 1, batch 17: Loss 3687.51, acc 0.506459, acc_guess_all0 0.959287
+Epoch 1, batch 18: Loss 3929.39, acc 0.481195, acc_guess_all0 0.958676
+Epoch 1, batch 19: Loss 4369.06, acc 0.459225, acc_guess_all0 0.957495
+Epoch 1, batch 20: Loss 2279.1, acc 0.436264, acc_guess_all0 0.95962
+Epoch 1, batch 21: Loss 2986.56, acc 0.432635, acc_guess_all0 0.960211
+Epoch 1, batch 22: Loss 4564.99, acc 0.455586, acc_guess_all0 0.959181
+Epoch 1, batch 23: Loss 4696.74, acc 0.476336, acc_guess_all0 0.958036
+Epoch 1, batch 24: Loss 3177.51, acc 0.458782, acc_guess_all0 0.958456
+Epoch 1, batch 25: Loss 4406.05, acc 0.442991, acc_guess_all0 0.957557
+Epoch 1, batch 26: Loss 3418.84, acc 0.427382, acc_guess_all0 0.957761
+Epoch 1, batch 27: Loss 3297.53, acc 0.412771, acc_guess_all0 0.958107
+Epoch 1, batch 28: Loss 3352.19, acc 0.402285, acc_guess_all0 0.958273
+Epoch 1, batch 29: Loss 3622.48, acc 0.389905, acc_guess_all0 0.95822
+Epoch 1, batch 30: Loss 4553.24, acc 0.384732, acc_guess_all0 0.957703
+Epoch 1, batch 31: Loss 4318.57, acc 0.37432, acc_guess_all0 0.957068
+Epoch 1, batch 32: Loss 2987.39, acc 0.363431, acc_guess_all0 0.957635
+Epoch 1, batch 33: Loss 3625.66, acc 0.353741, acc_guess_all0 0.957603
+Epoch 1, batch 34: Loss 2372.01, acc 0.344933, acc_guess_all0 0.958486
+Epoch 1, batch 35: Loss 5136.49, acc 0.361403, acc_guess_all0 0.957426
+Epoch 1, batch 36: Loss 2968.13, acc 0.352289, acc_guess_all0 0.957868
+Epoch 1, batch 37: Loss 3997.83, acc 0.345053, acc_guess_all0 0.95759
+Epoch 1, batch 38: Loss 3208.04, acc 0.361412, acc_guess_all0 0.957829
+Epoch 1, batch 39: Loss 4014.44, acc 0.353512, acc_guess_all0 0.957556
+Epoch 1, batch 40: Loss 3021.49, acc 0.34534, acc_guess_all0 0.957952
+Epoch 1, batch 41: Loss 5370.14, acc 0.359342, acc_guess_all0 0.957012
+Epoch 1, batch 42: Loss 5099.81, acc 0.352834, acc_guess_all0 0.955993
+Epoch 1, batch 43: Loss 3824.29, acc 0.345706, acc_guess_all0 0.955939
+Epoch 1, batch 44: Loss 3260.68, acc 0.338359, acc_guess_all0 0.95643
+Epoch 1, batch 45: Loss 3420.28, acc 0.331542, acc_guess_all0 0.956697
+Epoch 1, batch 46: Loss 3849.46, acc 0.32538, acc_guess_all0 0.956592
+Epoch 1, batch 47: Loss 3038.83, acc 0.318993, acc_guess_all0 0.95698
+Epoch 1, batch 48: Loss 2469.3, acc 0.317153, acc_guess_all0 0.957551
+Epoch 1, batch 49: Loss 4625.9, acc 0.329834, acc_guess_all0 0.957163
+Epoch 1, batch 50: Loss 2715.22, acc 0.34276, acc_guess_all0 0.957542
+Epoch 1, batch 51: Loss 2501.93, acc 0.355248, acc_guess_all0 0.957975
+Epoch 1, batch 52: Loss 4866.54, acc 0.366457, acc_guess_all0 0.957593
+Epoch 1, batch 53: Loss 5016.93, acc 0.377155, acc_guess_all0 0.957138
+Epoch 1, batch 54: Loss 3088.15, acc 0.388119, acc_guess_all0 0.957362
+Epoch 1, batch 55: Loss 4459.36, acc 0.398121, acc_guess_all0 0.957014
+Epoch 1, batch 56: Loss 3547.42, acc 0.3919, acc_guess_all0 0.957038
+Epoch 1, batch 57: Loss 3645.12, acc 0.385787, acc_guess_all0 0.957029
+Epoch 1, batch 58: Loss 4865.37, acc 0.380596, acc_guess_all0 0.95631
+Epoch 1, batch 59: Loss 3390.17, acc 0.374586, acc_guess_all0 0.956609
+Epoch 1, batch 60: Loss 3876.57, acc 0.369167, acc_guess_all0 0.956508
+Epoch 1, batch 61: Loss 3791.71, acc 0.363867, acc_guess_all0 0.956469
+Epoch 1, batch 62: Loss 2979.41, acc 0.358338, acc_guess_all0 0.956832
+Epoch 1, batch 63: Loss 4093.56, acc 0.353538, acc_guess_all0 0.956629
+Epoch 1, batch 64: Loss 2704.77, acc 0.348296, acc_guess_all0 0.957024
+Epoch 1, batch 65: Loss 4652.82, acc 0.343997, acc_guess_all0 0.956633
+Epoch 1, batch 66: Loss 3394.35, acc 0.353364, acc_guess_all0 0.956717
+Epoch 1, batch 67: Loss 3015.37, acc 0.362574, acc_guess_all0 0.956922
+Epoch 1, batch 68: Loss 4290.55, acc 0.371129, acc_guess_all0 0.956736
+Epoch 1, batch 69: Loss 3530.99, acc 0.379651, acc_guess_all0 0.956772
+Epoch 1, batch 70: Loss 2160.69, acc 0.388385, acc_guess_all0 0.957261
+Epoch 1, batch 71: Loss 3791.68, acc 0.396347, acc_guess_all0 0.95721
+Epoch 1, batch 72: Loss 4668.51, acc 0.403852, acc_guess_all0 0.956926
+Epoch 1, batch 73: Loss 3259.9, acc 0.398784, acc_guess_all0 0.957052
+Epoch 1, batch 74: Loss 4332.28, acc 0.406103, acc_guess_all0 0.956827
+Epoch 1, batch 75: Loss 3363.05, acc 0.401159, acc_guess_all0 0.956932
+Epoch 1, batch 76: Loss 3177.46, acc 0.396292, acc_guess_all0 0.957087
+Epoch 1, batch 77: Loss 4793.86, acc 0.392103, acc_guess_all0 0.956687
+Epoch 1, batch 78: Loss 4822.12, acc 0.388067, acc_guess_all0 0.956252
+Epoch 1, batch 79: Loss 4267.68, acc 0.383951, acc_guess_all0 0.956009
+Epoch 1, batch 80: Loss 3912.53, acc 0.379751, acc_guess_all0 0.95596
+Epoch 1, batch 81: Loss 3919.68, acc 0.375654, acc_guess_all0 0.955912
+Epoch 1, batch 82: Loss 3252.57, acc 0.371373, acc_guess_all0 0.956149
+Epoch 1, batch 83: Loss 2359.86, acc 0.366899, acc_guess_all0 0.956677
+Epoch 1, batch 84: Loss 4118.43, acc 0.363206, acc_guess_all0 0.956518
+Epoch 1, batch 85: Loss 2928.62, acc 0.365922, acc_guess_all0 0.956716
+Epoch 1, batch 86: Loss 2077.45, acc 0.373172, acc_guess_all0 0.957097
+Epoch 1, batch 87: Loss 5547.97, acc 0.379529, acc_guess_all0 0.956742
+Epoch 1, batch 88: Loss 4814.84, acc 0.385871, acc_guess_all0 0.956524
+Epoch 1, batch 89: Loss 2142.5, acc 0.392659, acc_guess_all0 0.956901
+starting validation...
+val_acc 0.95667
+Epoch 2, batch 1: Loss 5198.36, acc 0.925064, acc_guess_all0 0.925064
+Epoch 2, batch 2: Loss 2960.29, acc 0.94873, acc_guess_all0 0.94873
+Epoch 2, batch 3: Loss 4846.63, acc 0.657623, acc_guess_all0 0.941106
+Epoch 2, batch 4: Loss 2179.12, acc 0.493217, acc_guess_all0 0.95583
+Epoch 2, batch 5: Loss 3890.48, acc 0.404697, acc_guess_all0 0.954541
+Epoch 2, batch 6: Loss 3995.56, acc 0.346186, acc_guess_all0 0.953178
+Epoch 2, batch 7: Loss 2133.54, acc 0.297036, acc_guess_all0 0.959562
+Epoch 2, batch 8: Loss 3482.91, acc 0.283075, acc_guess_all0 0.959623
+Epoch 2, batch 9: Loss 2963.92, acc 0.359614, acc_guess_all0 0.96099
+Epoch 2, batch 10: Loss 1704.01, acc 0.423376, acc_guess_all0 0.964615
+Epoch 2, batch 11: Loss 3131.69, acc 0.472884, acc_guess_all0 0.964919
+Epoch 2, batch 12: Loss 6052.52, acc 0.510279, acc_guess_all0 0.961311
+Epoch 2, batch 13: Loss 3933.33, acc 0.54426, acc_guess_all0 0.960597
+Epoch 2, batch 14: Loss 4497.84, acc 0.572459, acc_guess_all0 0.959057
+Epoch 2, batch 15: Loss 4381.23, acc 0.538464, acc_guess_all0 0.957617
+Epoch 2, batch 16: Loss 3624.27, acc 0.507358, acc_guess_all0 0.957719
+Epoch 2, batch 17: Loss 3885.56, acc 0.480428, acc_guess_all0 0.957291
+Epoch 2, batch 18: Loss 3984.83, acc 0.45662, acc_guess_all0 0.956781
+Epoch 2, batch 19: Loss 4296.17, acc 0.435985, acc_guess_all0 0.955687
+Epoch 2, batch 20: Loss 4137.51, acc 0.417077, acc_guess_all0 0.955011
+Epoch 2, batch 21: Loss 4200.62, acc 0.400063, acc_guess_all0 0.954306
+Epoch 2, batch 22: Loss 3534.89, acc 0.383431, acc_guess_all0 0.954831
+Epoch 2, batch 23: Loss 4003.6, acc 0.369099, acc_guess_all0 0.954456
+Epoch 2, batch 24: Loss 3227.7, acc 0.354776, acc_guess_all0 0.955318
+Epoch 2, batch 25: Loss 3986.78, acc 0.342725, acc_guess_all0 0.954965
+Epoch 2, batch 26: Loss 4410.91, acc 0.33198, acc_guess_all0 0.954261
+Epoch 2, batch 27: Loss 3421.45, acc 0.321063, acc_guess_all0 0.954577
+Epoch 2, batch 28: Loss 3465.8, acc 0.31101, acc_guess_all0 0.954786
+Epoch 2, batch 29: Loss 3418.51, acc 0.33345, acc_guess_all0 0.955027
+Epoch 2, batch 30: Loss 1640.41, acc 0.355668, acc_guess_all0 0.956526
+Epoch 2, batch 31: Loss 3771.36, acc 0.375061, acc_guess_all0 0.956536
+Epoch 2, batch 32: Loss 3458.19, acc 0.393419, acc_guess_all0 0.956723
+Epoch 2, batch 33: Loss 5483.92, acc 0.40955, acc_guess_all0 0.955784
+Epoch 2, batch 34: Loss 5548.61, acc 0.424468, acc_guess_all0 0.954637
+Epoch 2, batch 35: Loss 3030.3, acc 0.41307, acc_guess_all0 0.955204
+Epoch 2, batch 36: Loss 4623.89, acc 0.403661, acc_guess_all0 0.954383
+Epoch 2, batch 37: Loss 4784.16, acc 0.39501, acc_guess_all0 0.953357
+Epoch 2, batch 38: Loss 4848.39, acc 0.388916, acc_guess_all0 0.952434
+Epoch 2, batch 39: Loss 4205.47, acc 0.380336, acc_guess_all0 0.952262
+Epoch 2, batch 40: Loss 4256.96, acc 0.372286, acc_guess_all0 0.951997
+Epoch 2, batch 41: Loss 4397.21, acc 0.364789, acc_guess_all0 0.951585
+Epoch 2, batch 42: Loss 3284.36, acc 0.356103, acc_guess_all0 0.952738
+Epoch 2, batch 43: Loss 4644.66, acc 0.349631, acc_guess_all0 0.952028
+Epoch 2, batch 44: Loss 3623.52, acc 0.342615, acc_guess_all0 0.952188
+Epoch 2, batch 45: Loss 4353.58, acc 0.336553, acc_guess_all0 0.951802
+Epoch 2, batch 46: Loss 4748.8, acc 0.330893, acc_guess_all0 0.951194
+Epoch 2, batch 47: Loss 2983.88, acc 0.324404, acc_guess_all0 0.951681
+Epoch 2, batch 48: Loss 5106.67, acc 0.319323, acc_guess_all0 0.951011
+Epoch 2, batch 49: Loss 4373.61, acc 0.314111, acc_guess_all0 0.950705
+Epoch 2, batch 50: Loss 3569.43, acc 0.308641, acc_guess_all0 0.950879
+Epoch 2, batch 51: Loss 3136.96, acc 0.303133, acc_guess_all0 0.951298
+Epoch 2, batch 52: Loss 3276.65, acc 0.297965, acc_guess_all0 0.951574
+Epoch 2, batch 53: Loss 5180.48, acc 0.297282, acc_guess_all0 0.950955
+Epoch 2, batch 54: Loss 2016.59, acc 0.291777, acc_guess_all0 0.951864
+Epoch 2, batch 55: Loss 3393.17, acc 0.291646, acc_guess_all0 0.952043
+Epoch 2, batch 56: Loss 5026.31, acc 0.302956, acc_guess_all0 0.95156
+Epoch 2, batch 57: Loss 4835.04, acc 0.298971, acc_guess_all0 0.951079
+Epoch 2, batch 58: Loss 3973.56, acc 0.294743, acc_guess_all0 0.950996
+Epoch 2, batch 59: Loss 3029.58, acc 0.290151, acc_guess_all0 0.951423
+Epoch 2, batch 60: Loss 3596.83, acc 0.286002, acc_guess_all0 0.951546
+Epoch 2, batch 61: Loss 3298.8, acc 0.281846, acc_guess_all0 0.951808
+Epoch 2, batch 62: Loss 5395.29, acc 0.278818, acc_guess_all0 0.951134
+Epoch 2, batch 63: Loss 3520.07, acc 0.275034, acc_guess_all0 0.951283
+Epoch 2, batch 64: Loss 4542.83, acc 0.271836, acc_guess_all0 0.950945
+Epoch 2, batch 65: Loss 3707.64, acc 0.268336, acc_guess_all0 0.951018
+Epoch 2, batch 66: Loss 3781.37, acc 0.264986, acc_guess_all0 0.951044
+Epoch 2, batch 67: Loss 4157.27, acc 0.261905, acc_guess_all0 0.950901
+Epoch 2, batch 68: Loss 3365.44, acc 0.258585, acc_guess_all0 0.951092
+Epoch 2, batch 69: Loss 3623.12, acc 0.255468, acc_guess_all0 0.95117
+Epoch 2, batch 70: Loss 3804.65, acc 0.2525, acc_guess_all0 0.951186
+Epoch 2, batch 71: Loss 3727.03, acc 0.252216, acc_guess_all0 0.951229
+Epoch 2, batch 72: Loss 3539.92, acc 0.251608, acc_guess_all0 0.951324
+Epoch 2, batch 73: Loss 4896.67, acc 0.254369, acc_guess_all0 0.950989
+Epoch 2, batch 74: Loss 2821.44, acc 0.25307, acc_guess_all0 0.951336
+Epoch 2, batch 75: Loss 2864.19, acc 0.250004, acc_guess_all0 0.951677
+Epoch 2, batch 76: Loss 4137.05, acc 0.253403, acc_guess_all0 0.951578
+Epoch 2, batch 77: Loss 4137.29, acc 0.259471, acc_guess_all0 0.951477
+Epoch 2, batch 78: Loss 4517.64, acc 0.265089, acc_guess_all0 0.951274
+Epoch 2, batch 79: Loss 3877.47, acc 0.262387, acc_guess_all0 0.951243
+Epoch 2, batch 80: Loss 3807.22, acc 0.259734, acc_guess_all0 0.951226
+Epoch 2, batch 81: Loss 4607.08, acc 0.257455, acc_guess_all0 0.950901
+Epoch 2, batch 82: Loss 2924.37, acc 0.254419, acc_guess_all0 0.951395
+Epoch 2, batch 83: Loss 4112.98, acc 0.252066, acc_guess_all0 0.951269
+Epoch 2, batch 84: Loss 4166.4, acc 0.249763, acc_guess_all0 0.951151
+Epoch 2, batch 85: Loss 3031.88, acc 0.247099, acc_guess_all0 0.951451
+Epoch 2, batch 86: Loss 3600.97, acc 0.244743, acc_guess_all0 0.951502
+Epoch 2, batch 87: Loss 2891.45, acc 0.249163, acc_guess_all0 0.95174
+Epoch 2, batch 88: Loss 3971.03, acc 0.255577, acc_guess_all0 0.951718
+Epoch 2, batch 89: Loss 3759.04, acc 0.263422, acc_guess_all0 0.951741
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-2-0.263_0.952.model
+starting validation...
+val_acc 0.763511
+Epoch 3, batch 1: Loss 3859.52, acc 0.952164, acc_guess_all0 0.952164
+Epoch 3, batch 2: Loss 4777.32, acc 0.939705, acc_guess_all0 0.941826
+Epoch 3, batch 3: Loss 3143.19, acc 0.690562, acc_guess_all0 0.950826
+Epoch 3, batch 4: Loss 2782.12, acc 0.552284, acc_guess_all0 0.957512
+Epoch 3, batch 5: Loss 2209.46, acc 0.548767, acc_guess_all0 0.964304
+Epoch 3, batch 6: Loss 3855.9, acc 0.585907, acc_guess_all0 0.961924
+Epoch 3, batch 7: Loss 4344.67, acc 0.607459, acc_guess_all0 0.958793
+Epoch 3, batch 8: Loss 3701.61, acc 0.599041, acc_guess_all0 0.9582
+Epoch 3, batch 9: Loss 3285.71, acc 0.55484, acc_guess_all0 0.958979
+Epoch 3, batch 10: Loss 2795.49, acc 0.531059, acc_guess_all0 0.960852
+Epoch 3, batch 11: Loss 3080.76, acc 0.527288, acc_guess_all0 0.961384
+Epoch 3, batch 12: Loss 2325.93, acc 0.54149, acc_guess_all0 0.963347
+Epoch 3, batch 13: Loss 4755.67, acc 0.558114, acc_guess_all0 0.961142
+Epoch 3, batch 14: Loss 4630.23, acc 0.560584, acc_guess_all0 0.959155
+Epoch 3, batch 15: Loss 5007.9, acc 0.561963, acc_guess_all0 0.956773
+Epoch 3, batch 16: Loss 3187.64, acc 0.53828, acc_guess_all0 0.957342
+Epoch 3, batch 17: Loss 4396.63, acc 0.533684, acc_guess_all0 0.955932
+Epoch 3, batch 18: Loss 3158.79, acc 0.505378, acc_guess_all0 0.958041
+Epoch 3, batch 19: Loss 4585.51, acc 0.489884, acc_guess_all0 0.957074
+Epoch 3, batch 20: Loss 2675.5, acc 0.471435, acc_guess_all0 0.958538
+Epoch 3, batch 21: Loss 2719.47, acc 0.467024, acc_guess_all0 0.959439
+Epoch 3, batch 22: Loss 4870.18, acc 0.488222, acc_guess_all0 0.958254
+Epoch 3, batch 23: Loss 5321.89, acc 0.507311, acc_guess_all0 0.956907
+Epoch 3, batch 24: Loss 4539.99, acc 0.510586, acc_guess_all0 0.956045
+Epoch 3, batch 25: Loss 3300.58, acc 0.497371, acc_guess_all0 0.956566
+Epoch 3, batch 26: Loss 3777.43, acc 0.480064, acc_guess_all0 0.956413
+Epoch 3, batch 27: Loss 3163.52, acc 0.463197, acc_guess_all0 0.957115
+Epoch 3, batch 28: Loss 4245.06, acc 0.450565, acc_guess_all0 0.956467
+Epoch 3, batch 29: Loss 2658.2, acc 0.435498, acc_guess_all0 0.957497
+Epoch 3, batch 30: Loss 3485.84, acc 0.422294, acc_guess_all0 0.957602
+Epoch 3, batch 31: Loss 2667.77, acc 0.440258, acc_guess_all0 0.958298
+Epoch 3, batch 32: Loss 2059.62, acc 0.457418, acc_guess_all0 0.959269
+Epoch 3, batch 33: Loss 3798.09, acc 0.472561, acc_guess_all0 0.959204
+Epoch 3, batch 34: Loss 2520.52, acc 0.487447, acc_guess_all0 0.959777
+Epoch 3, batch 35: Loss 1212.89, acc 0.502091, acc_guess_all0 0.960926
+Epoch 3, batch 36: Loss 5241.96, acc 0.514281, acc_guess_all0 0.960371
+Epoch 3, batch 37: Loss 3970.24, acc 0.526214, acc_guess_all0 0.960248
+Epoch 3, batch 38: Loss 5324.5, acc 0.536862, acc_guess_all0 0.959473
+Epoch 3, batch 39: Loss 3590.5, acc 0.547654, acc_guess_all0 0.959429

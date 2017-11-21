@@ -1,0 +1,1399 @@
+---------------- start ----------------
+Fr 7. Okt 20:31:59 CEST 2016
+max threads: 4
+max memory: 28000 MB
+time limit: 36 hours
+gpu device id: 0
+.qsub-2D_2_3D-train.sh.1  1
+---------------------------------------
+
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is enabled with initial size: 95.0% of memory, cuDNN 5103)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
+  warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
+compressed 5.npz is saved
+rectified imgs of indx: 5 are loaded
+compressed 6.npz is saved
+rectified imgs of indx: 6 are loaded
+compressed 16.npz is saved
+rectified imgs of indx: 16 are loaded
+compressed 18.npz is saved
+rectified imgs of indx: 18 are loaded
+compressed 19.npz is saved
+rectified imgs of indx: 19 are loaded
+compressed 21.npz is saved
+rectified imgs of indx: 21 are loaded
+compressed 36.npz is saved
+rectified imgs of indx: 36 are loaded
+compressed 37.npz is saved
+rectified imgs of indx: 37 are loaded
+compressed 38.npz is saved
+rectified imgs of indx: 38 are loaded
+compressed 42.npz is saved
+rectified imgs of indx: 42 are loaded
+compressed 45.npz is saved
+rectified imgs of indx: 45 are loaded
+compressed 49.npz is saved
+rectified imgs of indx: 49 are loaded
+compressed 50.npz is saved
+rectified imgs of indx: 50 are loaded
+compressed 59.npz is saved
+rectified imgs of indx: 59 are loaded
+compressed 61.npz is saved
+rectified imgs of indx: 61 are loaded
+compressed 62.npz is saved
+rectified imgs of indx: 62 are loaded
+compressed 63.npz is saved
+rectified imgs of indx: 63 are loaded
+compressed 66.npz is saved
+rectified imgs of indx: 66 are loaded
+compressed 85.npz is saved
+rectified imgs of indx: 85 are loaded
+compressed 89.npz is saved
+rectified imgs of indx: 89 are loaded
+compressed 93.npz is saved
+rectified imgs of indx: 93 are loaded
+compressed 96.npz is saved
+rectified imgs of indx: 96 are loaded
+compressed 97.npz is saved
+rectified imgs of indx: 97 are loaded
+compressed 100.npz is saved
+rectified imgs of indx: 100 are loaded
+compressed 103.npz is saved
+rectified imgs of indx: 103 are loaded
+compressed 104.npz is saved
+rectified imgs of indx: 104 are loaded
+compressed 105.npz is saved
+rectified imgs of indx: 105 are loaded
+compressed 124.npz is saved
+rectified imgs of indx: 124 are loaded
+compressed 128.npz is saved
+rectified imgs of indx: 128 are loaded
+compressed 17.npz is saved
+rectified imgs of indx: 17 are loaded
+compressed 31.npz is saved
+rectified imgs of indx: 31 are loaded
+compressed 84.npz is saved
+rectified imgs of indx: 84 are loaded
+compressed 102.npz is saved
+rectified imgs of indx: 102 are loaded
+compressed 125.npz is saved
+rectified imgs of indx: 125 are loaded
+compressed 126.npz is saved
+rectified imgs of indx: 126 are loaded
+compressed 17.npz is saved
+rectified imgs of indx: 17 are loaded
+density Cube files are loaded
+output shape: (None, 1, 32, 32, 32)
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 128, 28, 28, 28)
+shape of kshp_64 = [128   1  28  28  28]
+should be 1D tensor, shape of kshp = (None, 128, 28, 28, 28)
+now inside dnn_gradweight3D
+kshp = [128   1  28  28  28]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 128, 28, 28, 28)
+shape of kshp_64 = [128   1  28  28  28]
+should be 1D tensor, shape of kshp = (None, 128, 28, 28, 28)
+now inside dnn_gradweight3D
+kshp = [128   1  28  28  28]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 256, 24, 24, 24)
+shape of kshp_64 = [256   1  24  24  24]
+should be 1D tensor, shape of kshp = (None, 256, 24, 24, 24)
+now inside dnn_gradweight3D
+kshp = [256   1  24  24  24]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 256, 24, 24, 24)
+shape of kshp_64 = [256   1  24  24  24]
+should be 1D tensor, shape of kshp = (None, 256, 24, 24, 24)
+now inside dnn_gradweight3D
+kshp = [256   1  24  24  24]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 128, 28, 28, 28)
+shape of kshp_64 = [128   1  28  28  28]
+should be 1D tensor, shape of kshp = (None, 128, 28, 28, 28)
+now inside dnn_gradweight3D
+kshp = [128   1  28  28  28]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 128, 28, 28, 28)
+shape of kshp_64 = [128   1  28  28  28]
+should be 1D tensor, shape of kshp = (None, 128, 28, 28, 28)
+now inside dnn_gradweight3D
+kshp = [128   1  28  28  28]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 256, 24, 24, 24)
+shape of kshp_64 = [256   1  24  24  24]
+should be 1D tensor, shape of kshp = (None, 256, 24, 24, 24)
+now inside dnn_gradweight3D
+kshp = [256   1  24  24  24]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 256, 24, 24, 24)
+shape of kshp_64 = [256   1  24  24  24]
+should be 1D tensor, shape of kshp = (None, 256, 24, 24, 24)
+now inside dnn_gradweight3D
+kshp = [256   1  24  24  24]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+starting training...
+Epoch 1, batch 10: Loss 3756.95, acc 0.575931, acc_guess_all0 0.962738
+Epoch 1, batch 20: Loss 3327.3, acc 0.470372, acc_guess_all0 0.954118
+Epoch 1, batch 30: Loss 2702.11, acc 0.333143, acc_guess_all0 0.952714
+Epoch 1, batch 40: Loss 5840.66, acc 0.417929, acc_guess_all0 0.952317
+Epoch 1, batch 50: Loss 3465.67, acc 0.435062, acc_guess_all0 0.953798
+Epoch 1, batch 60: Loss 3922.71, acc 0.438699, acc_guess_all0 0.954971
+Epoch 1, batch 70: Loss 2877.99, acc 0.412351, acc_guess_all0 0.95432
+Epoch 1, batch 80: Loss 3347.42, acc 0.42876, acc_guess_all0 0.95479
+Epoch 1, batch 90: Loss 2496.42, acc 0.447209, acc_guess_all0 0.955871
+Epoch 1, batch 100: Loss 3796.74, acc 0.458793, acc_guess_all0 0.955897
+Epoch 1, batch 110: Loss 3613.79, acc 0.456393, acc_guess_all0 0.955695
+Epoch 1, batch 120: Loss 3398.12, acc 0.465827, acc_guess_all0 0.956518
+Epoch 1, batch 130: Loss 3978.69, acc 0.477276, acc_guess_all0 0.956348
+Epoch 1, batch 140: Loss 4478.71, acc 0.456469, acc_guess_all0 0.955843
+Epoch 1, batch 150: Loss 2170.84, acc 0.470611, acc_guess_all0 0.956308
+Epoch 1, batch 160: Loss 2433.78, acc 0.487637, acc_guess_all0 0.956992
+Epoch 1, batch 170: Loss 3805.67, acc 0.493166, acc_guess_all0 0.956765
+Epoch 1, batch 180: Loss 4214.01, acc 0.478538, acc_guess_all0 0.95661
+Epoch 1, batch 190: Loss 3539.94, acc 0.486011, acc_guess_all0 0.956964
+Epoch 1, batch 200: Loss 3841.29, acc 0.486971, acc_guess_all0 0.956793
+Epoch 1, batch 210: Loss 4360.5, acc 0.478043, acc_guess_all0 0.95679
+Epoch 1, batch 220: Loss 5372.64, acc 0.483544, acc_guess_all0 0.956613
+Epoch 1, batch 230: Loss 2863.15, acc 0.471267, acc_guess_all0 0.956533
+Epoch 1, batch 240: Loss 4384.6, acc 0.484318, acc_guess_all0 0.956721
+Epoch 1, batch 250: Loss 2518.06, acc 0.482284, acc_guess_all0 0.956823
+Epoch 1, batch 260: Loss 5833.63, acc 0.48759, acc_guess_all0 0.957168
+Epoch 1, batch 270: Loss 3751.99, acc 0.493698, acc_guess_all0 0.957302
+Epoch 1, batch 280: Loss 3468.76, acc 0.481287, acc_guess_all0 0.957193
+Epoch 1, batch 290: Loss 4442.21, acc 0.478136, acc_guess_all0 0.956995
+Epoch 1, batch 300: Loss 4120.58, acc 0.469295, acc_guess_all0 0.957263
+Epoch 1, batch 310: Loss 3375.2, acc 0.478169, acc_guess_all0 0.957588
+Epoch 1, batch 320: Loss 4674.05, acc 0.482819, acc_guess_all0 0.95768
+Epoch 1, batch 330: Loss 2074.53, acc 0.483076, acc_guess_all0 0.958106
+Epoch 1, batch 340: Loss 3507.79, acc 0.487602, acc_guess_all0 0.958141
+Epoch 1, batch 350: Loss 3807.92, acc 0.495901, acc_guess_all0 0.95833
+Epoch 1, batch 360: Loss 3090.45, acc 0.496747, acc_guess_all0 0.95829
+Epoch 1, batch 370: Loss 1475.92, acc 0.497339, acc_guess_all0 0.958353
+Epoch 1, batch 380: Loss 3044.12, acc 0.501439, acc_guess_all0 0.958405
+Epoch 1, batch 390: Loss 4077.47, acc 0.505669, acc_guess_all0 0.958631
+Epoch 1, batch 400: Loss 4577.43, acc 0.504669, acc_guess_all0 0.958495
+Epoch 1, batch 410: Loss 3726.99, acc 0.505116, acc_guess_all0 0.958508
+Epoch 1, batch 420: Loss 5253.85, acc 0.506584, acc_guess_all0 0.958439
+Epoch 1, batch 430: Loss 3032.69, acc 0.507773, acc_guess_all0 0.958531
+Epoch 1, batch 440: Loss 2892.8, acc 0.508287, acc_guess_all0 0.958545
+Epoch 1, batch 450: Loss 3357.83, acc 0.508834, acc_guess_all0 0.958541
+Epoch 1, batch 460: Loss 2226.6, acc 0.511417, acc_guess_all0 0.958746
+Epoch 1, batch 470: Loss 3630.76, acc 0.512299, acc_guess_all0 0.958571
+Epoch 1, batch 480: Loss 3266.44, acc 0.516098, acc_guess_all0 0.958686
+Epoch 1, batch 490: Loss 4789.69, acc 0.516834, acc_guess_all0 0.958558
+Epoch 1, batch 500: Loss 3868.64, acc 0.510908, acc_guess_all0 0.95853
+Epoch 1, batch 510: Loss 4079, acc 0.506404, acc_guess_all0 0.958293
+Epoch 1, batch 520: Loss 3892.12, acc 0.498567, acc_guess_all0 0.958112
+Epoch 1, batch 530: Loss 3962.46, acc 0.500462, acc_guess_all0 0.95813
+Epoch 1, batch 540: Loss 4289.59, acc 0.501259, acc_guess_all0 0.958095
+Epoch 1, batch 550: Loss 8226.13, acc 0.501789, acc_guess_all0 0.957901
+Epoch 1, batch 560: Loss 3615.83, acc 0.495877, acc_guess_all0 0.95785
+Epoch 1, batch 570: Loss 3337.73, acc 0.489271, acc_guess_all0 0.957733
+Epoch 1, batch 580: Loss 5506.14, acc 0.492073, acc_guess_all0 0.957937
+Epoch 1, batch 590: Loss 3675, acc 0.493999, acc_guess_all0 0.957899
+Epoch 1, batch 600: Loss 3523.06, acc 0.493372, acc_guess_all0 0.957951
+Epoch 1, batch 610: Loss 3088.9, acc 0.494214, acc_guess_all0 0.95794
+Epoch 1, batch 620: Loss 3466.36, acc 0.488957, acc_guess_all0 0.957837
+Epoch 1, batch 630: Loss 3058.2, acc 0.489821, acc_guess_all0 0.957918
+Epoch 1, batch 640: Loss 3690.15, acc 0.492859, acc_guess_all0 0.957925
+Epoch 1, batch 650: Loss 4746.01, acc 0.491881, acc_guess_all0 0.957866
+Epoch 1, batch 660: Loss 3484.94, acc 0.494089, acc_guess_all0 0.957999
+Epoch 1, batch 670: Loss 2006.18, acc 0.495082, acc_guess_all0 0.958035
+Epoch 1, batch 680: Loss 5452.57, acc 0.49867, acc_guess_all0 0.958127
+Epoch 1, batch 690: Loss 2510.06, acc 0.501531, acc_guess_all0 0.958276
+Epoch 1, batch 700: Loss 3508.35, acc 0.504545, acc_guess_all0 0.958367
+Epoch 1, batch 710: Loss 3669.2, acc 0.505475, acc_guess_all0 0.9584
+Epoch 1, batch 720: Loss 2295.96, acc 0.507229, acc_guess_all0 0.958521
+Epoch 1, batch 730: Loss 2410.75, acc 0.507564, acc_guess_all0 0.958459
+Epoch 1, batch 740: Loss 3280.13, acc 0.510735, acc_guess_all0 0.95847
+Epoch 1, batch 750: Loss 1746.53, acc 0.509011, acc_guess_all0 0.958504
+Epoch 1, batch 760: Loss 3789.37, acc 0.511655, acc_guess_all0 0.958599
+Epoch 1, batch 770: Loss 4001.22, acc 0.513298, acc_guess_all0 0.958636
+Epoch 1, batch 780: Loss 4842.39, acc 0.51152, acc_guess_all0 0.958594
+Epoch 1, batch 790: Loss 4339.78, acc 0.506658, acc_guess_all0 0.958574
+Epoch 1, batch 800: Loss 3853.78, acc 0.506896, acc_guess_all0 0.958559
+Epoch 1, batch 810: Loss 4368.28, acc 0.50791, acc_guess_all0 0.958548
+Epoch 1, batch 820: Loss 2762.96, acc 0.508774, acc_guess_all0 0.958612
+Epoch 1, batch 830: Loss 3713.97, acc 0.50828, acc_guess_all0 0.958544
+Epoch 1, batch 840: Loss 2783.88, acc 0.506611, acc_guess_all0 0.958491
+Epoch 1, batch 850: Loss 3158.58, acc 0.507294, acc_guess_all0 0.958493
+Epoch 1, batch 860: Loss 2538.69, acc 0.502032, acc_guess_all0 0.958357
+Epoch 1, batch 870: Loss 4645.69, acc 0.501509, acc_guess_all0 0.958285
+Epoch 1, batch 880: Loss 3595.94, acc 0.504582, acc_guess_all0 0.958369
+Epoch 1, batch 890: Loss 2143.95, acc 0.504685, acc_guess_all0 0.958406
+Epoch 1, batch 900: Loss 4812.15, acc 0.505762, acc_guess_all0 0.958331
+Epoch 1, batch 910: Loss 3306.36, acc 0.504389, acc_guess_all0 0.958323
+Epoch 1, batch 920: Loss 2826.03, acc 0.501703, acc_guess_all0 0.958335
+Epoch 1, batch 930: Loss 5859.88, acc 0.500288, acc_guess_all0 0.95815
+starting validation...
+val_acc 0.531854
+Epoch 2, batch 10: Loss 3179.31, acc 0.850813, acc_guess_all0 0.97148
+Epoch 2, batch 20: Loss 3143.75, acc 0.648748, acc_guess_all0 0.960133
+Epoch 2, batch 30: Loss 4604.54, acc 0.678591, acc_guess_all0 0.96014
+Epoch 2, batch 40: Loss 4598.22, acc 0.63392, acc_guess_all0 0.959869
+Epoch 2, batch 50: Loss 3608.24, acc 0.622422, acc_guess_all0 0.960733
+Epoch 2, batch 60: Loss 2886.67, acc 0.585253, acc_guess_all0 0.958952
+Epoch 2, batch 70: Loss 3520.61, acc 0.606856, acc_guess_all0 0.959471
+Epoch 2, batch 80: Loss 3024.08, acc 0.620944, acc_guess_all0 0.960347
+Epoch 2, batch 90: Loss 4074.66, acc 0.623936, acc_guess_all0 0.960075
+Epoch 2, batch 100: Loss 2062.56, acc 0.57157, acc_guess_all0 0.958982
+Epoch 2, batch 110: Loss 3922.61, acc 0.568223, acc_guess_all0 0.958893
+Epoch 2, batch 120: Loss 2873.29, acc 0.563302, acc_guess_all0 0.958602
+Epoch 2, batch 130: Loss 5162.46, acc 0.581367, acc_guess_all0 0.958675
+Epoch 2, batch 140: Loss 3039.07, acc 0.574605, acc_guess_all0 0.958348
+Epoch 2, batch 150: Loss 3192.32, acc 0.575093, acc_guess_all0 0.958774
+Epoch 2, batch 160: Loss 2324.91, acc 0.574441, acc_guess_all0 0.958763
+Epoch 2, batch 170: Loss 3516.43, acc 0.581613, acc_guess_all0 0.958887
+Epoch 2, batch 180: Loss 3744.93, acc 0.582823, acc_guess_all0 0.958699
+Epoch 2, batch 190: Loss 3387.47, acc 0.569255, acc_guess_all0 0.958573
+Epoch 2, batch 200: Loss 3158.64, acc 0.560962, acc_guess_all0 0.958463
+Epoch 2, batch 210: Loss 2356.73, acc 0.570977, acc_guess_all0 0.95905
+Epoch 2, batch 220: Loss 3338.69, acc 0.567565, acc_guess_all0 0.958548
+Epoch 2, batch 230: Loss 4355.11, acc 0.545461, acc_guess_all0 0.957934
+Epoch 2, batch 240: Loss 3290.26, acc 0.54218, acc_guess_all0 0.958077
+Epoch 2, batch 250: Loss 2733.07, acc 0.547597, acc_guess_all0 0.958387
+Epoch 2, batch 260: Loss 2977.04, acc 0.540869, acc_guess_all0 0.958251
+Epoch 2, batch 270: Loss 4871.58, acc 0.546069, acc_guess_all0 0.958305
+Epoch 2, batch 280: Loss 3171.75, acc 0.549096, acc_guess_all0 0.958496
+Epoch 2, batch 290: Loss 2558.85, acc 0.546283, acc_guess_all0 0.958437
+Epoch 2, batch 300: Loss 4691.04, acc 0.553311, acc_guess_all0 0.958782
+Epoch 2, batch 310: Loss 2402.8, acc 0.553358, acc_guess_all0 0.958956
+Epoch 2, batch 320: Loss 3592.89, acc 0.551371, acc_guess_all0 0.958764
+Epoch 2, batch 330: Loss 3539.32, acc 0.5395, acc_guess_all0 0.958499
+Epoch 2, batch 340: Loss 3974.49, acc 0.533226, acc_guess_all0 0.958247
+Epoch 2, batch 350: Loss 5142.45, acc 0.528243, acc_guess_all0 0.9579
+Epoch 2, batch 360: Loss 1985.37, acc 0.529518, acc_guess_all0 0.958261
+Epoch 2, batch 370: Loss 4236.46, acc 0.532646, acc_guess_all0 0.95818
+Epoch 2, batch 380: Loss 3561.18, acc 0.534082, acc_guess_all0 0.958146
+Epoch 2, batch 390: Loss 1898.52, acc 0.535322, acc_guess_all0 0.958376
+Epoch 2, batch 400: Loss 3420.33, acc 0.538573, acc_guess_all0 0.958564
+Epoch 2, batch 410: Loss 3026.42, acc 0.537811, acc_guess_all0 0.958441
+Epoch 2, batch 420: Loss 5296.16, acc 0.539272, acc_guess_all0 0.958239
+Epoch 2, batch 430: Loss 4198.06, acc 0.533446, acc_guess_all0 0.958151
+Epoch 2, batch 440: Loss 4004.97, acc 0.523161, acc_guess_all0 0.957812
+Epoch 2, batch 450: Loss 1847.37, acc 0.524346, acc_guess_all0 0.957947
+Epoch 2, batch 460: Loss 3377.72, acc 0.524872, acc_guess_all0 0.957931
+Epoch 2, batch 470: Loss 3842.34, acc 0.524821, acc_guess_all0 0.957811
+Epoch 2, batch 480: Loss 2820.12, acc 0.521325, acc_guess_all0 0.957707
+Epoch 2, batch 490: Loss 3346.34, acc 0.527415, acc_guess_all0 0.957892
+Epoch 2, batch 500: Loss 3352.36, acc 0.522848, acc_guess_all0 0.957689
+Epoch 2, batch 510: Loss 4459.03, acc 0.515898, acc_guess_all0 0.95743
+Epoch 2, batch 520: Loss 4684.69, acc 0.51776, acc_guess_all0 0.957699
+Epoch 2, batch 530: Loss 3209.25, acc 0.518251, acc_guess_all0 0.9577
+Epoch 2, batch 540: Loss 1710.25, acc 0.512125, acc_guess_all0 0.957776
+Epoch 2, batch 550: Loss 4016.66, acc 0.516272, acc_guess_all0 0.957974
+Epoch 2, batch 560: Loss 3272.02, acc 0.518189, acc_guess_all0 0.957861
+Epoch 2, batch 570: Loss 3513.79, acc 0.517746, acc_guess_all0 0.957738
+Epoch 2, batch 580: Loss 3614.68, acc 0.513226, acc_guess_all0 0.957577
+Epoch 2, batch 590: Loss 2371.48, acc 0.509265, acc_guess_all0 0.957696
+Epoch 2, batch 600: Loss 2539.51, acc 0.51057, acc_guess_all0 0.957702
+Epoch 2, batch 610: Loss 3404.14, acc 0.513664, acc_guess_all0 0.957746
+Epoch 2, batch 620: Loss 2066.61, acc 0.51091, acc_guess_all0 0.95782
+Epoch 2, batch 630: Loss 3168.33, acc 0.511685, acc_guess_all0 0.957882
+Epoch 2, batch 640: Loss 3203.38, acc 0.514348, acc_guess_all0 0.957989
+Epoch 2, batch 650: Loss 4095.06, acc 0.513571, acc_guess_all0 0.957869
+Epoch 2, batch 660: Loss 4157.48, acc 0.512215, acc_guess_all0 0.957906
+Epoch 2, batch 670: Loss 4160.29, acc 0.507608, acc_guess_all0 0.95772
+Epoch 2, batch 680: Loss 3330.12, acc 0.505716, acc_guess_all0 0.957613
+Epoch 2, batch 690: Loss 5084.66, acc 0.50431, acc_guess_all0 0.957505
+Epoch 2, batch 700: Loss 3918.54, acc 0.503272, acc_guess_all0 0.957587
+Epoch 2, batch 710: Loss 4393.25, acc 0.503886, acc_guess_all0 0.957495
+Epoch 2, batch 720: Loss 3936.28, acc 0.503698, acc_guess_all0 0.95753
+Epoch 2, batch 730: Loss 4344.1, acc 0.503595, acc_guess_all0 0.957561
+Epoch 2, batch 740: Loss 3832.96, acc 0.498184, acc_guess_all0 0.957431
+Epoch 2, batch 750: Loss 2673.1, acc 0.498983, acc_guess_all0 0.957431
+Epoch 2, batch 760: Loss 3605.47, acc 0.500828, acc_guess_all0 0.957441
+Epoch 2, batch 770: Loss 4426.39, acc 0.498065, acc_guess_all0 0.957364
+Epoch 2, batch 780: Loss 3750.32, acc 0.494645, acc_guess_all0 0.957315
+Epoch 2, batch 790: Loss 4916.88, acc 0.496388, acc_guess_all0 0.957247
+Epoch 2, batch 800: Loss 3495.98, acc 0.493006, acc_guess_all0 0.957211
+Epoch 2, batch 810: Loss 4481.71, acc 0.495305, acc_guess_all0 0.95732
+Epoch 2, batch 820: Loss 4272.42, acc 0.496435, acc_guess_all0 0.957291
+Epoch 2, batch 830: Loss 2361.48, acc 0.497118, acc_guess_all0 0.95738
+Epoch 2, batch 840: Loss 3399.32, acc 0.498847, acc_guess_all0 0.957435
+Epoch 2, batch 850: Loss 5748.01, acc 0.495459, acc_guess_all0 0.957353
+Epoch 2, batch 860: Loss 2982.05, acc 0.496557, acc_guess_all0 0.957412
+Epoch 2, batch 870: Loss 3113.19, acc 0.497795, acc_guess_all0 0.957498
+Epoch 2, batch 880: Loss 4019.36, acc 0.498382, acc_guess_all0 0.957479
+Epoch 2, batch 890: Loss 4379.99, acc 0.498516, acc_guess_all0 0.957462
+Epoch 2, batch 900: Loss 2366.82, acc 0.494448, acc_guess_all0 0.957409
+Epoch 2, batch 910: Loss 4347.28, acc 0.495844, acc_guess_all0 0.957341
+Epoch 2, batch 920: Loss 3230.33, acc 0.494326, acc_guess_all0 0.957409
+Epoch 2, batch 930: Loss 2453.37, acc 0.495302, acc_guess_all0 0.957449
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-2-0.494_0.957.model
+starting validation...
+val_acc 0.0378361
+Epoch 3, batch 10: Loss 4470.9, acc 0.138268, acc_guess_all0 0.949879
+Epoch 3, batch 20: Loss 2686.76, acc 0.366411, acc_guess_all0 0.9579
+Epoch 3, batch 30: Loss 4108.31, acc 0.393219, acc_guess_all0 0.955473
+Epoch 3, batch 40: Loss 3852.29, acc 0.401626, acc_guess_all0 0.955634
+Epoch 3, batch 50: Loss 3607.65, acc 0.454928, acc_guess_all0 0.957063
+Epoch 3, batch 60: Loss 3079.72, acc 0.449766, acc_guess_all0 0.956745
+Epoch 3, batch 70: Loss 2802.95, acc 0.429348, acc_guess_all0 0.956457
+Epoch 3, batch 80: Loss 3460.15, acc 0.442954, acc_guess_all0 0.956553
+Epoch 3, batch 90: Loss 3843.04, acc 0.472961, acc_guess_all0 0.956825
+Epoch 3, batch 100: Loss 2905.98, acc 0.481716, acc_guess_all0 0.956825
+Epoch 3, batch 110: Loss 3866.84, acc 0.472312, acc_guess_all0 0.956046
+Epoch 3, batch 120: Loss 4306.1, acc 0.469455, acc_guess_all0 0.955738
+Epoch 3, batch 130: Loss 1632.86, acc 0.477133, acc_guess_all0 0.95631
+Epoch 3, batch 140: Loss 3801.43, acc 0.484514, acc_guess_all0 0.956407
+Epoch 3, batch 150: Loss 3109.76, acc 0.497808, acc_guess_all0 0.956843
+Epoch 3, batch 160: Loss 3912.14, acc 0.503915, acc_guess_all0 0.957065
+Epoch 3, batch 170: Loss 3428.49, acc 0.494471, acc_guess_all0 0.95709
+Epoch 3, batch 180: Loss 4781, acc 0.502277, acc_guess_all0 0.957097
+Epoch 3, batch 190: Loss 4769.59, acc 0.491474, acc_guess_all0 0.956823
+Epoch 3, batch 200: Loss 2837.19, acc 0.481436, acc_guess_all0 0.956788
+Epoch 3, batch 210: Loss 4067.77, acc 0.490972, acc_guess_all0 0.956845
+Epoch 3, batch 220: Loss 3832.19, acc 0.484201, acc_guess_all0 0.956762
+Epoch 3, batch 230: Loss 5174.84, acc 0.497006, acc_guess_all0 0.957213
+Epoch 3, batch 240: Loss 3818.6, acc 0.487605, acc_guess_all0 0.957019
+Epoch 3, batch 250: Loss 3316.02, acc 0.495626, acc_guess_all0 0.95706
+Epoch 3, batch 260: Loss 1348.14, acc 0.492607, acc_guess_all0 0.957369
+Epoch 3, batch 270: Loss 7455.78, acc 0.499627, acc_guess_all0 0.957498
+Epoch 3, batch 280: Loss 3087.39, acc 0.497034, acc_guess_all0 0.957596
+Epoch 3, batch 290: Loss 3351.94, acc 0.487657, acc_guess_all0 0.957688
+Epoch 3, batch 300: Loss 2444.58, acc 0.491251, acc_guess_all0 0.957765
+Epoch 3, batch 310: Loss 3762.25, acc 0.492282, acc_guess_all0 0.957488
+Epoch 3, batch 320: Loss 4381.46, acc 0.500676, acc_guess_all0 0.957665
+Epoch 3, batch 330: Loss 4121.69, acc 0.491506, acc_guess_all0 0.957611
+Epoch 3, batch 340: Loss 4581.26, acc 0.493013, acc_guess_all0 0.957653
+Epoch 3, batch 350: Loss 3031.24, acc 0.488221, acc_guess_all0 0.957439
+Epoch 3, batch 360: Loss 4107.39, acc 0.494488, acc_guess_all0 0.957631
+Epoch 3, batch 370: Loss 2915.47, acc 0.501561, acc_guess_all0 0.957826
+Epoch 3, batch 380: Loss 3338.3, acc 0.498553, acc_guess_all0 0.957855
+Epoch 3, batch 390: Loss 5625.68, acc 0.503308, acc_guess_all0 0.957962
+Epoch 3, batch 400: Loss 4212.61, acc 0.506871, acc_guess_all0 0.958069
+Epoch 3, batch 410: Loss 1955.87, acc 0.5143, acc_guess_all0 0.958399
+Epoch 3, batch 420: Loss 3433.21, acc 0.518358, acc_guess_all0 0.958471
+Epoch 3, batch 430: Loss 4570.27, acc 0.515023, acc_guess_all0 0.958146
+Epoch 3, batch 440: Loss 4088.53, acc 0.510699, acc_guess_all0 0.957961
+Epoch 3, batch 450: Loss 3849.22, acc 0.512847, acc_guess_all0 0.958091
+Epoch 3, batch 460: Loss 3529.01, acc 0.51997, acc_guess_all0 0.958209
+Epoch 3, batch 470: Loss 1057.54, acc 0.519029, acc_guess_all0 0.958499
+Epoch 3, batch 480: Loss 3763.42, acc 0.520791, acc_guess_all0 0.958379
+Epoch 3, batch 490: Loss 5631.59, acc 0.522641, acc_guess_all0 0.958508
+Epoch 3, batch 500: Loss 4330.49, acc 0.524268, acc_guess_all0 0.958507
+Epoch 3, batch 510: Loss 4096.4, acc 0.525064, acc_guess_all0 0.9585
+Epoch 3, batch 520: Loss 4946.15, acc 0.52709, acc_guess_all0 0.958441
+Epoch 3, batch 530: Loss 3704.76, acc 0.52526, acc_guess_all0 0.958429
+Epoch 3, batch 540: Loss 3286.66, acc 0.525488, acc_guess_all0 0.958443
+Epoch 3, batch 550: Loss 4202.77, acc 0.528384, acc_guess_all0 0.958502
+Epoch 3, batch 560: Loss 3913.65, acc 0.522413, acc_guess_all0 0.958276
+Epoch 3, batch 570: Loss 4494.08, acc 0.520409, acc_guess_all0 0.958127
+Epoch 3, batch 580: Loss 5011.15, acc 0.519543, acc_guess_all0 0.958056
+Epoch 3, batch 590: Loss 2996.81, acc 0.519591, acc_guess_all0 0.958173
+Epoch 3, batch 600: Loss 3414.04, acc 0.51829, acc_guess_all0 0.958087
+Epoch 3, batch 610: Loss 4349.34, acc 0.52335, acc_guess_all0 0.95822
+Epoch 3, batch 620: Loss 5520.42, acc 0.524673, acc_guess_all0 0.958228
+Epoch 3, batch 630: Loss 3551.94, acc 0.521654, acc_guess_all0 0.958198
+Epoch 3, batch 640: Loss 3471.46, acc 0.52419, acc_guess_all0 0.95827
+Epoch 3, batch 650: Loss 5672.18, acc 0.525027, acc_guess_all0 0.958435
+Epoch 3, batch 660: Loss 2571.66, acc 0.525419, acc_guess_all0 0.958379
+Epoch 3, batch 670: Loss 4820.02, acc 0.525612, acc_guess_all0 0.958353
+Epoch 3, batch 680: Loss 3573.42, acc 0.526386, acc_guess_all0 0.958363
+Epoch 3, batch 690: Loss 5147.76, acc 0.52834, acc_guess_all0 0.958375
+Epoch 3, batch 700: Loss 3725.33, acc 0.527877, acc_guess_all0 0.958381
+Epoch 3, batch 710: Loss 3843.96, acc 0.530747, acc_guess_all0 0.958463
+Epoch 3, batch 720: Loss 4106.89, acc 0.531242, acc_guess_all0 0.958373
+Epoch 3, batch 730: Loss 4063.51, acc 0.531304, acc_guess_all0 0.958361
+Epoch 3, batch 740: Loss 4709.71, acc 0.531579, acc_guess_all0 0.958301
+Epoch 3, batch 750: Loss 4429.48, acc 0.530219, acc_guess_all0 0.958248
+Epoch 3, batch 760: Loss 3354.29, acc 0.52993, acc_guess_all0 0.958333
+Epoch 3, batch 770: Loss 3837.39, acc 0.531767, acc_guess_all0 0.958435
+Epoch 3, batch 780: Loss 3678.94, acc 0.532265, acc_guess_all0 0.958439
+Epoch 3, batch 790: Loss 4269.53, acc 0.535178, acc_guess_all0 0.958525
+Epoch 3, batch 800: Loss 3815.99, acc 0.53092, acc_guess_all0 0.958368
+Epoch 3, batch 810: Loss 2723.86, acc 0.532203, acc_guess_all0 0.958501
+Epoch 3, batch 820: Loss 3555.67, acc 0.532827, acc_guess_all0 0.958484
+Epoch 3, batch 830: Loss 1796.44, acc 0.532237, acc_guess_all0 0.958494
+Epoch 3, batch 840: Loss 4217.8, acc 0.534892, acc_guess_all0 0.958519
+Epoch 3, batch 850: Loss 3977.05, acc 0.534437, acc_guess_all0 0.95858
+Epoch 3, batch 860: Loss 3785.1, acc 0.533057, acc_guess_all0 0.958542
+Epoch 3, batch 870: Loss 3177.68, acc 0.533434, acc_guess_all0 0.958501
+Epoch 3, batch 880: Loss 4112.56, acc 0.533404, acc_guess_all0 0.958477
+Epoch 3, batch 890: Loss 3504.53, acc 0.531808, acc_guess_all0 0.958482
+Epoch 3, batch 900: Loss 4012.94, acc 0.531319, acc_guess_all0 0.958479
+Epoch 3, batch 910: Loss 4420.49, acc 0.53064, acc_guess_all0 0.958371
+Epoch 3, batch 920: Loss 2299.02, acc 0.527681, acc_guess_all0 0.958312
+Epoch 3, batch 930: Loss 2666.93, acc 0.529606, acc_guess_all0 0.958369
+starting validation...
+val_acc 0.0490592
+Epoch 4, batch 10: Loss 3014.92, acc 0.188371, acc_guess_all0 0.954948
+Epoch 4, batch 20: Loss 4035.27, acc 0.47186, acc_guess_all0 0.955354
+Epoch 4, batch 30: Loss 3014.98, acc 0.410892, acc_guess_all0 0.955233
+Epoch 4, batch 40: Loss 2493.61, acc 0.389009, acc_guess_all0 0.955063
+Epoch 4, batch 50: Loss 3488.93, acc 0.439396, acc_guess_all0 0.956071
+Epoch 4, batch 60: Loss 2309.13, acc 0.49883, acc_guess_all0 0.95855
+Epoch 4, batch 70: Loss 3811.6, acc 0.504558, acc_guess_all0 0.957971
+Epoch 4, batch 80: Loss 3459.88, acc 0.484678, acc_guess_all0 0.957314
+Epoch 4, batch 90: Loss 3242.68, acc 0.470287, acc_guess_all0 0.956739
+Epoch 4, batch 100: Loss 5714.88, acc 0.501303, acc_guess_all0 0.956875
+Epoch 4, batch 110: Loss 3684.23, acc 0.472638, acc_guess_all0 0.956642
+Epoch 4, batch 120: Loss 3004.9, acc 0.488447, acc_guess_all0 0.956673
+Epoch 4, batch 130: Loss 3581.7, acc 0.481217, acc_guess_all0 0.956583
+Epoch 4, batch 140: Loss 2663.62, acc 0.480397, acc_guess_all0 0.956818
+Epoch 4, batch 150: Loss 3135.86, acc 0.457574, acc_guess_all0 0.955753
+Epoch 4, batch 160: Loss 3085.66, acc 0.460951, acc_guess_all0 0.955671
+Epoch 4, batch 170: Loss 4258.88, acc 0.469355, acc_guess_all0 0.955555
+Epoch 4, batch 180: Loss 3653.01, acc 0.460976, acc_guess_all0 0.955403
+Epoch 4, batch 190: Loss 1934.36, acc 0.461453, acc_guess_all0 0.955632
+Epoch 4, batch 200: Loss 3989.71, acc 0.468722, acc_guess_all0 0.955441
+Epoch 4, batch 210: Loss 3881.52, acc 0.474269, acc_guess_all0 0.955798
+Epoch 4, batch 220: Loss 3970.82, acc 0.473051, acc_guess_all0 0.956219
+Epoch 4, batch 230: Loss 4389.72, acc 0.481104, acc_guess_all0 0.956043
+Epoch 4, batch 240: Loss 4099.82, acc 0.483044, acc_guess_all0 0.956344
+Epoch 4, batch 250: Loss 2443.57, acc 0.494898, acc_guess_all0 0.956815
+Epoch 4, batch 260: Loss 4097.94, acc 0.489477, acc_guess_all0 0.956533
+Epoch 4, batch 270: Loss 3834.64, acc 0.49698, acc_guess_all0 0.95693
+Epoch 4, batch 280: Loss 3959.3, acc 0.488117, acc_guess_all0 0.956369
+Epoch 4, batch 290: Loss 5072.54, acc 0.490171, acc_guess_all0 0.956452
+Epoch 4, batch 300: Loss 2773.64, acc 0.480871, acc_guess_all0 0.956283
+Epoch 4, batch 310: Loss 2619.45, acc 0.478112, acc_guess_all0 0.956228
+Epoch 4, batch 320: Loss 3085.33, acc 0.484998, acc_guess_all0 0.956447
+Epoch 4, batch 330: Loss 3032.4, acc 0.49855, acc_guess_all0 0.956931
+Epoch 4, batch 340: Loss 4124.63, acc 0.499243, acc_guess_all0 0.957048
+Epoch 4, batch 350: Loss 3219.35, acc 0.492746, acc_guess_all0 0.956991
+Epoch 4, batch 360: Loss 2907.97, acc 0.492441, acc_guess_all0 0.957002
+Epoch 4, batch 370: Loss 2538.98, acc 0.493935, acc_guess_all0 0.95705
+Epoch 4, batch 380: Loss 3307.04, acc 0.495256, acc_guess_all0 0.95703
+Epoch 4, batch 390: Loss 3895.8, acc 0.493532, acc_guess_all0 0.957056
+Epoch 4, batch 400: Loss 2751.93, acc 0.487885, acc_guess_all0 0.956866
+Epoch 4, batch 410: Loss 2047.91, acc 0.49458, acc_guess_all0 0.957061
+Epoch 4, batch 420: Loss 4213.33, acc 0.489933, acc_guess_all0 0.956709
+Epoch 4, batch 430: Loss 4509.81, acc 0.488459, acc_guess_all0 0.956665
+Epoch 4, batch 440: Loss 3860.91, acc 0.48528, acc_guess_all0 0.956652
+Epoch 4, batch 450: Loss 3279.88, acc 0.48263, acc_guess_all0 0.956627
+Epoch 4, batch 460: Loss 4276.96, acc 0.48403, acc_guess_all0 0.956544
+Epoch 4, batch 470: Loss 3826.63, acc 0.482691, acc_guess_all0 0.9566
+Epoch 4, batch 480: Loss 4333.43, acc 0.479121, acc_guess_all0 0.956555
+Epoch 4, batch 490: Loss 3978.79, acc 0.477251, acc_guess_all0 0.956458
+Epoch 4, batch 500: Loss 2854.38, acc 0.477433, acc_guess_all0 0.956438
+Epoch 4, batch 510: Loss 3126.04, acc 0.48033, acc_guess_all0 0.9566
+Epoch 4, batch 520: Loss 4595.22, acc 0.485327, acc_guess_all0 0.95673
+Epoch 4, batch 530: Loss 3265.83, acc 0.486576, acc_guess_all0 0.95675
+Epoch 4, batch 540: Loss 6206.14, acc 0.494319, acc_guess_all0 0.956987
+Epoch 4, batch 550: Loss 2800.7, acc 0.493099, acc_guess_all0 0.957099
+Epoch 4, batch 560: Loss 3395.42, acc 0.497744, acc_guess_all0 0.957165
+Epoch 4, batch 570: Loss 3303.93, acc 0.495715, acc_guess_all0 0.957191
+Epoch 4, batch 580: Loss 2996.73, acc 0.491992, acc_guess_all0 0.956956
+Epoch 4, batch 590: Loss 2871.91, acc 0.496739, acc_guess_all0 0.957043
+Epoch 4, batch 600: Loss 3861.86, acc 0.49833, acc_guess_all0 0.957157
+Epoch 4, batch 610: Loss 3431.19, acc 0.504329, acc_guess_all0 0.95735
+Epoch 4, batch 620: Loss 2831.51, acc 0.500899, acc_guess_all0 0.957302
+Epoch 4, batch 630: Loss 2310.62, acc 0.505531, acc_guess_all0 0.957432
+Epoch 4, batch 640: Loss 3149.71, acc 0.506072, acc_guess_all0 0.957465
+Epoch 4, batch 650: Loss 2132.62, acc 0.503897, acc_guess_all0 0.957453
+Epoch 4, batch 660: Loss 3424.41, acc 0.507064, acc_guess_all0 0.957423
+Epoch 4, batch 670: Loss 4156.2, acc 0.507592, acc_guess_all0 0.957457
+Epoch 4, batch 680: Loss 2710.19, acc 0.504914, acc_guess_all0 0.95754
+Epoch 4, batch 690: Loss 4371.86, acc 0.506275, acc_guess_all0 0.957489
+Epoch 4, batch 700: Loss 2786.26, acc 0.502764, acc_guess_all0 0.957412
+Epoch 4, batch 710: Loss 2790.15, acc 0.50372, acc_guess_all0 0.957462
+Epoch 4, batch 720: Loss 4352.64, acc 0.505316, acc_guess_all0 0.957402
+Epoch 4, batch 730: Loss 3912.6, acc 0.500808, acc_guess_all0 0.957325
+Epoch 4, batch 740: Loss 3805.72, acc 0.504304, acc_guess_all0 0.957373
+Epoch 4, batch 750: Loss 2309.41, acc 0.502773, acc_guess_all0 0.957419
+Epoch 4, batch 760: Loss 3803.41, acc 0.503325, acc_guess_all0 0.957358
+Epoch 4, batch 770: Loss 7499.03, acc 0.506787, acc_guess_all0 0.957445
+Epoch 4, batch 780: Loss 4276.91, acc 0.506281, acc_guess_all0 0.957511
+Epoch 4, batch 790: Loss 4968.56, acc 0.505341, acc_guess_all0 0.957516
+Epoch 4, batch 800: Loss 3709.93, acc 0.504052, acc_guess_all0 0.957481
+Epoch 4, batch 810: Loss 3896.66, acc 0.506645, acc_guess_all0 0.957538
+Epoch 4, batch 820: Loss 2686.69, acc 0.506019, acc_guess_all0 0.9576
+Epoch 4, batch 830: Loss 1483.25, acc 0.510114, acc_guess_all0 0.957773
+Epoch 4, batch 840: Loss 3621.5, acc 0.511833, acc_guess_all0 0.957763
+Epoch 4, batch 850: Loss 4377.24, acc 0.511213, acc_guess_all0 0.957731
+Epoch 4, batch 860: Loss 2446.83, acc 0.508391, acc_guess_all0 0.957695
+Epoch 4, batch 870: Loss 2688.84, acc 0.510602, acc_guess_all0 0.957772
+Epoch 4, batch 880: Loss 5383.39, acc 0.512053, acc_guess_all0 0.957721
+Epoch 4, batch 890: Loss 4083.71, acc 0.512702, acc_guess_all0 0.957803
+Epoch 4, batch 900: Loss 4166.62, acc 0.514483, acc_guess_all0 0.957895
+Epoch 4, batch 910: Loss 4813.88, acc 0.515497, acc_guess_all0 0.957801
+Epoch 4, batch 920: Loss 5295.9, acc 0.514404, acc_guess_all0 0.957752
+Epoch 4, batch 930: Loss 3337.79, acc 0.511726, acc_guess_all0 0.95768
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-4-0.511_0.958.model
+starting validation...
+val_acc 0.932072
+Epoch 5, batch 10: Loss 2913.7, acc 0.455699, acc_guess_all0 0.963268
+Epoch 5, batch 20: Loss 3322, acc 0.629208, acc_guess_all0 0.961058
+Epoch 5, batch 30: Loss 4109.16, acc 0.494815, acc_guess_all0 0.957865
+Epoch 5, batch 40: Loss 3899.24, acc 0.46795, acc_guess_all0 0.955847
+Epoch 5, batch 50: Loss 3746.56, acc 0.461467, acc_guess_all0 0.954663
+Epoch 5, batch 60: Loss 4362.14, acc 0.478272, acc_guess_all0 0.954574
+Epoch 5, batch 70: Loss 2996.53, acc 0.487395, acc_guess_all0 0.956393
+Epoch 5, batch 80: Loss 3651.22, acc 0.50873, acc_guess_all0 0.956446
+Epoch 5, batch 90: Loss 4766.29, acc 0.476167, acc_guess_all0 0.956437
+Epoch 5, batch 100: Loss 4494.49, acc 0.462872, acc_guess_all0 0.956703
+Epoch 5, batch 110: Loss 3749.26, acc 0.473775, acc_guess_all0 0.956649
+Epoch 5, batch 120: Loss 3850.23, acc 0.489747, acc_guess_all0 0.956859
+Epoch 5, batch 130: Loss 3855.58, acc 0.502988, acc_guess_all0 0.957431
+Epoch 5, batch 140: Loss 4131.81, acc 0.499244, acc_guess_all0 0.957528
+Epoch 5, batch 150: Loss 3555.96, acc 0.501768, acc_guess_all0 0.957309
+Epoch 5, batch 160: Loss 4410.68, acc 0.500762, acc_guess_all0 0.957492
+Epoch 5, batch 170: Loss 3670.67, acc 0.500668, acc_guess_all0 0.957326
+Epoch 5, batch 180: Loss 3367.93, acc 0.5001, acc_guess_all0 0.957432
+Epoch 5, batch 190: Loss 3854.25, acc 0.497451, acc_guess_all0 0.957258
+Epoch 5, batch 200: Loss 3781.29, acc 0.496125, acc_guess_all0 0.957119
+Epoch 5, batch 210: Loss 2384.52, acc 0.491533, acc_guess_all0 0.957378
+Epoch 5, batch 220: Loss 4235.28, acc 0.501304, acc_guess_all0 0.957455
+Epoch 5, batch 230: Loss 1708.75, acc 0.492337, acc_guess_all0 0.957567
+Epoch 5, batch 240: Loss 5066.33, acc 0.512367, acc_guess_all0 0.958213
+Epoch 5, batch 250: Loss 3417.82, acc 0.505839, acc_guess_all0 0.958312
+Epoch 5, batch 260: Loss 3798.04, acc 0.507457, acc_guess_all0 0.958156
+Epoch 5, batch 270: Loss 3659.72, acc 0.502039, acc_guess_all0 0.95791
+Epoch 5, batch 280: Loss 3460.14, acc 0.501322, acc_guess_all0 0.95777
+Epoch 5, batch 290: Loss 1974.57, acc 0.49829, acc_guess_all0 0.957937
+Epoch 5, batch 300: Loss 3732.82, acc 0.499495, acc_guess_all0 0.957706
+Epoch 5, batch 310: Loss 3455.51, acc 0.505276, acc_guess_all0 0.957905
+Epoch 5, batch 320: Loss 1891.46, acc 0.500599, acc_guess_all0 0.957987
+Epoch 5, batch 330: Loss 3460.34, acc 0.50682, acc_guess_all0 0.958134
+Epoch 5, batch 340: Loss 4419.44, acc 0.501137, acc_guess_all0 0.957667
+Epoch 5, batch 350: Loss 4322.28, acc 0.501367, acc_guess_all0 0.957574
+Epoch 5, batch 360: Loss 3518.38, acc 0.495117, acc_guess_all0 0.957461
+Epoch 5, batch 370: Loss 3505.9, acc 0.496606, acc_guess_all0 0.957539
+Epoch 5, batch 380: Loss 3072.36, acc 0.498757, acc_guess_all0 0.957701
+Epoch 5, batch 390: Loss 3816.93, acc 0.49999, acc_guess_all0 0.957654
+Epoch 5, batch 400: Loss 3106.12, acc 0.493063, acc_guess_all0 0.957557
+Epoch 5, batch 410: Loss 3867.92, acc 0.490189, acc_guess_all0 0.957369
+Epoch 5, batch 420: Loss 2750.72, acc 0.485714, acc_guess_all0 0.957195
+Epoch 5, batch 430: Loss 3396.17, acc 0.487732, acc_guess_all0 0.95718
+Epoch 5, batch 440: Loss 2255.82, acc 0.495314, acc_guess_all0 0.95742
+Epoch 5, batch 450: Loss 4366.61, acc 0.496378, acc_guess_all0 0.957387
+Epoch 5, batch 460: Loss 3061.93, acc 0.498702, acc_guess_all0 0.957471
+Epoch 5, batch 470: Loss 2761.52, acc 0.498182, acc_guess_all0 0.95736
+Epoch 5, batch 480: Loss 3917.6, acc 0.49906, acc_guess_all0 0.957346
+Epoch 5, batch 490: Loss 5720.91, acc 0.506321, acc_guess_all0 0.957457
+Epoch 5, batch 500: Loss 4029.92, acc 0.500337, acc_guess_all0 0.957444
+Epoch 5, batch 510: Loss 4190.16, acc 0.500898, acc_guess_all0 0.957369
+Epoch 5, batch 520: Loss 4037.08, acc 0.499926, acc_guess_all0 0.95738
+Epoch 5, batch 530: Loss 4252.89, acc 0.504163, acc_guess_all0 0.957472
+Epoch 5, batch 540: Loss 3578.19, acc 0.497584, acc_guess_all0 0.957383
+Epoch 5, batch 550: Loss 3203.91, acc 0.490774, acc_guess_all0 0.957067
+Epoch 5, batch 560: Loss 4885.55, acc 0.497239, acc_guess_all0 0.95721
+Epoch 5, batch 570: Loss 4116.45, acc 0.493764, acc_guess_all0 0.957266
+Epoch 5, batch 580: Loss 4909.72, acc 0.498421, acc_guess_all0 0.957358
+Epoch 5, batch 590: Loss 2945.77, acc 0.494076, acc_guess_all0 0.957331
+Epoch 5, batch 600: Loss 3077.35, acc 0.500102, acc_guess_all0 0.957528
+Epoch 5, batch 610: Loss 4232.35, acc 0.498726, acc_guess_all0 0.957492
+Epoch 5, batch 620: Loss 4292.23, acc 0.495991, acc_guess_all0 0.957459
+Epoch 5, batch 630: Loss 4540.44, acc 0.49427, acc_guess_all0 0.957331
+Epoch 5, batch 640: Loss 2798.47, acc 0.494461, acc_guess_all0 0.957398
+Epoch 5, batch 650: Loss 2779.2, acc 0.497164, acc_guess_all0 0.957516
+Epoch 5, batch 660: Loss 4307.31, acc 0.499089, acc_guess_all0 0.957468
+Epoch 5, batch 670: Loss 4051.2, acc 0.495139, acc_guess_all0 0.95734
+Epoch 5, batch 680: Loss 1952.03, acc 0.499572, acc_guess_all0 0.957482
+Epoch 5, batch 690: Loss 3759.45, acc 0.499137, acc_guess_all0 0.957414
+Epoch 5, batch 700: Loss 3188.42, acc 0.498078, acc_guess_all0 0.957432
+Epoch 5, batch 710: Loss 2050.74, acc 0.501211, acc_guess_all0 0.957584
+Epoch 5, batch 720: Loss 3904.47, acc 0.502502, acc_guess_all0 0.957643
+Epoch 5, batch 730: Loss 3425.24, acc 0.503141, acc_guess_all0 0.957643
+Epoch 5, batch 740: Loss 2764.42, acc 0.498521, acc_guess_all0 0.957565
+Epoch 5, batch 750: Loss 3797.13, acc 0.498295, acc_guess_all0 0.957478
+Epoch 5, batch 760: Loss 2488.6, acc 0.495994, acc_guess_all0 0.957529
+Epoch 5, batch 770: Loss 4828.35, acc 0.497339, acc_guess_all0 0.957432
+Epoch 5, batch 780: Loss 3462.57, acc 0.49741, acc_guess_all0 0.957512
+Epoch 5, batch 790: Loss 4178.36, acc 0.495465, acc_guess_all0 0.957436
+Epoch 5, batch 800: Loss 3622.19, acc 0.497363, acc_guess_all0 0.957516
+Epoch 5, batch 810: Loss 2881.15, acc 0.494543, acc_guess_all0 0.957413
+Epoch 5, batch 820: Loss 5145.87, acc 0.498232, acc_guess_all0 0.957505
+Epoch 5, batch 830: Loss 3832.19, acc 0.495092, acc_guess_all0 0.957477
+Epoch 5, batch 840: Loss 3108.8, acc 0.496893, acc_guess_all0 0.957556
+Epoch 5, batch 850: Loss 2637.23, acc 0.496216, acc_guess_all0 0.957566
+Epoch 5, batch 860: Loss 2290.43, acc 0.498773, acc_guess_all0 0.957674
+Epoch 5, batch 870: Loss 3354.88, acc 0.501206, acc_guess_all0 0.957761
+Epoch 5, batch 880: Loss 4382.4, acc 0.502215, acc_guess_all0 0.957714
+Epoch 5, batch 890: Loss 6114.13, acc 0.5009, acc_guess_all0 0.957716
+Epoch 5, batch 900: Loss 3439.91, acc 0.498608, acc_guess_all0 0.957702
+Epoch 5, batch 910: Loss 4784.35, acc 0.498606, acc_guess_all0 0.957621
+Epoch 5, batch 920: Loss 3144.88, acc 0.49458, acc_guess_all0 0.957547
+Epoch 5, batch 930: Loss 5364.87, acc 0.498812, acc_guess_all0 0.957655
+starting validation...
+val_acc 0.0516175
+Epoch 6, batch 10: Loss 5403.93, acc 0.663057, acc_guess_all0 0.958569
+Epoch 6, batch 20: Loss 3923.52, acc 0.537279, acc_guess_all0 0.95807
+Epoch 6, batch 30: Loss 4626.67, acc 0.538713, acc_guess_all0 0.955462
+Epoch 6, batch 40: Loss 3295.08, acc 0.495042, acc_guess_all0 0.955959
+Epoch 6, batch 50: Loss 4564.13, acc 0.53884, acc_guess_all0 0.95638
+Epoch 6, batch 60: Loss 4282.25, acc 0.56465, acc_guess_all0 0.957751
+Epoch 6, batch 70: Loss 4529.38, acc 0.570998, acc_guess_all0 0.958099
+Epoch 6, batch 80: Loss 3493.16, acc 0.556567, acc_guess_all0 0.957536
+Epoch 6, batch 90: Loss 2924.33, acc 0.558534, acc_guess_all0 0.957743
+Epoch 6, batch 100: Loss 4163.37, acc 0.528853, acc_guess_all0 0.957354
+Epoch 6, batch 110: Loss 4855.83, acc 0.518083, acc_guess_all0 0.956444
+Epoch 6, batch 120: Loss 2814.99, acc 0.518707, acc_guess_all0 0.956693
+Epoch 6, batch 130: Loss 2684.5, acc 0.515032, acc_guess_all0 0.957015
+Epoch 6, batch 140: Loss 5091.52, acc 0.531641, acc_guess_all0 0.957503
+Epoch 6, batch 150: Loss 3081.24, acc 0.518338, acc_guess_all0 0.957364
+Epoch 6, batch 160: Loss 2643.75, acc 0.52455, acc_guess_all0 0.957463
+Epoch 6, batch 170: Loss 3294.48, acc 0.531007, acc_guess_all0 0.957523
+Epoch 6, batch 180: Loss 3918.33, acc 0.532114, acc_guess_all0 0.957578
+Epoch 6, batch 190: Loss 3757.06, acc 0.543595, acc_guess_all0 0.958322
+Epoch 6, batch 200: Loss 2616.71, acc 0.534414, acc_guess_all0 0.958378
+Epoch 6, batch 210: Loss 3440.04, acc 0.52591, acc_guess_all0 0.957849
+Epoch 6, batch 220: Loss 3654.54, acc 0.522511, acc_guess_all0 0.957789
+Epoch 6, batch 230: Loss 3629.47, acc 0.521192, acc_guess_all0 0.957575
+Epoch 6, batch 240: Loss 3905.24, acc 0.516153, acc_guess_all0 0.957326
+Epoch 6, batch 250: Loss 4040.37, acc 0.526036, acc_guess_all0 0.957613
+Epoch 6, batch 260: Loss 4309.16, acc 0.516119, acc_guess_all0 0.957351
+Epoch 6, batch 270: Loss 4884, acc 0.511182, acc_guess_all0 0.957175
+Epoch 6, batch 280: Loss 2824.03, acc 0.507696, acc_guess_all0 0.957304
+Epoch 6, batch 290: Loss 3875.63, acc 0.509534, acc_guess_all0 0.957311
+Epoch 6, batch 300: Loss 4126.89, acc 0.502314, acc_guess_all0 0.957063
+Epoch 6, batch 310: Loss 3385.59, acc 0.504749, acc_guess_all0 0.957158
+Epoch 6, batch 320: Loss 4729.12, acc 0.508137, acc_guess_all0 0.957285
+Epoch 6, batch 330: Loss 3394.72, acc 0.51549, acc_guess_all0 0.957627
+Epoch 6, batch 340: Loss 2942.37, acc 0.511256, acc_guess_all0 0.957499
+Epoch 6, batch 350: Loss 2263.82, acc 0.515764, acc_guess_all0 0.957576
+Epoch 6, batch 360: Loss 2288.16, acc 0.517427, acc_guess_all0 0.957602
+Epoch 6, batch 370: Loss 4109.77, acc 0.515722, acc_guess_all0 0.957369
+Epoch 6, batch 380: Loss 4325.95, acc 0.518193, acc_guess_all0 0.957594
+Epoch 6, batch 390: Loss 3634.63, acc 0.515757, acc_guess_all0 0.957591
+Epoch 6, batch 400: Loss 3701.3, acc 0.515199, acc_guess_all0 0.957605
+Epoch 6, batch 410: Loss 4735.01, acc 0.515, acc_guess_all0 0.957417
+Epoch 6, batch 420: Loss 4250.6, acc 0.50828, acc_guess_all0 0.957286
+Epoch 6, batch 430: Loss 2063.86, acc 0.508241, acc_guess_all0 0.957433
+Epoch 6, batch 440: Loss 2777.11, acc 0.512841, acc_guess_all0 0.957564
+Epoch 6, batch 450: Loss 3988.19, acc 0.512376, acc_guess_all0 0.957422
+Epoch 6, batch 460: Loss 4475.75, acc 0.514394, acc_guess_all0 0.957473
+Epoch 6, batch 470: Loss 4144.16, acc 0.514477, acc_guess_all0 0.957451
+Epoch 6, batch 480: Loss 4849.16, acc 0.513913, acc_guess_all0 0.957513
+Epoch 6, batch 490: Loss 5643.67, acc 0.51235, acc_guess_all0 0.957326
+Epoch 6, batch 500: Loss 2586.03, acc 0.505358, acc_guess_all0 0.957305
+Epoch 6, batch 510: Loss 2907.12, acc 0.510155, acc_guess_all0 0.957388
+Epoch 6, batch 520: Loss 3653.5, acc 0.511957, acc_guess_all0 0.957396
+Epoch 6, batch 530: Loss 4008.44, acc 0.515996, acc_guess_all0 0.957585
+Epoch 6, batch 540: Loss 3175.41, acc 0.515422, acc_guess_all0 0.957645
+Epoch 6, batch 550: Loss 4058.61, acc 0.518859, acc_guess_all0 0.95769
+Epoch 6, batch 560: Loss 4461.69, acc 0.515818, acc_guess_all0 0.957636
+Epoch 6, batch 570: Loss 3655.39, acc 0.516909, acc_guess_all0 0.957723
+Epoch 6, batch 580: Loss 3661.5, acc 0.513805, acc_guess_all0 0.957629
+Epoch 6, batch 590: Loss 3923.18, acc 0.510861, acc_guess_all0 0.957524
+Epoch 6, batch 600: Loss 2995.97, acc 0.509129, acc_guess_all0 0.95753
+Epoch 6, batch 610: Loss 3101.68, acc 0.514873, acc_guess_all0 0.957722
+Epoch 6, batch 620: Loss 3578.55, acc 0.516479, acc_guess_all0 0.957759
+Epoch 6, batch 630: Loss 4690.51, acc 0.51595, acc_guess_all0 0.957619
+Epoch 6, batch 640: Loss 3064.86, acc 0.508721, acc_guess_all0 0.957501
+Epoch 6, batch 650: Loss 4783.75, acc 0.510028, acc_guess_all0 0.957415
+Epoch 6, batch 660: Loss 2242.22, acc 0.504494, acc_guess_all0 0.957388
+Epoch 6, batch 670: Loss 3299.21, acc 0.50666, acc_guess_all0 0.957432
+Epoch 6, batch 680: Loss 5568.08, acc 0.504775, acc_guess_all0 0.957357
+Epoch 6, batch 690: Loss 4169.62, acc 0.500438, acc_guess_all0 0.957194
+Epoch 6, batch 700: Loss 3244.89, acc 0.497571, acc_guess_all0 0.95708
+Epoch 6, batch 710: Loss 4732.23, acc 0.498621, acc_guess_all0 0.957019
+Epoch 6, batch 720: Loss 4594.24, acc 0.494319, acc_guess_all0 0.956891
+Epoch 6, batch 730: Loss 4936.76, acc 0.489827, acc_guess_all0 0.956686
+Epoch 6, batch 740: Loss 2996.69, acc 0.486674, acc_guess_all0 0.956618
+Epoch 6, batch 750: Loss 2673.25, acc 0.487724, acc_guess_all0 0.956704
+Epoch 6, batch 760: Loss 3978.27, acc 0.485635, acc_guess_all0 0.956543
+Epoch 6, batch 770: Loss 2988.42, acc 0.486531, acc_guess_all0 0.956632
+Epoch 6, batch 780: Loss 3877.26, acc 0.48537, acc_guess_all0 0.956516
+Epoch 6, batch 790: Loss 2086.69, acc 0.485051, acc_guess_all0 0.956509
+Epoch 6, batch 800: Loss 3324.57, acc 0.48548, acc_guess_all0 0.956529
+Epoch 6, batch 810: Loss 3750.42, acc 0.488007, acc_guess_all0 0.95655
+Epoch 6, batch 820: Loss 3606.8, acc 0.489322, acc_guess_all0 0.956693
+Epoch 6, batch 830: Loss 2981.61, acc 0.488887, acc_guess_all0 0.956707
+Epoch 6, batch 840: Loss 2928.42, acc 0.491515, acc_guess_all0 0.956761
+Epoch 6, batch 850: Loss 4247.62, acc 0.490128, acc_guess_all0 0.956673
+Epoch 6, batch 860: Loss 3496.11, acc 0.489579, acc_guess_all0 0.95674
+Epoch 6, batch 870: Loss 4472.39, acc 0.488158, acc_guess_all0 0.956673
+Epoch 6, batch 880: Loss 3795.31, acc 0.487169, acc_guess_all0 0.95662
+Epoch 6, batch 890: Loss 1657.42, acc 0.489046, acc_guess_all0 0.956741
+Epoch 6, batch 900: Loss 4107.76, acc 0.491446, acc_guess_all0 0.956752
+Epoch 6, batch 910: Loss 2127.52, acc 0.490532, acc_guess_all0 0.956785
+Epoch 6, batch 920: Loss 4138.53, acc 0.493087, acc_guess_all0 0.956744
+Epoch 6, batch 930: Loss 3201.98, acc 0.488971, acc_guess_all0 0.956672
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-6-0.489_0.957.model
+starting validation...
+val_acc 0.727968
+Epoch 7, batch 10: Loss 4501.84, acc 0.909839, acc_guess_all0 0.968007
+Epoch 7, batch 20: Loss 4923.59, acc 0.662115, acc_guess_all0 0.963014
+Epoch 7, batch 30: Loss 3098.99, acc 0.58427, acc_guess_all0 0.962053
+Epoch 7, batch 40: Loss 3004.25, acc 0.541539, acc_guess_all0 0.961264
+Epoch 7, batch 50: Loss 2972.38, acc 0.561285, acc_guess_all0 0.960729
+Epoch 7, batch 60: Loss 1446.67, acc 0.547807, acc_guess_all0 0.961051
+Epoch 7, batch 70: Loss 3190.31, acc 0.52837, acc_guess_all0 0.960261
+Epoch 7, batch 80: Loss 2146.77, acc 0.56513, acc_guess_all0 0.961409
+Epoch 7, batch 90: Loss 3080.04, acc 0.550101, acc_guess_all0 0.961281
+Epoch 7, batch 100: Loss 3994.1, acc 0.580491, acc_guess_all0 0.961428
+Epoch 7, batch 110: Loss 3356.5, acc 0.570801, acc_guess_all0 0.961467
+Epoch 7, batch 120: Loss 4076.52, acc 0.552287, acc_guess_all0 0.960646
+Epoch 7, batch 130: Loss 3756.17, acc 0.551746, acc_guess_all0 0.960433
+Epoch 7, batch 140: Loss 3900.46, acc 0.556476, acc_guess_all0 0.959977
+Epoch 7, batch 150: Loss 3731.98, acc 0.535668, acc_guess_all0 0.959283
+Epoch 7, batch 160: Loss 2685.07, acc 0.551331, acc_guess_all0 0.959546
+Epoch 7, batch 170: Loss 3240.96, acc 0.555883, acc_guess_all0 0.959812
+Epoch 7, batch 180: Loss 5738.65, acc 0.565778, acc_guess_all0 0.959934
+Epoch 7, batch 190: Loss 3605.58, acc 0.569304, acc_guess_all0 0.960162
+Epoch 7, batch 200: Loss 3173.82, acc 0.562962, acc_guess_all0 0.959948
+Epoch 7, batch 210: Loss 4479.28, acc 0.571807, acc_guess_all0 0.959907
+Epoch 7, batch 220: Loss 3366.89, acc 0.571811, acc_guess_all0 0.960499
+Epoch 7, batch 230: Loss 3815.11, acc 0.585788, acc_guess_all0 0.960819
+Epoch 7, batch 240: Loss 3958.21, acc 0.573005, acc_guess_all0 0.960509
+Epoch 7, batch 250: Loss 3293.46, acc 0.570709, acc_guess_all0 0.960329
+Epoch 7, batch 260: Loss 2897.97, acc 0.556264, acc_guess_all0 0.959989
+Epoch 7, batch 270: Loss 4495.52, acc 0.560815, acc_guess_all0 0.959862
+Epoch 7, batch 280: Loss 3045.14, acc 0.557845, acc_guess_all0 0.959984
+Epoch 7, batch 290: Loss 3306.37, acc 0.546105, acc_guess_all0 0.959278
+Epoch 7, batch 300: Loss 3456.73, acc 0.544057, acc_guess_all0 0.959146
+Epoch 7, batch 310: Loss 3787.79, acc 0.537942, acc_guess_all0 0.959016
+Epoch 7, batch 320: Loss 2612.08, acc 0.544543, acc_guess_all0 0.959313
+Epoch 7, batch 330: Loss 3657.27, acc 0.536788, acc_guess_all0 0.959043
+Epoch 7, batch 340: Loss 1876.35, acc 0.53284, acc_guess_all0 0.959018
+Epoch 7, batch 350: Loss 4350.13, acc 0.538369, acc_guess_all0 0.958969
+Epoch 7, batch 360: Loss 3711.21, acc 0.527811, acc_guess_all0 0.958633
+Epoch 7, batch 370: Loss 3789.11, acc 0.537239, acc_guess_all0 0.958947
+Epoch 7, batch 380: Loss 3449.06, acc 0.528207, acc_guess_all0 0.958738
+Epoch 7, batch 390: Loss 4008.14, acc 0.535836, acc_guess_all0 0.958999
+Epoch 7, batch 400: Loss 4550.9, acc 0.531553, acc_guess_all0 0.958748
+Epoch 7, batch 410: Loss 4402.36, acc 0.532884, acc_guess_all0 0.958809
+Epoch 7, batch 420: Loss 3694.14, acc 0.537694, acc_guess_all0 0.958998
+Epoch 7, batch 430: Loss 4915.61, acc 0.540172, acc_guess_all0 0.958963
+Epoch 7, batch 440: Loss 2966.77, acc 0.53707, acc_guess_all0 0.959095
+Epoch 7, batch 450: Loss 3902.58, acc 0.544124, acc_guess_all0 0.95918
+Epoch 7, batch 460: Loss 2984, acc 0.543051, acc_guess_all0 0.959213
+Epoch 7, batch 470: Loss 3104.92, acc 0.542623, acc_guess_all0 0.95913
+Epoch 7, batch 480: Loss 2909.19, acc 0.541251, acc_guess_all0 0.959035
+Epoch 7, batch 490: Loss 2750.65, acc 0.53983, acc_guess_all0 0.959076
+Epoch 7, batch 500: Loss 3023.67, acc 0.537507, acc_guess_all0 0.958974
+Epoch 7, batch 510: Loss 3888.51, acc 0.538925, acc_guess_all0 0.958923
+Epoch 7, batch 520: Loss 5302.03, acc 0.542094, acc_guess_all0 0.959073
+Epoch 7, batch 530: Loss 4694.31, acc 0.535779, acc_guess_all0 0.958673
+Epoch 7, batch 540: Loss 5653.39, acc 0.538336, acc_guess_all0 0.958763
+Epoch 7, batch 550: Loss 4101.14, acc 0.540664, acc_guess_all0 0.958748
+Epoch 7, batch 560: Loss 3627.5, acc 0.539348, acc_guess_all0 0.958869
+Epoch 7, batch 570: Loss 4027.47, acc 0.539832, acc_guess_all0 0.958692
+Epoch 7, batch 580: Loss 3596.84, acc 0.538811, acc_guess_all0 0.958734
+Epoch 7, batch 590: Loss 3358.27, acc 0.536961, acc_guess_all0 0.958725
+Epoch 7, batch 600: Loss 4414.75, acc 0.536031, acc_guess_all0 0.95856
+Epoch 7, batch 610: Loss 3917.79, acc 0.533785, acc_guess_all0 0.958535
+Epoch 7, batch 620: Loss 5125.18, acc 0.528651, acc_guess_all0 0.958293
+Epoch 7, batch 630: Loss 2736.52, acc 0.530415, acc_guess_all0 0.958388
+Epoch 7, batch 640: Loss 3176.01, acc 0.525064, acc_guess_all0 0.958239
+Epoch 7, batch 650: Loss 3275.58, acc 0.524294, acc_guess_all0 0.958174
+Epoch 7, batch 660: Loss 4507.29, acc 0.523297, acc_guess_all0 0.958175
+Epoch 7, batch 670: Loss 3465.55, acc 0.528587, acc_guess_all0 0.958295
+Epoch 7, batch 680: Loss 2169.02, acc 0.52485, acc_guess_all0 0.958314
+Epoch 7, batch 690: Loss 4813.85, acc 0.531215, acc_guess_all0 0.9584
+Epoch 7, batch 700: Loss 3798.19, acc 0.525399, acc_guess_all0 0.958295
+Epoch 7, batch 710: Loss 3656.54, acc 0.522371, acc_guess_all0 0.958227
+Epoch 7, batch 720: Loss 4126.87, acc 0.524425, acc_guess_all0 0.958236
+Epoch 7, batch 730: Loss 6058.48, acc 0.520919, acc_guess_all0 0.958124
+Epoch 7, batch 740: Loss 4582.99, acc 0.521665, acc_guess_all0 0.958165
+Epoch 7, batch 750: Loss 3595.17, acc 0.523521, acc_guess_all0 0.958235
+Epoch 7, batch 760: Loss 5356.7, acc 0.524793, acc_guess_all0 0.958219
+Epoch 7, batch 770: Loss 4364.87, acc 0.520907, acc_guess_all0 0.958108
+Epoch 7, batch 780: Loss 5155.43, acc 0.523393, acc_guess_all0 0.958186
+Epoch 7, batch 790: Loss 2864.62, acc 0.525383, acc_guess_all0 0.958261
+Epoch 7, batch 800: Loss 4132.26, acc 0.522281, acc_guess_all0 0.95806
+Epoch 7, batch 810: Loss 3706.03, acc 0.522347, acc_guess_all0 0.958056
+Epoch 7, batch 820: Loss 3124.74, acc 0.519384, acc_guess_all0 0.958024
+Epoch 7, batch 830: Loss 4321.85, acc 0.521287, acc_guess_all0 0.958043
+Epoch 7, batch 840: Loss 2978.4, acc 0.518167, acc_guess_all0 0.958009
+Epoch 7, batch 850: Loss 4393.45, acc 0.521081, acc_guess_all0 0.958047
+Epoch 7, batch 860: Loss 2405.55, acc 0.517958, acc_guess_all0 0.958025
+Epoch 7, batch 870: Loss 3637.37, acc 0.519628, acc_guess_all0 0.958011
+Epoch 7, batch 880: Loss 3693.87, acc 0.518303, acc_guess_all0 0.957978
+Epoch 7, batch 890: Loss 4376.22, acc 0.518454, acc_guess_all0 0.957915
+Epoch 7, batch 900: Loss 1962.88, acc 0.519111, acc_guess_all0 0.958029
+Epoch 7, batch 910: Loss 3212.41, acc 0.520635, acc_guess_all0 0.958075
+Epoch 7, batch 920: Loss 2668.99, acc 0.519748, acc_guess_all0 0.95808
+Epoch 7, batch 930: Loss 2378, acc 0.519863, acc_guess_all0 0.958053
+starting validation...
+val_acc 0.927124
+Epoch 8, batch 10: Loss 3994.03, acc 0.610945, acc_guess_all0 0.955055
+Epoch 8, batch 20: Loss 3700.11, acc 0.573412, acc_guess_all0 0.95507
+Epoch 8, batch 30: Loss 2906.22, acc 0.578912, acc_guess_all0 0.958535
+Epoch 8, batch 40: Loss 3510.45, acc 0.519955, acc_guess_all0 0.955223
+Epoch 8, batch 50: Loss 4236.49, acc 0.561491, acc_guess_all0 0.956068
+Epoch 8, batch 60: Loss 4575.19, acc 0.515576, acc_guess_all0 0.955911
+Epoch 8, batch 70: Loss 4177.76, acc 0.524598, acc_guess_all0 0.956007
+Epoch 8, batch 80: Loss 3621.58, acc 0.556385, acc_guess_all0 0.957126
+Epoch 8, batch 90: Loss 1736.69, acc 0.568609, acc_guess_all0 0.958758
+Epoch 8, batch 100: Loss 3380.4, acc 0.589077, acc_guess_all0 0.959037
+Epoch 8, batch 110: Loss 3281.2, acc 0.551186, acc_guess_all0 0.958478
+Epoch 8, batch 120: Loss 4129.29, acc 0.525714, acc_guess_all0 0.957139
+Epoch 8, batch 130: Loss 4999.49, acc 0.528221, acc_guess_all0 0.957299
+Epoch 8, batch 140: Loss 4370.89, acc 0.52243, acc_guess_all0 0.957732
+Epoch 8, batch 150: Loss 2939.15, acc 0.542351, acc_guess_all0 0.958244
+Epoch 8, batch 160: Loss 4851.04, acc 0.553189, acc_guess_all0 0.958651
+Epoch 8, batch 170: Loss 1885.87, acc 0.541745, acc_guess_all0 0.958924
+Epoch 8, batch 180: Loss 4289.97, acc 0.541186, acc_guess_all0 0.958613
+Epoch 8, batch 190: Loss 4331.63, acc 0.530301, acc_guess_all0 0.957889
+Epoch 8, batch 200: Loss 3508.41, acc 0.525425, acc_guess_all0 0.958157
+Epoch 8, batch 210: Loss 3363.87, acc 0.534806, acc_guess_all0 0.958419
+Epoch 8, batch 220: Loss 2910.59, acc 0.544349, acc_guess_all0 0.958689
+Epoch 8, batch 230: Loss 3630.33, acc 0.552751, acc_guess_all0 0.958992
+Epoch 8, batch 240: Loss 3421.01, acc 0.545206, acc_guess_all0 0.958972
+Epoch 8, batch 250: Loss 3610.36, acc 0.546596, acc_guess_all0 0.95869
+Epoch 8, batch 260: Loss 3982.66, acc 0.542826, acc_guess_all0 0.95857
+Epoch 8, batch 270: Loss 2888.26, acc 0.54806, acc_guess_all0 0.958831
+Epoch 8, batch 280: Loss 4214.61, acc 0.534439, acc_guess_all0 0.958285
+Epoch 8, batch 290: Loss 2906.18, acc 0.538354, acc_guess_all0 0.958588
+Epoch 8, batch 300: Loss 3421.62, acc 0.54395, acc_guess_all0 0.958825
+Epoch 8, batch 310: Loss 3487.79, acc 0.544327, acc_guess_all0 0.958723
+Epoch 8, batch 320: Loss 2564.98, acc 0.546945, acc_guess_all0 0.959087
+Epoch 8, batch 330: Loss 4753.76, acc 0.549197, acc_guess_all0 0.958971
+Epoch 8, batch 340: Loss 4405.9, acc 0.544778, acc_guess_all0 0.958853
+Epoch 8, batch 350: Loss 3032.46, acc 0.5378, acc_guess_all0 0.958752
+Epoch 8, batch 360: Loss 2410.63, acc 0.543777, acc_guess_all0 0.958981
+Epoch 8, batch 370: Loss 3547.09, acc 0.536933, acc_guess_all0 0.958681
+Epoch 8, batch 380: Loss 6415.32, acc 0.533346, acc_guess_all0 0.958488
+Epoch 8, batch 390: Loss 3732.65, acc 0.535521, acc_guess_all0 0.95853
+Epoch 8, batch 400: Loss 3483.22, acc 0.533148, acc_guess_all0 0.95841
+Epoch 8, batch 410: Loss 3002.3, acc 0.525289, acc_guess_all0 0.958166
+Epoch 8, batch 420: Loss 2871.35, acc 0.521546, acc_guess_all0 0.958078
+Epoch 8, batch 430: Loss 4112.26, acc 0.518598, acc_guess_all0 0.957971
+Epoch 8, batch 440: Loss 3017.38, acc 0.514557, acc_guess_all0 0.957952
+Epoch 8, batch 450: Loss 3343.34, acc 0.518122, acc_guess_all0 0.957963
+Epoch 8, batch 460: Loss 2872.9, acc 0.51762, acc_guess_all0 0.95792
+Epoch 8, batch 470: Loss 3161.96, acc 0.522257, acc_guess_all0 0.958042
+Epoch 8, batch 480: Loss 3203.07, acc 0.520953, acc_guess_all0 0.957984
+Epoch 8, batch 490: Loss 3471.68, acc 0.524378, acc_guess_all0 0.958053
+Epoch 8, batch 500: Loss 3168.54, acc 0.526311, acc_guess_all0 0.958144
+Epoch 8, batch 510: Loss 4183.81, acc 0.52857, acc_guess_all0 0.958108
+Epoch 8, batch 520: Loss 3231.46, acc 0.525281, acc_guess_all0 0.958165
+Epoch 8, batch 530: Loss 3241.32, acc 0.523331, acc_guess_all0 0.957965
+Epoch 8, batch 540: Loss 3724.1, acc 0.525934, acc_guess_all0 0.958062
+Epoch 8, batch 550: Loss 3490.52, acc 0.527577, acc_guess_all0 0.958083
+Epoch 8, batch 560: Loss 2706.08, acc 0.531893, acc_guess_all0 0.958311
+Epoch 8, batch 570: Loss 3733.59, acc 0.532885, acc_guess_all0 0.958373
+Epoch 8, batch 580: Loss 3759.98, acc 0.529907, acc_guess_all0 0.958274
+Epoch 8, batch 590: Loss 4048.74, acc 0.534778, acc_guess_all0 0.958379
+Epoch 8, batch 600: Loss 2299.44, acc 0.536859, acc_guess_all0 0.958526
+Epoch 8, batch 610: Loss 4080.76, acc 0.538835, acc_guess_all0 0.958497
+Epoch 8, batch 620: Loss 3171.02, acc 0.53677, acc_guess_all0 0.958514
+Epoch 8, batch 630: Loss 2740.45, acc 0.533233, acc_guess_all0 0.958383
+Epoch 8, batch 640: Loss 4102.41, acc 0.533109, acc_guess_all0 0.958304
+Epoch 8, batch 650: Loss 3999.26, acc 0.533582, acc_guess_all0 0.958289
+Epoch 8, batch 660: Loss 3236.19, acc 0.533841, acc_guess_all0 0.95847
+Epoch 8, batch 670: Loss 1555.95, acc 0.538281, acc_guess_all0 0.958621
+Epoch 8, batch 680: Loss 3339.19, acc 0.53928, acc_guess_all0 0.958634
+Epoch 8, batch 690: Loss 3331.87, acc 0.537877, acc_guess_all0 0.958575
+Epoch 8, batch 700: Loss 4536.96, acc 0.535522, acc_guess_all0 0.958488
+Epoch 8, batch 710: Loss 5419.51, acc 0.536675, acc_guess_all0 0.958487
+Epoch 8, batch 720: Loss 4620.5, acc 0.534933, acc_guess_all0 0.958392
+Epoch 8, batch 730: Loss 4103.39, acc 0.532032, acc_guess_all0 0.95838
+Epoch 8, batch 740: Loss 3616.45, acc 0.532285, acc_guess_all0 0.958285
+Epoch 8, batch 750: Loss 4689.2, acc 0.530979, acc_guess_all0 0.958216
+Epoch 8, batch 760: Loss 3084.18, acc 0.529198, acc_guess_all0 0.958148
+Epoch 8, batch 770: Loss 3825.77, acc 0.528241, acc_guess_all0 0.958098
+Epoch 8, batch 780: Loss 3077.67, acc 0.528719, acc_guess_all0 0.958112
+Epoch 8, batch 790: Loss 3409.95, acc 0.525506, acc_guess_all0 0.958007
+Epoch 8, batch 800: Loss 4645.94, acc 0.528122, acc_guess_all0 0.958043
+Epoch 8, batch 810: Loss 4633.2, acc 0.529386, acc_guess_all0 0.958097
+Epoch 8, batch 820: Loss 4068.01, acc 0.525179, acc_guess_all0 0.957788
+Epoch 8, batch 830: Loss 6148.32, acc 0.525461, acc_guess_all0 0.95769
+Epoch 8, batch 840: Loss 1567.96, acc 0.521876, acc_guess_all0 0.957717
+Epoch 8, batch 850: Loss 6076.41, acc 0.525191, acc_guess_all0 0.957793
+Epoch 8, batch 860: Loss 4060.68, acc 0.523684, acc_guess_all0 0.957683
+Epoch 8, batch 870: Loss 2160.53, acc 0.520574, acc_guess_all0 0.957647
+Epoch 8, batch 880: Loss 3819.09, acc 0.521235, acc_guess_all0 0.957601
+Epoch 8, batch 890: Loss 3402.16, acc 0.520347, acc_guess_all0 0.957658
+Epoch 8, batch 900: Loss 3542.9, acc 0.5216, acc_guess_all0 0.957647
+Epoch 8, batch 910: Loss 3878.78, acc 0.521008, acc_guess_all0 0.957587
+Epoch 8, batch 920: Loss 3728.89, acc 0.521499, acc_guess_all0 0.957629
+Epoch 8, batch 930: Loss 2571.23, acc 0.520589, acc_guess_all0 0.957626
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-8-0.523_0.958.model
+starting validation...
+val_acc 0.948464
+Epoch 9, batch 10: Loss 4006.6, acc 0.331691, acc_guess_all0 0.946931
+Epoch 9, batch 20: Loss 2382.13, acc 0.470452, acc_guess_all0 0.955337
+Epoch 9, batch 30: Loss 4045.21, acc 0.570447, acc_guess_all0 0.958087
+Epoch 9, batch 40: Loss 2426.69, acc 0.549619, acc_guess_all0 0.959496
+Epoch 9, batch 50: Loss 3920.42, acc 0.546506, acc_guess_all0 0.959243
+Epoch 9, batch 60: Loss 2952.61, acc 0.573903, acc_guess_all0 0.959914
+Epoch 9, batch 70: Loss 3927.09, acc 0.530035, acc_guess_all0 0.958588
+Epoch 9, batch 80: Loss 3632.54, acc 0.518063, acc_guess_all0 0.958244
+Epoch 9, batch 90: Loss 4397.08, acc 0.552993, acc_guess_all0 0.959038
+Epoch 9, batch 100: Loss 2405.68, acc 0.548875, acc_guess_all0 0.959685
+Epoch 9, batch 110: Loss 4329.44, acc 0.554216, acc_guess_all0 0.959114
+Epoch 9, batch 120: Loss 3390.96, acc 0.557645, acc_guess_all0 0.959303
+Epoch 9, batch 130: Loss 5002.79, acc 0.563576, acc_guess_all0 0.959468
+Epoch 9, batch 140: Loss 4243.52, acc 0.531315, acc_guess_all0 0.958246
+Epoch 9, batch 150: Loss 3728.7, acc 0.516319, acc_guess_all0 0.957506
+Epoch 9, batch 160: Loss 3782.84, acc 0.51048, acc_guess_all0 0.957653
+Epoch 9, batch 170: Loss 6178.7, acc 0.518042, acc_guess_all0 0.957726
+Epoch 9, batch 180: Loss 3983.59, acc 0.52227, acc_guess_all0 0.957856
+Epoch 9, batch 190: Loss 3569.49, acc 0.512307, acc_guess_all0 0.957537
+Epoch 9, batch 200: Loss 4413.95, acc 0.51495, acc_guess_all0 0.957187
+Epoch 9, batch 210: Loss 4538.01, acc 0.518342, acc_guess_all0 0.957703
+Epoch 9, batch 220: Loss 3657.97, acc 0.526862, acc_guess_all0 0.957994
+Epoch 9, batch 230: Loss 4204.34, acc 0.535567, acc_guess_all0 0.958326
+Epoch 9, batch 240: Loss 4430.93, acc 0.53813, acc_guess_all0 0.958297
+Epoch 9, batch 250: Loss 3520.67, acc 0.532483, acc_guess_all0 0.958488
+Epoch 9, batch 260: Loss 4511.1, acc 0.54257, acc_guess_all0 0.958546
+Epoch 9, batch 270: Loss 3749.07, acc 0.531981, acc_guess_all0 0.958453
+Epoch 9, batch 280: Loss 3485.18, acc 0.537059, acc_guess_all0 0.958403
+Epoch 9, batch 290: Loss 2677.4, acc 0.522176, acc_guess_all0 0.958234
+Epoch 9, batch 300: Loss 4546.9, acc 0.534208, acc_guess_all0 0.958417
+Epoch 9, batch 310: Loss 5100.23, acc 0.52274, acc_guess_all0 0.958301
+Epoch 9, batch 320: Loss 2272.78, acc 0.520519, acc_guess_all0 0.958188
+Epoch 9, batch 330: Loss 4561.3, acc 0.521899, acc_guess_all0 0.957977
+Epoch 9, batch 340: Loss 1673.53, acc 0.523737, acc_guess_all0 0.958272
+Epoch 9, batch 350: Loss 3790.84, acc 0.519733, acc_guess_all0 0.958121
+Epoch 9, batch 360: Loss 3730.53, acc 0.5146, acc_guess_all0 0.957838
+Epoch 9, batch 370: Loss 2979.49, acc 0.517825, acc_guess_all0 0.957971
+Epoch 9, batch 380: Loss 4619.31, acc 0.520002, acc_guess_all0 0.957978
+Epoch 9, batch 390: Loss 2871.26, acc 0.522905, acc_guess_all0 0.958221
+Epoch 9, batch 400: Loss 3391.88, acc 0.531479, acc_guess_all0 0.9583
+Epoch 9, batch 410: Loss 4763.55, acc 0.52835, acc_guess_all0 0.958389
+Epoch 9, batch 420: Loss 3330.48, acc 0.526749, acc_guess_all0 0.958433
+Epoch 9, batch 430: Loss 2634.48, acc 0.530414, acc_guess_all0 0.958523
+Epoch 9, batch 440: Loss 2364.6, acc 0.534021, acc_guess_all0 0.958705
+Epoch 9, batch 450: Loss 4784.99, acc 0.543049, acc_guess_all0 0.958986
+Epoch 9, batch 460: Loss 3298.34, acc 0.534488, acc_guess_all0 0.958805
+Epoch 9, batch 470: Loss 4595.07, acc 0.540244, acc_guess_all0 0.958962
+Epoch 9, batch 480: Loss 3114.96, acc 0.53377, acc_guess_all0 0.958842
+Epoch 9, batch 490: Loss 2827.38, acc 0.538646, acc_guess_all0 0.958956
+Epoch 9, batch 500: Loss 3874.74, acc 0.537182, acc_guess_all0 0.958933
+Epoch 9, batch 510: Loss 3777.53, acc 0.53296, acc_guess_all0 0.95879
+Epoch 9, batch 520: Loss 3537.15, acc 0.532735, acc_guess_all0 0.958714
+Epoch 9, batch 530: Loss 3762.92, acc 0.53225, acc_guess_all0 0.958575
+Epoch 9, batch 540: Loss 3151.65, acc 0.528451, acc_guess_all0 0.958487
+Epoch 9, batch 550: Loss 4413.29, acc 0.529203, acc_guess_all0 0.958443
+Epoch 9, batch 560: Loss 2486.13, acc 0.529604, acc_guess_all0 0.958481
+Epoch 9, batch 570: Loss 3243.01, acc 0.533145, acc_guess_all0 0.958569
+Epoch 9, batch 580: Loss 3424.26, acc 0.532517, acc_guess_all0 0.958555
+Epoch 9, batch 590: Loss 4488.12, acc 0.530417, acc_guess_all0 0.958366
+Epoch 9, batch 600: Loss 3935.03, acc 0.531663, acc_guess_all0 0.958381
+Epoch 9, batch 610: Loss 3526.71, acc 0.532429, acc_guess_all0 0.958399
+Epoch 9, batch 620: Loss 2975.4, acc 0.531972, acc_guess_all0 0.958449
+Epoch 9, batch 630: Loss 6014.91, acc 0.528528, acc_guess_all0 0.958269
+Epoch 9, batch 640: Loss 3863.18, acc 0.529834, acc_guess_all0 0.958295
+Epoch 9, batch 650: Loss 4586.54, acc 0.5313, acc_guess_all0 0.958248
+Epoch 9, batch 660: Loss 2436.97, acc 0.526621, acc_guess_all0 0.958318
+Epoch 9, batch 670: Loss 2531.48, acc 0.531743, acc_guess_all0 0.958393
+Epoch 9, batch 680: Loss 4408.89, acc 0.532866, acc_guess_all0 0.958411
+Epoch 9, batch 690: Loss 3295.15, acc 0.532173, acc_guess_all0 0.958395
+Epoch 9, batch 700: Loss 3663.01, acc 0.533752, acc_guess_all0 0.958413
+Epoch 9, batch 710: Loss 3506.03, acc 0.527678, acc_guess_all0 0.958279
+Epoch 9, batch 720: Loss 4091.52, acc 0.528708, acc_guess_all0 0.95814
+Epoch 9, batch 730: Loss 3157.61, acc 0.522897, acc_guess_all0 0.958012
+Epoch 9, batch 740: Loss 3709.01, acc 0.526438, acc_guess_all0 0.958041
+Epoch 9, batch 750: Loss 4544.94, acc 0.524107, acc_guess_all0 0.957981
+Epoch 9, batch 760: Loss 3727.53, acc 0.524011, acc_guess_all0 0.958107
+Epoch 9, batch 770: Loss 2948.7, acc 0.524987, acc_guess_all0 0.958137
+Epoch 9, batch 780: Loss 4110.3, acc 0.528816, acc_guess_all0 0.95822
+Epoch 9, batch 790: Loss 3980.32, acc 0.528001, acc_guess_all0 0.958283
+Epoch 9, batch 800: Loss 3904.7, acc 0.528076, acc_guess_all0 0.958203
+Epoch 9, batch 810: Loss 3963.62, acc 0.525283, acc_guess_all0 0.958087
+Epoch 9, batch 820: Loss 3941.38, acc 0.524189, acc_guess_all0 0.958091
+Epoch 9, batch 830: Loss 3592.09, acc 0.522488, acc_guess_all0 0.95799
+Epoch 9, batch 840: Loss 3052.76, acc 0.522377, acc_guess_all0 0.957978
+Epoch 9, batch 850: Loss 2984.51, acc 0.522868, acc_guess_all0 0.957959
+Epoch 9, batch 860: Loss 4165.78, acc 0.524559, acc_guess_all0 0.957997
+Epoch 9, batch 870: Loss 4019.38, acc 0.525144, acc_guess_all0 0.958037
+Epoch 9, batch 880: Loss 4388.56, acc 0.525943, acc_guess_all0 0.958027
+Epoch 9, batch 890: Loss 1772.39, acc 0.526649, acc_guess_all0 0.958097
+Epoch 9, batch 900: Loss 4263.38, acc 0.528832, acc_guess_all0 0.958135
+Epoch 9, batch 910: Loss 3044.92, acc 0.524275, acc_guess_all0 0.957997
+Epoch 9, batch 920: Loss 4443.08, acc 0.525215, acc_guess_all0 0.957895
+Epoch 9, batch 930: Loss 3195.9, acc 0.522528, acc_guess_all0 0.957902
+starting validation...
+val_acc 0.792007
+Epoch 10, batch 10: Loss 3683.71, acc 0.705174, acc_guess_all0 0.966322
+Epoch 10, batch 20: Loss 3366.32, acc 0.514411, acc_guess_all0 0.958954
+Epoch 10, batch 30: Loss 4200.07, acc 0.58014, acc_guess_all0 0.962111
+Epoch 10, batch 40: Loss 4517.69, acc 0.608221, acc_guess_all0 0.961903
+Epoch 10, batch 50: Loss 4030.98, acc 0.589841, acc_guess_all0 0.96133
+Epoch 10, batch 60: Loss 3078.9, acc 0.54478, acc_guess_all0 0.960132
+Epoch 10, batch 70: Loss 2800.59, acc 0.54772, acc_guess_all0 0.959475
+Epoch 10, batch 80: Loss 3015.23, acc 0.547709, acc_guess_all0 0.959625
+Epoch 10, batch 90: Loss 3221.31, acc 0.564345, acc_guess_all0 0.959995
+Epoch 10, batch 100: Loss 4142.59, acc 0.523128, acc_guess_all0 0.959211
+Epoch 10, batch 110: Loss 3415.18, acc 0.539414, acc_guess_all0 0.959516
+Epoch 10, batch 120: Loss 3008.12, acc 0.551859, acc_guess_all0 0.960157
+Epoch 10, batch 130: Loss 4532, acc 0.561215, acc_guess_all0 0.960022
+Epoch 10, batch 140: Loss 3385.54, acc 0.552314, acc_guess_all0 0.959918
+Epoch 10, batch 150: Loss 2627.97, acc 0.547296, acc_guess_all0 0.959717
+Epoch 10, batch 160: Loss 4785.85, acc 0.565376, acc_guess_all0 0.960119
+Epoch 10, batch 170: Loss 3821.64, acc 0.569793, acc_guess_all0 0.96044
+Epoch 10, batch 180: Loss 3597.26, acc 0.562944, acc_guess_all0 0.960209
+Epoch 10, batch 190: Loss 3050.31, acc 0.557611, acc_guess_all0 0.959943
+Epoch 10, batch 200: Loss 2824.24, acc 0.543137, acc_guess_all0 0.959656
+Epoch 10, batch 210: Loss 3976.97, acc 0.553298, acc_guess_all0 0.959656
+Epoch 10, batch 220: Loss 3386.59, acc 0.551738, acc_guess_all0 0.959693
+Epoch 10, batch 230: Loss 3125.42, acc 0.542242, acc_guess_all0 0.959468
+Epoch 10, batch 240: Loss 4570.61, acc 0.537926, acc_guess_all0 0.959244
+Epoch 10, batch 250: Loss 3777.51, acc 0.518755, acc_guess_all0 0.958584
+Epoch 10, batch 260: Loss 4240.79, acc 0.517173, acc_guess_all0 0.958427
+Epoch 10, batch 270: Loss 3729.32, acc 0.519388, acc_guess_all0 0.958466
+Epoch 10, batch 280: Loss 2614.1, acc 0.52526, acc_guess_all0 0.958711
+Epoch 10, batch 290: Loss 3686.82, acc 0.522006, acc_guess_all0 0.958501
+Epoch 10, batch 300: Loss 3188.83, acc 0.511894, acc_guess_all0 0.958172
+Epoch 10, batch 310: Loss 3970.65, acc 0.506352, acc_guess_all0 0.957852
+Epoch 10, batch 320: Loss 4618.46, acc 0.508636, acc_guess_all0 0.957967
+Epoch 10, batch 330: Loss 1544.56, acc 0.509848, acc_guess_all0 0.958264
+Epoch 10, batch 340: Loss 3074.38, acc 0.510791, acc_guess_all0 0.958364
+Epoch 10, batch 350: Loss 2440.48, acc 0.517415, acc_guess_all0 0.958489
+Epoch 10, batch 360: Loss 3612.18, acc 0.510619, acc_guess_all0 0.958254
+Epoch 10, batch 370: Loss 1722.23, acc 0.515757, acc_guess_all0 0.958436
+Epoch 10, batch 380: Loss 2931.55, acc 0.513121, acc_guess_all0 0.958429
+Epoch 10, batch 390: Loss 3863.57, acc 0.511016, acc_guess_all0 0.958155
+Epoch 10, batch 400: Loss 3114.95, acc 0.508367, acc_guess_all0 0.958241
+Epoch 10, batch 410: Loss 4266.47, acc 0.507735, acc_guess_all0 0.958108
+Epoch 10, batch 420: Loss 3917.52, acc 0.506581, acc_guess_all0 0.958055
+Epoch 10, batch 430: Loss 4351.49, acc 0.513597, acc_guess_all0 0.958292
+Epoch 10, batch 440: Loss 3895.19, acc 0.510054, acc_guess_all0 0.95829
+Epoch 10, batch 450: Loss 2393.82, acc 0.505231, acc_guess_all0 0.95821
+Epoch 10, batch 460: Loss 2450.06, acc 0.512512, acc_guess_all0 0.958402
+Epoch 10, batch 470: Loss 4029.58, acc 0.50674, acc_guess_all0 0.958035
+Epoch 10, batch 480: Loss 4564.09, acc 0.509819, acc_guess_all0 0.958039
+Epoch 10, batch 490: Loss 3493.57, acc 0.502795, acc_guess_all0 0.957886
+Epoch 10, batch 500: Loss 1954.57, acc 0.507922, acc_guess_all0 0.958035
+Epoch 10, batch 510: Loss 4354.26, acc 0.513583, acc_guess_all0 0.958022
+Epoch 10, batch 520: Loss 4314.78, acc 0.514897, acc_guess_all0 0.958238
+Epoch 10, batch 530: Loss 3373.15, acc 0.51571, acc_guess_all0 0.958306
+Epoch 10, batch 540: Loss 3124.81, acc 0.518708, acc_guess_all0 0.958345
+Epoch 10, batch 550: Loss 3603.87, acc 0.519535, acc_guess_all0 0.958222
+Epoch 10, batch 560: Loss 2603.49, acc 0.523127, acc_guess_all0 0.958402
+Epoch 10, batch 570: Loss 3080.47, acc 0.525715, acc_guess_all0 0.958485
+Epoch 10, batch 580: Loss 5050.24, acc 0.521383, acc_guess_all0 0.958248
+Epoch 10, batch 590: Loss 3097.79, acc 0.524237, acc_guess_all0 0.95856
+Epoch 10, batch 600: Loss 4096.86, acc 0.521209, acc_guess_all0 0.95839
+Epoch 10, batch 610: Loss 5089.34, acc 0.520227, acc_guess_all0 0.958301
+Epoch 10, batch 620: Loss 2512.53, acc 0.522342, acc_guess_all0 0.958421
+Epoch 10, batch 630: Loss 3343.52, acc 0.527642, acc_guess_all0 0.95857
+Epoch 10, batch 640: Loss 4158.8, acc 0.523006, acc_guess_all0 0.958412
+Epoch 10, batch 650: Loss 2702.53, acc 0.519412, acc_guess_all0 0.958301
+Epoch 10, batch 660: Loss 3150.12, acc 0.517499, acc_guess_all0 0.958253
+Epoch 10, batch 670: Loss 2479.63, acc 0.522311, acc_guess_all0 0.958389
+Epoch 10, batch 680: Loss 3398.32, acc 0.52088, acc_guess_all0 0.958315
+Epoch 10, batch 690: Loss 3932.79, acc 0.523073, acc_guess_all0 0.9583
+Epoch 10, batch 700: Loss 4532.07, acc 0.520047, acc_guess_all0 0.958235
+Epoch 10, batch 710: Loss 4015.8, acc 0.521552, acc_guess_all0 0.958276
+Epoch 10, batch 720: Loss 4202.88, acc 0.521248, acc_guess_all0 0.958174
+Epoch 10, batch 730: Loss 2379.74, acc 0.52125, acc_guess_all0 0.958222
+Epoch 10, batch 740: Loss 4139.32, acc 0.522841, acc_guess_all0 0.958209
+Epoch 10, batch 750: Loss 1123.03, acc 0.525663, acc_guess_all0 0.958443
+Epoch 10, batch 760: Loss 3743.88, acc 0.523693, acc_guess_all0 0.958386
+Epoch 10, batch 770: Loss 4437.42, acc 0.527419, acc_guess_all0 0.958582
+Epoch 10, batch 780: Loss 2637.05, acc 0.525876, acc_guess_all0 0.958627
+Epoch 10, batch 790: Loss 4059.48, acc 0.524881, acc_guess_all0 0.95848
+Epoch 10, batch 800: Loss 2830.6, acc 0.523815, acc_guess_all0 0.958579
+Epoch 10, batch 810: Loss 2922.1, acc 0.529047, acc_guess_all0 0.958739
+Epoch 10, batch 820: Loss 3815.31, acc 0.529958, acc_guess_all0 0.958748
+Epoch 10, batch 830: Loss 3368.61, acc 0.529134, acc_guess_all0 0.958719
+Epoch 10, batch 840: Loss 4299.58, acc 0.531348, acc_guess_all0 0.958801
+Epoch 10, batch 850: Loss 3944.57, acc 0.528353, acc_guess_all0 0.958726
+Epoch 10, batch 860: Loss 2821.43, acc 0.526348, acc_guess_all0 0.958625
+Epoch 10, batch 870: Loss 4153.18, acc 0.530007, acc_guess_all0 0.95864
+Epoch 10, batch 880: Loss 3486.51, acc 0.527512, acc_guess_all0 0.958679
+Epoch 10, batch 890: Loss 1995.41, acc 0.529139, acc_guess_all0 0.958744
+Epoch 10, batch 900: Loss 4308.14, acc 0.529582, acc_guess_all0 0.95865
+Epoch 10, batch 910: Loss 4036.29, acc 0.528657, acc_guess_all0 0.958682
+Epoch 10, batch 920: Loss 3271.96, acc 0.529289, acc_guess_all0 0.958687
+Epoch 10, batch 930: Loss 4645.74, acc 0.531979, acc_guess_all0 0.958837
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-10-0.533_0.959.model
+starting validation...
+val_acc 0.60636
+Epoch 11, batch 10: Loss 4245.73, acc 0.668164, acc_guess_all0 0.96619
+Epoch 11, batch 20: Loss 3563.71, acc 0.65285, acc_guess_all0 0.963216
+Epoch 11, batch 30: Loss 4305.04, acc 0.684089, acc_guess_all0 0.963884
+Epoch 11, batch 40: Loss 3653.72, acc 0.650879, acc_guess_all0 0.961643
+Epoch 11, batch 50: Loss 3473.9, acc 0.644831, acc_guess_all0 0.96111
+Epoch 11, batch 60: Loss 3076.01, acc 0.628631, acc_guess_all0 0.960925
+Epoch 11, batch 70: Loss 2247.68, acc 0.604828, acc_guess_all0 0.961171
+Epoch 11, batch 80: Loss 4060.73, acc 0.620008, acc_guess_all0 0.960448
+Epoch 11, batch 90: Loss 3923.9, acc 0.571427, acc_guess_all0 0.959908
+Epoch 11, batch 100: Loss 3495.53, acc 0.570054, acc_guess_all0 0.959303
+Epoch 11, batch 110: Loss 3775.77, acc 0.543356, acc_guess_all0 0.959011
+Epoch 11, batch 120: Loss 3045.32, acc 0.550467, acc_guess_all0 0.959134
+Epoch 11, batch 130: Loss 3800.54, acc 0.557397, acc_guess_all0 0.9593
+Epoch 11, batch 140: Loss 3986.73, acc 0.538432, acc_guess_all0 0.958555
+Epoch 11, batch 150: Loss 1836.12, acc 0.541376, acc_guess_all0 0.958726
+Epoch 11, batch 160: Loss 4564.49, acc 0.550438, acc_guess_all0 0.958743
+Epoch 11, batch 170: Loss 3812.21, acc 0.535709, acc_guess_all0 0.958257
+Epoch 11, batch 180: Loss 2928.23, acc 0.532515, acc_guess_all0 0.958097
+Epoch 11, batch 190: Loss 4545.33, acc 0.539567, acc_guess_all0 0.958471
+Epoch 11, batch 200: Loss 3544.31, acc 0.527193, acc_guess_all0 0.957826
+Epoch 11, batch 210: Loss 3616.64, acc 0.521354, acc_guess_all0 0.957629
+Epoch 11, batch 220: Loss 2697.86, acc 0.517264, acc_guess_all0 0.957809
+Epoch 11, batch 230: Loss 4327.81, acc 0.523947, acc_guess_all0 0.957714
+Epoch 11, batch 240: Loss 3269.05, acc 0.512917, acc_guess_all0 0.957559
+Epoch 11, batch 250: Loss 3846.7, acc 0.513691, acc_guess_all0 0.957417
+Epoch 11, batch 260: Loss 3736.31, acc 0.502523, acc_guess_all0 0.956938
+Epoch 11, batch 270: Loss 4634.9, acc 0.505029, acc_guess_all0 0.956639
+Epoch 11, batch 280: Loss 3093.16, acc 0.497982, acc_guess_all0 0.956494
+Epoch 11, batch 290: Loss 2959.01, acc 0.498362, acc_guess_all0 0.956478
+Epoch 11, batch 300: Loss 3222.53, acc 0.501629, acc_guess_all0 0.956524
+Epoch 11, batch 310: Loss 3050.85, acc 0.499549, acc_guess_all0 0.956557
+Epoch 11, batch 320: Loss 4339.75, acc 0.502123, acc_guess_all0 0.956329
+Epoch 11, batch 330: Loss 4257.94, acc 0.505498, acc_guess_all0 0.956829
+Epoch 11, batch 340: Loss 3682.87, acc 0.510621, acc_guess_all0 0.956968
+Epoch 11, batch 350: Loss 4206.32, acc 0.500384, acc_guess_all0 0.956614
+Epoch 11, batch 360: Loss 3374.65, acc 0.500472, acc_guess_all0 0.956637
+Epoch 11, batch 370: Loss 4214.31, acc 0.497321, acc_guess_all0 0.95645
+Epoch 11, batch 380: Loss 4780.03, acc 0.497712, acc_guess_all0 0.956657
+Epoch 11, batch 390: Loss 3169.44, acc 0.49469, acc_guess_all0 0.956707
+Epoch 11, batch 400: Loss 3233.8, acc 0.49463, acc_guess_all0 0.95668
+Epoch 11, batch 410: Loss 3427.5, acc 0.499832, acc_guess_all0 0.956968
+Epoch 11, batch 420: Loss 4685.28, acc 0.498446, acc_guess_all0 0.957
+Epoch 11, batch 430: Loss 3420.1, acc 0.506077, acc_guess_all0 0.957342
+Epoch 11, batch 440: Loss 5293.54, acc 0.502531, acc_guess_all0 0.956951
+Epoch 11, batch 450: Loss 1716.82, acc 0.498881, acc_guess_all0 0.957021
+Epoch 11, batch 460: Loss 4088.16, acc 0.50282, acc_guess_all0 0.957035
+Epoch 11, batch 470: Loss 2506.12, acc 0.507738, acc_guess_all0 0.957304
+Epoch 11, batch 480: Loss 2091.65, acc 0.509109, acc_guess_all0 0.957349
+Epoch 11, batch 490: Loss 3660.87, acc 0.511728, acc_guess_all0 0.957324
+Epoch 11, batch 500: Loss 4649.5, acc 0.505441, acc_guess_all0 0.957257
+Epoch 11, batch 510: Loss 4086.27, acc 0.501431, acc_guess_all0 0.957141
+Epoch 11, batch 520: Loss 3628.42, acc 0.494734, acc_guess_all0 0.956882
+Epoch 11, batch 530: Loss 2246.71, acc 0.494587, acc_guess_all0 0.956961
+Epoch 11, batch 540: Loss 3431.52, acc 0.497521, acc_guess_all0 0.956989
+Epoch 11, batch 550: Loss 3186.56, acc 0.496356, acc_guess_all0 0.957007
+Epoch 11, batch 560: Loss 3874.13, acc 0.50139, acc_guess_all0 0.957101
+Epoch 11, batch 570: Loss 2367.36, acc 0.500791, acc_guess_all0 0.957249
+Epoch 11, batch 580: Loss 4145.39, acc 0.502452, acc_guess_all0 0.957203
+Epoch 11, batch 590: Loss 3539.98, acc 0.502129, acc_guess_all0 0.957314
+Epoch 11, batch 600: Loss 2381.91, acc 0.50745, acc_guess_all0 0.957524
+Epoch 11, batch 610: Loss 3053.38, acc 0.513324, acc_guess_all0 0.957693
+Epoch 11, batch 620: Loss 2423.42, acc 0.511297, acc_guess_all0 0.95774
+Epoch 11, batch 630: Loss 1591.49, acc 0.517055, acc_guess_all0 0.957939
+Epoch 11, batch 640: Loss 3995.01, acc 0.515795, acc_guess_all0 0.957966
+Epoch 11, batch 650: Loss 2493.67, acc 0.518284, acc_guess_all0 0.957989
+Epoch 11, batch 660: Loss 4198.72, acc 0.52349, acc_guess_all0 0.958173
+Epoch 11, batch 670: Loss 3143.87, acc 0.519673, acc_guess_all0 0.958101
+Epoch 11, batch 680: Loss 4619.57, acc 0.518144, acc_guess_all0 0.958007
+Epoch 11, batch 690: Loss 2511.95, acc 0.52005, acc_guess_all0 0.958069
+Epoch 11, batch 700: Loss 3616.52, acc 0.524873, acc_guess_all0 0.958276
+Epoch 11, batch 710: Loss 3741.38, acc 0.522108, acc_guess_all0 0.958167
+Epoch 11, batch 720: Loss 2978.61, acc 0.523078, acc_guess_all0 0.958151
+Epoch 11, batch 730: Loss 2671.46, acc 0.522108, acc_guess_all0 0.958175
+Epoch 11, batch 740: Loss 2994.02, acc 0.520399, acc_guess_all0 0.958104
+Epoch 11, batch 750: Loss 2523.9, acc 0.519301, acc_guess_all0 0.95809
+Epoch 11, batch 760: Loss 4820.91, acc 0.522919, acc_guess_all0 0.958118
+Epoch 11, batch 770: Loss 4353.43, acc 0.522274, acc_guess_all0 0.958142
+Epoch 11, batch 780: Loss 2618.58, acc 0.519677, acc_guess_all0 0.958085
+Epoch 11, batch 790: Loss 3736.24, acc 0.522634, acc_guess_all0 0.958158
+Epoch 11, batch 800: Loss 3988.62, acc 0.521552, acc_guess_all0 0.958165
+Epoch 11, batch 810: Loss 4192.62, acc 0.523806, acc_guess_all0 0.95814
+Epoch 11, batch 820: Loss 5599.38, acc 0.521115, acc_guess_all0 0.958125
+Epoch 11, batch 830: Loss 2846.22, acc 0.523455, acc_guess_all0 0.958194
+Epoch 11, batch 840: Loss 2629.65, acc 0.526031, acc_guess_all0 0.958324
+Epoch 11, batch 850: Loss 3339.58, acc 0.526808, acc_guess_all0 0.958349
+Epoch 11, batch 860: Loss 6273.87, acc 0.529603, acc_guess_all0 0.958444
+Epoch 11, batch 870: Loss 1960.12, acc 0.528043, acc_guess_all0 0.958514
+Epoch 11, batch 880: Loss 3797.7, acc 0.532842, acc_guess_all0 0.958644
+Epoch 11, batch 890: Loss 4088.55, acc 0.535129, acc_guess_all0 0.958647
+Epoch 11, batch 900: Loss 2657.95, acc 0.531125, acc_guess_all0 0.958607
+Epoch 11, batch 910: Loss 5002.58, acc 0.533558, acc_guess_all0 0.958615
+Epoch 11, batch 920: Loss 2326.79, acc 0.536517, acc_guess_all0 0.958755
+Epoch 11, batch 930: Loss 4736.84, acc 0.538207, acc_guess_all0 0.958815
+starting validation...
+val_acc 0.0698017
+Epoch 12, batch 10: Loss 2463.72, acc 0.520015, acc_guess_all0 0.969006
+Epoch 12, batch 20: Loss 4743.97, acc 0.44856, acc_guess_all0 0.957197
+Epoch 12, batch 30: Loss 5043.74, acc 0.464041, acc_guess_all0 0.958444
+Epoch 12, batch 40: Loss 4000.35, acc 0.412613, acc_guess_all0 0.956572
+Epoch 12, batch 50: Loss 4267.64, acc 0.46638, acc_guess_all0 0.9575
+Epoch 12, batch 60: Loss 3500.2, acc 0.442511, acc_guess_all0 0.956998
+Epoch 12, batch 70: Loss 4048.54, acc 0.46229, acc_guess_all0 0.956271
+Epoch 12, batch 80: Loss 4101.61, acc 0.456002, acc_guess_all0 0.956716
+Epoch 12, batch 90: Loss 3704.57, acc 0.466906, acc_guess_all0 0.956694
+Epoch 12, batch 100: Loss 3726.66, acc 0.467189, acc_guess_all0 0.956673
+Epoch 12, batch 110: Loss 2201.58, acc 0.495759, acc_guess_all0 0.958685
+Epoch 12, batch 120: Loss 4537.61, acc 0.518917, acc_guess_all0 0.959711
+Epoch 12, batch 130: Loss 5490.47, acc 0.497748, acc_guess_all0 0.958717
+Epoch 12, batch 140: Loss 3008.36, acc 0.490851, acc_guess_all0 0.958322
+Epoch 12, batch 150: Loss 3456.89, acc 0.498029, acc_guess_all0 0.958462
+Epoch 12, batch 160: Loss 3706.87, acc 0.477833, acc_guess_all0 0.957899
+Epoch 12, batch 170: Loss 4177.26, acc 0.472673, acc_guess_all0 0.957159
+Epoch 12, batch 180: Loss 3399.92, acc 0.472383, acc_guess_all0 0.95704
+Epoch 12, batch 190: Loss 2345.8, acc 0.480461, acc_guess_all0 0.957774
+Epoch 12, batch 200: Loss 3343.87, acc 0.478157, acc_guess_all0 0.957782
+Epoch 12, batch 210: Loss 3468.46, acc 0.483517, acc_guess_all0 0.95765
+Epoch 12, batch 220: Loss 3161.94, acc 0.486625, acc_guess_all0 0.957684
+Epoch 12, batch 230: Loss 2370.84, acc 0.481688, acc_guess_all0 0.957746
+Epoch 12, batch 240: Loss 3422.82, acc 0.486447, acc_guess_all0 0.957651
+Epoch 12, batch 250: Loss 4737.42, acc 0.479083, acc_guess_all0 0.95712
+Epoch 12, batch 260: Loss 2818.54, acc 0.473949, acc_guess_all0 0.957204
+Epoch 12, batch 270: Loss 2470.23, acc 0.479281, acc_guess_all0 0.957435
+Epoch 12, batch 280: Loss 5182.35, acc 0.488157, acc_guess_all0 0.957356
+Epoch 12, batch 290: Loss 4286.12, acc 0.478264, acc_guess_all0 0.957029
+Epoch 12, batch 300: Loss 3745.14, acc 0.483699, acc_guess_all0 0.957184
+Epoch 12, batch 310: Loss 5688.88, acc 0.493804, acc_guess_all0 0.957462
+Epoch 12, batch 320: Loss 4170.92, acc 0.489278, acc_guess_all0 0.957263
+Epoch 12, batch 330: Loss 4117.65, acc 0.486913, acc_guess_all0 0.957194
+Epoch 12, batch 340: Loss 2625.78, acc 0.484177, acc_guess_all0 0.957255
+Epoch 12, batch 350: Loss 2338.05, acc 0.492675, acc_guess_all0 0.957551
+Epoch 12, batch 360: Loss 3940.46, acc 0.490297, acc_guess_all0 0.957415
+Epoch 12, batch 370: Loss 4159.34, acc 0.490818, acc_guess_all0 0.957467
+Epoch 12, batch 380: Loss 3866.69, acc 0.488323, acc_guess_all0 0.957374
+Epoch 12, batch 390: Loss 3055.72, acc 0.491428, acc_guess_all0 0.957452
+Epoch 12, batch 400: Loss 5195.42, acc 0.494361, acc_guess_all0 0.957397
+Epoch 12, batch 410: Loss 3829.93, acc 0.496197, acc_guess_all0 0.957406
+Epoch 12, batch 420: Loss 3012.52, acc 0.494578, acc_guess_all0 0.957416
+Epoch 12, batch 430: Loss 3261.72, acc 0.49271, acc_guess_all0 0.957385
+Epoch 12, batch 440: Loss 3126.77, acc 0.486454, acc_guess_all0 0.95724
+Epoch 12, batch 450: Loss 2149.18, acc 0.486142, acc_guess_all0 0.957237
+Epoch 12, batch 460: Loss 3320.11, acc 0.488446, acc_guess_all0 0.957147
+Epoch 12, batch 470: Loss 2530.54, acc 0.485324, acc_guess_all0 0.957109
+Epoch 12, batch 480: Loss 3919.77, acc 0.488919, acc_guess_all0 0.957081
+Epoch 12, batch 490: Loss 3056.25, acc 0.488431, acc_guess_all0 0.957166
+Epoch 12, batch 500: Loss 3319.11, acc 0.488654, acc_guess_all0 0.957114
+Epoch 12, batch 510: Loss 4629.11, acc 0.491578, acc_guess_all0 0.957257
+Epoch 12, batch 520: Loss 4441.24, acc 0.492532, acc_guess_all0 0.95729
+Epoch 12, batch 530: Loss 3908.62, acc 0.487288, acc_guess_all0 0.957164
+Epoch 12, batch 540: Loss 3723.53, acc 0.490629, acc_guess_all0 0.9572
+Epoch 12, batch 550: Loss 3861.93, acc 0.493102, acc_guess_all0 0.957249
+Epoch 12, batch 560: Loss 3874, acc 0.494995, acc_guess_all0 0.957282
+Epoch 12, batch 570: Loss 1994.43, acc 0.49172, acc_guess_all0 0.957282
+Epoch 12, batch 580: Loss 4066.15, acc 0.491492, acc_guess_all0 0.957199
+Epoch 12, batch 590: Loss 4583.06, acc 0.493658, acc_guess_all0 0.95726
+Epoch 12, batch 600: Loss 3957.4, acc 0.491241, acc_guess_all0 0.957257
+Epoch 12, batch 610: Loss 3234.84, acc 0.494763, acc_guess_all0 0.957322
+Epoch 12, batch 620: Loss 2596.97, acc 0.495664, acc_guess_all0 0.957351
+Epoch 12, batch 630: Loss 3625.41, acc 0.493553, acc_guess_all0 0.957243
+Epoch 12, batch 640: Loss 2491.58, acc 0.496427, acc_guess_all0 0.957354
+Epoch 12, batch 650: Loss 2860.92, acc 0.498417, acc_guess_all0 0.957352
+Epoch 12, batch 660: Loss 4081.28, acc 0.495967, acc_guess_all0 0.957206
+Epoch 12, batch 670: Loss 3522.47, acc 0.49811, acc_guess_all0 0.957265
+Epoch 12, batch 680: Loss 3793.74, acc 0.494951, acc_guess_all0 0.957228
+Epoch 12, batch 690: Loss 3452.74, acc 0.496262, acc_guess_all0 0.957286
+Epoch 12, batch 700: Loss 2935.66, acc 0.492714, acc_guess_all0 0.957213
+Epoch 12, batch 710: Loss 3775.52, acc 0.496995, acc_guess_all0 0.957272
+Epoch 12, batch 720: Loss 4414.94, acc 0.496871, acc_guess_all0 0.957329
+Epoch 12, batch 730: Loss 4980.32, acc 0.494916, acc_guess_all0 0.957181
+Epoch 12, batch 740: Loss 3766.84, acc 0.491234, acc_guess_all0 0.957125
+Epoch 12, batch 750: Loss 2769.06, acc 0.490866, acc_guess_all0 0.957101
+Epoch 12, batch 760: Loss 3951.27, acc 0.490822, acc_guess_all0 0.957019
+Epoch 12, batch 770: Loss 4662.22, acc 0.487882, acc_guess_all0 0.957021
+Epoch 12, batch 780: Loss 3540.29, acc 0.49123, acc_guess_all0 0.95706
+Epoch 12, batch 790: Loss 2418.8, acc 0.490537, acc_guess_all0 0.957114
+Epoch 12, batch 800: Loss 4352.16, acc 0.49293, acc_guess_all0 0.957172
+Epoch 12, batch 810: Loss 3051.99, acc 0.492737, acc_guess_all0 0.957116
+Epoch 12, batch 820: Loss 3335.48, acc 0.494141, acc_guess_all0 0.957193
+Epoch 12, batch 830: Loss 3176.09, acc 0.492955, acc_guess_all0 0.957221
+Epoch 12, batch 840: Loss 2929.75, acc 0.495794, acc_guess_all0 0.957302
+Epoch 12, batch 850: Loss 2778.91, acc 0.49236, acc_guess_all0 0.957259
+Epoch 12, batch 860: Loss 3747.55, acc 0.492567, acc_guess_all0 0.95717
+Epoch 12, batch 870: Loss 4183.17, acc 0.491414, acc_guess_all0 0.957168
+Epoch 12, batch 880: Loss 3176.13, acc 0.489323, acc_guess_all0 0.957042
+Epoch 12, batch 890: Loss 4542.48, acc 0.491774, acc_guess_all0 0.957133
+Epoch 12, batch 900: Loss 3368.34, acc 0.491795, acc_guess_all0 0.957206
+Epoch 12, batch 910: Loss 3601.77, acc 0.492719, acc_guess_all0 0.957167
+Epoch 12, batch 920: Loss 2989.19, acc 0.491046, acc_guess_all0 0.957167
+Epoch 12, batch 930: Loss 3054.28, acc 0.48959, acc_guess_all0 0.957091
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-12-0.49_0.957.model
+starting validation...
+val_acc 0.122356
+Epoch 13, batch 10: Loss 3460.24, acc 0.580038, acc_guess_all0 0.96241
+Epoch 13, batch 20: Loss 2419.15, acc 0.604076, acc_guess_all0 0.962602
+Epoch 13, batch 30: Loss 1732.78, acc 0.572921, acc_guess_all0 0.962912
+Epoch 13, batch 40: Loss 3108.17, acc 0.595095, acc_guess_all0 0.961602
+Epoch 13, batch 50: Loss 4041.31, acc 0.506169, acc_guess_all0 0.959266
+Epoch 13, batch 60: Loss 3145.55, acc 0.542443, acc_guess_all0 0.959908
+Epoch 13, batch 70: Loss 2046.87, acc 0.495869, acc_guess_all0 0.959702
+Epoch 13, batch 80: Loss 3512.78, acc 0.497175, acc_guess_all0 0.958846
+Epoch 13, batch 90: Loss 5835.44, acc 0.519282, acc_guess_all0 0.959391
+Epoch 13, batch 100: Loss 4590.46, acc 0.498863, acc_guess_all0 0.958074
+Epoch 13, batch 110: Loss 3877.7, acc 0.496963, acc_guess_all0 0.95809
+Epoch 13, batch 120: Loss 3324.7, acc 0.529092, acc_guess_all0 0.959027
+Epoch 13, batch 130: Loss 2531.91, acc 0.522047, acc_guess_all0 0.959257
+Epoch 13, batch 140: Loss 4343.98, acc 0.504689, acc_guess_all0 0.95794
+Epoch 13, batch 150: Loss 4157.63, acc 0.492122, acc_guess_all0 0.957353
+Epoch 13, batch 160: Loss 3898.16, acc 0.499841, acc_guess_all0 0.957646
+Epoch 13, batch 170: Loss 4528, acc 0.490179, acc_guess_all0 0.957055
+Epoch 13, batch 180: Loss 6103.61, acc 0.491373, acc_guess_all0 0.95721
+Epoch 13, batch 190: Loss 3740.19, acc 0.471492, acc_guess_all0 0.956395
+Epoch 13, batch 200: Loss 3132.9, acc 0.470938, acc_guess_all0 0.956157
+Epoch 13, batch 210: Loss 2874.47, acc 0.469532, acc_guess_all0 0.956163
+Epoch 13, batch 220: Loss 3908.39, acc 0.457321, acc_guess_all0 0.955862
+Epoch 13, batch 230: Loss 2485.26, acc 0.452289, acc_guess_all0 0.955931
+Epoch 13, batch 240: Loss 4984.51, acc 0.467483, acc_guess_all0 0.956137
+Epoch 13, batch 250: Loss 2046.76, acc 0.470551, acc_guess_all0 0.956408
+Epoch 13, batch 260: Loss 2657.51, acc 0.481291, acc_guess_all0 0.956676
+Epoch 13, batch 270: Loss 4261.26, acc 0.489988, acc_guess_all0 0.956986
+Epoch 13, batch 280: Loss 4059.26, acc 0.49163, acc_guess_all0 0.957017
+Epoch 13, batch 290: Loss 3883.81, acc 0.495017, acc_guess_all0 0.957073
+Epoch 13, batch 300: Loss 4464.58, acc 0.500471, acc_guess_all0 0.957236
+Epoch 13, batch 310: Loss 2688.27, acc 0.508207, acc_guess_all0 0.957514
+Epoch 13, batch 320: Loss 3986.17, acc 0.508545, acc_guess_all0 0.957544
+Epoch 13, batch 330: Loss 3150.83, acc 0.507048, acc_guess_all0 0.957444
+Epoch 13, batch 340: Loss 3262.3, acc 0.51, acc_guess_all0 0.957456
+Epoch 13, batch 350: Loss 3216.55, acc 0.512823, acc_guess_all0 0.95759
+Epoch 13, batch 360: Loss 4097.25, acc 0.514642, acc_guess_all0 0.957396
+Epoch 13, batch 370: Loss 3268.16, acc 0.512491, acc_guess_all0 0.957559
+Epoch 13, batch 380: Loss 3331.86, acc 0.523172, acc_guess_all0 0.957796
+Epoch 13, batch 390: Loss 4633.19, acc 0.520869, acc_guess_all0 0.957694
+Epoch 13, batch 400: Loss 3875, acc 0.516149, acc_guess_all0 0.957671
+Epoch 13, batch 410: Loss 3443.03, acc 0.512861, acc_guess_all0 0.957534
+Epoch 13, batch 420: Loss 2095.3, acc 0.51155, acc_guess_all0 0.957578
+Epoch 13, batch 430: Loss 2459.93, acc 0.508385, acc_guess_all0 0.957513
+Epoch 13, batch 440: Loss 3030.05, acc 0.51127, acc_guess_all0 0.957501
+Epoch 13, batch 450: Loss 4904.91, acc 0.507942, acc_guess_all0 0.957396
+Epoch 13, batch 460: Loss 2029.92, acc 0.507368, acc_guess_all0 0.957407
+Epoch 13, batch 470: Loss 4533.52, acc 0.509592, acc_guess_all0 0.957288
+Epoch 13, batch 480: Loss 3092.33, acc 0.507351, acc_guess_all0 0.957145
+Epoch 13, batch 490: Loss 4665.82, acc 0.507271, acc_guess_all0 0.957229
+Epoch 13, batch 500: Loss 3740.09, acc 0.50817, acc_guess_all0 0.957237
+Epoch 13, batch 510: Loss 2302.55, acc 0.513289, acc_guess_all0 0.957496
+Epoch 13, batch 520: Loss 3918.77, acc 0.514284, acc_guess_all0 0.957382
+Epoch 13, batch 530: Loss 4148.82, acc 0.513403, acc_guess_all0 0.957267
+Epoch 13, batch 540: Loss 4065.39, acc 0.509196, acc_guess_all0 0.957191
+Epoch 13, batch 550: Loss 4093.39, acc 0.502809, acc_guess_all0 0.957117
+Epoch 13, batch 560: Loss 4107.32, acc 0.508104, acc_guess_all0 0.957313
+Epoch 13, batch 570: Loss 3588.9, acc 0.506685, acc_guess_all0 0.957351
+Epoch 13, batch 580: Loss 3255.04, acc 0.501348, acc_guess_all0 0.957207
+Epoch 13, batch 590: Loss 2349, acc 0.501342, acc_guess_all0 0.95718
+Epoch 13, batch 600: Loss 4918.73, acc 0.503153, acc_guess_all0 0.95717
+Epoch 13, batch 610: Loss 4175, acc 0.502158, acc_guess_all0 0.957277
+Epoch 13, batch 620: Loss 2641.84, acc 0.504454, acc_guess_all0 0.957311
+Epoch 13, batch 630: Loss 4869.79, acc 0.505869, acc_guess_all0 0.957231
+Epoch 13, batch 640: Loss 2999.66, acc 0.504827, acc_guess_all0 0.957282
+Epoch 13, batch 650: Loss 3965.98, acc 0.503097, acc_guess_all0 0.957162
+Epoch 13, batch 660: Loss 1942.81, acc 0.501845, acc_guess_all0 0.95728
+Epoch 13, batch 670: Loss 3076.11, acc 0.503469, acc_guess_all0 0.957319
+Epoch 13, batch 680: Loss 3608.88, acc 0.500888, acc_guess_all0 0.957304
+Epoch 13, batch 690: Loss 3031.42, acc 0.503561, acc_guess_all0 0.957395
+Epoch 13, batch 700: Loss 2026.2, acc 0.506972, acc_guess_all0 0.957512
+Epoch 13, batch 710: Loss 3831.15, acc 0.508217, acc_guess_all0 0.95752
+Epoch 13, batch 720: Loss 4181.82, acc 0.505787, acc_guess_all0 0.957372
+Epoch 13, batch 730: Loss 1486.87, acc 0.50373, acc_guess_all0 0.957395
+Epoch 13, batch 740: Loss 2545.31, acc 0.508129, acc_guess_all0 0.957478
+Epoch 13, batch 750: Loss 3479.03, acc 0.503461, acc_guess_all0 0.957285
+Epoch 13, batch 760: Loss 2240.44, acc 0.50347, acc_guess_all0 0.957304
+Epoch 13, batch 770: Loss 3511.9, acc 0.506207, acc_guess_all0 0.957362
+Epoch 13, batch 780: Loss 3823.9, acc 0.50165, acc_guess_all0 0.957166
+Epoch 13, batch 790: Loss 3007.67, acc 0.498253, acc_guess_all0 0.957062
+Epoch 13, batch 800: Loss 3821.19, acc 0.500228, acc_guess_all0 0.957086
+Epoch 13, batch 810: Loss 3366.34, acc 0.501091, acc_guess_all0 0.957139
+Epoch 13, batch 820: Loss 3991.99, acc 0.499762, acc_guess_all0 0.957129
+Epoch 13, batch 830: Loss 3144.64, acc 0.497737, acc_guess_all0 0.957118
+Epoch 13, batch 840: Loss 3297.78, acc 0.499932, acc_guess_all0 0.957109
+Epoch 13, batch 850: Loss 3514.91, acc 0.49946, acc_guess_all0 0.957112
+Epoch 13, batch 860: Loss 2154.02, acc 0.498035, acc_guess_all0 0.957165
+Epoch 13, batch 870: Loss 3039.8, acc 0.5013, acc_guess_all0 0.957217
+Epoch 13, batch 880: Loss 5116.52, acc 0.50263, acc_guess_all0 0.957223
+Epoch 13, batch 890: Loss 5089.35, acc 0.498805, acc_guess_all0 0.957095
+Epoch 13, batch 900: Loss 4807.34, acc 0.499447, acc_guess_all0 0.957042
+Epoch 13, batch 910: Loss 3880.67, acc 0.497145, acc_guess_all0 0.957005
+Epoch 13, batch 920: Loss 4649.79, acc 0.499173, acc_guess_all0 0.957065
+Epoch 13, batch 930: Loss 2690.33, acc 0.501593, acc_guess_all0 0.957172
+starting validation...

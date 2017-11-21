@@ -1,0 +1,327 @@
+---------------- start ----------------
+Mo 5. Jun 16:53:24 CEST 2017
+max threads: 1
+max memory: 5000 MB
+time limit: 24 hours
+use gpu: false
+.qsub-read_mat_files.sh.2  1
+---------------------------------------
+
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.5_rp0.mat
+2.74239892858 	0.0 	0.354049656668 	0.181522733371
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.7_rp0.mat
+0.570190128315 	0.290604078891 	0.661956840992 	0.198849068315
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.9_rp0.mat
+0.34235394192 	0.232417772088 	2.4532229713 	0.8280243329
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.5_rp5.mat
+2.61373160811 	0.167957532343 	0.384270380935 	0.191541633007
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.7_rp5.mat
+0.474368267221 	0.259893560523 	0.689716638041 	0.209985472128
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.9_rp5.mat
+0.335888485151 	0.230681985723 	2.45705819586 	0.833693001793
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.5_rp10.mat
+1.83250703727 	0.212294313346 	0.501081849267 	0.236290866353
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.7_rp10.mat
+0.392143850799 	0.230905431554 	0.800229401134 	0.268049719606
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.9_rp10.mat
+0.319893124157 	0.221698841163 	2.50523760502 	0.896377924296
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model1-5viewPairs/t0.5_rp0.mat
+2.33769102686 	0.0 	2.85620485853 	0.198377251016
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model1-5viewPairs/t0.7_rp0.mat
+0.311417847393 	0.139646198478 	2.93179711435 	0.205091452316
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model1-5viewPairs/t0.9_rp0.mat
+0.226609125848 	0.149321720206 	3.8350231243 	0.349472292136
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model1-5viewPairs/t0.5_rp5.mat
+2.5671611315 	0.0 	2.86915418663 	0.204257315317
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model1-5viewPairs/t0.7_rp5.mat
+0.27306683486 	0.152103952272 	2.94900356903 	0.213176277173
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model1-5viewPairs/t0.9_rp5.mat
+0.223742558376 	0.152158428868 	3.84123149867 	0.365888247422
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model1-5viewPairs/t0.5_rp10.mat
+1.83890403197 	0.109804609054 	2.95618174097 	0.247676876392
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model1-5viewPairs/t0.7_rp10.mat
+0.242510585546 	0.156778870199 	3.0462133786 	0.262311137518
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model1-5viewPairs/t0.9_rp10.mat
+0.213032298481 	0.156121380216 	3.89515853286 	0.453009033609
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model4-5viewPairs/t0.5_rp0.mat
+2.57894549457 	0.0 	2.48461057794 	0.19750977034
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model4-5viewPairs/t0.7_rp0.mat
+0.35518799329 	0.19814911267 	2.92345032239 	0.207055123166
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model4-5viewPairs/t0.9_rp0.mat
+0.246175173665 	0.168757735918 	4.82073175439 	0.281740615842
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model4-5viewPairs/t0.5_rp5.mat
+2.50721072723 	0.0 	2.51412413886 	0.206798028755
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model4-5viewPairs/t0.7_rp5.mat
+0.305175459102 	0.183896129564 	2.94671546002 	0.216828147001
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model4-5viewPairs/t0.9_rp5.mat
+0.236657786236 	0.168563702748 	4.82864972234 	0.295475287316
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model4-5viewPairs/t0.5_rp10.mat
+1.87592065273 	0.145963988484 	2.61898939376 	0.251160364306
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model4-5viewPairs/t0.7_rp10.mat
+0.260835646328 	0.172347428237 	3.04702935327 	0.263501501063
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model4-5viewPairs/t0.9_rp10.mat
+0.216821824451 	0.165811804449 	4.89195071495 	0.385290092275
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model75-5viewPairs/t0.5_rp0.mat
+5.65595003759 	0.0 	0.138813877924 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model75-5viewPairs/t0.7_rp0.mat
+2.27641762722 	0.316223551599 	0.337837999403 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model75-5viewPairs/t0.9_rp0.mat
+0.251776292454 	0.181438613559 	1.43173657104 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model75-5viewPairs/t0.5_rp5.mat
+5.65773485692 	0.0 	0.150241769029 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model75-5viewPairs/t0.7_rp5.mat
+1.35084100379 	0.245352775347 	0.348253876713 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model75-5viewPairs/t0.9_rp5.mat
+0.240478166405 	0.175300881674 	1.43733325195 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model75-5viewPairs/t0.5_rp10.mat
+4.43460610207 	0.126883948732 	0.192692530945 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model75-5viewPairs/t0.7_rp10.mat
+0.821997631176 	0.206244061474 	0.391181472539 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model75-5viewPairs/t0.9_rp10.mat
+0.219181752879 	0.164529380641 	1.48425444205 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model77-5viewPairs/t0.5_rp0.mat
+6.30197853379 	0.0 	0.0487287294964 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model77-5viewPairs/t0.7_rp0.mat
+1.67540046535 	0.0392181577112 	0.183889052846 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model77-5viewPairs/t0.9_rp0.mat
+0.487003830789 	0.240003426376 	0.653146204025 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model77-5viewPairs/t0.5_rp5.mat
+8.53979235651 	0.0 	0.0524541213733 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model77-5viewPairs/t0.7_rp5.mat
+1.90888442755 	0.316547639156 	0.186563844339 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model77-5viewPairs/t0.9_rp5.mat
+0.499047013859 	0.240796395729 	0.653770872507 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model77-5viewPairs/t0.5_rp10.mat
+9.14865323417 	0.47181940291 	0.0732111518444 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model77-5viewPairs/t0.7_rp10.mat
+1.72799760942 	0.373312365236 	0.204131390555 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model77-5viewPairs/t0.9_rp10.mat
+0.501310022056 	0.234709657629 	0.657928729921 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model110-5viewPairs/t0.5_rp0.mat
+4.54532042357 	0.0 	0.448504707119 	0.146817458592
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model110-5viewPairs/t0.7_rp0.mat
+0.310600853915 	0.159477963683 	1.0519686906 	0.159179181982
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model110-5viewPairs/t0.9_rp0.mat
+0.18626838704 	0.146237314266 	3.66627733998 	0.441732817327
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model110-5viewPairs/t0.5_rp5.mat
+4.28899699561 	0.0 	0.466708614102 	0.15261692945
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model110-5viewPairs/t0.7_rp5.mat
+0.28959814697 	0.164822911855 	1.0673995452 	0.166321748372
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model110-5viewPairs/t0.9_rp5.mat
+0.189244838863 	0.150308173093 	3.6676914305 	0.447875202579
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model110-5viewPairs/t0.5_rp10.mat
+2.88609206696 	0.121671296407 	0.527642124845 	0.174420478118
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model110-5viewPairs/t0.7_rp10.mat
+0.27400892559 	0.173606089642 	1.12578921261 	0.191572334444
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model110-5viewPairs/t0.9_rp10.mat
+0.193490915473 	0.156443080945 	3.70627833925 	0.509883905891
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-1viewPairs/t0.5_rp0.mat
+except
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-1viewPairs/t0.7_rp0.mat
+3.44943165412 	0.0 	0.382940499437 	0.186057130332
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-1viewPairs/t0.9_rp0.mat
+2.61443487172 	0.175722714536 	0.710452504641 	0.234924923387
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-1viewPairs/t0.5_rp5.mat
+nan 	nan 	47.1470954049 	60.0
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-1viewPairs/t0.7_rp5.mat
+nan 	nan 	47.1470954049 	60.0
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-1viewPairs/t0.9_rp5.mat
+nan 	nan 	47.1470954049 	60.0
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-1viewPairs/t0.5_rp10.mat
+nan 	nan 	47.1470954049 	60.0
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-1viewPairs/t0.7_rp10.mat
+nan 	nan 	47.1470954049 	60.0
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-1viewPairs/t0.9_rp10.mat
+nan 	nan 	47.1470954049 	60.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-3viewPairs/t0.5_rp0.mat
+3.43429818111 	0.0 	0.336194411561 	0.180795636124
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-3viewPairs/t0.7_rp0.mat
+1.06372896929 	0.297789517374 	0.546076741079 	0.195515459683
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-3viewPairs/t0.9_rp0.mat
+0.412671018702 	0.240628162165 	1.73994917585 	0.501872269338
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-3viewPairs/t0.5_rp5.mat
+3.16175655681 	0.179166348565 	0.404316326905 	0.203820021169
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-3viewPairs/t0.7_rp5.mat
+0.709200790882 	0.251434959679 	0.616322113582 	0.224505666964
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-3viewPairs/t0.9_rp5.mat
+0.374775965598 	0.234569454986 	1.76607584474 	0.548725684712
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-3viewPairs/t0.5_rp10.mat
+nan 	nan 	47.1470954049 	60.0
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-3viewPairs/t0.7_rp10.mat
+nan 	nan 	47.1470954049 	60.0
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-3viewPairs/t0.9_rp10.mat
+nan 	nan 	47.1470954049 	60.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-6viewPairs/t0.5_rp0.mat
+2.50923966657 	0.107531137448 	0.359732932457 	0.181697972225
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-6viewPairs/t0.7_rp0.mat
+0.513255628565 	0.285281107415 	0.689561705662 	0.200087547068
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-6viewPairs/t0.9_rp0.mat
+0.334836166871 	0.231288256679 	2.69323419271 	0.996423412933
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-6viewPairs/t0.5_rp5.mat
+2.38139007698 	0.177402946136 	0.382495863543 	0.189366544111
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-6viewPairs/t0.7_rp5.mat
+0.445628232881 	0.261288842638 	0.709074679617 	0.208087108392
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-6viewPairs/t0.9_rp5.mat
+0.329637306051 	0.230208760093 	2.69513441887 	0.998437614452
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-6viewPairs/t0.5_rp10.mat
+1.95325952111 	0.208156887122 	0.446335448123 	0.21055431574
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-6viewPairs/t0.7_rp10.mat
+0.390373755986 	0.235481964825 	0.770063344723 	0.236664843111
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-6viewPairs/t0.9_rp10.mat
+0.317864689319 	0.224792255794 	2.71106266586 	1.01689811177
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-7viewPairs/t0.5_rp0.mat
+2.26918579218 	0.129893611023 	0.365308266041 	0.18182687174
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-7viewPairs/t0.7_rp0.mat
+0.480061038802 	0.281748455185 	0.721638655785 	0.201141023026
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-7viewPairs/t0.9_rp0.mat
+0.331243083687 	0.22985051175 	2.89036118921 	1.13431905224
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-7viewPairs/t0.5_rp5.mat
+2.15172309957 	0.182357654363 	0.38416352206 	0.188089638678
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-7viewPairs/t0.7_rp5.mat
+0.434786711125 	0.262108111281 	0.736155288195 	0.207344008434
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-7viewPairs/t0.9_rp5.mat
+0.328087464938 	0.229251580613 	2.89132223085 	1.13525053425
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-7viewPairs/t0.5_rp10.mat
+1.88274921435 	0.204987384137 	0.429705196248 	0.202546182812
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-7viewPairs/t0.7_rp10.mat
+0.392715602462 	0.238000098677 	0.777680825324 	0.22689082051
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-7viewPairs/t0.9_rp10.mat
+0.320142441322 	0.225755935166 	2.90015534948 	1.14428772781
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-1viewPairs/t0.5_rp5.mat
+nan 	nan 	47.1470954049 	60.0
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-1viewPairs/t0.7_rp5.mat
+nan 	nan 	47.1470954049 	60.0
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-1viewPairs/t0.9_rp5.mat
+nan 	nan 	47.1470954049 	60.0
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-1viewPairs/t0.5_rp10.mat
+nan 	nan 	47.1470954049 	60.0
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-1viewPairs/t0.7_rp10.mat
+nan 	nan 	47.1470954049 	60.0
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-1viewPairs/t0.9_rp10.mat
+nan 	nan 	47.1470954049 	60.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-3viewPairs/t0.5_rp5.mat
+3.16175655681 	0.179166348565 	0.404316326905 	0.203820021169
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-3viewPairs/t0.7_rp5.mat
+0.709200790882 	0.251434959679 	0.616322113582 	0.224505666964
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-3viewPairs/t0.9_rp5.mat
+0.374775965598 	0.234569454986 	1.76607584474 	0.548725684712
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-3viewPairs/t0.5_rp10.mat
+nan 	nan 	47.1470954049 	60.0
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-3viewPairs/t0.7_rp10.mat
+nan 	nan 	47.1470954049 	60.0
+read_from_single_mat.py:28: RuntimeWarning: Mean of empty slice.
+  print('{} \t{} \t{} \t{}'.format(Ddata.mean(),np.median(Ddata),Dstl.mean(), np.median(Dstl)))
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2889: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_fixthresh/model9-3viewPairs/t0.9_rp10.mat
+nan 	nan 	47.1470954049 	60.0
+Done
+
+----------------- end -----------------
+Mo 5. Jun 16:55:36 CEST 2017
+elapsed time: 000:02:12
+---------------------------------------

@@ -1,0 +1,16 @@
+---------------- start ----------------
+Wed Jul 19 2017 14:32:43
+max threads: 2
+max memory: 30000 MB
+time limit: 100 hours
+use gpu: false
+---------------------------------------
+Traceback (most recent call last):
+  File "adapthresh.py", line 1, in <module>
+    import matlab.engine as mat # weird: cannot be imported after numpy !
+ImportError: No module named matlab.engine
+Done
+----------------- end -----------------
+Wed Jul 19 2017 14:32:43
+elapsed time: 000:00:00
+---------------------------------------

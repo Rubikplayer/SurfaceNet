@@ -1,0 +1,93 @@
+---------------- start ----------------
+So 16. Okt 20:50:31 CEST 2016
+max threads: 2
+max memory: 16000 MB
+time limit: 36 hours
+gpu device id: 0
+.qsub-2D_2_3D-train.sh.1  1
+---------------------------------------
+
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is disabled, cuDNN 5103)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
+  warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
+compressed 5.npz is saved
+rectified imgs of indx: 5 are loaded
+compressed 6.npz is saved
+rectified imgs of indx: 6 are loaded
+compressed 16.npz is saved
+rectified imgs of indx: 16 are loaded
+compressed 18.npz is saved
+rectified imgs of indx: 18 are loaded
+compressed 19.npz is saved
+rectified imgs of indx: 19 are loaded
+compressed 21.npz is saved
+rectified imgs of indx: 21 are loaded
+compressed 36.npz is saved
+rectified imgs of indx: 36 are loaded
+compressed 37.npz is saved
+rectified imgs of indx: 37 are loaded
+compressed 38.npz is saved
+rectified imgs of indx: 38 are loaded
+compressed 42.npz is saved
+rectified imgs of indx: 42 are loaded
+compressed 45.npz is saved
+rectified imgs of indx: 45 are loaded
+compressed 49.npz is saved
+rectified imgs of indx: 49 are loaded
+compressed 50.npz is saved
+rectified imgs of indx: 50 are loaded
+compressed 59.npz is saved
+rectified imgs of indx: 59 are loaded
+compressed 61.npz is saved
+rectified imgs of indx: 61 are loaded
+compressed 62.npz is saved
+rectified imgs of indx: 62 are loaded
+compressed 63.npz is saved
+rectified imgs of indx: 63 are loaded
+compressed 66.npz is saved
+rectified imgs of indx: 66 are loaded
+compressed 85.npz is saved
+rectified imgs of indx: 85 are loaded
+compressed 89.npz is saved
+rectified imgs of indx: 89 are loaded
+compressed 93.npz is saved
+rectified imgs of indx: 93 are loaded
+compressed 96.npz is saved
+rectified imgs of indx: 96 are loaded
+compressed 97.npz is saved
+rectified imgs of indx: 97 are loaded
+compressed 100.npz is saved
+rectified imgs of indx: 100 are loaded
+compressed 103.npz is saved
+rectified imgs of indx: 103 are loaded
+compressed 104.npz is saved
+rectified imgs of indx: 104 are loaded
+compressed 105.npz is saved
+rectified imgs of indx: 105 are loaded
+compressed 124.npz is saved
+rectified imgs of indx: 124 are loaded
+compressed 128.npz is saved
+rectified imgs of indx: 128 are loaded
+compressed 17.npz is saved
+rectified imgs of indx: 17 are loaded
+compressed 31.npz is saved
+rectified imgs of indx: 31 are loaded
+compressed 84.npz is saved
+rectified imgs of indx: 84 are loaded
+compressed 102.npz is saved
+rectified imgs of indx: 102 are loaded
+compressed 125.npz is saved
+rectified imgs of indx: 125 are loaded
+compressed 126.npz is saved
+rectified imgs of indx: 126 are loaded
+compressed 17.npz is saved
+rectified imgs of indx: 17 are loaded
+density Cube files are loaded
+output shape: (None, 1, 32, 32, 32)
+loading model: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-62-0.588_0.95.model
+starting training...
+Epoch 1, batch 1: Loss nan, acc 0.95756, acc_guess_all0 0.95756
+Epoch 1, batch 2: Loss nan, acc 0.949148, acc_guess_all0 0.949148
+Epoch 1, batch 3: Loss nan, acc 0.948293, acc_guess_all0 0.948293
+Epoch 1, batch 4: Loss nan, acc 0.947168, acc_guess_all0 0.947168
+Epoch 1, batch 5: Loss nan, acc 0.945098, acc_guess_all0 0.945098

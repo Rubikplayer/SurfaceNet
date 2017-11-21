@@ -1,0 +1,33 @@
+---------------- start ----------------
+Mo 17. Okt 13:51:45 CEST 2016
+max threads: 2
+max memory: 16000 MB
+time limit: 36 hours
+gpu device id: 0
+.qsub-2D_2_3D-train.sh.1  1
+---------------------------------------
+
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is disabled, cuDNN 5103)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
+  warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
+compressed 5.npz is saved
+rectified imgs of indx: 5 are loaded
+compressed 17.npz is saved
+rectified imgs of indx: 17 are loaded
+compressed 17.npz is saved
+rectified imgs of indx: 17 are loaded
+density Cube files are loaded
+output shape: (None, 1, 32, 32, 32)
+lr_coefficient of other layers: 0
+starting training...
+Epoch 1, batch 1: Loss 14717.8, acc 0.140483, acc_guess_all0 0.944906
+Epoch 1, batch 2: Loss 14000.7, acc 0.146784, acc_guess_all0 0.948168
+Epoch 1, batch 3: Loss 15760, acc 0.153748, acc_guess_all0 0.939846
+Epoch 1, batch 4: Loss 14093.1, acc 0.150706, acc_guess_all0 0.941203
+Epoch 1, batch 5: Loss 14746.8, acc 0.152761, acc_guess_all0 0.939768
+Epoch 1, batch 6: Loss 14913.6, acc 0.15474, acc_guess_all0 0.937905
+Epoch 1, batch 7: Loss 14600.3, acc 0.15489, acc_guess_all0 0.937474
+Epoch 1, batch 8: Loss 15760.1, acc 0.157597, acc_guess_all0 0.93552
+Epoch 1, batch 9: Loss 15056.8, acc 0.159993, acc_guess_all0 0.934918
+Epoch 1, batch 10: Loss 14566.1, acc 0.158568, acc_guess_all0 0.935155
+starting validation...

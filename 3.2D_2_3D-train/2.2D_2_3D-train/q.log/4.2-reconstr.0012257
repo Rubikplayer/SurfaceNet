@@ -1,0 +1,310 @@
+---------------- start ----------------
+Thu Jun 01 2017 02:43:37
+max threads: 1
+max memory: 5000 MB
+time limit: 100 hours
+gpu id(s): 1
+---------------------------------------
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is enabled with initial size: 95.0% of memory, cuDNN 5105)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
+  warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
+
+current mode *** reconstruct_model / debug_ON False ***
+
+__CHANNEL_MEAN =  [ 123.68000031  116.77899933  103.93900299  123.68000031  116.77899933
+  103.93900299]
+__D_center =  52
+__D_randcrop =  64
+__N_view =  49
+__N_viewPairs =  [1]
+__RETURN_ALL_VIEWPAIRS =  0
+__camera_po_txt_fld =  /home/mengqi/dataset/MVS/pos/
+__chunk_len_reconstr =  2
+__cube_param_N =  5
+__cube_stride_over_Dsize =  0.5
+__data_fld =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/
+__grid_D_4train =  50
+__input_hwd =  64
+__layer_2_load_model =  ['output_volumeNet_reshape', 'output_softmaxWeights']
+__min_prob =  0.47619047619
+__model_folder =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/
+__model_imgs_fld =  /home/mengqi/dataset/MVS/Rectified_mean/
+__model_imgs_npz_fld =  /home/mengqi/dataset/MVS/Rectified_mean/npz/
+__non_trainVal_set =  [23, 24, 27, 29, 73, 114, 118, 25, 26, 27, 1, 11, 24, 34, 49, 62, 11, 32, 33, 48, 75, 110, 25, 1, 4, 77, 1, 9, 10, 12, 13, 15, 33, 54, 78, 79, 80, 81]
+__num_epochs =  2
+__patch_hw_size =  64
+__pcd_folder =  /home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/weighted_ON-cubeSize64/
+__pcl_pcd2ply_exe =  ~/Downloads/pcl-trunk/build/bin/pcl_pcd2ply
+__planeMask_fld =  /home/mengqi/dataset/MVS/SampleSet/MVS Data/ObsMask/
+__pretrained_model_file =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-19-0.918_0.951.model
+__pretrained_similNet_model_file =  /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch33_acc_tr0.707_val0.791.model
+__pts_in_voxel_MAX =  10.0
+__pts_in_voxel_MIN =  0.0
+__rand_train_set =  [2, 6, 7, 8, 14, 16, 18, 19, 20, 22, 30, 31, 36, 39, 41, 42, 44, 45, 46, 47, 50, 51, 52, 53, 55, 57, 58, 60, 61, 63, 64, 65, 68, 69, 70, 71, 72, 74, 76, 83, 84, 85, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 107, 108, 109, 111, 112, 113, 115, 116, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128]
+__rand_val_set =  [35, 37, 43, 5, 66, 117, 17, 106, 21, 40, 82, 56, 86, 3, 67, 28, 38, 59]
+__reconstr_ON =  True
+__reconstr_sceneRange =  [(0, 60), (-150, -100), (580, 630)]
+__resol =  0.4
+__root_path =  /home/mengqi/dataset/MVS/
+__save_ply =  False
+__selfDefined_boundingBox =  False
+__similNet_features_dim =  258
+__similNet_hidden_dim =  100
+__surfPredict_scale4reconstr =  2
+__surfPredict_scale4visual =  2
+__tempResult_4visual_fld =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/temp_visualization/
+__test_ON =  False
+__test_set =  [9]
+__test_visualize_ON =  True
+__trainVal_set =  [2, 3, 5, 6, 7, 8, 14, 16, 17, 18, 19, 20, 21, 22, 28, 30, 31, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 50, 51, 52, 53, 55, 56, 57, 58, 59, 60, 61, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 74, 76, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 111, 112, 113, 115, 116, 117, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128]
+__train_ON =  False
+__train_set =  []
+__use_newLayerAPI_dilatConv =  True
+__use_pretrained_model =  True
+__val_ON =  False
+__val_set =  [9]
+__view_set =  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+__visualize_when_generateData_ON =  False
+__visualizer =  /home/mengqi/working/program/4.1/20160725b-build/pcl_visualizer_demo
+__voxelVolume_txt_fld =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/pcl_txt_50x50x50_2D_2_3D-without-offsurf/
+__weighted_fusion =  True
+
+ ********* 
+ model 9, N_viewPairs = 1 
+ ********* 
+
+loaded img /home/mengqi/dataset/MVS/Rectified_mean/scan9
+rectified imgs of indx: 9 are loaded
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 16, 16, 16)
+shape of kshp_64 = [300   1  16  16  16]
+should be 1D tensor, shape of kshp = (None, 300, 16, 16, 16)
+now inside dnn_gradweight3D
+kshp = [300   1  16  16  16]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 16, 16, 16)
+shape of kshp_64 = [300   1  16  16  16]
+should be 1D tensor, shape of kshp = (None, 300, 16, 16, 16)
+now inside dnn_gradweight3D
+kshp = [300   1  16  16  16]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 16, 16, 16)
+shape of kshp_64 = [300   1  16  16  16]
+should be 1D tensor, shape of kshp = (None, 300, 16, 16, 16)
+now inside dnn_gradweight3D
+kshp = [300   1  16  16  16]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 16, 16, 16)
+shape of kshp_64 = [300   1  16  16  16]
+should be 1D tensor, shape of kshp = (None, 300, 16, 16, 16)
+now inside dnn_gradweight3D
+kshp = [300   1  16  16  16]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 16, 16, 16)
+shape of kshp_64 = [300   1  16  16  16]
+should be 1D tensor, shape of kshp = (None, 300, 16, 16, 16)
+now inside dnn_gradweight3D
+kshp = [300   1  16  16  16]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 16, 16, 16)
+shape of kshp_64 = [300   1  16  16  16]
+should be 1D tensor, shape of kshp = (None, 300, 16, 16, 16)
+now inside dnn_gradweight3D
+kshp = [300   1  16  16  16]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+output shape: (None, 1, 64, 64, 64)
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 16, 16, 16)
+shape of kshp_64 = [300   1  16  16  16]
+should be 1D tensor, shape of kshp = (None, 300, 16, 16, 16)
+now inside dnn_gradweight3D
+kshp = [300   1  16  16  16]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 16, 16, 16)
+shape of kshp_64 = [300   1  16  16  16]
+should be 1D tensor, shape of kshp = (None, 300, 16, 16, 16)
+now inside dnn_gradweight3D
+kshp = [300   1  16  16  16]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 16, 16, 16)
+shape of kshp_64 = [300   1  16  16  16]
+should be 1D tensor, shape of kshp = (None, 300, 16, 16, 16)
+now inside dnn_gradweight3D
+kshp = [300   1  16  16  16]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 16, 16, 16, 16)
+shape of kshp_64 = [16  1 16 16 16]
+should be 1D tensor, shape of kshp = (None, 16, 16, 16, 16)
+now inside dnn_gradweight3D
+kshp = [16  1 16 16 16]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+loading volumeNet / fusionNet model: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-19-0.918_0.951.model
+loaded similNet model: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch33_acc_tr0.707_val0.791.model
+starting reconstruction...
+xyz bounding box of the reconstructed scene: [-123  179], [-247  233], [422 860]
+starting VGG_triplet Net to predict the feature vectors for each view patches.
+rectified imgs are loaded from Voxel_in_Hull.py: /home/mengqi/dataset/MVS/Rectified_mean/scan9
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 223 375 493 587 683 775 860 951 1045 1151 1278 1468 1716 1878 1998 2103 2191 2283 2366 2455 2546 2641 2753 2900 3147 3343 3475 3585 3684 3770 3859 3941 4028 4118 4213 4326 4488 4740 4925 
+There are 995 inScope_nearSurf_Cubes will be processed. 0 / 9
+
+ this batch took 533.238s
+
+rectified imgs are loaded from Voxel_in_Hull.py: /home/mengqi/dataset/MVS/Rectified_mean/scan9
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 105 205 297 381 466 548 634 721 823 952 1175 1403 1542 1654 1754 1840 1929 2010 2094 2174 2261 2354 2471 2659 2919 3077 3192 3284 3377 3460 3541 3624 3702 3786 3875 3973 4114 4370 4568 4695 4802 4890 4981 
+There are 1244 inScope_nearSurf_Cubes will be processed. 1 / 9
+
+ this batch took 1189.871s
+
+rectified imgs are loaded from Voxel_in_Hull.py: /home/mengqi/dataset/MVS/Rectified_mean/scan9
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 86 165 243 324 408 500 617 817 1068 1219 1332 1422 1515 1597 1677 1759 1836 1915 1997 2089 2209 2459 2677 2811 2919 3016 3100 3182 3266 3343 3419 3498 3577 3668 3787 4041 4260 4393 4500 4596 4681 4763 4846 4924 
+There are 1566 inScope_nearSurf_Cubes will be processed. 2 / 9
+
+ this batch took 1991.902s
+
+rectified imgs are loaded from Voxel_in_Hull.py: /home/mengqi/dataset/MVS/Rectified_mean/scan9
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 79 158 247 363 594 839 971 1080 1168 1259 1341 1420 1499 1577 1653 1733 1816 1924 2116 2397 2549 2648 2747 2832 2915 2999 3077 3154 3232 3308 3393 3490 3642 3950 4113 4229 4319 4412 4495 4576 4655 4735 4811 4887 4969 
+There are 1864 inScope_nearSurf_Cubes will be processed. 3 / 9
+
+ this batch took 2920.695s
+
+rectified imgs are loaded from Voxel_in_Hull.py: /home/mengqi/dataset/MVS/Rectified_mean/scan9
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 99 270 586 731 843 941 1027 1109 1190 1272 1349 1425 1504 1583 1679 1830 2156 2323 2439 2530 2618 2707 2788 2868 2949 3026 3103 3185 3279 3422 3760 3932 4049 4140 4227 4317 4398 4478 4558 4637 4714 4798 4893 
+There are 1820 inScope_nearSurf_Cubes will be processed. 4 / 9
+
+ this batch took 3812.477s
+
+rectified imgs are loaded from Voxel_in_Hull.py: /home/mengqi/dataset/MVS/Rectified_mean/scan9
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 339 526 647 751 838 923 1010 1090 1169 1251 1328 1413 1509 1650 2017 2183 2302 2395 2489 2573 2655 2740 2819 2897 2979 3061 3173 3401 3730 3871 3977 4072 4161 4245 4329 4412 4491 4575 4656 4755 4923 
+There are 1602 inScope_nearSurf_Cubes will be processed. 5 / 9
+
+ this batch took 4599.882s
+
+rectified imgs are loaded from Voxel_in_Hull.py: /home/mengqi/dataset/MVS/Rectified_mean/scan9
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 362 514 614 713 799 883 971 1052 1133 1218 1306 1414 1645 2016 2163 2273 2364 2451 2542 2625 2707 2793 2875 2968 3103 3520 3731 3858 3966 4055 4149 4234 4317 4406 4488 4581 4704 
+There are 1558 inScope_nearSurf_Cubes will be processed. 6 / 9
+
+ this batch took 5351.631s
+
+rectified imgs are loaded from Voxel_in_Hull.py: /home/mengqi/dataset/MVS/Rectified_mean/scan9
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 348 496 600 698 786 879 964 1055 1139 1236 1376 1832 2069 2196 2305 2395 2489 2578 2669 2757 2854 2982 3396 3704 3853 3966 4058 4156 4244 4339 4428 4539 4683 
+There are 1035 inScope_nearSurf_Cubes will be processed. 7 / 9
+
+ this batch took 5853.275s
+
+rectified imgs are loaded from Voxel_in_Hull.py: /home/mengqi/dataset/MVS/Rectified_mean/scan9
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 389 527 645 749 839 936 1031 1127 1253 1546 2060 2223 2341 2437 2537 2637 2731 2851 3017 3622 3860 3990 4105 4210 4311 4417 4536 4755 
+There are 301 inScope_nearSurf_Cubes will be processed. 8 / 9
+
+ this batch took 6010.366s
+
+rectified imgs are loaded from Voxel_in_Hull.py: /home/mengqi/dataset/MVS/Rectified_mean/scan9
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 3433 points: 
+0 491 658 780 890 996 1107 1246 1615 2186 2379 2507 2623 2738 2873 3150 
+There are 183 inScope_nearSurf_Cubes will be processed. 9 / 9
+
+ this batch took 6104.836s
+
+saved sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/weighted_ON-cubeSize64/results_cubes_modelBB/model9-1viewPairs.npz
+save npz takes 37.102s
+Done
+----------------- end -----------------
+Thu Jun 01 2017 04:26:31
+elapsed time: 001:42:54
+---------------------------------------

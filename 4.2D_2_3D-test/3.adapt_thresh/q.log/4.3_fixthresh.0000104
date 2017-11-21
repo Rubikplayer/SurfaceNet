@@ -1,0 +1,27 @@
+---------------- start ----------------
+Thu Jun 29 2017 03:03:28
+max threads: 2
+max memory: 40000 MB
+time limit: 100 hours
+use gpu: false
+---------------------------------------
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 0, 0.5)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.5_rp0.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 0, 0.7)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.7_rp0.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 0, 0.9)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.9_rp0.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 5, 0.5)
+
+JOB KILLED: delete
+
+----------------- end -----------------
+Thu Jun 29 2017 03:03:57
+elapsed time: 000:00:29
+---------------------------------------

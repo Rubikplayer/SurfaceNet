@@ -1,0 +1,192 @@
+---------------- start ----------------
+Mo 31. Okt 09:52:08 CET 2016
+max threads: 2
+max memory: 16000 MB
+time limit: 36 hours
+gpu device id: 0
+.qsub-2D_2_3D-train.sh.1  1
+---------------------------------------
+
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is disabled, cuDNN 5103)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
+  warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
+]0;IPython: 3.2D_2_3D-train/2.2D_2_3D-train
+current mode *** reconstruct_model / debug_ON False ***
+
+__CHANNEL_MEAN =  [ 123.68000031  116.77899933  103.93900299  123.68000031  116.77899933
+  103.93900299]
+__D_center =  26
+__D_randcrop =  32
+__N_select_viewPairs2reconstr =  6
+__RETURN_ALL_VIEWPAIRS =  0
+__camera_po_txt_fld =  /home/mengqi/dataset/MVS/pos/
+__chunk_len_reconstr =  15
+__cube_param_N =  5
+__cube_stride_over_Dsize =  1.0
+__data_fld =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/
+__grid_D_4reconstr =  32
+__grid_D_4train =  50
+__grids_d =  50
+__input_hwd =  32
+__layer_2_load_model =  ['output_volumeNet_reshape', 'output_softmaxWeights']
+__model_folder =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/
+__model_imgs_fld =  /home/mengqi/dataset/MVS/Rectified_mean/
+__model_imgs_npz_fld =  /home/mengqi/dataset/MVS/Rectified_mean/npz/
+__num_epochs =  2
+__patch_hw_size =  64
+__pcd_folder =  /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/
+__pcl_pcd2ply_exe =  ~/Downloads/pcl-trunk/build/bin/pcl_pcd2ply
+__pretrained_model_file =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-9-0.904_0.949.model
+__pretrained_similNet_model_file =  /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch7_acc_tr0.795_val0.789.model
+__pts_in_voxel_MAX =  10.0
+__pts_in_voxel_MIN =  0.0
+__reconstr_ON =  True
+__reconstr_model =  17
+__resol =  0.4
+__root_path =  /home/mengqi/dataset/MVS/
+__similNet_features_dim =  258
+__similNet_hidden_dim =  100
+__surfPredict_scale4reconstr =  2
+__surfPredict_scale4visual =  2
+__tempResult_4visual_fld =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/temp_visualization/
+__test_ON =  False
+__test_set =  [17]
+__test_visualize_ON =  True
+__train_ON =  False
+__train_set =  []
+__use_newLayerAPI_dilatConv =  True
+__use_pretrained_model =  True
+__val_ON =  False
+__val_set =  [17]
+__view_set =  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+__visualize_when_generateData_ON =  False
+__voxelVolume_txt_fld =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/pcl_txt_50x50x50_2D_2_3D/
+rectified imgs of indx: 17 are loaded
+rectified imgs of indx: 17 are loaded
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+output shape: (None, 1, 32, 32, 32)
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 16, 8, 8, 8)
+shape of kshp_64 = [16  1  8  8  8]
+should be 1D tensor, shape of kshp = (None, 16, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [16  1  8  8  8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+loading volumeNet / fusionNet model: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-9-0.904_0.949.model
+loaded similNet model: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch7_acc_tr0.795_val0.789.model
+starting reconstruction...
+starting VGG_triplet Net to predict the feature vectors for each view patches.
+rectified imgs are loaded
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 83 177 277 357 436 515 595 680 780 871 950 1029 1108 1189 1274 1381 1463 1542 1621 1700 1781 1868 1974 2055 2134 2213 2292 2374 2465 2569 2648 2727 2806 2886 2969 3064 3164 3243 3322 3401 3481 3566 3667 3761 3840 3919 3998 4080 4167 4282 4362 4441 4520 4600 4683 4776 4888 4967 
+There are 2170 inScope_nearSurf_Cubes will be processed. 1 / 3
+save 1647582 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-resol0.400-strideRatio1.000-batch-1_3.pcd
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-resol0.400-strideRatio1.000-batch-1_3.pcd [0;m[0;m[done, [0;36m10329[0;m[0;m ms : [0;36m1647582[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-resol0.400-strideRatio1.000-batch-1_3.ply [0;m[0;m[done, [0;36m338[0;m[0;m ms : [0;36m1647582[0;m[0;m points]
+
+it took 909.185s
+
+saved npz file:  /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params_model17-resol0.400-strideRatio1.000-batch-1_3.npz
+rectified imgs are loaded
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 79 159 242 331 451 531 610 690 771 856 961 1067 1146 1226 1306 1389 1482 1608 1688 1768 1848 1930 2018 2129 2238 2318 2398 2480 2566 2667 2795 2876 2957 3039 3125 3224 3363 3445 3526 3608 3693 3791 3941 4024 4106 4189 4277 4384 4533 4619 4703 4788 4882ConvAE_3D.py:353: VisibleDeprecationWarning: boolean index did not match indexed array along dimension 0; dimension is 5000 but corresponding boolean dimension is 4626
+  test_param = _param[desicion_onSurf]
+ 
+There are 1099 inScope_nearSurf_Cubes will be processed. 2 / 3

@@ -1,0 +1,83 @@
+
+...
+
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/038_hard_inputs.data                                                         
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/059_hard_inputs.data                                                         
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(441831, 3, 64, 64)                                                                         
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(373254, 3, 64, 64)                                                                          
+                                                                                                                                                        
+only update the weights in the range (pool5,similarity]                                                                                                 
+the weights to be updated: [W, b, W, b]                                                                                                                 
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl                                                                 
+learning rate: 0.001, batch size: 200/500/1500, triplet_alpha: 0.2, param.__shuffle_sample_ON: True, weight_decay: 0.003                                
+============ epoch 0 ===========                                                                                                                        
+training loss:          0.613225                                                                                                                        
+train/val Accuracy = 0.69593 / 0.79661                                                                                                                  
+============ epoch 1 ===========                                                                                                                        
+training loss:          0.583120                                                                                                                        
+train/val Accuracy = 0.71565 / 0.80167                                                                                                                  
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch1_acc_tr0.716_val0.802.model *****                                 
+============ epoch 2 ===========                                                                                                                        
+training loss:          0.574537                                                                                                                        
+train/val Accuracy = 0.72253 / 0.80299                                                                                                                  
+============ epoch 3 ===========                                                                                                                        
+training loss:          0.569418                                                                                                                        
+train/val Accuracy = 0.72713 / 0.80335                                                                                                                  
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch3_acc_tr0.727_val0.803.model *****                                 
+============ epoch 4 ===========                                                                                                                        
+training loss:          0.566322                                                                                                                        
+train/val Accuracy = 0.73057 / 0.80549                                                                                                                  
+============ epoch 5 ===========                                                                                                                        
+training loss:          0.564101                                                                                                                        
+train/val Accuracy = 0.73305 / 0.80502                                                                                                                  
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch5_acc_tr0.733_val0.805.model *****                                 
+============ epoch 6 ===========                                                                                                                        
+training loss:          0.562260                                                                                                                        
+train/val Accuracy = 0.73528 / 0.80398                                                                                                                  
+============ epoch 7 ===========                                                                                                                        
+training loss:          0.561127                                                                                                                        
+train/val Accuracy = 0.73743 / 0.80647
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch7_acc_tr0.737_val0.806.model *****                                 
+============ epoch 8 ===========                                                                                                                        
+training loss:          0.560026                                                                                                                        
+train/val Accuracy = 0.73872 / 0.80566                                                                                                                  
+============ epoch 9 ===========                                                                                                                        
+training loss:          0.559421                                                                                                                        
+train/val Accuracy = 0.73998 / 0.80460                                                                                                                  
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch9_acc_tr0.74_val0.805.model *****                                  
+============ epoch 10 ===========                                                                                                                       
+training loss:          0.558890                                                                                                                        
+train/val Accuracy = 0.74107 / 0.80594                                                                                                                  
+============ epoch 11 ===========                                                                                                                       
+training loss:          0.558255                                                                                                                        
+train/val Accuracy = 0.74232 / 0.80657                                                                                                                  
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch11_acc_tr0.742_val0.807.model *****                                
+============ epoch 12 ===========                                                                                                                       
+training loss:          0.557926                                                                                                                        
+train/val Accuracy = 0.74309 / 0.80629                                                                                                                  
+============ epoch 13 ===========                                                                                                                       
+training loss:          0.557651                                                                                                                        
+train/val Accuracy = 0.74363 / 0.80551                                                                                                                  
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch13_acc_tr0.744_val0.806.model *****                                
+============ epoch 14 ===========                                                                                                                       
+training loss:          0.557525                                                                                                                        
+train/val Accuracy = 0.74413 / 0.80752                                                                                                                  
+============ epoch 15 ===========                                                                                                                       
+training loss:          0.557209                                                                                                                        
+train/val Accuracy = 0.74459 / 0.80491                                                                                                                  
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch15_acc_tr0.745_val0.805.model *****                                
+============ epoch 16 ===========                                                                                                                       
+training loss:          0.557124                                                                                                                        
+train/val Accuracy = 0.74543 / 0.80656                                                                                                                  
+============ epoch 17 ===========                                                                                                                       
+training loss:          0.557011                                                                                                                        
+train/val Accuracy = 0.74597 / 0.80657  
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch17_acc_tr0.746_val0.807.model *****                                
+============ epoch 18 ===========                                                                                                                       
+training loss:          0.557071                                                                                                                        
+train/val Accuracy = 0.74589 / 0.80619                                                                                                                  
+============ epoch 19 ===========                                                                                                                       
+training loss:          0.556691                                                                                                                        
+train/val Accuracy = 0.74690 / 0.80580                                                                                                                  
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch19_acc_tr0.747_val0.806.model *****                                
+untile now, the train_val_mean_acc: [0.77635121475192437]  

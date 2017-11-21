@@ -1,0 +1,34 @@
+---------------- start ----------------
+Fr 14. Okt 17:52:28 CEST 2016
+max threads: 2
+max memory: 16000 MB
+time limit: 26 hours
+gpu device id: 0
+.qsub_MVS_VGG_train.sh.1  1
+---------------------------------------
+
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is disabled, cuDNN 5103)
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/017_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/031_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/084_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/102_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/125_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/126_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(148986, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(130050, 3, 64, 64)
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch3_acc_tr0.719_val0.646.model
+learning rate: 30, batch size: 1500, triplet_alpha: 100, param.__shuffle_sample_ON: True, weight_decay: 0.0001
+============ epoch 0 ===========
+train/val Accuracy = 0.00000 / 0.64584
+Traceback (most recent call last):
+  File "main_MVS_VGG.py", line 222, in <module>
+    main()
+  File "main_MVS_VGG.py", line 168, in main
+    train_val_mean_acc.append(max(train_val_acc_record)) # only append the accuracy at the last epoch
+ValueError: max() arg is an empty sequence
+Done
+
+----------------- end -----------------
+Fr 14. Okt 17:54:16 CEST 2016
+elapsed time: 000:01:48
+---------------------------------------

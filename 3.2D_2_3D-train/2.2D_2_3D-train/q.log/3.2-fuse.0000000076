@@ -1,0 +1,472 @@
+---------------- start ----------------
+Sun Oct 23 21:55:12 HKT 2016
+max threads: 2
+max memory: 16000 MB
+time limit: 36 hours
+gpu device id: 0
+.qsub-2D_2_3D-train.sh.1  1
+---------------------------------------
+
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is disabled, cuDNN 4007)
+
+current mode *** train_fusionNet / debug_ON True ***
+
+rectified imgs of indx: 5 are loaded
+rectified imgs of indx: 17 are loaded
+density Cube files are loaded
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+output shape: (None, 1, 32, 32, 32)
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 16, 8, 8, 8)
+shape of kshp_64 = [16  1  8  8  8]
+should be 1D tensor, shape of kshp = (None, 16, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [16  1  8  8  8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 16, 8, 8, 8)
+shape of kshp_64 = [16  1  8  8  8]
+should be 1D tensor, shape of kshp = (None, 16, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [16  1  8  8  8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+
+only update the weights in the range (feature_input,output_softmaxWeights]
+the weights to be updated: [W, beta, gamma, W, b]
+loading model: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-24-0.603_0.949.model
+starting training...
+Epoch 1, batch 1: Loss 15008.1, acc 0.910055, acc_guess_all0 0.933604
+Epoch 1, batch 2: Loss 9606.36, acc 0.913488, acc_guess_all0 0.944125
+Epoch 1, batch 3: Loss 17432.2, acc 0.905692, acc_guess_all0 0.939557
+Epoch 1, batch 4: Loss 10607.4, acc 0.905275, acc_guess_all0 0.940806
+Epoch 1, batch 5: Loss 13044.1, acc 0.90045, acc_guess_all0 0.939592
+Epoch 1, batch 6: Loss 11028.2, acc 0.890502, acc_guess_all0 0.938911
+Epoch 1, batch 7: Loss 12261.8, acc 0.887041, acc_guess_all0 0.938903
+Epoch 1, batch 8: Loss 15743.7, acc 0.879484, acc_guess_all0 0.935408
+Epoch 1, batch 9: Loss 14253.9, acc 0.87798, acc_guess_all0 0.934746
+Epoch 1, batch 10: Loss 10592.5, acc 0.876222, acc_guess_all0 0.936677
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-1-0.876_0.937.model
+starting validation...
+val_acc 0.867303
+starting training...
+Epoch 2, batch 1: Loss 12794.3, acc 0.822937, acc_guess_all0 0.936376
+Epoch 2, batch 2: Loss 9354.13, acc 0.839165, acc_guess_all0 0.947261
+Epoch 2, batch 3: Loss 13788.9, acc 0.847792, acc_guess_all0 0.945684
+Epoch 2, batch 4: Loss 13219.5, acc 0.842903, acc_guess_all0 0.940872
+Epoch 2, batch 5: Loss 9089.4, acc 0.841818, acc_guess_all0 0.942805
+Epoch 2, batch 6: Loss 15078.7, acc 0.844059, acc_guess_all0 0.941596
+Epoch 2, batch 7: Loss 7136.19, acc 0.839346, acc_guess_all0 0.944484
+Epoch 2, batch 8: Loss 14332.6, acc 0.837316, acc_guess_all0 0.942159
+Epoch 2, batch 9: Loss 10919, acc 0.834682, acc_guess_all0 0.940846
+Epoch 2, batch 10: Loss 16075.7, acc 0.836543, acc_guess_all0 0.939185
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-2-0.837_0.939.model
+starting validation...
+val_acc 0.852469
+starting training...
+Epoch 3, batch 1: Loss 11078.4, acc 0.863805, acc_guess_all0 0.944585
+Epoch 3, batch 2: Loss 13626.3, acc 0.849368, acc_guess_all0 0.937594
+Epoch 3, batch 3: Loss 7872.89, acc 0.857224, acc_guess_all0 0.943429
+Epoch 3, batch 4: Loss 10194.2, acc 0.855803, acc_guess_all0 0.943445
+Epoch 3, batch 5: Loss 9047.43, acc 0.857123, acc_guess_all0 0.943622
+Epoch 3, batch 6: Loss 14703.8, acc 0.849517, acc_guess_all0 0.93964
+Epoch 3, batch 7: Loss 11947.1, acc 0.83959, acc_guess_all0 0.939568
+Epoch 3, batch 8: Loss 16854.3, acc 0.843583, acc_guess_all0 0.937647
+Epoch 3, batch 9: Loss 14042, acc 0.839262, acc_guess_all0 0.93719
+Epoch 3, batch 10: Loss 14259.2, acc 0.840608, acc_guess_all0 0.937103
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-3-0.841_0.937.model
+starting validation...
+val_acc 0.844913
+starting training...
+Epoch 4, batch 1: Loss 15630.1, acc 0.812795, acc_guess_all0 0.92484
+Epoch 4, batch 2: Loss 11832.4, acc 0.841621, acc_guess_all0 0.934649
+Epoch 4, batch 3: Loss 16178.2, acc 0.853104, acc_guess_all0 0.933139
+Epoch 4, batch 4: Loss 10775.9, acc 0.862925, acc_guess_all0 0.935176
+Epoch 4, batch 5: Loss 11029.1, acc 0.864478, acc_guess_all0 0.937014
+Epoch 4, batch 6: Loss 9706.78, acc 0.867441, acc_guess_all0 0.938514
+Epoch 4, batch 7: Loss 10427.1, acc 0.862772, acc_guess_all0 0.940841
+Epoch 4, batch 8: Loss 11982.4, acc 0.859926, acc_guess_all0 0.940688
+Epoch 4, batch 9: Loss 14160, acc 0.859355, acc_guess_all0 0.939254
+Epoch 4, batch 10: Loss 12679.2, acc 0.860328, acc_guess_all0 0.939161
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-4-0.86_0.939.model
+starting validation...
+val_acc 0.830123
+starting training...
+Epoch 5, batch 1: Loss 11402.4, acc 0.820852, acc_guess_all0 0.931157
+Epoch 5, batch 2: Loss 10546, acc 0.835012, acc_guess_all0 0.941526
+Epoch 5, batch 3: Loss 12689, acc 0.818837, acc_guess_all0 0.9391
+Epoch 5, batch 4: Loss 10004.5, acc 0.826473, acc_guess_all0 0.942619
+Epoch 5, batch 5: Loss 10589.1, acc 0.825964, acc_guess_all0 0.941915
+Epoch 5, batch 6: Loss 19314.6, acc 0.835547, acc_guess_all0 0.939622
+Epoch 5, batch 7: Loss 13546.5, acc 0.836052, acc_guess_all0 0.937718
+Epoch 5, batch 8: Loss 11949.5, acc 0.83574, acc_guess_all0 0.938791
+Epoch 5, batch 9: Loss 11978.3, acc 0.837051, acc_guess_all0 0.938824
+Epoch 5, batch 10: Loss 11686.7, acc 0.836293, acc_guess_all0 0.938406
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-5-0.836_0.938.model
+starting validation...
+val_acc 0.868578
+starting training...
+Epoch 6, batch 1: Loss 10050.9, acc 0.832514, acc_guess_all0 0.946665
+Epoch 6, batch 2: Loss 10995.4, acc 0.835312, acc_guess_all0 0.941737
+Epoch 6, batch 3: Loss 12376.7, acc 0.834352, acc_guess_all0 0.942115
+Epoch 6, batch 4: Loss 10979.7, acc 0.838573, acc_guess_all0 0.943401
+Epoch 6, batch 5: Loss 11694.4, acc 0.835491, acc_guess_all0 0.94324
+Epoch 6, batch 6: Loss 13886.9, acc 0.836539, acc_guess_all0 0.940785
+Epoch 6, batch 7: Loss 14853.1, acc 0.836132, acc_guess_all0 0.940517
+Epoch 6, batch 8: Loss 15899.2, acc 0.836433, acc_guess_all0 0.938704
+Epoch 6, batch 9: Loss 12985.8, acc 0.835913, acc_guess_all0 0.938786
+Epoch 6, batch 10: Loss 11477.1, acc 0.837716, acc_guess_all0 0.938729
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-6-0.838_0.939.model
+starting validation...
+val_acc 0.844608
+starting training...
+Epoch 7, batch 1: Loss 13631.1, acc 0.863164, acc_guess_all0 0.93398
+Epoch 7, batch 2: Loss 9833.03, acc 0.847582, acc_guess_all0 0.940936
+Epoch 7, batch 3: Loss 11365.6, acc 0.847668, acc_guess_all0 0.94076
+Epoch 7, batch 4: Loss 10044.1, acc 0.842133, acc_guess_all0 0.942062
+Epoch 7, batch 5: Loss 12943.5, acc 0.843632, acc_guess_all0 0.941281
+Epoch 7, batch 6: Loss 13429.1, acc 0.847565, acc_guess_all0 0.941952
+Epoch 7, batch 7: Loss 10349.3, acc 0.851177, acc_guess_all0 0.942683
+Epoch 7, batch 8: Loss 9592.91, acc 0.846742, acc_guess_all0 0.942652
+Epoch 7, batch 9: Loss 17571, acc 0.841476, acc_guess_all0 0.939944
+Epoch 7, batch 10: Loss 12912.2, acc 0.84105, acc_guess_all0 0.939188
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-7-0.841_0.939.model
+starting validation...
+val_acc 0.85873
+starting training...
+Epoch 8, batch 1: Loss 8458.26, acc 0.840261, acc_guess_all0 0.949097
+Epoch 8, batch 2: Loss 8560.23, acc 0.850426, acc_guess_all0 0.949839
+Epoch 8, batch 3: Loss 10868.1, acc 0.846514, acc_guess_all0 0.950958
+Epoch 8, batch 4: Loss 9174.83, acc 0.851559, acc_guess_all0 0.950938
+Epoch 8, batch 5: Loss 12620.1, acc 0.855435, acc_guess_all0 0.949417
+Epoch 8, batch 6: Loss 11336.7, acc 0.855671, acc_guess_all0 0.949437
+Epoch 8, batch 7: Loss 12116.5, acc 0.852998, acc_guess_all0 0.946255
+Epoch 8, batch 8: Loss 7809.94, acc 0.853697, acc_guess_all0 0.946705
+Epoch 8, batch 9: Loss 12528, acc 0.852116, acc_guess_all0 0.946699
+Epoch 8, batch 10: Loss 12130.6, acc 0.849058, acc_guess_all0 0.94444
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-8-0.849_0.944.model
+starting validation...
+val_acc 0.832118
+starting training...
+Epoch 9, batch 1: Loss 11011.2, acc 0.866531, acc_guess_all0 0.94637
+Epoch 9, batch 2: Loss 15016.8, acc 0.854614, acc_guess_all0 0.939273
+Epoch 9, batch 3: Loss 11535.7, acc 0.836565, acc_guess_all0 0.938105
+Epoch 9, batch 4: Loss 12422.9, acc 0.849195, acc_guess_all0 0.941072
+Epoch 9, batch 5: Loss 14106.2, acc 0.842891, acc_guess_all0 0.939077
+Epoch 9, batch 6: Loss 11313.6, acc 0.837369, acc_guess_all0 0.939253
+Epoch 9, batch 7: Loss 13192.1, acc 0.836851, acc_guess_all0 0.937222
+Epoch 9, batch 8: Loss 14813, acc 0.843196, acc_guess_all0 0.936675
+Epoch 9, batch 9: Loss 8582.29, acc 0.843913, acc_guess_all0 0.937774
+Epoch 9, batch 10: Loss 12401.6, acc 0.844773, acc_guess_all0 0.93841
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-9-0.845_0.938.model
+starting validation...
+val_acc 0.83027
+starting training...
+Epoch 10, batch 1: Loss 10943.3, acc 0.798884, acc_guess_all0 0.939377
+Epoch 10, batch 2: Loss 9359.83, acc 0.807564, acc_guess_all0 0.938705
+Epoch 10, batch 3: Loss 11693.6, acc 0.82211, acc_guess_all0 0.938824
+Epoch 10, batch 4: Loss 12762.8, acc 0.823878, acc_guess_all0 0.937766
+Epoch 10, batch 5: Loss 9483.08, acc 0.820667, acc_guess_all0 0.940266
+Epoch 10, batch 6: Loss 9464.53, acc 0.828564, acc_guess_all0 0.940805
+Epoch 10, batch 7: Loss 11457.3, acc 0.829826, acc_guess_all0 0.940439
+Epoch 10, batch 8: Loss 10052.6, acc 0.83044, acc_guess_all0 0.940788
+Epoch 10, batch 9: Loss 8611.46, acc 0.830981, acc_guess_all0 0.941972
+Epoch 10, batch 10: Loss 17338.7, acc 0.83017, acc_guess_all0 0.939125
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-10-0.83_0.939.model
+starting validation...
+val_acc 0.851036
+starting training...
+Epoch 11, batch 1: Loss 15871.2, acc 0.786718, acc_guess_all0 0.924723
+Epoch 11, batch 2: Loss 11940.6, acc 0.806107, acc_guess_all0 0.925692
+Epoch 11, batch 3: Loss 11559, acc 0.804291, acc_guess_all0 0.931912
+Epoch 11, batch 4: Loss 17385.8, acc 0.801178, acc_guess_all0 0.934502
+Epoch 11, batch 5: Loss 14519.2, acc 0.80756, acc_guess_all0 0.931281
+Epoch 11, batch 6: Loss 14408.6, acc 0.811735, acc_guess_all0 0.931374
+Epoch 11, batch 7: Loss 10122.7, acc 0.816085, acc_guess_all0 0.932008
+Epoch 11, batch 8: Loss 12194.5, acc 0.816087, acc_guess_all0 0.930632
+Epoch 11, batch 9: Loss 13618.3, acc 0.815864, acc_guess_all0 0.928935
+Epoch 11, batch 10: Loss 10861.1, acc 0.81925, acc_guess_all0 0.930159
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-11-0.819_0.93.model
+starting validation...
+val_acc 0.822518
+starting training...
+Epoch 12, batch 1: Loss 10760.3, acc 0.837982, acc_guess_all0 0.948802
+Epoch 12, batch 2: Loss 10335.5, acc 0.833636, acc_guess_all0 0.944506
+Epoch 12, batch 3: Loss 9945.91, acc 0.823169, acc_guess_all0 0.942549
+Epoch 12, batch 4: Loss 11219.7, acc 0.827971, acc_guess_all0 0.940507
+Epoch 12, batch 5: Loss 13532, acc 0.830991, acc_guess_all0 0.938496
+Epoch 12, batch 6: Loss 10255.7, acc 0.830283, acc_guess_all0 0.937734
+Epoch 12, batch 7: Loss 8771.96, acc 0.829669, acc_guess_all0 0.93896
+Epoch 12, batch 8: Loss 10385.2, acc 0.827014, acc_guess_all0 0.939126
+Epoch 12, batch 9: Loss 10140.7, acc 0.818558, acc_guess_all0 0.93943
+Epoch 12, batch 10: Loss 16681.6, acc 0.822398, acc_guess_all0 0.937402
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-12-0.822_0.937.model
+starting validation...
+val_acc 0.834734
+starting training...
+Epoch 13, batch 1: Loss 11875.1, acc 0.842611, acc_guess_all0 0.927511
+Epoch 13, batch 2: Loss 13389.3, acc 0.869995, acc_guess_all0 0.936485
+Epoch 13, batch 3: Loss 13792.1, acc 0.845517, acc_guess_all0 0.935235
+Epoch 13, batch 4: Loss 14236.9, acc 0.837498, acc_guess_all0 0.932873
+Epoch 13, batch 5: Loss 13721, acc 0.831473, acc_guess_all0 0.933263
+Epoch 13, batch 6: Loss 19350.1, acc 0.831331, acc_guess_all0 0.93292
+Epoch 13, batch 7: Loss 10718, acc 0.832172, acc_guess_all0 0.934803
+Epoch 13, batch 8: Loss 12739.8, acc 0.832565, acc_guess_all0 0.935289
+Epoch 13, batch 9: Loss 17569.4, acc 0.838669, acc_guess_all0 0.934356
+Epoch 13, batch 10: Loss 14675.6, acc 0.835262, acc_guess_all0 0.932979
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-13-0.835_0.933.model
+starting validation...
+val_acc 0.850752
+starting training...
+Epoch 14, batch 1: Loss 15642.9, acc 0.861206, acc_guess_all0 0.925781
+Epoch 14, batch 2: Loss 18267.1, acc 0.85024, acc_guess_all0 0.925466
+Epoch 14, batch 3: Loss 15203.6, acc 0.845025, acc_guess_all0 0.921851
+Epoch 14, batch 4: Loss 12522, acc 0.844859, acc_guess_all0 0.921448
+Epoch 14, batch 5: Loss 12937.1, acc 0.842661, acc_guess_all0 0.922763
+Epoch 14, batch 6: Loss 10600.5, acc 0.837512, acc_guess_all0 0.926732
+Epoch 14, batch 7: Loss 16023.3, acc 0.837266, acc_guess_all0 0.927931
+Epoch 14, batch 8: Loss 18436.1, acc 0.838438, acc_guess_all0 0.926427
+Epoch 14, batch 9: Loss 12379.4, acc 0.840681, acc_guess_all0 0.928796
+Epoch 14, batch 10: Loss 19007.1, acc 0.84097, acc_guess_all0 0.927085
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-14-0.841_0.927.model
+starting validation...
+val_acc 0.850072
+starting training...
+Epoch 15, batch 1: Loss 9821.33, acc 0.860438, acc_guess_all0 0.945389
+Epoch 15, batch 2: Loss 9814.66, acc 0.821131, acc_guess_all0 0.949051
+Epoch 15, batch 3: Loss 13063.1, acc 0.825702, acc_guess_all0 0.947634
+Epoch 15, batch 4: Loss 10505, acc 0.814482, acc_guess_all0 0.947193
+Epoch 15, batch 5: Loss 14341.6, acc 0.812974, acc_guess_all0 0.942971
+Epoch 15, batch 6: Loss 12893.2, acc 0.812242, acc_guess_all0 0.942148
+Epoch 15, batch 7: Loss 11291.8, acc 0.823127, acc_guess_all0 0.942064
+Epoch 15, batch 8: Loss 14716.7, acc 0.826108, acc_guess_all0 0.94031
+Epoch 15, batch 9: Loss 10628.5, acc 0.827383, acc_guess_all0 0.941002
+Epoch 15, batch 10: Loss 11581, acc 0.82677, acc_guess_all0 0.941793
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-15-0.827_0.942.model
+starting validation...
+val_acc 0.836383
+starting training...
+Epoch 16, batch 1: Loss 9109.92, acc 0.834808, acc_guess_all0 0.947215
+Epoch 16, batch 2: Loss 14268.5, acc 0.82166, acc_guess_all0 0.936798
+Epoch 16, batch 3: Loss 11372.9, acc 0.820767, acc_guess_all0 0.938188
+Epoch 16, batch 4: Loss 13914.2, acc 0.823069, acc_guess_all0 0.935797
+Epoch 16, batch 5: Loss 10145.4, acc 0.824779, acc_guess_all0 0.938253
+Epoch 16, batch 6: Loss 11345.7, acc 0.833258, acc_guess_all0 0.938959
+Epoch 16, batch 7: Loss 12889.6, acc 0.837969, acc_guess_all0 0.938046
+Epoch 16, batch 8: Loss 13931.4, acc 0.834252, acc_guess_all0 0.937454
+Epoch 16, batch 9: Loss 13934.9, acc 0.833723, acc_guess_all0 0.93673
+Epoch 16, batch 10: Loss 11126.7, acc 0.832511, acc_guess_all0 0.937252
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-16-0.833_0.937.model
+starting validation...
+val_acc 0.835161
+starting training...
+Epoch 17, batch 1: Loss 14296.7, acc 0.821447, acc_guess_all0 0.936854
+Epoch 17, batch 2: Loss 16705.2, acc 0.823189, acc_guess_all0 0.933601
+Epoch 17, batch 3: Loss 9856.03, acc 0.853834, acc_guess_all0 0.941301
+Epoch 17, batch 4: Loss 13333.8, acc 0.843525, acc_guess_all0 0.937352
+Epoch 17, batch 5: Loss 17712.9, acc 0.839472, acc_guess_all0 0.933231
+Epoch 17, batch 6: Loss 18373.1, acc 0.845442, acc_guess_all0 0.930681
+Epoch 17, batch 7: Loss 15127.1, acc 0.842975, acc_guess_all0 0.930783
+Epoch 17, batch 8: Loss 14466.9, acc 0.845184, acc_guess_all0 0.931849
+Epoch 17, batch 9: Loss 11735.4, acc 0.845518, acc_guess_all0 0.932916
+Epoch 17, batch 10: Loss 11164.9, acc 0.844404, acc_guess_all0 0.932977
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-17-0.844_0.933.model
+starting validation...
+val_acc 0.862935
+starting training...
+Epoch 18, batch 1: Loss 17551, acc 0.836146, acc_guess_all0 0.911189
+Epoch 18, batch 2: Loss 12588.9, acc 0.821309, acc_guess_all0 0.91083
+Epoch 18, batch 3: Loss 12624, acc 0.834986, acc_guess_all0 0.917872
+Epoch 18, batch 4: Loss 13238, acc 0.832358, acc_guess_all0 0.921253
+Epoch 18, batch 5: Loss 12452.8, acc 0.829194, acc_guess_all0 0.924309
+Epoch 18, batch 6: Loss 10476.6, acc 0.835715, acc_guess_all0 0.92885
+Epoch 18, batch 7: Loss 16077.6, acc 0.843146, acc_guess_all0 0.928165
+Epoch 18, batch 8: Loss 15660.3, acc 0.836173, acc_guess_all0 0.927015
+Epoch 18, batch 9: Loss 15395.4, acc 0.836865, acc_guess_all0 0.92723
+Epoch 18, batch 10: Loss 11561.7, acc 0.841739, acc_guess_all0 0.928676
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-18-0.842_0.929.model
+starting validation...
+val_acc 0.860095
+starting training...
+Epoch 19, batch 1: Loss 9856.78, acc 0.857814, acc_guess_all0 0.951202
+Epoch 19, batch 2: Loss 9737.94, acc 0.855443, acc_guess_all0 0.954145
+Epoch 19, batch 3: Loss 16198, acc 0.835678, acc_guess_all0 0.942134
+Epoch 19, batch 4: Loss 20327.7, acc 0.845252, acc_guess_all0 0.932546
+Epoch 19, batch 5: Loss 11542.8, acc 0.853306, acc_guess_all0 0.935178
+Epoch 19, batch 6: Loss 10391.2, acc 0.849972, acc_guess_all0 0.935934
+Epoch 19, batch 7: Loss 8836.79, acc 0.848873, acc_guess_all0 0.937096
+Epoch 19, batch 8: Loss 11674.2, acc 0.849856, acc_guess_all0 0.937317
+Epoch 19, batch 9: Loss 8798.14, acc 0.851357, acc_guess_all0 0.938549
+Epoch 19, batch 10: Loss 12292.1, acc 0.846965, acc_guess_all0 0.938016
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-19-0.847_0.938.model
+starting validation...
+val_acc 0.871409
+starting training...
+Epoch 20, batch 1: Loss 11108.4, acc 0.847758, acc_guess_all0 0.943436
+Epoch 20, batch 2: Loss 16424.5, acc 0.830104, acc_guess_all0 0.935509
+Epoch 20, batch 3: Loss 10495.2, acc 0.835934, acc_guess_all0 0.934494
+Epoch 20, batch 4: Loss 12447.9, acc 0.835383, acc_guess_all0 0.933671
+Epoch 20, batch 5: Loss 14852.8, acc 0.842887, acc_guess_all0 0.933179
+Epoch 20, batch 6: Loss 12660.5, acc 0.841958, acc_guess_all0 0.935042
+Epoch 20, batch 7: Loss 8960.32, acc 0.839749, acc_guess_all0 0.937279
+Epoch 20, batch 8: Loss 11579.2, acc 0.841834, acc_guess_all0 0.938811
+Epoch 20, batch 9: Loss 9608.4, acc 0.839917, acc_guess_all0 0.940158
+Epoch 20, batch 10: Loss 12058.9, acc 0.840539, acc_guess_all0 0.939153
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-20-0.841_0.939.model
+starting validation...
+val_acc 0.836558
+starting training...
+Epoch 21, batch 1: Loss 13422.6, acc 0.827367, acc_guess_all0 0.943807
+Epoch 21, batch 2: Loss 15584.7, acc 0.812925, acc_guess_all0 0.935867
+Epoch 21, batch 3: Loss 13614.3, acc 0.832484, acc_guess_all0 0.936705
+Epoch 21, batch 4: Loss 13945.3, acc 0.840146, acc_guess_all0 0.933974
+Epoch 21, batch 5: Loss 9238.25, acc 0.841666, acc_guess_all0 0.93589
+Epoch 21, batch 6: Loss 13650.3, acc 0.845611, acc_guess_all0 0.934629
+Epoch 21, batch 7: Loss 8780.7, acc 0.842614, acc_guess_all0 0.935636
+Epoch 21, batch 8: Loss 15940.1, acc 0.840612, acc_guess_all0 0.932374
+Epoch 21, batch 9: Loss 12120.8, acc 0.844477, acc_guess_all0 0.933647
+Epoch 21, batch 10: Loss 13987.2, acc 0.843222, acc_guess_all0 0.93294
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-21-0.843_0.933.model
+starting validation...
+val_acc 0.815426
+starting training...
+Epoch 22, batch 1: Loss 18929.5, acc 0.839793, acc_guess_all0 0.915726
+Epoch 22, batch 2: Loss 10442.3, acc 0.847458, acc_guess_all0 0.924611
+Epoch 22, batch 3: Loss 9338.57, acc 0.839379, acc_guess_all0 0.930532
+Epoch 22, batch 4: Loss 14521.5, acc 0.842414, acc_guess_all0 0.932493
+Epoch 22, batch 5: Loss 15332, acc 0.829473, acc_guess_all0 0.930561
+Epoch 22, batch 6: Loss 16741.8, acc 0.825042, acc_guess_all0 0.926557
+Epoch 22, batch 7: Loss 12838.9, acc 0.819866, acc_guess_all0 0.928577
+Epoch 22, batch 8: Loss 10080.4, acc 0.823185, acc_guess_all0 0.930272
+Epoch 22, batch 9: Loss 10261.3, acc 0.823143, acc_guess_all0 0.931953
+Epoch 22, batch 10: Loss 18684.8, acc 0.819091, acc_guess_all0 0.929773
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-22-0.819_0.93.model
+starting validation...
+val_acc 0.835261
+starting training...
+Epoch 23, batch 1: Loss 12099.1, acc 0.807129, acc_guess_all0 0.936508
+Epoch 23, batch 2: Loss 10377.7, acc 0.834455, acc_guess_all0 0.941381
+Epoch 23, batch 3: Loss 13073.4, acc 0.830566, acc_guess_all0 0.940531
+Epoch 23, batch 4: Loss 12171.5, acc 0.832607, acc_guess_all0 0.939933
+Epoch 23, batch 5: Loss 11930.6, acc 0.839421, acc_guess_all0 0.938815
+Epoch 23, batch 6: Loss 7522.35, acc 0.844708, acc_guess_all0 0.941693
+Epoch 23, batch 7: Loss 10236.9, acc 0.847436, acc_guess_all0 0.942304
+Epoch 23, batch 8: Loss 12285.1, acc 0.84396, acc_guess_all0 0.940699
+Epoch 23, batch 9: Loss 10357.2, acc 0.842895, acc_guess_all0 0.941923
+Epoch 23, batch 10: Loss 10316.3, acc 0.845357, acc_guess_all0 0.941245
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-23-0.845_0.941.model
+starting validation...
+val_acc 0.831974
+starting training...
+Epoch 24, batch 1: Loss 10173.3, acc 0.845785, acc_guess_all0 0.961594
+Epoch 24, batch 2: Loss 10941.1, acc 0.849472, acc_guess_all0 0.951253

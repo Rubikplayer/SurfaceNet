@@ -1,0 +1,430 @@
+---------------- start ----------------
+Do 20. Apr 08:52:26 CEST 2017
+max threads: 2
+max memory: 16000 MB
+time limit: 26 hours
+gpu device id: 0
+.qsub_MVS_VGG_train.sh.1  1
+---------------------------------------
+
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is disabled, cuDNN 5105)
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/002_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/007_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/008_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/014_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/016_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/018_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/019_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/020_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/022_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/030_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/031_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/036_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/039_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/041_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/042_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/044_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/045_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/046_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/047_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/050_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/051_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/052_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/053_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/055_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/057_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/058_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/060_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/061_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/063_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/064_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/065_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/068_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/069_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/070_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/071_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/072_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/074_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/076_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/083_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/084_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/085_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/087_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/088_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/089_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/090_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/091_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/092_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/093_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/094_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/095_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/096_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/097_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/098_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/099_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/100_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/101_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/102_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/103_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/104_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/105_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/107_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/108_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/109_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/111_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/112_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/113_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/115_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/116_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/119_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/120_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/121_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/122_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/123_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/124_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/125_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/126_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/127_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/128_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(1951143, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(1701342, 3, 64, 64)
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/035_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/037_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/043_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/005_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/117_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/017_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/106_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/021_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/040_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/082_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/056_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/086_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/067_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/028_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/038_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/059_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(439491, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(385578, 3, 64, 64)
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.001, batch size: 200/500/1500, triplet_alpha: 2, param.__shuffle_sample_ON: True, weight_decay: 0.003
+============ epoch 0 ===========
+training loss:		0.580779
+train/val Accuracy = 0.76899 / 0.81622
+============ epoch 1 ===========
+training loss:		0.498684
+train/val Accuracy = 0.80718 / 0.83083
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch1_acc_tr0.807_val0.831.model *****
+============ epoch 2 ===========
+training loss:		0.484409
+train/val Accuracy = 0.81532 / 0.83542
+============ epoch 3 ===========
+training loss:		0.477754
+train/val Accuracy = 0.82020 / 0.83871
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch3_acc_tr0.82_val0.839.model *****
+============ epoch 4 ===========
+training loss:		0.473328
+train/val Accuracy = 0.82375 / 0.83759
+============ epoch 5 ===========
+training loss:		0.470391
+train/val Accuracy = 0.82663 / 0.84207
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch5_acc_tr0.827_val0.842.model *****
+============ epoch 6 ===========
+training loss:		0.468483
+train/val Accuracy = 0.82881 / 0.84570
+============ epoch 7 ===========
+training loss:		0.466831
+train/val Accuracy = 0.83067 / 0.84625
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch7_acc_tr0.831_val0.846.model *****
+============ epoch 8 ===========
+training loss:		0.465970
+train/val Accuracy = 0.83164 / 0.84783
+============ epoch 9 ===========
+training loss:		0.465056
+train/val Accuracy = 0.83300 / 0.84805
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch9_acc_tr0.833_val0.848.model *****
+============ epoch 10 ===========
+training loss:		0.464277
+train/val Accuracy = 0.83378 / 0.84942
+============ epoch 11 ===========
+training loss:		0.463831
+train/val Accuracy = 0.83499 / 0.84881
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch11_acc_tr0.835_val0.849.model *****
+============ epoch 12 ===========
+training loss:		0.463585
+train/val Accuracy = 0.83550 / 0.85045
+============ epoch 13 ===========
+training loss:		0.463120
+train/val Accuracy = 0.83661 / 0.85111
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch13_acc_tr0.837_val0.851.model *****
+============ epoch 14 ===========
+training loss:		0.462837
+train/val Accuracy = 0.83678 / 0.84972
+============ epoch 15 ===========
+training loss:		0.462674
+train/val Accuracy = 0.83729 / 0.85136
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch15_acc_tr0.837_val0.851.model *****
+============ epoch 16 ===========
+training loss:		0.462455
+train/val Accuracy = 0.83757 / 0.85198
+============ epoch 17 ===========
+training loss:		0.462314
+train/val Accuracy = 0.83789 / 0.84969
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch17_acc_tr0.838_val0.85.model *****
+============ epoch 18 ===========
+training loss:		0.462260
+train/val Accuracy = 0.83817 / 0.85203
+============ epoch 19 ===========
+training loss:		0.462019
+train/val Accuracy = 0.83846 / 0.85262
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch19_acc_tr0.838_val0.853.model *****
+untile now, the train_val_mean_acc: [0.8455400913606872]
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpv7bfXg/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpkbi7e0/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp00iydT/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp8BOe37/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpL10GpF/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpgtD2fr/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmps1P5f1/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmphdPxgD/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpR2k1Ew/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpUglY8H/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp7P0dcK/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpS_hCSJ/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpcNtyyw/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp8P8CW9/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp3ZVmgQ/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp8Dg5Jp/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp4D15F2/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpVz2spj/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpqYhx2w/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp_rM5oX/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmphOBlJj/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpOzHyJs/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmplBXUji/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpdZHJjD/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpQjgbkM/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpw5ehJm/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpjcRBb3/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpUArCJi/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpZ1ss7C/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpkd_JQS/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpKESOi6/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpLoahP0/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpLXKkb5/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpi8HP7q/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpic6vti/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpbbeKoa/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpsDNb8Z/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpTbdjdy/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpRHZDM7/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpt5mMvi/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpL4KAH_/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpzOmOSN/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmppDJVuj/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpLEk6J5/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpAYGFu6/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpgTInSL/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpEVpvxA/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp0ukLSs/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpmfEwO2/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpMqExaq/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpASqWGR/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpfLA4Ij/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpp7fPtL/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp1flQzm/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpown5L4/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpIFwG0p/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpq7VnHh/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpsU9FnL/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpRZayPL/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpAEe8Yj/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpp3N9Xh/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpZdqB8U/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpUQvAuM/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp21A93i/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp6l3TiO/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmps8RiwZ/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpkZhazv/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmppUO2Mk/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpVqJZoH/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpnpuTbf/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpUGgnOK/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpogi9Fc/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpLt5RYv/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpp6pekf/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpZhSx54/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpz6w6qL/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpISLEzd/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpmFRnrq/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp4skHWG/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpkh8PLc/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpTKZ_is/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpHNb4RW/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpxSjjFL/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpeGqTch/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpEvLCLS/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpo8PtUZ/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpk02L8l/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpizilOF/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp9s7HWx/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmphGLKuj/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp29Uvxq/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp18Ef8F/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpKeWdNS/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp6_xEFI/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpLBUX54/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpXijYiN/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpCZWnS2/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpsImOmR/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpXREncH/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpLXkIAR/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpfBeYsJ/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpU3mHE2/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpIroORk/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpXKKCvl/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpQrgcYB/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpQ4w8Bb/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpdXsB4V/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpVrOFNP/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpAkpNsC/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpWa7BGg/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpnZ1Zbr/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpjNcFNe/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpLBU3tg/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpEpU4Jd/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpaJKfsn/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpFljic3/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpFp3ujR/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpbdVYsL/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp9Ydqux/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmphvrPqw/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpcBuf0n/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp3BkItR/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpFUAwjR/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpQUaNqJ/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpk2CO3W/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpbLxU6V/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp84pK_V/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpACkTQT/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpED0dJx/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpe7avcK/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpxll1cf/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpJ9HMsE/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpoSxNCs/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp1hHvgr/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpqBrn5O/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpx_ZFAm/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpzpj1zC/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpdYuixl/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmplQXO0M/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpmPRjkq/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpAfw7lc/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpiX9wbB/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpchjSkN/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpLlVcgS/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpqXyB7m/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpvveMye/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpXq9NoV/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpW2WFtu/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpLzQ2Re/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpD7PLtX/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpMEGQoo/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpXvsUuB/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpzzpM69/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpKUVoO3/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpC3sg8n/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp1CnX9u/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpMPwWPB/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpV7LLLI/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpKH8GvA/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpNoo1iB/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpnc1MLM/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpzjIPmr/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp0LsdQm/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpZV94u8/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpD2g3FC/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmptIXglK/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpnWsAdz/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpxoj6A7/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpgIXUx_/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpi59UpN/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpfpbg1c/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpKeNa_C/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpU_rwVT/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpfzBDMl/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmphyw03T/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpOpNNsK/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpFAsOGn/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpDsSR9d/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpKvzBtN/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpSBlsz3/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpGuKeeq/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpi8WnpJ/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpED9naR/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpIxGIAU/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpK6cXJM/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmppOYg9B/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpcakp8E/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp_w5QlJ/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpNk68_H/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpV1k_w7/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpuM7ibn/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpdkJUQn/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp3rXS4u/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpqa1fDA/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpwLnEkA/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpBirvul/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpxSidrp/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpXl7VKd/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpksg57v/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpQ6aEjg/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpZsoMHT/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpp2vHcZ/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp3mJid2/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpQKg8nR/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp5hciGf/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpKE8OXV/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp5WIOn9/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpZItfXs/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpBx1K3p/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpgP1dDy/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpSvJhht/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp7wx6QR/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpMWAofE/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpmGS62k/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpLQm9_Y/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpyglx3u/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpZZ2CPK/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpJzdCZl/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpnC51oN/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp5pGHc9/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpK55UM_/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp6igbvb/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpBj7xt0/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpSbLJNy/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpmoNglS/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmptgJI61/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpxXpQK4/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpUN5W6g/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpdlfiVL/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpdqidtl/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpVntVMf/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp5vzpCY/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp_XunB6/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp5m65UY/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmpILJE2z/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp9MFQ7h/key.pkl because the corresponding module is gone from the file system.
+WARNING (theano.gof.cmodule): Removing key file /home/mengqi/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp9IPmoS/key.pkl because the corresponding module is gone from the file system.
+Done
+
+----------------- end -----------------
+Do 20. Apr 17:50:15 CEST 2017
+elapsed time: 008:57:49
+---------------------------------------

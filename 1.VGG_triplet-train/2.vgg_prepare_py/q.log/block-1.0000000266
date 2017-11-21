@@ -1,0 +1,268 @@
+---------------- start ----------------
+Mo 26. Sep 10:16:56 CEST 2016
+max threads: 8
+max memory: 6000 MB
+time limit: 24 hours
+use gpu: false
+.TripletData_generator_qsub.sh.1  1
+---------------------------------------
+
+This is a python program in the queue
+rectified imgs are loaded
+4: 6000th set
+rectified imgs are loaded
+11: 6000th set
+rectified imgs are loaded
+3: 6000th set
+rectified imgs are loaded
+9: 6000th set
+rectified imgs are loaded
+7: 6000th set
+rectified imgs are loaded
+5: 6000th set
+rectified imgs are loaded
+6: 6000th set
+rectified imgs are loaded
+2: 6000th set
+rectified imgs are loaded
+8: 6000th set
+rectified imgs are loaded
+1: 6000th set
+rectified imgs are loaded
+12: 6000th set
+rectified imgs are loaded
+10: 6000th set
+rectified imgs are loaded
+16: 6000th set
+rectified imgs are loaded
+18: 6000th set
+rectified imgs are loaded
+21: 6000th set
+rectified imgs are loaded
+13: 6000th set
+rectified imgs are loaded
+14: 6000th set
+rectified imgs are loaded
+15: 6000th set
+rectified imgs are loaded
+19: 6000th set
+rectified imgs are loaded
+17: 6000th set
+rectified imgs are loaded
+20: 6000th set
+rectified imgs are loaded
+22: 6000th set
+rectified imgs are loaded
+23: 6000th set
+rectified imgs are loaded
+24: 6000th set
+rectified imgs are loaded
+25: 6000th set
+rectified imgs are loaded
+26: 6000th set
+rectified imgs are loaded
+27: 6000th set
+rectified imgs are loaded
+28: 6000th set
+rectified imgs are loaded
+33: 6000th set
+rectified imgs are loaded
+29: 6000th set
+rectified imgs are loaded
+31: 6000th set
+rectified imgs are loaded
+30: 6000th set
+rectified imgs are loaded
+36: 6000th set
+rectified imgs are loaded
+32: 6000th set
+rectified imgs are loaded
+34: 6000th set
+rectified imgs are loaded
+35: 6000th set
+rectified imgs are loaded
+40: 6000th set
+rectified imgs are loaded
+37: 6000th set
+rectified imgs are loaded
+39: 6000th set
+rectified imgs are loaded
+44: 6000th set
+rectified imgs are loaded
+38: 6000th set
+rectified imgs are loaded
+43: 6000th set
+rectified imgs are loaded
+42: 6000th set
+rectified imgs are loaded
+45: 6000th set
+rectified imgs are loaded
+41: 6000th set
+rectified imgs are loaded
+47: 6000th set
+rectified imgs are loaded
+46: 6000th set
+rectified imgs are loaded
+48: 6000th set
+rectified imgs are loaded
+50: 6000th set
+rectified imgs are loaded
+49: 6000th set
+rectified imgs are loaded
+52: 6000th set
+rectified imgs are loaded
+53: 6000th set
+rectified imgs are loaded
+51: 6000th set
+rectified imgs are loaded
+55: 6000th set
+rectified imgs are loaded
+58: 6000th set
+rectified imgs are loaded
+54: 6000th set
+rectified imgs are loaded
+56: 6000th set
+rectified imgs are loaded
+57: 6000th set
+rectified imgs are loaded
+60: 6000th set
+rectified imgs are loaded
+59: 6000th set
+rectified imgs are loaded
+62: 6000th set
+rectified imgs are loaded
+61: 6000th set
+rectified imgs are loaded
+65: 6000th set
+rectified imgs are loaded
+64: 6000th set
+rectified imgs are loaded
+70: 6000th set
+rectified imgs are loaded
+67: 6000th set
+exception(<type 'exceptions.OSError'>, OSError(2, 'No such file or directory'), <traceback object at 0x7fe7700bcab8>)
+exception(<type 'exceptions.OSError'>, OSError(2, 'No such file or directory'), <traceback object at 0x7f2f3bcaeab8>)
+rectified imgs are loaded
+68: 6000th set
+exception(<type 'exceptions.OSError'>, OSError(2, 'No such file or directory'), <traceback object at 0x7f469caf8ab8>)
+exception(<type 'exceptions.OSError'>, OSError(2, 'No such file or directory'), <traceback object at 0x7f71a6e94ab8>)
+rectified imgs are loaded
+63: 6000th set
+rectified imgs are loaded
+66: 6000th set
+rectified imgs are loaded
+72: 6000th set
+rectified imgs are loaded
+69: 6000th set
+rectified imgs are loaded
+71: 6000th set
+rectified imgs are loaded
+73: 6000th set
+rectified imgs are loaded
+74: 6000th set
+rectified imgs are loaded
+75: 6000th set
+rectified imgs are loaded
+82: 6000th set
+rectified imgs are loaded
+83: 6000th set
+rectified imgs are loaded
+85: 6000th set
+rectified imgs are loaded
+87: 6000th set
+rectified imgs are loaded
+84: 6000th set
+rectified imgs are loaded
+76: 6000th set
+rectified imgs are loaded
+86: 6000th set
+rectified imgs are loaded
+77: 6000th set
+rectified imgs are loaded
+88: 6000th set
+rectified imgs are loaded
+91: 6000th set
+rectified imgs are loaded
+89: 6000th set
+rectified imgs are loaded
+92: 6000th set
+rectified imgs are loaded
+90: 6000th set
+rectified imgs are loaded
+93: 6000th set
+rectified imgs are loaded
+96: 6000th set
+rectified imgs are loaded
+94: 6000th set
+rectified imgs are loaded
+95: 6000th set
+rectified imgs are loaded
+98: 6000th set
+rectified imgs are loaded
+97: 6000th set
+rectified imgs are loaded
+99: 6000th set
+rectified imgs are loaded
+100: 6000th set
+rectified imgs are loaded
+101: 6000th set
+rectified imgs are loaded
+102: 6000th set
+rectified imgs are loaded
+107: 6000th set
+rectified imgs are loaded
+103: 6000th set
+rectified imgs are loaded
+104: 6000th set
+rectified imgs are loaded
+109: 6000th set
+rectified imgs are loaded
+105: 6000th set
+rectified imgs are loaded
+106: 6000th set
+rectified imgs are loaded
+108: 6000th set
+rectified imgs are loaded
+110: 6000th set
+rectified imgs are loaded
+111: 6000th set
+rectified imgs are loaded
+112: 6000th set
+rectified imgs are loaded
+113: 6000th set
+rectified imgs are loaded
+115: 6000th set
+rectified imgs are loaded
+119: 6000th set
+rectified imgs are loaded
+117: 6000th set
+rectified imgs are loaded
+121: 6000th set
+rectified imgs are loaded
+exception(<type 'exceptions.IOError'>, IOError(2, 'No such file or directory'), <traceback object at 0x7fd98d3facf8>)
+rectified imgs are loaded
+114: 6000th set
+rectified imgs are loaded
+116: 6000th set
+rectified imgs are loaded
+118: 6000th set
+rectified imgs are loaded
+120: 6000th set
+rectified imgs are loaded
+123: 6000th set
+rectified imgs are loaded
+122: 6000th set
+rectified imgs are loaded
+124: 6000th set
+rectified imgs are loaded
+125: 6000th set
+rectified imgs are loaded
+128: 6000th set
+rectified imgs are loaded
+126: 6000th set
+Done
+
+----------------- end -----------------
+Mo 26. Sep 11:30:57 CEST 2016
+elapsed time: 001:14:01
+---------------------------------------

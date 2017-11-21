@@ -1,0 +1,353 @@
+---------------- start ----------------
+So 23. Okt 23:58:17 CEST 2016
+max threads: 2
+max memory: 16000 MB
+time limit: 26 hours
+gpu device id: 0
+.qsub_MVS_VGG_train.sh.1  1
+---------------------------------------
+
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is disabled, cuDNN 5103)
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/005_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/016_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/018_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/019_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/021_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/036_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/037_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/038_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/042_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/045_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/049_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/050_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/059_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/061_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/062_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/063_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/085_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/089_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/093_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/096_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/097_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/100_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/103_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/104_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/105_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/124_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/128_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(735009, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(603627, 3, 64, 64)
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.0001, batch size: 200/500/1500, triplet_alpha: 0.2, param.__shuffle_sample_ON: True, weight_decay: 0.003
+============ epoch 0 ===========
+training loss:		0.667896
+train/val Accuracy = 0.66080 / 0.75794
+============ epoch 1 ===========
+training loss:		0.569398
+train/val Accuracy = 0.74158 / 0.78171
+============ epoch 2 ===========
+training loss:		0.548571
+train/val Accuracy = 0.75165 / 0.78778
+============ epoch 3 ===========
+training loss:		0.536960
+train/val Accuracy = 0.75691 / 0.79263
+============ epoch 4 ===========
+training loss:		0.528680
+train/val Accuracy = 0.76070 / 0.79311
+untile now, the train_val_mean_acc: [0.77690792792061436]
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.0001, batch size: 200/500/1500, triplet_alpha: 0.2, param.__shuffle_sample_ON: True, weight_decay: 0.3
+============ epoch 0 ===========
+training loss:		1.896513
+train/val Accuracy = 0.71825 / 0.76219
+============ epoch 1 ===========
+training loss:		1.781550
+train/val Accuracy = 0.74055 / 0.77729
+============ epoch 2 ===========
+training loss:		1.754578
+train/val Accuracy = 0.74677 / 0.77862
+============ epoch 3 ===========
+training loss:		1.746702
+train/val Accuracy = 0.74907 / 0.78098
+============ epoch 4 ===========
+training loss:		1.744151
+train/val Accuracy = 0.75080 / 0.78068
+untile now, the train_val_mean_acc: [0.77690792792061436, 0.76574023154575821]
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.0001, batch size: 200/500/1500, triplet_alpha: 0.2, param.__shuffle_sample_ON: True, weight_decay: 30
+============ epoch 0 ===========
+training loss:		114.951541
+train/val Accuracy = 0.67261 / 0.71022
+============ epoch 1 ===========
+training loss:		114.718400
+train/val Accuracy = 0.68400 / 0.71071
+============ epoch 2 ===========
+training loss:		114.718364
+train/val Accuracy = 0.68395 / 0.71477
+============ epoch 3 ===========
+training loss:		114.718363
+train/val Accuracy = 0.68405 / 0.71186
+============ epoch 4 ===========
+training loss:		114.718367
+train/val Accuracy = 0.68394 / 0.71344
+untile now, the train_val_mean_acc: [0.77690792792061436, 0.76574023154575821, 0.69935941604815532]
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.001, batch size: 200/500/1500, triplet_alpha: 0.2, param.__shuffle_sample_ON: True, weight_decay: 0.003
+============ epoch 0 ===========
+training loss:		0.555525
+train/val Accuracy = 0.74276 / 0.78632
+============ epoch 1 ===========
+training loss:		0.511479
+train/val Accuracy = 0.76652 / 0.78693
+============ epoch 2 ===========
+training loss:		0.498038
+train/val Accuracy = 0.77396 / 0.78935
+============ epoch 3 ===========
+training loss:		0.489085
+train/val Accuracy = 0.77957 / 0.78335
+============ epoch 4 ===========
+training loss:		0.482599
+train/val Accuracy = 0.78423 / 0.79493
+untile now, the train_val_mean_acc: [0.77690792792061436, 0.76574023154575821, 0.69935941604815532, 0.78958134711613004]
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.001, batch size: 200/500/1500, triplet_alpha: 0.2, param.__shuffle_sample_ON: True, weight_decay: 0.3
+============ epoch 0 ===========
+training loss:		1.780616
+train/val Accuracy = 0.73549 / 0.77759
+============ epoch 1 ===========
+training loss:		1.756426
+train/val Accuracy = 0.74623 / 0.77820
+============ epoch 2 ===========
+training loss:		1.756575
+train/val Accuracy = 0.74625 / 0.77686
+============ epoch 3 ===========
+training loss:		1.756501
+train/val Accuracy = 0.74632 / 0.77092
+============ epoch 4 ===========
+training loss:		1.756598
+train/val Accuracy = 0.74627 / 0.77231
+untile now, the train_val_mean_acc: [0.77690792792061436, 0.76574023154575821, 0.69935941604815532, 0.78958134711613004, 0.76221102458196599]
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.001, batch size: 200/500/1500, triplet_alpha: 0.2, param.__shuffle_sample_ON: True, weight_decay: 30
+============ epoch 0 ===========
+training loss:		114.799128
+train/val Accuracy = 0.67475 / 0.67875
+============ epoch 1 ===========
+training loss:		114.728995
+train/val Accuracy = 0.67806 / 0.67111
+============ epoch 2 ===========
+training loss:		114.728989
+train/val Accuracy = 0.67729 / 0.67208
+============ epoch 3 ===========
+training loss:		114.729010
+train/val Accuracy = 0.67834 / 0.66220
+============ epoch 4 ===========
+training loss:		114.729176
+train/val Accuracy = 0.67735 / 0.65826
+untile now, the train_val_mean_acc: [0.77690792792061436, 0.76574023154575821, 0.69935941604815532, 0.78958134711613004, 0.76221102458196599, 0.67675347467561253]
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.01, batch size: 200/500/1500, triplet_alpha: 0.2, param.__shuffle_sample_ON: True, weight_decay: 0.003
+============ epoch 0 ===========
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('max() arg is an empty sequence',), <traceback object at 0x7f7a30c12cb0>)
+untile now, the train_val_mean_acc: [0.77690792792061436, 0.76574023154575821, 0.69935941604815532, 0.78958134711613004, 0.76221102458196599, 0.67675347467561253]
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.01, batch size: 200/500/1500, triplet_alpha: 0.2, param.__shuffle_sample_ON: True, weight_decay: 0.3
+============ epoch 0 ===========
+training loss:		1.989936
+train/val Accuracy = 0.63686 / 0.54669
+============ epoch 1 ===========
+training loss:		1.987335
+train/val Accuracy = 0.63750 / 0.60247
+============ epoch 2 ===========
+training loss:		1.991369
+train/val Accuracy = 0.63595 / 0.53280
+============ epoch 3 ===========
+training loss:		1.989769
+train/val Accuracy = 0.63654 / 0.63109
+============ epoch 4 ===========
+training loss:		1.983190
+train/val Accuracy = 0.63934 / 0.57919
+untile now, the train_val_mean_acc: [0.77690792792061436, 0.76574023154575821, 0.69935941604815532, 0.78958134711613004, 0.76221102458196599, 0.67675347467561253, 0.63381674085031081]
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.01, batch size: 200/500/1500, triplet_alpha: 0.2, param.__shuffle_sample_ON: True, weight_decay: 30
+============ epoch 0 ===========
+training loss:		114.816447
+train/val Accuracy = 0.62477 / 0.50000
+============ epoch 1 ===========
+training loss:		114.792188
+train/val Accuracy = 0.62742 / 0.50000
+============ epoch 2 ===========
+training loss:		114.792729
+train/val Accuracy = 0.62395 / 0.50000
+============ epoch 3 ===========
+training loss:		114.791428
+train/val Accuracy = 0.62769 / 0.50000
+============ epoch 4 ===========
+training loss:		114.791660
+train/val Accuracy = 0.62784 / 0.50000
+untile now, the train_val_mean_acc: [0.77690792792061436, 0.76574023154575821, 0.69935941604815532, 0.78958134711613004, 0.76221102458196599, 0.67675347467561253, 0.63381674085031081, 0.56391985447967041]
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.0001, batch size: 200/500/1500, triplet_alpha: 2, param.__shuffle_sample_ON: True, weight_decay: 0.003
+============ epoch 0 ===========
+training loss:		0.934928
+train/val Accuracy = 0.64189 / 0.72932
+============ epoch 1 ===========
+training loss:		0.750368
+train/val Accuracy = 0.70775 / 0.74018
+============ epoch 2 ===========
+training loss:		0.709311
+train/val Accuracy = 0.71262 / 0.74042
+============ epoch 3 ===========
+training loss:		0.689357
+train/val Accuracy = 0.71608 / 0.74576
+============ epoch 4 ===========
+training loss:		0.676829
+train/val Accuracy = 0.71815 / 0.74836
+untile now, the train_val_mean_acc: [0.77690792792061436, 0.76574023154575821, 0.69935941604815532, 0.78958134711613004, 0.76221102458196599, 0.67675347467561253, 0.63381674085031081, 0.56391985447967041, 0.73325830155400873]
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.0001, batch size: 200/500/1500, triplet_alpha: 2, param.__shuffle_sample_ON: True, weight_decay: 0.3
+============ epoch 0 ===========
+training loss:		2.170446
+train/val Accuracy = 0.70124 / 0.74127
+============ epoch 1 ===========
+training loss:		2.022905
+train/val Accuracy = 0.71405 / 0.74248
+============ epoch 2 ===========
+training loss:		1.995977
+train/val Accuracy = 0.71682 / 0.74042
+============ epoch 3 ===========
+training loss:		1.988264
+train/val Accuracy = 0.71859 / 0.74667
+============ epoch 4 ===========
+training loss:		1.985921
+train/val Accuracy = 0.71981 / 0.74618
+untile now, the train_val_mean_acc: [0.77690792792061436, 0.76574023154575821, 0.69935941604815532, 0.78958134711613004, 0.76221102458196599, 0.67675347467561253, 0.63381674085031081, 0.56391985447967041, 0.73325830155400873, 0.73299436105685101]
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.0001, batch size: 200/500/1500, triplet_alpha: 2, param.__shuffle_sample_ON: True, weight_decay: 30
+============ epoch 0 ===========
+training loss:		115.167112
+train/val Accuracy = 0.62131 / 0.64656
+============ epoch 1 ===========
+training loss:		114.935974
+train/val Accuracy = 0.63094 / 0.64825
+============ epoch 2 ===========
+training loss:		114.935975
+train/val Accuracy = 0.63126 / 0.65104
+============ epoch 3 ===========
+training loss:		114.935985
+train/val Accuracy = 0.63160 / 0.64583
+============ epoch 4 ===========
+training loss:		114.935978
+train/val Accuracy = 0.63162 / 0.64565
+untile now, the train_val_mean_acc: [0.77690792792061436, 0.76574023154575821, 0.69935941604815532, 0.78958134711613004, 0.76221102458196599, 0.67675347467561253, 0.63381674085031081, 0.56391985447967041, 0.73325830155400873, 0.73299436105685101, 0.64115346948530472]
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.001, batch size: 200/500/1500, triplet_alpha: 2, param.__shuffle_sample_ON: True, weight_decay: 0.003
+============ epoch 0 ===========
+training loss:		0.701437
+train/val Accuracy = 0.71681 / 0.74794
+============ epoch 1 ===========
+training loss:		0.636353
+train/val Accuracy = 0.72957 / 0.76758
+============ epoch 2 ===========
+training loss:		0.625682
+train/val Accuracy = 0.73461 / 0.74970
+============ epoch 3 ===========
+training loss:		0.621036
+train/val Accuracy = 0.73746 / 0.79069
+============ epoch 4 ===========
+training loss:		0.615199
+train/val Accuracy = 0.74057 / 0.75127
+untile now, the train_val_mean_acc: [0.77690792792061436, 0.76574023154575821, 0.69935941604815532, 0.78958134711613004, 0.76221102458196599, 0.67675347467561253, 0.63381674085031081, 0.56391985447967041, 0.73325830155400873, 0.73299436105685101, 0.64115346948530472, 0.76407297519046469]
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.001, batch size: 200/500/1500, triplet_alpha: 2, param.__shuffle_sample_ON: True, weight_decay: 0.3
+============ epoch 0 ===========
+training loss:		2.028696
+train/val Accuracy = 0.69542 / 0.73248
+============ epoch 1 ===========
+training loss:		1.987231
+train/val Accuracy = 0.72054 / 0.74848
+============ epoch 2 ===========
+training loss:		1.987179
+train/val Accuracy = 0.72189 / 0.75085
+============ epoch 3 ===========
+training loss:		1.987079
+train/val Accuracy = 0.72168 / 0.74903
+============ epoch 4 ===========
+training loss:		1.987161
+train/val Accuracy = 0.72210 / 0.75152
+untile now, the train_val_mean_acc: [0.77690792792061436, 0.76574023154575821, 0.69935941604815532, 0.78958134711613004, 0.76221102458196599, 0.67675347467561253, 0.63381674085031081, 0.56391985447967041, 0.73325830155400873, 0.73299436105685101, 0.64115346948530472, 0.76407297519046469, 0.73680665378996668]
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.001, batch size: 200/500/1500, triplet_alpha: 2, param.__shuffle_sample_ON: True, weight_decay: 30
+============ epoch 0 ===========
+training loss:		115.007057
+train/val Accuracy = 0.62259 / 0.57579
+============ epoch 1 ===========
+training loss:		114.936240
+train/val Accuracy = 0.62843 / 0.59380
+============ epoch 2 ===========
+training loss:		114.936250
+train/val Accuracy = 0.62965 / 0.61709
+============ epoch 3 ===========
+training loss:		114.936245
+train/val Accuracy = 0.62946 / 0.60460
+============ epoch 4 ===========
+training loss:		114.936237
+train/val Accuracy = 0.62844 / 0.61369
+untile now, the train_val_mean_acc: [0.77690792792061436, 0.76574023154575821, 0.69935941604815532, 0.78958134711613004, 0.76221102458196599, 0.67675347467561253, 0.63381674085031081, 0.56391985447967041, 0.73325830155400873, 0.73299436105685101, 0.64115346948530472, 0.76407297519046469, 0.73680665378996668, 0.62336792284310993]
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.01, batch size: 200/500/1500, triplet_alpha: 2, param.__shuffle_sample_ON: True, weight_decay: 0.003
+============ epoch 0 ===========

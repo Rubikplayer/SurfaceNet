@@ -1,0 +1,95 @@
+---------------- start ----------------
+Mo 5. Jun 16:52:48 CEST 2017
+max threads: 1
+max memory: 5000 MB
+time limit: 24 hours
+use gpu: false
+.qsub-read_mat_files.sh.1  1
+---------------------------------------
+
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-5viewPairs/0_ANDweight/iter7_adapthresh.mat
+0.327016570742 	0.227133845269 	2.47012497607 	0.851189186806
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-5viewPairs/6_ANDweight/iter7_adapthresh.mat
+0.42932236281 	0.259162165642 	0.792560838082 	0.215507005081
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-3viewPairs/0_ANDweight/iter7_adapthresh.mat
+0.374652085665 	0.234619022067 	1.76603150031 	0.548632426425
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-3viewPairs/6_ANDweight/iter7_adapthresh.mat
+0.506579801975 	0.274382065787 	0.786538579299 	0.21704256194
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-1viewPairs/0_ANDweight/iter7_adapthresh.mat
+1.90749761049 	0.217029496601 	0.754831007001 	0.27154568046
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-1viewPairs/6_ANDweight/iter7_adapthresh.mat
+1.71607625686 	0.274155678821 	0.585244982389 	0.216221097404
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model1-5viewPairs/0_ANDweight/iter7_adapthresh.mat
+0.220042962082 	0.154588422536 	3.85778846682 	0.399130737469
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model1-5viewPairs/6_ANDweight/iter7_adapthresh.mat
+0.280286998178 	0.168407785519 	3.03944014248 	0.223149471207
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model4-5viewPairs/0_ANDweight/iter7_adapthresh.mat
+0.226845614648 	0.167421838275 	4.84863342442 	0.326629466258
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model4-5viewPairs/6_ANDweight/iter7_adapthresh.mat
+0.294835726931 	0.187815675867 	3.53286004715 	0.228302355071
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model75-5viewPairs/0_ANDweight/iter7_adapthresh.mat
+0.229754829132 	0.170131211446 	1.44697464868 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model75-5viewPairs/6_ANDweight/iter7_adapthresh.mat
+0.42447983395 	0.235614042853 	0.558757093328 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model77-5viewPairs/0_ANDweight/iter7_adapthresh.mat
+0.502726979629 	0.23801170293 	0.655162704112 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model77-5viewPairs/6_ANDweight/iter7_adapthresh.mat
+1.43553261999 	0.463133162154 	0.214654121171 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model110-5viewPairs/0_ANDweight/iter7_adapthresh.mat
+0.191229537344 	0.153519597075 	3.67331716439 	0.467846634801
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model110-5viewPairs/6_ANDweight/iter7_adapthresh.mat
+0.315099656837 	0.188481582966 	1.55372726773 	0.166523918793
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-5viewPairs/3_ANDweight/iter7_adapthresh.mat
+0.391593652985 	0.254275518611 	1.20922838971 	0.243367128801
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-3viewPairs/3_ANDweight/iter7_adapthresh.mat
+0.426588610598 	0.26280123984 	1.22391073476 	0.256871705049
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-1viewPairs/3_ANDweight/iter7_adapthresh.mat
+1.74816689516 	0.238044498647 	0.701348833602 	0.243211634352
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model1-5viewPairs/3_ANDweight/iter7_adapthresh.mat
+0.265957802983 	0.173367335165 	3.23243628013 	0.231155181098
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model4-5viewPairs/3_ANDweight/iter7_adapthresh.mat
+0.264243319565 	0.184255125749 	4.24527297667 	0.23871395135
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model75-5viewPairs/3_ANDweight/iter7_adapthresh.mat
+0.335772515402 	0.214314224024 	1.1863671696 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model77-5viewPairs/3_ANDweight/iter7_adapthresh.mat
+0.617818460641 	0.38213715348 	0.429873419276 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model110-5viewPairs/3_ANDweight/iter7_adapthresh.mat
+0.300823911334 	0.197571915784 	2.40475084472 	0.18133353548
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-5viewPairs/9_ANDweight/iter7_adapthresh.mat
+0.475674425908 	0.262505211649 	0.670685201752 	0.211290813111
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-1viewPairs/9_ANDweight/iter7_adapthresh.mat
+1.83935593889 	0.28108791552 	0.523137373429 	0.208974355783
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model4-5viewPairs/9_ANDweight/iter7_adapthresh.mat
+0.326652185637 	0.188747371938 	3.17176143245 	0.22570208273
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model77-5viewPairs/9_ANDweight/iter7_adapthresh.mat
+3.65745138037 	0.567183555255 	0.17041796098 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-3viewPairs/9_ANDweight/iter7_adapthresh.mat
+0.624681945557 	0.279002332678 	0.636392821269 	0.210733946436
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model75-5viewPairs/9_ANDweight/iter7_adapthresh.mat
+0.693026040748 	0.248151114796 	0.491001268699 	0.0
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model1-5viewPairs/9_ANDweight/iter7_adapthresh.mat
+0.297944748297 	0.164509328161 	2.96928271023 	0.221259962941
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model110-5viewPairs/9_ANDweight/iter7_adapthresh.mat
+0.318908457245 	0.176701013979 	1.22613637106 	0.164207804642
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-6viewPairs/0_ANDweight/iter7_adapthresh.mat
+0.317757762289 	0.224742549899 	2.71088719489 	1.01654565928
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-6viewPairs/6_ANDweight/iter7_adapthresh.mat
+0.408086829943 	0.250560368672 	0.838293726671 	0.221277716352
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-7viewPairs/0_ANDweight/iter7_adapthresh.mat
+0.315735086634 	0.222302183102 	2.90936373526 	1.15532394133
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-7viewPairs/6_ANDweight/iter7_adapthresh.mat
+0.38241861039 	0.243104784081 	0.871746685199 	0.226859479377
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-6viewPairs/3_ANDweight/iter7_adapthresh.mat
+0.370413806263 	0.244638318722 	1.32088532936 	0.256486106565
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-7viewPairs/3_ANDweight/iter7_adapthresh.mat
+0.359033985522 	0.241052498005 	1.46983125406 	0.270219331402
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-6viewPairs/9_ANDweight/iter7_adapthresh.mat
+0.429433990657 	0.253161277961 	0.716907499953 	0.216731122927
+/home/mengqi/dataset/MVS/lasagne/iccv_mean_reconstruction_result/results_adapthresh/model9-7viewPairs/9_ANDweight/iter7_adapthresh.mat
+0.400386057616 	0.24669869205 	0.739945040473 	0.221146695945
+Done
+
+----------------- end -----------------
+Mo 5. Jun 16:53:24 CEST 2017
+elapsed time: 000:00:36
+---------------------------------------

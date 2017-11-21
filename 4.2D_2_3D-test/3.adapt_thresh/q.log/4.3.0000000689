@@ -1,0 +1,471 @@
+---------------- start ----------------
+Do 24. Nov 09:51:22 CET 2016
+max threads: 3
+max memory: 35000 MB
+time limit: 24 hours
+use gpu: false
+.qsub-4.3.sh.1  1
+---------------------------------------
+
+loaded 130 / 296 cubes
+1
+loaded 160 / 423 cubes
+2
+loaded 165 / 465 cubes
+3
+loaded 177 / 500 cubes
+4
+loaded 176 / 530 cubes
+5
+loaded 147 / 456 cubes
+6
+loaded 87 / 291 cubes
+7
+loaded 203 / 502 cubes
+8
+loaded 237 / 671 cubes
+9
+loaded 252 / 744 cubes
+10
+loaded 272 / 770 cubes
+11
+loaded 287 / 810 cubes
+12
+loaded 143 / 527 cubes
+13
+loaded 201 / 574 cubes
+14
+loaded 323 / 774 cubes
+15
+loaded 374 / 989 cubes
+16
+loaded 363 / 1073 cubes
+17
+loaded 387 / 1161 cubes
+18
+loaded 305 / 942 cubes
+19
+loaded 264 / 883 cubes
+20
+loaded 302 / 998 cubes
+21
+loaded 406 / 1089 cubes
+22
+loaded 506 / 1350 cubes
+23
+loaded 463 / 1475 cubes
+24
+loaded 478 / 1484 cubes
+25
+loaded 344 / 1130 cubes
+26
+loaded 395 / 1286 cubes
+27
+loaded 401 / 1376 cubes
+28
+loaded 501 / 1453 cubes
+29
+loaded 571 / 1785 cubes
+30
+loaded 609 / 1908 cubes
+31
+loaded 500 / 1543 cubes
+32
+loaded 493 / 1475 cubes
+33
+loaded 504 / 1682 cubes
+34
+loaded 566 / 1763 cubes
+35
+loaded 652 / 1941 cubes
+36
+loaded 732 / 2164 cubes
+37
+loaded 723 / 2114 cubes
+38
+loaded 611 / 1777 cubes
+39
+loaded 643 / 1927 cubes
+40
+loaded 684 / 2096 cubes
+41
+loaded 753 / 2256 cubes
+42
+loaded 880 / 2428 cubes
+43
+loaded 909 / 2509 cubes
+44
+loaded 789 / 2267 cubes
+45
+loaded 786 / 2186 cubes
+46
+loaded 779 / 2206 cubes
+47
+loaded 896 / 2380 cubes
+48
+loaded 882 / 2486 cubes
+49
+loaded 905 / 2532 cubes
+50
+loaded 812 / 2490 cubes
+51
+loaded 817 / 2288 cubes
+52
+loaded 676 / 2125 cubes
+53
+loaded 804 / 2178 cubes
+54
+loaded 889 / 2296 cubes
+55
+loaded 926 / 2339 cubes
+56
+loaded 810 / 2280 cubes
+57
+loaded 814 / 2304 cubes
+58
+loaded 762 / 1954 cubes
+59
+loaded 535 / 1838 cubes
+60
+loaded 616 / 1862 cubes
+61
+loaded 663 / 1959 cubes
+62
+loaded 718 / 2005 cubes
+63
+loaded 673 / 2127 cubes
+64
+loaded 687 / 2052 cubes
+65
+loaded 601 / 1649 cubes
+66
+loaded 462 / 1573 cubes
+67
+loaded 453 / 1590 cubes
+68
+loaded 518 / 1636 cubes
+69
+loaded 594 / 1696 cubes
+70
+loaded 590 / 1644 cubes
+71
+loaded 561 / 1565 cubes
+72
+loaded 476 / 1287 cubes
+73
+loaded 356 / 1000 cubes
+74
+loaded 185 / 1000 cubes
+75
+loaded 376 / 1062 cubes
+76
+loaded 376 / 1108 cubes
+77
+loaded 415 / 1062 cubes
+78
+loaded 301 / 1023 cubes
+79
+loaded 228 / 852 cubes
+80
+loaded 109 / 325 cubes
+81
+loaded 212 / 473 cubes
+82
+loaded 81 / 278 cubes
+83
+loaded 15 / 83 cubes
+84
+loaded 64 / 158 cubes
+85
+loaded 43 / 137 cubes
+86
+loaded 59 / 161 cubes
+87
+loaded 94 / 376 cubes
+88
+loaded 183 / 500 cubes
+89
+loaded 89 / 445 cubes
+90
+loaded 59 / 59 cubes
+91
+42018rayTrace pool takes: 11475.4943731 
+saved sparse_dict into file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params/model12-6viewPairs-resol0.400-strideRatio0.500/rayPool_votes_model12_batch1_91_maxThresh2.0.npz
+init_adapThresh: 2.0 	 thresh_NO_viewPairs_decisions: 2
+loaded the initial point cloud data
+start updating the threshold
+updated iteration 0
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 20842341 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter0_realColor.pcd
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter0_realColor.pcd [0;m[0;m[done, [0;36m147506[0;m[0;m ms : [0;36m20842341[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter0_realColor.ply [0;m[0;m[done, [0;36m4150[0;m[0;m ms : [0;36m20842341[0;m[0;m points]
+updated iteration 1
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 17736369 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter1_realColor.pcd
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter1_realColor.pcd [0;m[0;m[done, [0;36m107878[0;m[0;m ms : [0;36m17736369[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter1_realColor.ply [0;m[0;m[done, [0;36m3605[0;m[0;m ms : [0;36m17736369[0;m[0;m points]
+updated iteration 2
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 15737952 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter2_realColor.pcd
+updated iteration 3
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter2_realColor.pcd [0;m[0;m[done, [0;36m138047[0;m[0;m ms : [0;36m15737952[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter2_realColor.ply [0;m[0;m[done, [0;36m3417[0;m[0;m ms : [0;36m15737952[0;m[0;m points]
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 14614999 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter3_realColor.pcd
+updated iteration 4
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter3_realColor.pcd [0;m[0;m[done, [0;36m149775[0;m[0;m ms : [0;36m14614999[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter3_realColor.ply [0;m[0;m[done, [0;36m3087[0;m[0;m ms : [0;36m14614999[0;m[0;m points]
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 14115698 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter4_realColor.pcd
+updated iteration 5
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter4_realColor.pcd [0;m[0;m[done, [0;36m89130[0;m[0;m ms : [0;36m14115698[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter4_realColor.ply [0;m[0;m[done, [0;36m2966[0;m[0;m ms : [0;36m14115698[0;m[0;m points]
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 13802421 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter5_realColor.pcd
+updated iteration 6
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter5_realColor.pcd [0;m[0;m[done, [0;36m87687[0;m[0;m ms : [0;36m13802421[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter5_realColor.ply [0;m[0;m[done, [0;36m2921[0;m[0;m ms : [0;36m13802421[0;m[0;m points]
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 13617711 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter6_realColor.pcd
+updated iteration 7
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter6_realColor.pcd [0;m[0;m[done, [0;36m86988[0;m[0;m ms : [0;36m13617711[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter6_realColor.ply [0;m[0;m[done, [0;36m2902[0;m[0;m ms : [0;36m13617711[0;m[0;m points]
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 13528587 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter7_realColor.pcd
+updated iteration 8
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter7_realColor.pcd [0;m[0;m[done, [0;36m86177[0;m[0;m ms : [0;36m13528587[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter7_realColor.ply [0;m[0;m[done, [0;36m2926[0;m[0;m ms : [0;36m13528587[0;m[0;m points]
+converting pcd 2 ply in new threadsaving ply
+
+.
+done
+init_adapThresh: 2.0 	 thresh_NO_viewPairs_decisions: 5
+loaded the initial point cloud data
+save 13477797 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter8_realColor.pcd
+start updating the threshold
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter8_realColor.pcd [0;m[0;m[done, [0;36m85662[0;m[0;m ms : [0;36m13477797[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision2_iter8_realColor.ply [0;m[0;m[done, [0;36m2825[0;m[0;m ms : [0;36m13477797[0;m[0;m points]
+updated iteration 0
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 13182000 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision5_iter0_realColor.pcd
+updated iteration 1
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 11397290 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision5_iter1_realColor.pcd
+updated iteration 2
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 10227197 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision5_iter2_realColor.pcd
+updated iteration 3
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 9565123 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision5_iter3_realColor.pcd
+updated iteration 4
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 9305122 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision5_iter4_realColor.pcd
+updated iteration 5
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 9143695 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision5_iter5_realColor.pcd
+updated iteration 6
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 9028084 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision5_iter6_realColor.pcd
+updated iteration 7
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 8962525 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision5_iter7_realColor.pcd
+updated iteration 8
+converting pcd 2 ply in new threadsaving ply
+
+.
+done
+save 8930774 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision5_iter8_realColor.pcd
+init_adapThresh: 2.0 	 thresh_NO_viewPairs_decisions: 8
+loaded the initial point cloud data
+start updating the threshold
+updated iteration 0
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 7956326 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision8_iter0_realColor.pcd
+updated iteration 1
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 6977816 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision8_iter1_realColor.pcd
+updated iteration 2
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 6306594 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision8_iter2_realColor.pcd
+updated iteration 3
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 5893261 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision8_iter3_realColor.pcd
+updated iteration 4
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 5701652 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision8_iter4_realColor.pcd
+updated iteration 5
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 5576666 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision8_iter5_realColor.pcd
+updated iteration 6
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 5478893 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision8_iter6_realColor.pcd
+updated iteration 7
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 5414302 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision8_iter7_realColor.pcd
+updated iteration 8
+converting pcd 2 ply in new threadsaving ply
+
+.
+done
+save 5382626 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision8_iter8_realColor.pcd
+init_adapThresh: 2.0 	 thresh_NO_viewPairs_decisions: 12
+loaded the initial point cloud data
+start updating the threshold
+updated iteration 0
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 2330954 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision12_iter0_realColor.pcd
+updated iteration 1
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 2089449 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision12_iter1_realColor.pcd
+updated iteration 2
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 1898286 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision12_iter2_realColor.pcd
+updated iteration 3
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 1756718 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision12_iter3_realColor.pcd
+updated iteration 4
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 1662494 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision12_iter4_realColor.pcd
+updated iteration 5
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 1571920 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision12_iter5_realColor.pcd
+updated iteration 6
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 1468941 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision12_iter6_realColor.pcd
+updated iteration 7
+converting pcd 2 ply in new threadsaving ply
+
+.
+save 1354329 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision12_iter7_realColor.pcd
+updated iteration 8
+converting pcd 2 ply in new threadsaving ply
+
+.
+done
+save 1322884 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/adapt_thresh/model12-6viewPairs-resol0.400-strideRatio0.500/1-91/adapThresh_rayPool_On-init2.0_Ndecision12_iter8_realColor.pcd
+init_adapThresh: 2.0 	 thresh_NO_viewPairs_decisions: 16
+loaded the initial point cloud data
+start updating the threshold
+updated iteration 0
+no points left
+.
+updated iteration 1
+no points left
+.
+updated iteration 2
+no points left
+.
+updated iteration 3
+no points left
+.
+updated iteration 4
+no points left
+.
+updated iteration 5
+no points left
+.
+updated iteration 6
+no points left
+.
+updated iteration 7
+no points left
+.
+updated iteration 8
+no points left
+.
+done
+Done
+
+----------------- end -----------------
+Do 24. Nov 16:14:21 CET 2016
+elapsed time: 006:22:59
+---------------------------------------

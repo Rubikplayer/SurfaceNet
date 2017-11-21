@@ -1,0 +1,210 @@
+---------------- start ----------------
+Wed Jul 19 2017 14:33:01
+max threads: 2
+max memory: 30000 MB
+time limit: 100 hours
+use gpu: false
+---------------------------------------
+modelIndx, N_viewPairs, weight_AND_term:  (9, 9, 0)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (9, 9, 3)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (9, 9, 6)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (9, 9, 9)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (9, 7, 0)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (9, 7, 3)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (9, 7, 6)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (9, 7, 9)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 0)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0.5_8.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0_ANDweight/iter0_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0_ANDweight/iter0_tmprgb.ply
+updated iteration 0. It took 113.256865978s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0_ANDweight/iter1_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0_ANDweight/iter1_tmprgb.ply
+updated iteration 1. It took 88.4437050819s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0_ANDweight/iter2_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0_ANDweight/iter2_tmprgb.ply
+updated iteration 2. It took 72.9922711849s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0_ANDweight/iter3_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0_ANDweight/iter3_tmprgb.ply
+updated iteration 3. It took 58.9067120552s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0_ANDweight/iter4_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0_ANDweight/iter4_tmprgb.ply
+updated iteration 4. It took 48.7304670811s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0_ANDweight/iter5_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0_ANDweight/iter5_tmprgb.ply
+updated iteration 5. It took 48.4786858559s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0_ANDweight/iter6_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0_ANDweight/iter6_tmprgb.ply
+updated iteration 6. It took 47.8627381325s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0_ANDweight/iter7_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0_ANDweight/iter7_tmprgb.ply
+updated iteration 7. It took 47.835832119s
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 3)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0.5_8.ply
+downsample factor: 1.4179
+Elapsed time is 1.488432 seconds.
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/3_ANDweight/iter0_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/3_ANDweight/iter0_tmprgb.ply
+updated iteration 0. It took 112.385322094s
+Computing Data 2 Stl distances
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/3_ANDweight/iter1_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/3_ANDweight/iter1_tmprgb.ply
+updated iteration 1. It took 91.8353438377s
+Elapsed time is 131.783791 seconds.
+Computing Stl 2 Data distances
+Distances computed
+Elapsed time is 9.837979 seconds.
+
+eval_acc_compl =
+
+    0.3128    0.2173    2.5457    0.9485
+
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/3_ANDweight/iter2_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/3_ANDweight/iter2_tmprgb.ply
+updated iteration 2. It took 84.350620985s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/3_ANDweight/iter3_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/3_ANDweight/iter3_tmprgb.ply
+updated iteration 3. It took 77.2590150833s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/3_ANDweight/iter4_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/3_ANDweight/iter4_tmprgb.ply
+updated iteration 4. It took 72.6514148712s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/3_ANDweight/iter5_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/3_ANDweight/iter5_tmprgb.ply
+updated iteration 5. It took 70.732806921s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/3_ANDweight/iter6_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/3_ANDweight/iter6_tmprgb.ply
+updated iteration 6. It took 69.3913941383s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/3_ANDweight/iter7_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/3_ANDweight/iter7_tmprgb.ply
+updated iteration 7. It took 68.831184864s
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 6)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0.5_8.ply
+downsample factor: 2.1722
+Elapsed time is 13.232368 seconds.
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/6_ANDweight/iter0_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/6_ANDweight/iter0_tmprgb.ply
+updated iteration 0. It took 109.518650055s
+Computing Data 2 Stl distances
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/6_ANDweight/iter1_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/6_ANDweight/iter1_tmprgb.ply
+updated iteration 1. It took 91.3602309227s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/6_ANDweight/iter2_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/6_ANDweight/iter2_tmprgb.ply
+updated iteration 2. It took 87.3681809902s
+Elapsed time is 134.309579 seconds.
+Computing Stl 2 Data distances
+Distances computed
+Elapsed time is 32.241435 seconds.
+
+eval_acc_compl =
+
+    0.3831    0.2429    1.5520    0.2874
+
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/6_ANDweight/iter3_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/6_ANDweight/iter3_tmprgb.ply
+updated iteration 3. It took 83.948266983s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/6_ANDweight/iter4_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/6_ANDweight/iter4_tmprgb.ply
+updated iteration 4. It took 83.4206409454s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/6_ANDweight/iter5_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/6_ANDweight/iter5_tmprgb.ply
+updated iteration 5. It took 82.3905661106s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/6_ANDweight/iter6_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/6_ANDweight/iter6_tmprgb.ply
+updated iteration 6. It took 81.7618820667s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/6_ANDweight/iter7_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/6_ANDweight/iter7_tmprgb.ply
+updated iteration 7. It took 82.30991292s
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 9)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0.5_8.ply
+downsample factor: 2.082
+Elapsed time is 22.230254 seconds.
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/9_ANDweight/iter0_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/9_ANDweight/iter0_tmprgb.ply
+updated iteration 0. It took 109.650904894s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/9_ANDweight/iter1_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/9_ANDweight/iter1_tmprgb.ply
+updated iteration 1. It took 92.4971659184s
+Computing Data 2 Stl distances
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/9_ANDweight/iter2_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/9_ANDweight/iter2_tmprgb.ply
+updated iteration 2. It took 88.9561171532s
+Elapsed time is 133.370583 seconds.
+Computing Stl 2 Data distances
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/9_ANDweight/iter3_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/9_ANDweight/iter3_tmprgb.ply
+updated iteration 3. It took 87.5060899258s
+Distances computed
+Elapsed time is 53.574557 seconds.
+
+eval_acc_compl =
+
+    0.4338    0.2492    0.7917    0.2286
+
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/9_ANDweight/iter4_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/9_ANDweight/iter4_tmprgb.ply
+updated iteration 4. It took 87.2096998692s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/9_ANDweight/iter5_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/9_ANDweight/iter5_tmprgb.ply
+updated iteration 5. It took 86.8991558552s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/9_ANDweight/iter6_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/9_ANDweight/iter6_tmprgb.ply
+updated iteration 6. It took 86.5298929214s
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/9_ANDweight/iter7_adapthresh.ply
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/9_ANDweight/iter7_tmprgb.ply
+updated iteration 7. It took 86.5770709515s
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 3, 0)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (9, 3, 3)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (9, 3, 6)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (9, 3, 9)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (9, 1, 0)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (9, 1, 3)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (9, 1, 6)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+modelIndx, N_viewPairs, weight_AND_term:  (9, 1, 9)
+('exception of the func adapthresh', <type 'exceptions.Exception'>, IOError(2, 'No such file or directory'))
+/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/0_ANDweight/iter7_adapthresh.ply [[0.312842835287,0.217277075351,2.54573534685,0.948472546817]]
+/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/6_ANDweight/iter7_adapthresh.ply [[0.433812554619,0.249239800346,0.791717012858,0.228584632174]]
+/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/3_ANDweight/iter7_adapthresh.ply [[0.383084701023,0.242857863298,1.55203555693,0.287394034204]]
+downsample factor: 2.0209
+Elapsed time is 24.432442 seconds.
+Computing Data 2 Stl distances
+Elapsed time is 130.152698 seconds.
+Computing Stl 2 Data distances
+Distances computed
+Elapsed time is 60.723551 seconds.
+
+eval_acc_compl =
+
+    0.5491    0.2521    0.6595    0.2203
+
+/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_adapthresh/model9-5viewPairs/9_ANDweight/iter7_adapthresh.ply [[0.549117663912,0.25212404171,0.65946926047,0.220265850762]]
+async eval_ply done.
+the matlab engine is exited.
+Done
+----------------- end -----------------
+Wed Jul 19 2017 15:24:10
+elapsed time: 000:51:08
+---------------------------------------

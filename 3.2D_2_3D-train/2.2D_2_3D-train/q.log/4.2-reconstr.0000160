@@ -1,0 +1,42 @@
+---------------- start ----------------
+Fri Jul 07 2017 04:40:26
+max threads: 1
+max memory: 5000 MB
+time limit: 100 hours
+gpu id(s): 0
+---------------------------------------
+ERROR (theano.sandbox.cuda): ERROR: Not using GPU. Initialisation of device gpu failed:
+initCnmem: cnmemInit call failed! Reason=CNMEM_STATUS_OUT_OF_MEMORY. numdev=1
+
+Traceback (most recent call last):
+  File "deepSurf.py", line 4, in <module>
+    import lasagne
+  File "/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/lasagne/__init__.py", line 12, in <module>
+    import theano
+  File "/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/theano/__init__.py", line 118, in <module>
+    theano.sandbox.cuda.tests.test_driver.test_nvidia_driver1()
+  File "/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/theano/sandbox/cuda/tests/test_driver.py", line 40, in test_nvidia_driver1
+    if not numpy.allclose(f(), a.sum()):
+  File "/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/theano/compile/function_module.py", line 879, in __call__
+    storage_map=getattr(self.fn, 'storage_map', None))
+  File "/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/theano/gof/link.py", line 325, in raise_with_op
+    reraise(exc_type, exc_value, exc_trace)
+  File "/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/theano/compile/function_module.py", line 866, in __call__
+    self.fn() if output_subset is None else\
+RuntimeError: Cuda error: kernel_reduce_ccontig_node_4894639462a290346189bb38dab7bb7e_0: out of memory. (grid: 1 x 1; block: 256 x 1 x 1)
+
+Apply node that caused the error: GpuCAReduce{add}{1}(<CudaNdarrayType(float32, vector)>)
+Toposort index: 0
+Inputs types: [CudaNdarrayType(float32, vector)]
+Inputs shapes: [(10000,)]
+Inputs strides: [(1,)]
+Inputs values: ['not shown']
+Outputs clients: [[HostFromGpu(GpuCAReduce{add}{1}.0)]]
+
+HINT: Re-running with most Theano optimization disabled could give you a back-trace of when this node was created. This can be done with by setting the Theano flag 'optimizer=fast_compile'. If that does not work, Theano optimizations can be disabled with 'optimizer=None'.
+HINT: Use the Theano flag 'exception_verbosity=high' for a debugprint and storage map footprint of this apply node.
+Done
+----------------- end -----------------
+Fri Jul 07 2017 04:40:28
+elapsed time: 000:00:01
+---------------------------------------

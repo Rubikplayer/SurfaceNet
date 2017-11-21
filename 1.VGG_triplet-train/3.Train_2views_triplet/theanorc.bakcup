@@ -1,0 +1,25 @@
+[global]
+device=gpu
+floatX=float32
+optimizer = fast_run
+
+[nvcc]
+fastmath = True
+
+[lib]
+cnmem = 1.0
+
+[cuda]
+root=/usr/local/cuda
+
+
+[blas]
+ldflags = -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -lguide -liomp5 -lmkl_mc -lpthread
+
+
+allow_gc=False # 
+
+#[dnn.conv] # caurse error on the GPU server
+#algo_fwd = time_once 
+#algo_bwd_data = time_once
+#algo_bwd_filter = time_once

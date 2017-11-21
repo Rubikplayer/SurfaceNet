@@ -1,0 +1,25 @@
+---------------- start ----------------
+So 23. Okt 08:29:40 CEST 2016
+max threads: 2
+max memory: 16000 MB
+time limit: 26 hours
+gpu device id: 0
+.qsub_MVS_VGG_train.sh.1  1
+---------------------------------------
+
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is disabled, cuDNN 5103)
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch5_acc_tr0.739_val0.655.model
+learning rate: 0.001, batch size: 200/500/1500, triplet_alpha: 2, param.__shuffle_sample_ON: True, weight_decay: 0.3
+============ epoch 0 ===========
+train/val Accuracy = 0.00000 / 0.50000
+exception(<type 'exceptions.ValueError'>, ValueError('max() arg is an empty sequence',), <traceback object at 0x7f011adbcb48>)
+untile now, the train_val_mean_acc: []
+Done
+
+----------------- end -----------------
+So 23. Okt 08:30:06 CEST 2016
+elapsed time: 000:00:26
+---------------------------------------

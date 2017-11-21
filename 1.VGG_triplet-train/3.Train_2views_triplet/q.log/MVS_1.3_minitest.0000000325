@@ -1,0 +1,865 @@
+---------------- start ----------------
+Fr 30. Sep 18:09:26 CEST 2016
+max threads: 4
+max memory: 28000 MB
+time limit: 36 hours
+gpu device id: 0
+.VGGface_MVS-train.sh.1  1
+---------------------------------------
+
+This is VGGface_MVS-train5.py
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is enabled with initial size: 95.0% of memory, cuDNN 5103)
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+VGGface_MVS-train5.py:238: UserWarning: The parameter 'updates' of theano.function() expects an OrderedDict, got <type 'dict'>. Using a standard dictionary here results in non-deterministic behavior. You should use an OrderedDict if you are using Python 2.7 (theano.compat.OrderedDict for older python), or use a list of (shared, update) pairs. Do not just convert your dictionary to this type before the call as the conversion will still be non-deterministic.
+  get_dist_from_feature_embed(feature_embed), updates=updates)
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.003, batch size: 1500, triplet_alpha: 0.2, shuffle_sample_ON: True, weight_decay: 0.01
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		4594524970771731185664.000000
+||Xanchor-Xpos||_2  counter: 
+[22767   300   150    90    68    39    29    24    18    14     7     5
+     1     2     4     0     0     0     0     0]
+||Xanchor-Xneg||_2  counter: 
+[22525   374   171   112    99    64    40    37    24    19    15    12
+     7     6     3     2     6     0     0     2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  3.30921173e+01   4.28979488e+12   8.57958976e+12   1.28693846e+13
+   1.71591795e+13   2.14489744e+13   2.57387693e+13   3.00285642e+13
+   3.43183590e+13   3.86081539e+13   4.28979488e+13   4.71877437e+13
+   5.14775386e+13   5.57673334e+13   6.00571283e+13   6.43469232e+13
+   6.86367181e+13   7.29265130e+13   7.72163078e+13   8.15061027e+13
+   8.57958976e+13]
+distance difference  counter: 
+(array([    1,     0,     0,     4,     1,     1,     3,     8,     9,
+          17,    33,    72,   431, 22871,    39,    13,    10,     3,
+           0,     2]), array([ -6.67754604e+27,  -6.16626051e+27,  -5.65497498e+27,
+        -5.14368945e+27,  -4.63240393e+27,  -4.12111840e+27,
+        -3.60983287e+27,  -3.09854734e+27,  -2.58726181e+27,
+        -2.07597629e+27,  -1.56469076e+27,  -1.05340523e+27,
+        -5.42119703e+26,  -3.08341754e+25,   4.80451352e+26,
+         9.91736880e+26,   1.50302241e+27,   2.01430794e+27,
+         2.52559346e+27,   3.03687899e+27,   3.54816452e+27]))
+||Xanchor-Xpos||_2  counter: 
+[2508 1985 1370  925  603  341  214  126   74   47   22   10    8    5    2
+    2    2    1    0    1]
+||Xanchor-Xneg||_2  counter: 
+[1786 1688 1443 1088  730  524  338  239  144  102   49   42   32   22    4
+    8    3    2    0    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  5.65505270e+10   2.95324525e+13   5.90083545e+13   8.84842564e+13
+   1.17960158e+14   1.47436060e+14   1.76911962e+14   2.06387864e+14
+   2.35863766e+14   2.65339668e+14   2.94815570e+14   3.24291472e+14
+   3.53767374e+14   3.83243276e+14   4.12719178e+14   4.42195080e+14
+   4.71670982e+14   5.01146884e+14   5.30622786e+14   5.60098688e+14
+   5.89574590e+14]
+distance difference  counter: 
+(array([   2,    1,    3,    8,   15,   32,   40,  119,  373, 1703, 5515,
+        336,   69,   13,    7,    4,    1,    1,    2,    2]), array([ -2.68114850e+29,  -2.42028342e+29,  -2.15941834e+29,
+        -1.89855326e+29,  -1.63768817e+29,  -1.37682309e+29,
+        -1.11595801e+29,  -8.55092924e+28,  -5.94227842e+28,
+        -3.33362759e+28,  -7.24976758e+27,   1.88367407e+28,
+         4.49232490e+28,   7.10097573e+28,   9.70962656e+28,
+         1.23182774e+29,   1.49269282e+29,   1.75355790e+29,
+         2.01442299e+29,   2.27528807e+29,   2.53615315e+29]))
+train/val Accuracy = 0.506760778978 / 0.500121270919 
+ with threshold: [[  6.97304190e+11]]
+============ epoch 1 ===========
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed8b2ee560>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.003, batch size: 1500, triplet_alpha: 0.2, shuffle_sample_ON: True, weight_decay: 0.1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		4823205004136770699264.000000
+||Xanchor-Xpos||_2  counter: 
+[22920   275   143    62    46    25    18     6    11     6     2     1
+     2     1     0     0     0     0     0     0]
+||Xanchor-Xneg||_2  counter: 
+[22725   324   158   101    74    38    34    21    17     8     6     6
+     3     1     0     0     0     0     1     1]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  4.49355659e+01   6.27630701e+12   1.25526140e+13   1.88289210e+13
+   2.51052281e+13   3.13815351e+13   3.76578421e+13   4.39341491e+13
+   5.02104561e+13   5.64867631e+13   6.27630701e+13   6.90393771e+13
+   7.53156842e+13   8.15919912e+13   8.78682982e+13   9.41446052e+13
+   1.00420912e+14   1.06697219e+14   1.12973526e+14   1.19249833e+14
+   1.25526140e+14]
+distance difference  counter: 
+(array([    1,     0,     0,     0,     1,     0,     0,     2,     0,
+           5,     9,    23,    58, 23238,   154,    16,     7,     2,
+           1,     1]), array([ -1.40826990e+28,  -1.30706353e+28,  -1.20585717e+28,
+        -1.10465081e+28,  -1.00344445e+28,  -9.02238089e+27,
+        -8.01031728e+27,  -6.99825366e+27,  -5.98619005e+27,
+        -4.97412644e+27,  -3.96206282e+27,  -2.94999921e+27,
+        -1.93793560e+27,  -9.25871984e+26,   8.61916295e+25,
+         1.09825524e+27,   2.11031886e+27,   3.12238247e+27,
+         4.13444608e+27,   5.14650969e+27,   6.15857331e+27]))
+||Xanchor-Xpos||_2  counter: 
+[2557 1950 1412  863  548  372  210  130   79   51   35   13   10    3    6
+    3    2    0    1    0]
+||Xanchor-Xneg||_2  counter: 
+[1713 1763 1442 1076  745  526  329  224  142  107   59   44   30   15   11
+   10    3    3    2    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.70828202e+11   2.45994209e+13   4.90280137e+13   7.34566064e+13
+   9.78851991e+13   1.22313792e+14   1.46742385e+14   1.71170977e+14
+   1.95599570e+14   2.20028163e+14   2.44456756e+14   2.68885348e+14
+   2.93313941e+14   3.17742534e+14   3.42171126e+14   3.66599719e+14
+   3.91028312e+14   4.15456905e+14   4.39885497e+14   4.64314090e+14
+   4.88742683e+14]
+distance difference  counter: 
+(array([   1,    1,    3,    7,   14,   45,  110,  465, 6340, 1153,   84,
+         12,    2,    5,    2,    0,    1,    0,    0,    1]), array([ -2.25619200e+29,  -2.00069614e+29,  -1.74520029e+29,
+        -1.48970443e+29,  -1.23420858e+29,  -9.78712720e+28,
+        -7.23216864e+28,  -4.67721008e+28,  -2.12225152e+28,
+         4.32707041e+27,   2.98766560e+28,   5.54262416e+28,
+         8.09758272e+28,   1.06525413e+29,   1.32074998e+29,
+         1.57624584e+29,   1.83174170e+29,   2.08723755e+29,
+         2.34273341e+29,   2.59822927e+29,   2.85372512e+29]))
+train/val Accuracy = 0.50697338209 / 0.500242541838 
+ with threshold: [[  7.44431901e+11]]
+============ epoch 1 ===========
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed78973e60>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.003, batch size: 1500, triplet_alpha: 0.2, shuffle_sample_ON: True, weight_decay: 1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		19489481130477011075072.000000
+||Xanchor-Xpos||_2  counter: 
+[22696   325   152    98    81    46    40    22    18    17     5     7
+     0     1     3     2     0     1     2     1]
+||Xanchor-Xneg||_2  counter: 
+[22495   396   158   113   100    65    53    30    28    20    18    13
+     8     7     2     2     3     1     4     2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  3.37836304e+01   8.31587206e+12   1.66317441e+13   2.49476162e+13
+   3.32634882e+13   4.15793603e+13   4.98952323e+13   5.82111044e+13
+   6.65269765e+13   7.48428485e+13   8.31587206e+13   9.14745926e+13
+   9.97904647e+13   1.08106337e+14   1.16422209e+14   1.24738081e+14
+   1.33053953e+14   1.41369825e+14   1.49685697e+14   1.58001569e+14
+   1.66317441e+14]
+distance difference  counter: 
+(array([    1,     2,     1,     1,     2,     7,     6,    17,    35,
+          99, 23182,   129,    18,     4,    10,     0,     2,     0,
+           1,     1]), array([ -2.53958221e+28,  -2.30363790e+28,  -2.06769360e+28,
+        -1.83174929e+28,  -1.59580499e+28,  -1.35986068e+28,
+        -1.12391638e+28,  -8.87972071e+27,  -6.52027766e+27,
+        -4.16083461e+27,  -1.80139156e+27,   5.58051492e+26,
+         2.91749454e+27,   5.27693759e+27,   7.63638064e+27,
+         9.99582369e+27,   1.23552667e+28,   1.47147098e+28,
+         1.70741528e+28,   1.94335959e+28,   2.17930389e+28]))
+||Xanchor-Xpos||_2  counter: 
+[2324 1958 1341  949  645  390  249  171   76   64   34   19   10    6    2
+    2    3    0    1    1]
+||Xanchor-Xneg||_2  counter: 
+[1608 1655 1404 1109  790  581  370  250  165  103   80   48   28   21   17
+    6    5    1    2    3]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  5.13762230e+11   6.03314506e+13   1.20149139e+14   1.79966827e+14
+   2.39784516e+14   2.99602204e+14   3.59419893e+14   4.19237581e+14
+   4.79055270e+14   5.38872958e+14   5.98690646e+14   6.58508335e+14
+   7.18326023e+14   7.78143712e+14   8.37961400e+14   8.97779088e+14
+   9.57596777e+14   1.01741447e+15   1.07723215e+15   1.13704984e+15
+   1.19686753e+15]
+distance difference  counter: 
+(array([   5,   10,   21,   29,   72,  192,  770, 6032,  956,  124,   21,
+          5,    2,    1,    3,    1,    0,    1,    0,    1]), array([ -9.79076758e+29,  -8.51943697e+29,  -7.24810636e+29,
+        -5.97677576e+29,  -4.70544515e+29,  -3.43411454e+29,
+        -2.16278393e+29,  -8.91453324e+28,   3.79877285e+28,
+         1.65120789e+29,   2.92253850e+29,   4.19386911e+29,
+         5.46519972e+29,   6.73653033e+29,   8.00786093e+29,
+         9.27919154e+29,   1.05505222e+30,   1.18218528e+30,
+         1.30931834e+30,   1.43645140e+30,   1.56358446e+30]))
+train/val Accuracy = 0.506314312442 / 0.500242541838 
+ with threshold: [[  1.43937591e+12]]
+============ epoch 1 ===========
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed8c151b90>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.03, batch size: 1500, triplet_alpha: 0.2, shuffle_sample_ON: True, weight_decay: 0.01
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed7806d4d0>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.03, batch size: 1500, triplet_alpha: 0.2, shuffle_sample_ON: True, weight_decay: 0.1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed74850f80>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.03, batch size: 1500, triplet_alpha: 0.2, shuffle_sample_ON: True, weight_decay: 1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed7789e050>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.3, batch size: 1500, triplet_alpha: 0.2, shuffle_sample_ON: True, weight_decay: 0.01
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed77c72830>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.3, batch size: 1500, triplet_alpha: 0.2, shuffle_sample_ON: True, weight_decay: 0.1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed782add88>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.3, batch size: 1500, triplet_alpha: 0.2, shuffle_sample_ON: True, weight_decay: 1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed952f8098>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.003, batch size: 1500, triplet_alpha: 2, shuffle_sample_ON: True, weight_decay: 0.01
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		4257910429131573559296.000000
+||Xanchor-Xpos||_2  counter: 
+[22807   313   143    94    55    40    19    23     6     3     6     3
+     1     3     0     2     0     0     0     0]
+||Xanchor-Xneg||_2  counter: 
+[22572   380   176   107    92    59    38    25    18    20    10     8
+     7     0     1     2     0     2     0     1]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  4.54309502e+01   4.83970421e+12   9.67940841e+12   1.45191126e+13
+   1.93588168e+13   2.41985210e+13   2.90382252e+13   3.38779294e+13
+   3.87176336e+13   4.35573379e+13   4.83970421e+13   5.32367463e+13
+   5.80764505e+13   6.29161547e+13   6.77558589e+13   7.25955631e+13
+   7.74352673e+13   8.22749715e+13   8.71146757e+13   9.19543799e+13
+   9.67940841e+13]
+distance difference  counter: 
+(array([    1,     0,     1,     0,     1,     0,     0,     5,    13,
+          19,    38,   200, 23189,    37,     5,     7,     1,     0,
+           0,     1]), array([ -9.35530433e+27,  -8.59222525e+27,  -7.82914616e+27,
+        -7.06606708e+27,  -6.30298800e+27,  -5.53990891e+27,
+        -4.77682983e+27,  -4.01375075e+27,  -3.25067166e+27,
+        -2.48759258e+27,  -1.72451350e+27,  -9.61434414e+26,
+        -1.98355330e+26,   5.64723753e+26,   1.32780284e+27,
+         2.09088192e+27,   2.85396100e+27,   3.61704009e+27,
+         4.38011917e+27,   5.14319825e+27,   5.90627734e+27]))
+||Xanchor-Xpos||_2  counter: 
+[2489 2050 1382  853  589  352  218  136   63   46   35   13    7    5    4
+    1    1    2    0    0]
+||Xanchor-Xneg||_2  counter: 
+[1646 1764 1440 1102  798  524  339  244  134  101   56   37   24   15   10
+    4    5    1    1    1]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.95377807e+11   2.85550289e+13   5.69146800e+13   8.52743311e+13
+   1.13633982e+14   1.41993633e+14   1.70353284e+14   1.98712935e+14
+   2.27072586e+14   2.55432238e+14   2.83791889e+14   3.12151540e+14
+   3.40511191e+14   3.68870842e+14   3.97230493e+14   4.25590144e+14
+   4.53949795e+14   4.82309446e+14   5.10669097e+14   5.39028748e+14
+   5.67388399e+14]
+distance difference  counter: 
+(array([   3,    1,    2,    8,   12,   27,   55,  177,  656, 5899, 1226,
+        130,   29,    9,    5,    2,    1,    2,    1,    1]), array([ -2.50699197e+29,  -2.25137435e+29,  -1.99575672e+29,
+        -1.74013909e+29,  -1.48452147e+29,  -1.22890384e+29,
+        -9.73286211e+28,  -7.17668584e+28,  -4.62050957e+28,
+        -2.06433330e+28,   4.91842969e+27,   3.04801924e+28,
+         5.60419551e+28,   8.16037178e+28,   1.07165481e+29,
+         1.32727243e+29,   1.58289006e+29,   1.83850769e+29,
+         2.09412531e+29,   2.34974294e+29,   2.60536057e+29]))
+train/val Accuracy = 0.507377328004 / 0.500181906379 
+ with threshold: [[  7.04195690e+11]]
+============ epoch 1 ===========
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed741cb5a8>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.003, batch size: 1500, triplet_alpha: 2, shuffle_sample_ON: True, weight_decay: 0.1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		12731111552350716690432.000000
+||Xanchor-Xpos||_2  counter: 
+[22856   297   144    91    51    26    19    14     6     3     3     3
+     3     1     0     0     0     1     0     0]
+||Xanchor-Xneg||_2  counter: 
+[22636   380   150   106    80    55    32    21    27     7    11     6
+     2     2     1     0     1     0     0     1]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  4.61358109e+01   9.59569849e+12   1.91913970e+13   2.87870955e+13
+   3.83827940e+13   4.79784925e+13   5.75741910e+13   6.71698894e+13
+   7.67655879e+13   8.63612864e+13   9.59569849e+13   1.05552683e+14
+   1.15148382e+14   1.24744080e+14   1.34339779e+14   1.43935477e+14
+   1.53531176e+14   1.63126874e+14   1.72722573e+14   1.82318271e+14
+   1.91913970e+14]
+distance difference  counter: 
+(array([    1,     0,     0,     0,     0,     0,     1,     0,     1,
+           4,     5,    20,    34,   196, 23214,    28,    10,     1,
+           1,     2]), array([ -3.67854617e+28,  -3.42118791e+28,  -3.16382966e+28,
+        -2.90647140e+28,  -2.64911315e+28,  -2.39175490e+28,
+        -2.13439664e+28,  -1.87703839e+28,  -1.61968014e+28,
+        -1.36232188e+28,  -1.10496363e+28,  -8.47605376e+27,
+        -5.90247123e+27,  -3.32888869e+27,  -7.55306157e+26,
+         1.81827638e+27,   4.39185891e+27,   6.96544145e+27,
+         9.53902399e+27,   1.21126065e+28,   1.46861891e+28]))
+||Xanchor-Xpos||_2  counter: 
+[2030 1903 1317  966  681  471  336  185  147   75   53   28   21   12    8
+    6    3    2    1    0]
+||Xanchor-Xneg||_2  counter: 
+[1266 1540 1315 1114  875  633  494  312  229  149  113   74   42   29   24
+   17    6    9    1    4]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.49979103e+11   4.07464467e+13   8.13429142e+13   1.21939382e+14
+   1.62535849e+14   2.03132317e+14   2.43728784e+14   2.84325252e+14
+   3.24921720e+14   3.65518187e+14   4.06114655e+14   4.46711122e+14
+   4.87307590e+14   5.27904057e+14   5.68500525e+14   6.09096992e+14
+   6.49693460e+14   6.90289927e+14   7.30886395e+14   7.71482863e+14
+   8.12079330e+14]
+distance difference  counter: 
+(array([   2,    0,    1,   13,   19,   40,  100,  310, 1470, 5709,  479,
+         73,   15,    7,    3,    2,    2,    0,    0,    1]), array([ -6.59266615e+29,  -5.89078297e+29,  -5.18889980e+29,
+        -4.48701662e+29,  -3.78513344e+29,  -3.08325027e+29,
+        -2.38136709e+29,  -1.67948391e+29,  -9.77600735e+28,
+        -2.75717558e+28,   4.26165619e+28,   1.12804880e+29,
+         1.82993197e+29,   2.53181515e+29,   3.23369833e+29,
+         3.93558150e+29,   4.63746468e+29,   5.33934786e+29,
+         6.04123103e+29,   6.74311421e+29,   7.44499739e+29]))
+train/val Accuracy = 0.506399353687 / 0.500181906379 
+ with threshold: [[  1.24643286e+12]]
+============ epoch 1 ===========
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed8fa041b8>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.003, batch size: 1500, triplet_alpha: 2, shuffle_sample_ON: True, weight_decay: 1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		736421950812078735360.000000
+||Xanchor-Xpos||_2  counter: 
+[22928   254   141    71    46    26    19    11     6     8     2     0
+     0     1     2     2     0     0     1     0]
+||Xanchor-Xneg||_2  counter: 
+[22755   306   146   106    64    41    40    21    11    10     6     4
+     2     0     1     1     1     1     1     1]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  4.88698311e+01   2.24097678e+12   4.48195356e+12   6.72293034e+12
+   8.96390713e+12   1.12048839e+13   1.34458607e+13   1.56868375e+13
+   1.79278143e+13   2.01687910e+13   2.24097678e+13   2.46507446e+13
+   2.68917214e+13   2.91326982e+13   3.13736749e+13   3.36146517e+13
+   3.58556285e+13   3.80966053e+13   4.03375821e+13   4.25785588e+13
+   4.48195356e+13]
+distance difference  counter: 
+(array([    1,     0,     1,     0,     0,     0,     0,     1,     2,
+           9,    17,    86, 23315,    68,    12,     4,     0,     0,
+           1,     1]), array([ -2.00700133e+27,  -1.84872134e+27,  -1.69044135e+27,
+        -1.53216136e+27,  -1.37388137e+27,  -1.21560138e+27,
+        -1.05732139e+27,  -8.99041405e+26,  -7.40761416e+26,
+        -5.82481426e+26,  -4.24201437e+26,  -2.65921448e+26,
+        -1.07641459e+26,   5.06385298e+25,   2.08918519e+26,
+         3.67198508e+26,   5.25478497e+26,   6.83758486e+26,
+         8.42038475e+26,   1.00031846e+27,   1.15859845e+27]))
+||Xanchor-Xpos||_2  counter: 
+[2482 2014 1356  890  617  374  211  124   79   33   31   13    8    4    5
+    1    0    1    1    2]
+||Xanchor-Xneg||_2  counter: 
+[1745 1742 1358 1098  745  542  350  245  160   91   65   32   22   23   10
+    8    4    0    2    3]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  6.44592517e+10   1.11872300e+13   2.23100007e+13   3.34327714e+13
+   4.45555420e+13   5.56783127e+13   6.68010834e+13   7.79238541e+13
+   8.90466248e+13   1.00169396e+14   1.11292166e+14   1.22414937e+14
+   1.33537708e+14   1.44660478e+14   1.55783249e+14   1.66906020e+14
+   1.78028790e+14   1.89151561e+14   2.00274332e+14   2.11397103e+14
+   2.22519873e+14]
+distance difference  counter: 
+(array([   2,    1,    2,    8,   20,   26,   76,  277, 1508, 5960,  313,
+         34,    8,    5,    3,    0,    0,    1,    0,    2]), array([ -4.22587623e+28,  -3.77251073e+28,  -3.31914522e+28,
+        -2.86577972e+28,  -2.41241421e+28,  -1.95904871e+28,
+        -1.50568320e+28,  -1.05231770e+28,  -5.98952191e+27,
+        -1.45586686e+27,   3.07778819e+27,   7.61144324e+27,
+         1.21450983e+28,   1.66787533e+28,   2.12124084e+28,
+         2.57460634e+28,   3.02797185e+28,   3.48133735e+28,
+         3.93470286e+28,   4.38806837e+28,   4.84143387e+28]))
+train/val Accuracy = 0.506441874309 / 0.500424448217 
+ with threshold: [[  2.63629364e+11]]
+============ epoch 1 ===========
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed75457d88>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.03, batch size: 1500, triplet_alpha: 2, shuffle_sample_ON: True, weight_decay: 0.01
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed8bf3dea8>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.03, batch size: 1500, triplet_alpha: 2, shuffle_sample_ON: True, weight_decay: 0.1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed8c1d0b00>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.03, batch size: 1500, triplet_alpha: 2, shuffle_sample_ON: True, weight_decay: 1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed954d4e18>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.3, batch size: 1500, triplet_alpha: 2, shuffle_sample_ON: True, weight_decay: 0.01
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed8becb320>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.3, batch size: 1500, triplet_alpha: 2, shuffle_sample_ON: True, weight_decay: 0.1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed74a3bef0>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.3, batch size: 1500, triplet_alpha: 2, shuffle_sample_ON: True, weight_decay: 1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed78dff518>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.003, batch size: 1500, triplet_alpha: 20, shuffle_sample_ON: True, weight_decay: 0.01
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		3006637866667026153472.000000
+||Xanchor-Xpos||_2  counter: 
+[22899   277   117    86    51    31    15    13    11     5     3     2
+     3     1     1     1     0     0     2     0]
+||Xanchor-Xneg||_2  counter: 
+[22702   313   149   119    91    48    28    21    14     6    11     4
+     5     2     0     1     1     2     0     1]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  3.54243164e+01   4.33971842e+12   8.67943685e+12   1.30191553e+13
+   1.73588737e+13   2.16985921e+13   2.60383105e+13   3.03780290e+13
+   3.47177474e+13   3.90574658e+13   4.33971842e+13   4.77369026e+13
+   5.20766211e+13   5.64163395e+13   6.07560579e+13   6.50957763e+13
+   6.94354948e+13   7.37752132e+13   7.81149316e+13   8.24546500e+13
+   8.67943685e+13]
+distance difference  counter: 
+(array([    1,     1,     3,     5,     8,    15,    54, 23276,   132,
+          12,     7,     2,     0,     0,     1,     0,     0,     0,
+           0,     1]), array([ -4.33360327e+27,  -3.78267156e+27,  -3.23173984e+27,
+        -2.68080813e+27,  -2.12987642e+27,  -1.57894471e+27,
+        -1.02801299e+27,  -4.77081280e+26,   7.38504331e+25,
+         6.24782146e+26,   1.17571386e+27,   1.72664557e+27,
+         2.27757728e+27,   2.82850900e+27,   3.37944071e+27,
+         3.93037242e+27,   4.48130414e+27,   5.03223585e+27,
+         5.58316756e+27,   6.13409927e+27,   6.68503099e+27]))
+||Xanchor-Xpos||_2  counter: 
+[2669 2085 1335  909  552  296  186   90   58   35   15    6    3    3    0
+    0    1    2    0    1]
+||Xanchor-Xneg||_2  counter: 
+[1918 1861 1410 1083  688  479  342  164  124   67   42   31   16   11    5
+    3    1    0    0    1]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  8.40665907e+10   2.68000829e+13   5.35160992e+13   8.02321155e+13
+   1.06948132e+14   1.33664148e+14   1.60380164e+14   1.87096181e+14
+   2.13812197e+14   2.40528213e+14   2.67244230e+14   2.93960246e+14
+   3.20676262e+14   3.47392279e+14   3.74108295e+14   4.00824311e+14
+   4.27540328e+14   4.54256344e+14   4.80972360e+14   5.07688377e+14
+   5.34404393e+14]
+distance difference  counter: 
+(array([   2,    3,    6,   18,   26,   67,  148,  683, 5897, 1233,  126,
+         20,    9,    2,    0,    3,    0,    1,    0,    2]), array([ -1.73864746e+29,  -1.54091877e+29,  -1.34319008e+29,
+        -1.14546140e+29,  -9.47732712e+28,  -7.50004025e+28,
+        -5.52275339e+28,  -3.54546652e+28,  -1.56817966e+28,
+         4.09107203e+27,   2.38639407e+28,   4.36368093e+28,
+         6.34096780e+28,   8.31825466e+28,   1.02955415e+29,
+         1.22728284e+29,   1.42501153e+29,   1.62274021e+29,
+         1.82046890e+29,   2.01819758e+29,   2.21592627e+29]))
+train/val Accuracy = 0.505655242793 / 0.49993936454 
+ with threshold: [[  5.54578199e+11]]
+============ epoch 1 ===========
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed8c11dcf8>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.003, batch size: 1500, triplet_alpha: 20, shuffle_sample_ON: True, weight_decay: 0.1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		5168020811822520074240.000000
+||Xanchor-Xpos||_2  counter: 
+[22678   370   176    99    66    46    35    18     9     8     3     1
+     5     0     3     0     0     0     0     1]
+||Xanchor-Xneg||_2  counter: 
+[22459   458   190   116    89    57    46    33    19    18    12     5
+     6     3     2     0     0     1     1     3]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  3.81980705e+01   4.89868954e+12   9.79737908e+12   1.46960686e+13
+   1.95947582e+13   2.44934477e+13   2.93921373e+13   3.42908268e+13
+   3.91895163e+13   4.40882059e+13   4.89868954e+13   5.38855850e+13
+   5.87842745e+13   6.36829640e+13   6.85816536e+13   7.34803431e+13
+   7.83790327e+13   8.32777222e+13   8.81764118e+13   9.30751013e+13
+   9.79737908e+13]
+distance difference  counter: 
+(array([    2,     0,     0,     1,     0,     0,     1,     4,     5,
+           9,    18,    60,   237, 23117,    49,    10,     3,     0,
+           1,     1]), array([ -9.59597502e+27,  -8.86893708e+27,  -8.14189914e+27,
+        -7.41486120e+27,  -6.68782326e+27,  -5.96078533e+27,
+        -5.23374739e+27,  -4.50670945e+27,  -3.77967151e+27,
+        -3.05263357e+27,  -2.32559564e+27,  -1.59855770e+27,
+        -8.71519759e+26,  -1.44481821e+26,   5.82556117e+26,
+         1.30959406e+27,   2.03663199e+27,   2.76366993e+27,
+         3.49070787e+27,   4.21774581e+27,   4.94478375e+27]))
+||Xanchor-Xpos||_2  counter: 
+[2266 1896 1357  945  648  433  302  152   88   65   43   23   11    7    4
+    1    2    1    0    2]
+||Xanchor-Xneg||_2  counter: 
+[1594 1605 1260 1104  789  599  434  276  187  148   97   43   38   29   20
+   11    6    2    2    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  2.02048913e+11   2.84381143e+13   5.66741797e+13   8.49102451e+13
+   1.13146310e+14   1.41382376e+14   1.69618441e+14   1.97854507e+14
+   2.26090572e+14   2.54326637e+14   2.82562703e+14   3.10798768e+14
+   3.39034834e+14   3.67270899e+14   3.95506964e+14   4.23743030e+14
+   4.51979095e+14   4.80215161e+14   5.08451226e+14   5.36687291e+14
+   5.64923357e+14]
+distance difference  counter: 
+(array([   2,    4,    9,   19,   30,   45,  123,  302, 1038, 5622,  875,
+        120,   37,   11,    2,    3,    1,    1,    0,    2]), array([ -2.42296407e+29,  -2.17072798e+29,  -1.91849189e+29,
+        -1.66625580e+29,  -1.41401971e+29,  -1.16178362e+29,
+        -9.09547524e+28,  -6.57311433e+28,  -4.05075341e+28,
+        -1.52839250e+28,   9.93968420e+27,   3.51632933e+28,
+         6.03869025e+28,   8.56105117e+28,   1.10834121e+29,
+         1.36057730e+29,   1.61281339e+29,   1.86504948e+29,
+         2.11728557e+29,   2.36952167e+29,   2.62175776e+29]))
+train/val Accuracy = 0.506080449018 / 0.500485083677 
+ with threshold: [[  7.79291550e+11]]
+============ epoch 1 ===========
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed91dd5c20>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.003, batch size: 1500, triplet_alpha: 20, shuffle_sample_ON: True, weight_decay: 1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		9525033399116323880960.000000
+||Xanchor-Xpos||_2  counter: 
+[22766   300   148   101    59    44    40    19    15     9     4     4
+     3     3     3     0     0     0     0     0]
+||Xanchor-Xneg||_2  counter: 
+[22582   363   157   137    85    51    35    35    22    18    12     4
+     7     2     3     1     1     0     1     2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  4.00065651e+01   6.74120493e+12   1.34824099e+13   2.02236148e+13
+   2.69648197e+13   3.37060246e+13   4.04472296e+13   4.71884345e+13
+   5.39296394e+13   6.06708443e+13   6.74120493e+13   7.41532542e+13
+   8.08944591e+13   8.76356640e+13   9.43768690e+13   1.01118074e+14
+   1.07859279e+14   1.14600484e+14   1.21341689e+14   1.28082894e+14
+   1.34824099e+14]
+distance difference  counter: 
+(array([    1,     1,     0,     1,     2,     4,     0,     6,    14,
+          13,    34,    95, 23220,    85,    23,    10,     5,     2,
+           1,     1]), array([ -1.37163448e+28,  -1.26303529e+28,  -1.15443609e+28,
+        -1.04583689e+28,  -9.37237687e+27,  -8.28638487e+27,
+        -7.20039288e+27,  -6.11440088e+27,  -5.02840889e+27,
+        -3.94241689e+27,  -2.85642490e+27,  -1.77043290e+27,
+        -6.84440909e+26,   4.01551086e+26,   1.48754308e+27,
+         2.57353508e+27,   3.65952707e+27,   4.74551907e+27,
+         5.83151106e+27,   6.91750305e+27,   8.00349505e+27]))
+||Xanchor-Xpos||_2  counter: 
+[2508 2041 1367  864  594  345  217  137   72   29   36   13   10    3    4
+    3    0    0    2    0]
+||Xanchor-Xneg||_2  counter: 
+[1675 1747 1485 1115  771  490  337  234  143   97   53   34   23   17   10
+    6    4    2    1    2]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  3.14646102e+11   3.69299450e+13   7.35452438e+13   1.10160543e+14
+   1.46775842e+14   1.83391140e+14   2.20006439e+14   2.56621738e+14
+   2.93237037e+14   3.29852336e+14   3.66467635e+14   4.03082933e+14
+   4.39698232e+14   4.76313531e+14   5.12928830e+14   5.49544129e+14
+   5.86159428e+14   6.22774727e+14   6.59390025e+14   6.96005324e+14
+   7.32620623e+14]
+distance difference  counter: 
+(array([   1,    0,    2,    4,   12,   19,   49,  181, 1038, 6552,  333,
+         39,    9,    3,    1,    0,    0,    2,    0,    1]), array([ -5.32155772e+29,  -4.75770246e+29,  -4.19384720e+29,
+        -3.62999194e+29,  -3.06613667e+29,  -2.50228141e+29,
+        -1.93842615e+29,  -1.37457089e+29,  -8.10715628e+28,
+        -2.46860367e+28,   3.16994895e+28,   8.80850156e+28,
+         1.44470542e+29,   2.00856068e+29,   2.57241594e+29,
+         3.13627120e+29,   3.70012646e+29,   4.26398173e+29,
+         4.82783699e+29,   5.39169225e+29,   5.95554751e+29]))
+train/val Accuracy = 0.506271791819 / 0.500242541838 
+ with threshold: [[  1.03137292e+12]]
+============ epoch 1 ===========
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed7534e098>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.03, batch size: 1500, triplet_alpha: 20, shuffle_sample_ON: True, weight_decay: 0.01
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed76a3b1b8>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.03, batch size: 1500, triplet_alpha: 20, shuffle_sample_ON: True, weight_decay: 0.1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed760806c8>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.03, batch size: 1500, triplet_alpha: 20, shuffle_sample_ON: True, weight_decay: 1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed78c96a70>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.3, batch size: 1500, triplet_alpha: 20, shuffle_sample_ON: True, weight_decay: 0.01
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed95934c68>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.3, batch size: 1500, triplet_alpha: 20, shuffle_sample_ON: True, weight_decay: 0.1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed7773a6c8>)
+untile now, the train_val_mean_acc: []
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.3, batch size: 1500, triplet_alpha: 20, shuffle_sample_ON: True, weight_decay: 1
+============ epoch 0 ===========
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/011_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(77406, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(70554, 3, 64, 64)
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('range parameter must be finite.',), <traceback object at 0x7fed757443f8>)
+untile now, the train_val_mean_acc: []
+Done
+
+----------------- end -----------------
+Fr 30. Sep 18:46:50 CEST 2016
+elapsed time: 000:37:24
+---------------------------------------

@@ -1,0 +1,35 @@
+---------------- start ----------------
+So 23. Okt 18:12:11 CEST 2016
+max threads: 2
+max memory: 16000 MB
+time limit: 26 hours
+gpu device id: 0
+.qsub_MVS_VGG_train.sh.1  1
+---------------------------------------
+
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is disabled, cuDNN 5103)
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/005_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/016_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/018_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/019_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(124833, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(119253, 3, 64, 64)
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch1_acc_tr0.826_val0.781.model
+learning rate: 0.001, batch size: 200/500/1500, triplet_alpha: 2, param.__shuffle_sample_ON: True, weight_decay: 0.3
+============ epoch 0 ===========
+training loss:		nan
+exception(<type 'exceptions.ValueError'>, ValueError('max() arg is an empty sequence',), <traceback object at 0x7fc8d9494cb0>)
+untile now, the train_val_mean_acc: []
+Done
+
+----------------- end -----------------
+So 23. Okt 18:13:58 CEST 2016
+elapsed time: 000:01:47
+---------------------------------------

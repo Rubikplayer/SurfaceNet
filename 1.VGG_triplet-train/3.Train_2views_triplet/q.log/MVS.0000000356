@@ -1,0 +1,286 @@
+---------------- start ----------------
+Sun Sep 18 18:50:04 CEST 2016
+max threads: 8
+max memory: 66000 MB
+time limit: 24 hours
+gpu device id: 0
+.VGGface_MVS-train.sh.1  1
+---------------------------------------
+
+This is VGGface_MVS-train5.py
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is enabled with initial size: 95.0% of memory, cuDNN not available)
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/005_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/016_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/018_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/019_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/021_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/036_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/037_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/038_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/042_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/045_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/049_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/050_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/059_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/061_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/062_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/063_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/066_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/085_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/089_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/093_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/096_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/097_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/100_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/103_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/104_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/105_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/124_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/128_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/017_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/031_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/084_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/102_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/125_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/126_hard_inputs.data
+lr_coefficient of previous layers: 0
+VGGface_MVS-train5.py:243: UserWarning: The parameter 'updates' of theano.function() expects an OrderedDict, got <type 'dict'>. Using a standard dictionary here results in non-deterministic behavior. You should use an OrderedDict if you are using Python 2.7 (theano.compat.OrderedDict for older python), or use a list of (shared, update) pairs. Do not just convert your dictionary to this type before the call as the conversion will still be non-deterministic.
+  get_dist_from_feature_embed(feature_embed), updates=updates)
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.01, batch size: 1500, triplet_alpha: 30, shuffle_sample_ON: True, weight_decay: 0.1
+============ epoch 0 ===========
+training loss:		11.613966
+||Xanchor-Xpos||_2  counter: 
+[ 19359 131812 324200 315430 211699 134129  88786  60770  37869  19154
+   7980   3225   1367    711    483    291    145     50     21      0]
+||Xanchor-Xneg||_2  counter: 
+[  8918   7574  24496  71993 151340 239584 292959 265961 174390  79475
+  26767   7812   2690   1398    831    582    432    211     54     14]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.           1.35648556   2.71297112   4.06945667   5.42594223
+   6.78242779   8.13891335   9.4953989   10.85188446  12.20837002
+  13.56485558  14.92134113  16.27782669  17.63431225  18.99079781
+  20.34728336  21.70376892  23.06025448  24.41674004  25.77322559
+  27.12971115]
+distance difference  counter: 
+(array([     7,     23,    134,    623,   2552,  10240,  33131,  89475,
+       190290, 313254, 384306, 257413,  57915,  13860,   3242,    771,
+          196,     33,     10,      6]), array([-344.21008301, -311.47437286, -278.73866272, -246.00295258,
+       -213.26724243, -180.53153229, -147.79582214, -115.060112  ,
+        -82.32440186,  -49.58869171,  -16.85298157,   15.88272858,
+         48.61843872,   81.35414886,  114.08985901,  146.82556915,
+        179.5612793 ,  212.29698944,  245.03269958,  277.76840973,
+        310.50411987]))
+||Xanchor-Xpos||_2  counter: 
+[  124  7594 37585 54113 47866 39976 33610 25775 16763  8939  4055  1692
+   657   358   234   171   105    57    16     2]
+||Xanchor-Xneg||_2  counter: 
+[    6    73   667  4339 18209 42188 63004 64626 47383 24074  9085  3150
+  1251   626   347   226   193   152    72    21]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.04315963   1.33775658   2.63235354   3.92695049   5.22154744
+   6.51614439   7.81074134   9.10533829  10.39993524  11.69453219
+  12.98912914  14.28372609  15.57832304  16.87291999  18.16751694
+  19.46211389  20.75671085  22.0513078   23.34590475  24.6405017
+  25.93509865]
+distance difference  counter: 
+(array([    5,     9,    19,    94,   341,  1314,  5230, 16216, 36726,
+       62536, 79666, 54392, 17863,  4175,   873,   174,    38,    17,
+           3,     1]), array([-332.890625  , -300.96122589, -269.03182678, -237.10242767,
+       -205.17302856, -173.24362946, -141.31423035, -109.38483124,
+        -77.45543213,  -45.52603302,  -13.59663391,   18.3327652 ,
+         50.26216431,   82.19156342,  114.12096252,  146.05036163,
+        177.97976074,  209.90915985,  241.83855896,  273.76795807,
+        305.69735718]))
+train/val Accuracy = 0.76685493204 / 0.727157015574 
+ with threshold: [[ 7.14460781]]
+============ epoch 1 ===========
+training loss:		10.828347
+||Xanchor-Xpos||_2  counter: 
+[  1948  58243 252968 339258 257335 166292 107840  74873  49367  27420
+  12285   4998   2097   1082    665    415    242    101     38     13]
+||Xanchor-Xneg||_2  counter: 
+[   707   1292   6943  32553  96322 198091 295146 316841 233925 116566
+  39390  10914   3775   1927   1146    737    610    377    166     53]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.           1.30960836   2.61921673   3.92882509   5.23843346
+   6.54804182   7.85765018   9.16725855  10.47686691  11.78647528
+  13.09608364  14.40569201  15.71530037  17.02490873  18.3345171
+  19.64412546  20.95373383  22.26334219  23.57295055  24.88255892
+  26.19216728]
+distance difference  counter: 
+(array([     7,     31,    122,    776,   4129,  17669,  57009, 139229,
+       254298, 348239, 331520, 153976,  38597,   9270,   2052,    428,
+          101,     24,      2,      2]), array([-307.77874756, -277.52669983, -247.2746521 , -217.02260437,
+       -186.77055664, -156.51850891, -126.26646118,  -96.01441345,
+        -65.76236572,  -35.51031799,   -5.25827026,   24.99377747,
+         55.2458252 ,   85.49787292,  115.74992065,  146.00196838,
+        176.25401611,  206.50606384,  236.75811157,  267.0101593 ,
+        297.26220703]))
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch1.model *****
+||Xanchor-Xpos||_2  counter: 
+[   74  5724 32424 53082 49436 40973 34521 27105 18129  9982  4664  1897
+   760   333   234   169   103    60    17     5]
+||Xanchor-Xneg||_2  counter: 
+[    4    50   482  3107 14809 38790 62032 67339 51172 26025  9645  3293
+  1358   628   336   216   166   140    75    25]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.99866258e-02   1.30578386e+00   2.59158110e+00   3.87737834e+00
+   5.16317558e+00   6.44897282e+00   7.73477006e+00   9.02056730e+00
+   1.03063645e+01   1.15921618e+01   1.28779590e+01   1.41637562e+01
+   1.54495535e+01   1.67353507e+01   1.80211480e+01   1.93069452e+01
+   2.05927424e+01   2.18785397e+01   2.31643369e+01   2.44501342e+01
+   2.57359314e+01]
+distance difference  counter: 
+(array([    2,     7,    18,    75,   290,   982,  3679, 11065, 25930,
+       45211, 63588, 68294, 41025, 14372,  3922,   942,   206,    61,
+          18,     5]), array([-304.10632324, -276.63505936, -249.16379547, -221.69253159,
+       -194.2212677 , -166.75000381, -139.27873993, -111.80747604,
+        -84.33621216,  -56.86494827,  -29.39368439,   -1.9224205 ,
+         25.54884338,   53.02010727,   80.49137115,  107.96263504,
+        135.43389893,  162.90516281,  190.3764267 ,  217.84769058,
+        245.31895447]))
+train/val Accuracy = 0.779906311764 / 0.724675714715 
+ with threshold: [[ 7.61438048]]
+============ epoch 2 ===========
+training loss:		10.801960
+||Xanchor-Xpos||_2  counter: 
+[  1790  56852 253300 343974 260986 167002 107960  73752  47656  25225
+  10678   4274   1836    944    582    381    182     65     35      7]
+||Xanchor-Xneg||_2  counter: 
+[   690   1278   6707  32838  99472 208315 310596 324331 224922 101358
+  31019   8368   3192   1677   1040    709    545    286    113     25]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.           1.3327302    2.6654604    3.99819059   5.33092079
+   6.66365099   7.99638119   9.32911139  10.66184158  11.99457178
+  13.32730198  14.66003218  15.99276237  17.32549257  18.65822277
+  19.99095297  21.32368317  22.65641336  23.98914356  25.32187376
+  26.65460396]
+distance difference  counter: 
+(array([     5,     22,     79,    465,   2822,  13127,  45796, 119816,
+       229773, 331336, 343765, 199389,  54187,  13121,   2921,    676,
+          151,     29,      0,      1]), array([-308.30984497, -278.66721649, -249.02458801, -219.38195953,
+       -189.73933105, -160.09670258, -130.4540741 , -100.81144562,
+        -71.16881714,  -41.52618866,  -11.88356018,   17.7590683 ,
+         47.40169678,   77.04432526,  106.68695374,  136.32958221,
+        165.97221069,  195.61483917,  225.25746765,  254.90009613,
+        284.54272461]))
+||Xanchor-Xpos||_2  counter: 
+[   54  4678 28201 49930 48106 40440 34712 28861 21190 12775  6177  2623
+   960   370   231   174   127    57    21     5]
+||Xanchor-Xneg||_2  counter: 
+[    3    41   367  2228 10685 30477 54307 66094 57568 34893 14664  4882
+  1688   725   378   242   174   167    77    32]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.04699196   1.28991099   2.53283002   3.77574906   5.01866809
+   6.26158712   7.50450615   8.74742519   9.99034422  11.23326325
+  12.47618229  13.71910132  14.96202035  16.20493939  17.44785842
+  18.69077745  19.93369649  21.17661552  22.41953455  23.66245359
+  24.90537262]
+distance difference  counter: 
+(array([    2,     4,    16,    65,   277,  1164,  4528, 12409, 27327,
+       46189, 62598, 65478, 39591, 14582,  4146,  1003,   228,    65,
+          11,     9]), array([-300.09918213, -272.94085388, -245.78252563, -218.62419739,
+       -191.46586914, -164.30754089, -137.14921265, -109.9908844 ,
+        -82.83255615,  -55.67422791,  -28.51589966,   -1.35757141,
+         25.80075684,   52.95908508,   80.11741333,  107.27574158,
+        134.43406982,  161.59239807,  188.75072632,  215.90905457,
+        243.06738281]))
+train/val Accuracy = 0.78083523821 / 0.726020050627 
+ with threshold: [[ 7.67334088]]
+============ epoch 3 ===========
+training loss:		10.793672
+||Xanchor-Xpos||_2  counter: 
+[  1694  53113 244875 344458 263885 169781 109722  75138  48927  26244
+  11109   4458   1888    908    600    390    185     77     24      5]
+||Xanchor-Xneg||_2  counter: 
+[   686   1219   6328  30831  95194 201867 308066 327147 231558 106044
+  32048   8814   3258   1683   1037    697    563    323    100     18]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.           1.32612896   2.65225792   3.97838688   5.30451584
+   6.6306448    7.95677376   9.28290272  10.60903168  11.93516064
+  13.2612896   14.58741856  15.91354752  17.23967648  18.56580544
+  19.89193439  21.21806335  22.54419231  23.87032127  25.19645023
+  26.52257919]
+distance difference  counter: 
+(array([     9,     11,     70,    312,   1624,   7451,  25691,  70091,
+       147254, 242781, 313017, 303085, 173706,  52664,  14751,   3638,
+          985,    261,     65,     15]), array([-300.54678345, -273.82384338, -247.10090332, -220.37796326,
+       -193.65502319, -166.93208313, -140.20914307, -113.486203  ,
+        -86.76326294,  -60.04032288,  -33.31738281,   -6.59444275,
+         20.12849731,   46.85143738,   73.57437744,  100.2973175 ,
+        127.02025757,  153.74319763,  180.4661377 ,  207.18907776,
+        233.91201782]))
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch3.model *****
+||Xanchor-Xpos||_2  counter: 
+[   78  5442 31665 52804 48440 40508 34648 27507 19279 10742  4863  2001
+   765   355   242   173   106    58    14     2]
+||Xanchor-Xneg||_2  counter: 
+[    3    50   426  2885 13697 36435 59749 67173 53528 28532 10790  3409
+  1373   595   378   245   193   145    67    19]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.04976208   1.33457265   2.61938323   3.9041938    5.18900438
+   6.47381495   7.75862553   9.04343611  10.32824668  11.61305726
+  12.89786783  14.18267841  15.46748898  16.75229956  18.03711013
+  19.32192071  20.60673129  21.89154186  23.17635244  24.46116301
+  25.74597359]
+distance difference  counter: 
+(array([    2,     3,    10,    48,   176,   837,  3777, 12038, 28349,
+       49878, 69249, 68474, 33482, 10286,  2416,   506,   110,    42,
+           6,     3]), array([-322.99719238, -293.40489197, -263.81259155, -234.22029114,
+       -204.62799072, -175.03569031, -145.44338989, -115.85108948,
+        -86.25878906,  -56.66648865,  -27.07418823,    2.51811218,
+         32.1104126 ,   61.70271301,   91.29501343,  120.88731384,
+        150.47961426,  180.07191467,  209.66421509,  239.2565155 ,
+        268.84881592]))
+train/val Accuracy = 0.781262500175 / 0.725240621827 
+ with threshold: [[ 7.69277945]]
+============ epoch 4 ===========
+training loss:		10.797934
+||Xanchor-Xpos||_2  counter: 
+[  1726  54351 249328 345570 263383 168553 108983  74528  47648  25112
+  10277   4109   1782    929    568    369    172     67     21      5]
+||Xanchor-Xneg||_2  counter: 
+[   688   1239   6576  32048  97707 208225 313414 327372 226175  99353
+  29409   7875   3112   1669    999    707    539    285     75     14]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  0.           1.3352849    2.6705698    4.0058547    5.3411396
+   6.6764245    8.0117094    9.3469943   10.68227921  12.01756411
+  13.35284901  14.68813391  16.02341881  17.35870371  18.69398861
+  20.02927351  21.36455841  22.69984331  24.03512821  25.37041311
+  26.70569801]
+distance difference  counter: 
+(array([     3,     14,     96,    439,   2546,  11841,  42092, 110227,
+       214714, 316769, 342676, 226827,  67160,  17066,   3917,    836,
+          202,     47,      8,      1]), array([-304.90447998, -275.97261047, -247.04074097, -218.10887146,
+       -189.17700195, -160.24513245, -131.31326294, -102.38139343,
+        -73.44952393,  -44.51765442,  -15.58578491,   13.34608459,
+         42.2779541 ,   71.20982361,  100.14169312,  129.07356262,
+        158.00543213,  186.93730164,  215.86917114,  244.80104065,
+        273.73291016]))
+||Xanchor-Xpos||_2  counter: 
+[   56  4729 29534 51974 49593 41895 35158 28003 19005 10937  5009  2058
+   797   354   213   176   111    66    20     4]
+||Xanchor-Xneg||_2  counter: 
+[    4    44   385  2532 12738 35691 60323 68361 53727 28643 10615  3532
+  1394   671   351   236   178   163    78    26]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  1.94334034e-02   1.28901589e+00   2.55859839e+00   3.82818088e+00
+   5.09776337e+00   6.36734586e+00   7.63692835e+00   8.90651084e+00
+   1.01760933e+01   1.14456758e+01   1.27152583e+01   1.39848408e+01
+   1.52544233e+01   1.65240058e+01   1.77935883e+01   1.90631708e+01
+   2.03327533e+01   2.16023357e+01   2.28719182e+01   2.41415007e+01
+   2.54110832e+01]
+distance difference  counter: 
+(array([    1,     4,     7,    25,    86,   334,  1562,  6168, 19044,
+       40045, 62975, 76183, 50903, 17197,  4122,   834,   147,    41,
+           8,     6]), array([-335.35809326, -305.76619263, -276.17429199, -246.58239136,
+       -216.99049072, -187.39859009, -157.80668945, -128.21478882,
+        -98.62288818,  -69.03098755,  -39.43908691,   -9.84718628,
+         19.74471436,   49.33661499,   78.92851562,  108.52041626,
+        138.11231689,  167.70421753,  197.29611816,  226.8880188 ,
+        256.47991943]))
+train/val Accuracy = 0.781414988497 / 0.724777612517 
+ with threshold: [[ 7.69624577]]
+============ epoch 5 ===========

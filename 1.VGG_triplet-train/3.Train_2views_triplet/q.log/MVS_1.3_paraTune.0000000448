@@ -1,0 +1,47 @@
+---------------- start ----------------
+Tue Oct  4 13:11:16 CEST 2016
+max threads: 2
+max memory: 19000 MB
+time limit: 26 hours
+gpu device id: 0
+.VGGface_MVS-train.sh.1  1
+---------------------------------------
+
+This is VGGface_MVS-train5.py
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is enabled with initial size: 98.0% of memory, CuDNN 4007)
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+lr_coefficient of previous layers: 0
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch5_thresh729.234.model
+learning rate: 30, batch size: 1500, triplet_alpha: 100, shuffle_sample_ON: True, weight_decay: 0.0001
+============ epoch 0 ===========
+||Xanchor-Xpos||_2  counter: 
+[  28  138  351  752 1108 1366 1433 1258  848  558  253  112   28   10    2
+    1    0    0    0    0]
+||Xanchor-Xneg||_2  counter: 
+[   1    9   31  104  272  518  856 1197 1302 1231  990  761  482  287  134
+   42   23    5    0    1]
+||Xanchor-X_neg/pos||_2  bins edge: 
+[  171.76339722   244.00587921   316.24836121   388.4908432    460.7333252
+   532.97580719   605.21828918   677.46077118   749.70325317   821.94573517
+   894.18821716   966.43069916  1038.67318115  1110.91566315  1183.15814514
+  1255.40062714  1327.64310913  1399.88559113  1472.12807312  1544.37055511
+  1616.61303711]
+distance difference  counter: 
+(array([   2,    1,    2,    7,   12,   16,   15,   28,   56,   92,  153,
+        248,  457,  731, 1145, 1605, 1981, 1415,  263,   17]), array([-2.73915601, -2.57146469, -2.40377338, -2.23608207, -2.06839075,
+       -1.90069944, -1.73300812, -1.56531681, -1.39762549, -1.22993418,
+       -1.06224287, -0.89455155, -0.72686024, -0.55916892, -0.39147761,
+       -0.22378629, -0.05609498,  0.11159633,  0.27928765,  0.44697896,
+        0.61467028]))
+train/val Accuracy = 0 / 0.711496483143 
+ with threshold: 729.234
+exception(<type 'exceptions.ValueError'>, ValueError('max() arg is an empty sequence',), <traceback object at 0x7f5ca9c33f80>)
+untile now, the train_val_mean_acc: []
+Done
+
+----------------- end -----------------
+Tue Oct  4 13:12:50 CEST 2016
+elapsed time: 000:01:34
+---------------------------------------

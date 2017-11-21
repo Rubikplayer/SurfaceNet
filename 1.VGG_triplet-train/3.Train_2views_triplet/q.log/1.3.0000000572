@@ -1,0 +1,102 @@
+---------------- start ----------------
+So 23. Okt 19:00:27 CEST 2016
+max threads: 2
+max memory: 16000 MB
+time limit: 26 hours
+gpu device id: 0
+.qsub_MVS_VGG_train.sh.1  1
+---------------------------------------
+
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is disabled, cuDNN 5103)
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/005_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/006_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/016_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/018_hard_inputs.data
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/019_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_train.shape=(124833, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_train.shape=(119253, 3, 64, 64)
+loaded: /home/mengqi/dataset/MVS/lasagne/save_inputs_target_2views_triplet/003_hard_inputs.data
+before filterOutNearPurePatches_4D, triplet_stack_val.shape=(25104, 3, 64, 64)
+after filterOutNearPurePatches_4D, triplet_stack_val.shape=(24738, 3, 64, 64)
+
+only update the weights in the range (pool5,similarity]
+the weights to be updated: [W, b, W, b, W, b]
+loaded the weight: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/vgg16.pkl
+learning rate: 0.001, batch size: 200/500/1500, triplet_alpha: 2, param.__shuffle_sample_ON: True, weight_decay: 0.3
+============ epoch 0 ===========
+training loss:		2.319718
+train/val Accuracy = 0.71018 / 0.65553
+============ epoch 1 ===========
+training loss:		1.945684
+train/val Accuracy = 0.75261 / 0.66917
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch1_acc_tr0.753_val0.669.model *****
+============ epoch 2 ===========
+training loss:		1.920945
+train/val Accuracy = 0.75676 / 0.65068
+============ epoch 3 ===========
+training loss:		1.923108
+train/val Accuracy = 0.75680 / 0.64898
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch3_acc_tr0.757_val0.649.model *****
+============ epoch 4 ===========
+training loss:		1.923221
+train/val Accuracy = 0.75960 / 0.64280
+============ epoch 5 ===========
+training loss:		1.921405
+train/val Accuracy = 0.76128 / 0.65165
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch5_acc_tr0.761_val0.652.model *****
+============ epoch 6 ===========
+training loss:		1.926541
+train/val Accuracy = 0.76061 / 0.65001
+============ epoch 7 ===========
+training loss:		1.925843
+train/val Accuracy = 0.76196 / 0.65420
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch7_acc_tr0.762_val0.654.model *****
+============ epoch 8 ===========
+training loss:		1.924170
+train/val Accuracy = 0.76087 / 0.66596
+============ epoch 9 ===========
+training loss:		1.926988
+train/val Accuracy = 0.76134 / 0.63528
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch9_acc_tr0.761_val0.635.model *****
+============ epoch 10 ===========
+training loss:		1.926782
+train/val Accuracy = 0.76070 / 0.65359
+============ epoch 11 ===========
+training loss:		1.928887
+train/val Accuracy = 0.76124 / 0.65116
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch11_acc_tr0.761_val0.651.model *****
+============ epoch 12 ===========
+training loss:		1.926957
+train/val Accuracy = 0.76236 / 0.65104
+============ epoch 13 ===========
+training loss:		1.925919
+train/val Accuracy = 0.76153 / 0.64631
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch13_acc_tr0.762_val0.646.model *****
+============ epoch 14 ===========
+training loss:		1.925284
+train/val Accuracy = 0.76365 / 0.65274
+============ epoch 15 ===========
+training loss:		1.927351
+train/val Accuracy = 0.76296 / 0.64595
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch15_acc_tr0.763_val0.646.model *****
+============ epoch 16 ===========
+training loss:		1.926461
+train/val Accuracy = 0.76179 / 0.65110
+============ epoch 17 ===========
+training loss:		1.927664
+train/val Accuracy = 0.76228 / 0.64322
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch17_acc_tr0.762_val0.643.model *****
+============ epoch 18 ===========
+training loss:		1.929734
+train/val Accuracy = 0.75972 / 0.65905
+============ epoch 19 ===========
+training loss:		1.928228
+train/val Accuracy = 0.76096 / 0.65135
+save model to: ***** /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch19_acc_tr0.761_val0.651.model *****
+untile now, the train_val_mean_acc: [0.71341659662468482]
+Done
+
+----------------- end -----------------
+So 23. Okt 19:36:59 CEST 2016
+elapsed time: 000:36:32
+---------------------------------------

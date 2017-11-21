@@ -1,0 +1,207 @@
+---------------- start ----------------
+Sa 19. Nov 10:09:26 CET 2016
+max threads: 3
+max memory: 35000 MB
+time limit: 24 hours
+use gpu: false
+.qsub-4.3.sh.1  1
+---------------------------------------
+
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
+  warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
+loaded 38 / 145 cubes
+0
+loaded 130 / 296 cubes
+1
+loaded 160 / 423 cubes
+2
+loaded 165 / 465 cubes
+3
+loaded 177 / 500 cubes
+4
+loaded 176 / 530 cubes
+5
+loaded 147 / 456 cubes
+6
+loaded 87 / 291 cubes
+7
+loaded 203 / 502 cubes
+8
+loaded 237 / 671 cubes
+9
+loaded 252 / 744 cubes
+10
+loaded 272 / 770 cubes
+11
+loaded 287 / 810 cubes
+12
+loaded 143 / 527 cubes
+13
+loaded 201 / 574 cubes
+14
+loaded 323 / 774 cubes
+15
+loaded 374 / 989 cubes
+16
+loaded 363 / 1073 cubes
+17
+loaded 387 / 1161 cubes
+18
+loaded 305 / 942 cubes
+19
+loaded 264 / 883 cubes
+20
+loaded 302 / 998 cubes
+21
+loaded 406 / 1089 cubes
+22
+loaded 506 / 1350 cubes
+23
+loaded 463 / 1475 cubes
+24
+loaded 478 / 1484 cubes
+25
+loaded 344 / 1130 cubes
+26
+loaded 395 / 1286 cubes
+27
+loaded 401 / 1376 cubes
+28
+loaded 501 / 1453 cubes
+29
+loaded 571 / 1785 cubes
+30
+loaded 609 / 1908 cubes
+31
+loaded 500 / 1543 cubes
+32
+loaded 493 / 1475 cubes
+33
+loaded 504 / 1682 cubes
+34
+loaded 566 / 1763 cubes
+35
+loaded 652 / 1941 cubes
+36
+loaded 732 / 2164 cubes
+37
+loaded 723 / 2114 cubes
+38
+loaded 611 / 1777 cubes
+39
+loaded 643 / 1927 cubes
+40
+loaded 684 / 2096 cubes
+41
+loaded 753 / 2256 cubes
+42
+loaded 880 / 2428 cubes
+43
+loaded 909 / 2509 cubes
+44
+loaded 789 / 2267 cubes
+45
+loaded 786 / 2186 cubes
+46
+loaded 779 / 2206 cubes
+47
+loaded 896 / 2380 cubes
+48
+loaded 882 / 2486 cubes
+49
+loaded 905 / 2532 cubes
+50
+loaded 812 / 2490 cubes
+51
+loaded 817 / 2288 cubes
+52
+loaded 676 / 2125 cubes
+53
+loaded 804 / 2178 cubes
+54
+loaded 889 / 2296 cubes
+55
+loaded 926 / 2339 cubes
+56
+loaded 810 / 2280 cubes
+57
+loaded 814 / 2304 cubes
+58
+loaded 762 / 1954 cubes
+59
+loaded 535 / 1838 cubes
+60
+loaded 616 / 1862 cubes
+61
+loaded 663 / 1959 cubes
+62
+loaded 718 / 2005 cubes
+63
+loaded 673 / 2127 cubes
+64
+loaded 687 / 2052 cubes
+65
+loaded 601 / 1649 cubes
+66
+loaded 462 / 1573 cubes
+67
+loaded 453 / 1590 cubes
+68
+loaded 518 / 1636 cubes
+69
+loaded 594 / 1696 cubes
+70
+loaded 590 / 1644 cubes
+71
+loaded 561 / 1565 cubes
+72
+loaded 476 / 1287 cubes
+73
+loaded 356 / 1000 cubes
+74
+loaded 185 / 1000 cubes
+75
+loaded 376 / 1062 cubes
+76
+loaded 376 / 1108 cubes
+77
+loaded 415 / 1062 cubes
+78
+loaded 301 / 1023 cubes
+79
+loaded 228 / 852 cubes
+80
+loaded 109 / 325 cubes
+81
+loaded 212 / 473 cubes
+82
+loaded 81 / 278 cubes
+83
+loaded 15 / 83 cubes
+84
+loaded 64 / 158 cubes
+85
+loaded 43 / 137 cubes
+86
+loaded 59 / 161 cubes
+87
+loaded 94 / 376 cubes
+88
+loaded 183 / 500 cubes
+89
+loaded 89 / 445 cubes
+90
+loaded 59 / 59 cubes
+91
+no cameraPO file /home/mengqi/dataset/MVS/pos/pos_000.txt
+42056rayTrace pool takes: 90292.8784001 
+saved sparse_dict into file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params/model12-6viewPairs-resol0.400-strideRatio0.500/rayPool_votes_model12_batch0_91_maxThresh2.0.npz
+init_adapThresh: 2.0 	 thresh_NO_viewPairs_decisions: 2
+loaded the initial point cloud data
+.qsub-4.3.sh.1: line 6: 13520 Killed                  python -u test-adaptive_threshold.py
+Done
+
+----------------- end -----------------
+So 20. Nov 11:28:19 CET 2016
+elapsed time: 025:18:53
+---------------------------------------

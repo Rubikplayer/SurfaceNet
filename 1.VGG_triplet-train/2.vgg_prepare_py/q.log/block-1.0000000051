@@ -1,0 +1,17 @@
+---------------- start ----------------
+Mi 14. Sep 11:48:48 CEST 2016
+max threads: 8
+max memory: 2000 MB
+time limit: 24 hours
+use gpu: false
+.qsub_meanIMG.sh.1  1
+---------------------------------------
+
+This is a test program
+rectified imgs are loaded
+Done
+
+----------------- end -----------------
+Mi 14. Sep 11:49:33 CEST 2016
+elapsed time: 000:00:45
+---------------------------------------

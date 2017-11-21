@@ -1,0 +1,27 @@
+---------------- start ----------------
+Di 4. Okt 11:57:13 CEST 2016
+max threads: 8
+max memory: 10000 MB
+time limit: 24 hours
+use gpu: false
+.pcl_generator_qsub.sh.1  1
+---------------------------------------
+
+Error loading point cloud [1;31m[pcl::PLYReader] /hdd1t/dataset/MVS/Points/stl/stl078_total.ply:1: parse error
+[0;m[1;31m[pcl::PLYReader::read] problem parsing header!
+[0;m[1;31m[pcl::PLYReader::read] problem parsing header!
+[0;mError loading point cloud [1;31m[pcl::PLYReader] /hdd1t/dataset/MVS/Points/stl/stl079_total.ply:1: parse error
+[0;m[1;31m[pcl::PLYReader::read] problem parsing header!
+[0;m[1;31m[pcl::PLYReader::read] problem parsing header!
+[0;mError loading point cloud [1;31m[pcl::PLYReader] /hdd1t/dataset/MVS/Points/stl/stl080_total.ply:1: parse error
+[0;m[1;31m[pcl::PLYReader::read] problem parsing header!
+[0;m[1;31m[pcl::PLYReader::read] problem parsing header!
+[0;mError loading point cloud [1;31m[pcl::PLYReader] /hdd1t/dataset/MVS/Points/stl/stl081_total.ply:1: parse error
+[0;m[1;31m[pcl::PLYReader::read] problem parsing header!
+[0;m[1;31m[pcl::PLYReader::read] problem parsing header!
+[0;mDone
+
+----------------- end -----------------
+Di 4. Okt 12:00:03 CEST 2016
+elapsed time: 000:02:50
+---------------------------------------

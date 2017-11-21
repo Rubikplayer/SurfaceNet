@@ -1,0 +1,48 @@
+---------------- start ----------------
+Do 20. Okt 22:40:02 CEST 2016
+max threads: 2
+max memory: 16000 MB
+time limit: 36 hours
+gpu device id: 0
+.qsub-2D_2_3D-train.sh.1  1
+---------------------------------------
+
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is disabled, cuDNN 5103)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
+  warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
+compressed 5.npz is saved
+rectified imgs of indx: 5 are loaded
+compressed 17.npz is saved
+rectified imgs of indx: 17 are loaded
+compressed 17.npz is saved
+rectified imgs of indx: 17 are loaded
+density Cube files are loaded
+output shape: (None, 1, 32, 32, 32)
+lr_coefficient of other layers: 0
+loading model: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-2-0.906_0.95.model
+starting training...
+Epoch 1, batch 1: Loss 17507.8, acc 0.901939, acc_guess_all0 0.944355
+Epoch 1, batch 2: Loss 17845, acc 0.894455, acc_guess_all0 0.938095
+Epoch 1, batch 3: Loss 19751, acc 0.894544, acc_guess_all0 0.937222
+Epoch 1, batch 4: Loss 18818.1, acc 0.894288, acc_guess_all0 0.936624
+Epoch 1, batch 5: Loss 23116.4, acc 0.892651, acc_guess_all0 0.935819
+Epoch 1, batch 6: Loss 15177.8, acc 0.892565, acc_guess_all0 0.935604
+Epoch 1, batch 7: Loss 20938.8, acc 0.89147, acc_guess_all0 0.935333
+starting validation...
+val_acc 0.897473
+Epoch 2, batch 1: Loss 21090.2, acc 0.873928, acc_guess_all0 0.921425
+Epoch 2, batch 2: Loss 15452.5, acc 0.883715, acc_guess_all0 0.929815
+Epoch 2, batch 3: Loss 20420.6, acc 0.890789, acc_guess_all0 0.933662
+Epoch 2, batch 4: Loss 23419.4, acc 0.887627, acc_guess_all0 0.931433
+Epoch 2, batch 5: Loss 19635.1, acc 0.887514, acc_guess_all0 0.929227
+Epoch 2, batch 6: Loss 24552.7, acc 0.887622, acc_guess_all0 0.927159
+Epoch 2, batch 7: Loss 22361.6, acc 0.885073, acc_guess_all0 0.925225
+save model to: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-2-0.885_0.925.model
+starting validation...
+val_acc 0.901178
+Epoch 3, batch 1: Loss 14424.2, acc 0.896965, acc_guess_all0 0.951729
+Epoch 3, batch 2: Loss 23374.6, acc 0.894796, acc_guess_all0 0.936125
+Epoch 3, batch 3: Loss 18639, acc 0.895452, acc_guess_all0 0.937837
+Epoch 3, batch 4: Loss 18953.7, acc 0.901586, acc_guess_all0 0.939728
+Epoch 3, batch 5: Loss 16159.2, acc 0.90191, acc_guess_all0 0.939034
+Epoch 3, batch 6: Loss 21255.4, acc 0.895823, acc_guess_all0 0.937808

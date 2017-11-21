@@ -1,0 +1,374 @@
+---------------- start ----------------
+So 9. Apr 23:20:07 CEST 2017
+max threads: 1
+max memory: 15000 MB
+time limit: 100 hours
+gpu device id: 0
+.qsub-deepSurf_train.sh.1  1
+---------------------------------------
+
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is disabled, cuDNN 5105)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
+  warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
+
+current mode *** train_volumeNet_only / debug_ON False ***
+
+__CHANNEL_MEAN =  [ 127.5]
+__D_randcrop =  32
+__N_colorChannel =  3
+__N_randViews4train =  4
+__N_randViews4val =  4
+__N_select_viewPairs2train =  6
+__N_select_viewPairs2val =  6
+__RETURN_ALL_VIEWPAIRS =  0
+__camera_po_txt_fld =  /home/mengqi/dataset/MVS/pos/
+__chunk_len_train =  5
+__chunk_len_val =  16
+__cube_param_N =  5
+__data_fld =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/
+__every_N_epoch_2saveModel =  2
+__grid_D_4train =  50
+__input_hwd =  32
+__layer_2_load_model =  output_volumeNet
+__layer_2_save_model =  output_volumeNet_channelPool
+__layer_range_tuple_2_update =  None
+__lr =  5
+__lr_decay =  0.1
+__lr_decay_per_N_epoch =  100
+__model_folder =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/
+__model_imgs_fld =  /home/mengqi/dataset/MVS/Rectified_mean/
+__model_imgs_npz_fld =  /home/mengqi/dataset/MVS/Rectified_mean/npz/
+__non_trainVal_set =  [23, 24, 27, 29, 73, 114, 118, 25, 26, 27, 1, 11, 24, 34, 49, 62, 11, 32, 33, 48, 75, 110, 25, 1, 4, 77, 1, 9, 10, 12, 13, 15, 33, 54, 78, 79, 80, 81]
+__num_epochs =  1000
+__pcl_pcd2ply_exe =  ~/Downloads/pcl-trunk/build/bin/pcl_pcd2ply
+__pretrained_model_file =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-18-0.555_0.953.model
+__pts_in_voxel_MAX =  10.0
+__pts_in_voxel_MIN =  0.0
+__rand_train_set =  [2, 6, 7, 8, 14, 16, 18, 19, 20, 22, 30, 31, 36, 39, 41, 42, 44, 45, 46, 47, 50, 51, 52, 53, 55, 57, 58, 60, 61, 63, 64, 65, 68, 69, 70, 71, 72, 74, 76, 83, 84, 85, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 107, 108, 109, 111, 112, 113, 115, 116, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128]
+__rand_val_set =  [35, 37, 43, 5, 66, 117, 17, 106, 21, 40, 82, 56, 86, 3, 67, 28, 38, 59]
+__read_partial_of_train_set =  True
+__reconstr_ON =  False
+__root_path =  /home/mengqi/dataset/MVS/
+__similNet_features_dim =  66
+__similNet_hidden_dim =  666
+__soft_gt =  False
+__soft_gt_thresh =  0.2
+__surfPredict_scale4visual =  2
+__tempResult_4visual_fld =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/temp_visualization/
+__test_ON =  False
+__test_set =  []
+__trainVal_set =  [2, 3, 5, 6, 7, 8, 14, 16, 17, 18, 19, 20, 21, 22, 28, 30, 31, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 50, 51, 52, 53, 55, 56, 57, 58, 59, 60, 61, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 74, 76, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 111, 112, 113, 115, 116, 117, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128]
+__train_ON =  True
+__train_fusionNet =  False
+__train_set =  [2, 6, 7, 8, 14, 16, 18, 19, 20, 22, 30, 31, 36, 39, 41, 42, 44, 45, 46, 47, 50, 51, 52, 53, 55, 57, 58, 60, 61, 63, 64, 65, 68, 69, 70, 71, 72, 74, 76, 83, 84, 85, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 107, 108, 109, 111, 112, 113, 115, 116, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128]
+__use_newLayerAPI_dilatConv =  True
+__use_pretrained_model =  True
+__val_ON =  True
+__val_set =  [35, 37, 43, 5, 66, 117, 17, 106, 21, 40, 82, 56, 86, 3, 67, 28, 38, 59]
+__val_visualize_ON =  False
+__view_set =  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+__visualize_when_generateData_ON =  False
+__visualizer =  /home/mengqi/working/program/4.1/20160725b-build/pcl_visualizer_demo
+__voxelVolume_txt_fld =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/pcl_txt_50x50x50_2D_2_3D-without-offsurf/
+density Cube files are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 35 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 37 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 43 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 5 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 66 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 117 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 17 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 106 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 21 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 40 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 82 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 56 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 86 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 3 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 67 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 28 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 38 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 59 are loaded
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+output shape: (None, 1, 32, 32, 32)
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 16, 8, 8, 8)
+shape of kshp_64 = [16  1  8  8  8]
+should be 1D tensor, shape of kshp = (None, 16, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [16  1  8  8  8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 16, 8, 8, 8)
+shape of kshp_64 = [16  1  8  8  8]
+should be 1D tensor, shape of kshp = (None, 16, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [16  1  8  8  8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+loading volumeNet / fusionNet model: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-18-0.555_0.953.model
+starting training...
+density Cube files are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 45 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 20 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 120 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 89 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 58 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 83 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 88 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 98 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 100 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 109 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 123 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 2 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 90 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 60 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 71 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 76 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 51 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 99 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 119 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 112 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 95 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 96 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 53 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 57 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 6 are loaded
+loaded img rect_019_mean.jpg
+rectified imgs of indx: 74 are loaded
+Epoch 1, batch 1: Loss 8595.01, acc 0.655597, acc_guess_all0 0.960236
+Epoch 1, batch 2: Loss 9187.5, acc 0.597781, acc_guess_all0 0.957019
+Epoch 1, batch 3: Loss 9660.36, acc 0.58101, acc_guess_all0 0.954533
+Epoch 1, batch 4: Loss 9871.44, acc 0.5748, acc_guess_all0 0.95231
+Epoch 1, batch 5: Loss 9021.81, acc 0.523833, acc_guess_all0 0.952815
+Epoch 1, batch 6: Loss 10030.7, acc 0.493347, acc_guess_all0 0.951223
+Epoch 1, batch 7: Loss 8508.64, acc 0.456808, acc_guess_all0 0.952945
+Epoch 1, batch 8: Loss 9776.54, acc 0.430115, acc_guess_all0 0.952452
+Epoch 1, batch 9: Loss 10496.7, acc 0.419377, acc_guess_all0 0.950567
+Epoch 1, batch 10: Loss 10112.5, acc 0.403783, acc_guess_all0 0.949356
+Epoch 1, batch 11: Loss 9322.07, acc 0.384022, acc_guess_all0 0.9499
+Epoch 1, batch 12: Loss 9665.31, acc 0.372433, acc_guess_all0 0.949767
+Epoch 1, batch 13: Loss 9882.67, acc 0.364391, acc_guess_all0 0.949078
+Epoch 1, batch 14: Loss 9606.21, acc 0.35914, acc_guess_all0 0.948869
+Epoch 1, batch 15: Loss 9395.41, acc 0.355426, acc_guess_all0 0.948946
+Epoch 1, batch 16: Loss 8196.38, acc 0.348929, acc_guess_all0 0.949893
+Epoch 1, batch 17: Loss 9218.87, acc 0.346687, acc_guess_all0 0.950129
+Epoch 1, batch 18: Loss 9560.96, acc 0.35367, acc_guess_all0 0.950182
+Epoch 1, batch 19: Loss 10966.2, acc 0.359348, acc_guess_all0 0.949377
+Epoch 1, batch 20: Loss 12113.5, acc 0.361785, acc_guess_all0 0.947779
+Epoch 1, batch 21: Loss 9160.17, acc 0.358787, acc_guess_all0 0.947872
+Epoch 1, batch 22: Loss 9071.39, acc 0.352415, acc_guess_all0 0.948375
+Epoch 1, batch 23: Loss 8321.52, acc 0.349413, acc_guess_all0 0.949196
+Epoch 1, batch 24: Loss 8449.98, acc 0.347052, acc_guess_all0 0.949705
+Epoch 1, batch 25: Loss 9516.88, acc 0.3493, acc_guess_all0 0.949754
+Epoch 1, batch 26: Loss 8094.54, acc 0.354382, acc_guess_all0 0.950334
+Epoch 1, batch 27: Loss 10799.4, acc 0.358193, acc_guess_all0 0.949921
+Epoch 1, batch 28: Loss 9299.26, acc 0.360211, acc_guess_all0 0.950082
+Epoch 1, batch 29: Loss 8567.6, acc 0.368729, acc_guess_all0 0.950451
+Epoch 1, batch 30: Loss 9325.09, acc 0.374722, acc_guess_all0 0.950548
+Epoch 1, batch 31: Loss 9323.84, acc 0.380443, acc_guess_all0 0.950516
+Epoch 1, batch 32: Loss 8499.61, acc 0.386578, acc_guess_all0 0.950861
+Epoch 1, batch 33: Loss 8339.47, acc 0.391311, acc_guess_all0 0.951257
+Epoch 1, batch 34: Loss 8947.1, acc 0.39482, acc_guess_all0 0.951371
+Epoch 1, batch 35: Loss 8991.02, acc 0.398768, acc_guess_all0 0.951505
+Epoch 1, batch 36: Loss 9949.91, acc 0.401222, acc_guess_all0 0.951314
+Epoch 1, batch 37: Loss 9023.17, acc 0.401691, acc_guess_all0 0.951458
+Epoch 1, batch 38: Loss 9310.22, acc 0.403801, acc_guess_all0 0.951472
+Epoch 1, batch 39: Loss 8260.38, acc 0.406171, acc_guess_all0 0.951757
+Epoch 1, batch 40: Loss 10814, acc 0.407663, acc_guess_all0 0.951366
+Epoch 1, batch 41: Loss 10074.9, acc 0.406002, acc_guess_all0 0.95109
+Epoch 1, batch 42: Loss 9327.01, acc 0.402778, acc_guess_all0 0.951113
+Epoch 1, batch 43: Loss 9972.22, acc 0.397504, acc_guess_all0 0.950838
+Epoch 1, batch 44: Loss 9987.63, acc 0.391979, acc_guess_all0 0.950702
+Epoch 1, batch 45: Loss 9913.27, acc 0.38607, acc_guess_all0 0.950561
+Epoch 1, batch 46: Loss 10478.9, acc 0.381823, acc_guess_all0 0.950201
+Epoch 1, batch 47: Loss 9198.39, acc 0.377979, acc_guess_all0 0.950304
+Epoch 1, batch 48: Loss 9406.18, acc 0.374932, acc_guess_all0 0.950338
+Epoch 1, batch 49: Loss 8798.07, acc 0.371352, acc_guess_all0 0.950569
+Epoch 1, batch 50: Loss 9526.25, acc 0.369944, acc_guess_all0 0.950494
+Epoch 1, batch 51: Loss 9261.32, acc 0.372745, acc_guess_all0 0.950506
+Epoch 1, batch 52: Loss 9837.75, acc 0.376265, acc_guess_all0 0.950427
+Epoch 1, batch 53: Loss 8974.34, acc 0.379112, acc_guess_all0 0.950556
+Epoch 1, batch 54: Loss 9460.42, acc 0.380178, acc_guess_all0 0.9506
+Epoch 1, batch 55: Loss 8956.12, acc 0.382523, acc_guess_all0 0.950743
+Epoch 1, batch 56: Loss 9520.33, acc 0.385807, acc_guess_all0 0.950766
+Epoch 1, batch 57: Loss 10447.3, acc 0.387007, acc_guess_all0 0.950607
+Epoch 1, batch 58: Loss 9421.87, acc 0.386123, acc_guess_all0 0.95058
+Epoch 1, batch 59: Loss 8679.97, acc 0.384088, acc_guess_all0 0.950737
+Epoch 1, batch 60: Loss 9396.79, acc 0.383451, acc_guess_all0 0.950751
+Epoch 1, batch 61: Loss 9285.16, acc 0.38262, acc_guess_all0 0.95078
+Epoch 1, batch 62: Loss 8186.82, acc 0.3807, acc_guess_all0 0.951004
+Epoch 1, batch 63: Loss 8548.1, acc 0.380649, acc_guess_all0 0.95113
+Epoch 1, batch 64: Loss 8274.66, acc 0.382685, acc_guess_all0 0.951306
+Epoch 1, batch 65: Loss 8741.87, acc 0.385002, acc_guess_all0 0.951428
+Epoch 1, batch 66: Loss 8629.03, acc 0.385429, acc_guess_all0 0.951573
+Epoch 1, batch 67: Loss 9424.78, acc 0.389852, acc_guess_all0 0.951588
+Epoch 1, batch 68: Loss 7440.66, acc 0.393307, acc_guess_all0 0.951839
+Epoch 1, batch 69: Loss 8163.04, acc 0.397684, acc_guess_all0 0.952032
+Epoch 1, batch 70: Loss 9595.93, acc 0.402351, acc_guess_all0 0.952034
+Epoch 1, batch 71: Loss 9785.22, acc 0.407292, acc_guess_all0 0.95199
+Epoch 1, batch 72: Loss 10072.2, acc 0.409384, acc_guess_all0 0.951901
+Epoch 1, batch 73: Loss 10515.1, acc 0.410767, acc_guess_all0 0.951646
+Epoch 1, batch 74: Loss 7756.79, acc 0.409346, acc_guess_all0 0.951907
+Epoch 1, batch 75: Loss 8363.99, acc 0.407827, acc_guess_all0 0.952008
+Epoch 1, batch 76: Loss 9723.61, acc 0.406231, acc_guess_all0 0.951931
+Epoch 1, batch 77: Loss 9732.48, acc 0.404483, acc_guess_all0 0.951915
+Epoch 1, batch 78: Loss 8985.33, acc 0.402892, acc_guess_all0 0.951964
+Epoch 1, batch 79: Loss 7896.22, acc 0.403594, acc_guess_all0 0.952141
+Epoch 1, batch 80: Loss 8348.48, acc 0.403385, acc_guess_all0 0.952302
+Epoch 1, batch 81: Loss 7988.81, acc 0.404623, acc_guess_all0 0.952465
+Epoch 1, batch 82: Loss 9990.06, acc 0.407863, acc_guess_all0 0.95234
+Epoch 1, batch 83: Loss 10036.2, acc 0.411021, acc_guess_all0 0.952251

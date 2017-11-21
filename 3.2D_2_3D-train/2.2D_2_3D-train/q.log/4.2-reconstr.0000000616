@@ -1,0 +1,352 @@
+---------------- start ----------------
+Mo 31. Okt 21:44:32 CET 2016
+max threads: 2
+max memory: 16000 MB
+time limit: 36 hours
+gpu device id: 0
+.qsub-2D_2_3D-train.sh.1  1
+---------------------------------------
+
+Using gpu device 0: GeForce GTX TITAN X (CNMeM is disabled, cuDNN 5103)
+/home/mengqi/venv_lasagne/local/lib/python2.7/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
+  warnings.warn('Matplotlib is building the font cache using fc-list. This may take a moment.')
+]0;IPython: 3.2D_2_3D-train/2.2D_2_3D-train
+current mode *** reconstruct_model / debug_ON False ***
+
+__CHANNEL_MEAN =  [ 123.68000031  116.77899933  103.93900299  123.68000031  116.77899933
+  103.93900299]
+__D_center =  26
+__D_randcrop =  32
+__N_select_viewPairs2reconstr =  6
+__RETURN_ALL_VIEWPAIRS =  0
+__camera_po_txt_fld =  /home/mengqi/dataset/MVS/pos/
+__chunk_len_reconstr =  15
+__cube_param_N =  5
+__cube_stride_over_Dsize =  0.25
+__data_fld =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/
+__grid_D_4reconstr =  32
+__grid_D_4train =  50
+__grids_d =  50
+__input_hwd =  32
+__layer_2_load_model =  ['output_volumeNet_reshape', 'output_softmaxWeights']
+__model_folder =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/
+__model_imgs_fld =  /home/mengqi/dataset/MVS/Rectified_mean/
+__model_imgs_npz_fld =  /home/mengqi/dataset/MVS/Rectified_mean/npz/
+__num_epochs =  2
+__patch_hw_size =  64
+__pcd_folder =  /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/
+__pcl_pcd2ply_exe =  ~/Downloads/pcl-trunk/build/bin/pcl_pcd2ply
+__pretrained_model_file =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-9-0.904_0.949.model
+__pretrained_similNet_model_file =  /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch7_acc_tr0.795_val0.789.model
+__pts_in_voxel_MAX =  10.0
+__pts_in_voxel_MIN =  0.0
+__reconstr_ON =  True
+__reconstr_model =  17
+__resol =  1.6
+__root_path =  /home/mengqi/dataset/MVS/
+__similNet_features_dim =  258
+__similNet_hidden_dim =  100
+__surfPredict_scale4reconstr =  2
+__surfPredict_scale4visual =  2
+__tempResult_4visual_fld =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/temp_visualization/
+__test_ON =  False
+__test_set =  [17]
+__test_visualize_ON =  True
+__train_ON =  False
+__train_set =  []
+__use_newLayerAPI_dilatConv =  True
+__use_pretrained_model =  True
+__val_ON =  False
+__val_set =  [17]
+__view_set =  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+__visualize_when_generateData_ON =  False
+__voxelVolume_txt_fld =  /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/pcl_txt_50x50x50_2D_2_3D/
+rectified imgs of indx: 17 are loaded
+rectified imgs of indx: 17 are loaded
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+output shape: (None, 1, 32, 32, 32)
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 300, 8, 8, 8)
+shape of kshp_64 = [300   1   8   8   8]
+should be 1D tensor, shape of kshp = (None, 300, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [300   1   8   8   8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+calling convolve by Dilated 3D layer
+type(kshp) = <type 'tuple'>
+shape of kshp = (None, 16, 8, 8, 8)
+shape of kshp_64 = [16  1  8  8  8]
+should be 1D tensor, shape of kshp = (None, 16, 8, 8, 8)
+now inside dnn_gradweight3D
+kshp = [16  1  8  8  8]
+type = <type 'numpy.ndarray'>
+kerns_shp (1D shape tensor ?) = MakeVector{dtype='int64'}.0
+loading volumeNet / fusionNet model: /home/mengqi/dataset/MVS/lasagne/samplesVoxelVolume/modelfile_50x50x50_2D_2_3D/2D_2_3D-9-0.904_0.949.model
+loaded similNet model: /home/mengqi/dataset/MVS/lasagne/save_model_2views_triplet/epoch7_acc_tr0.795_val0.789.model
+starting reconstruction...
+starting VGG_triplet Net to predict the feature vectors for each view patches.
+rectified imgs are loaded
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 139 250 347 443 539 641 753 886 1050 1214 1332 1434 1526 1617 1714 1817 1934 2076 2257 2394 2501 2594 2683 2773 2867 2972 3090 3236 3417 3544 3644 3734 3821 3909 4003 4104 4221 4366 4547 4672 4771 4859 4945 
+There are 302 inScope_nearSurf_Cubes will be processed. 0 / 8
+save 81668 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-0_8.pcd
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-0_8.pcd [0;m[0;m[done, [0;36m510[0;m[0;m ms : [0;36m81668[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-0_8.ply [0;m[0;m[done, [0;36m16[0;m[0;m ms : [0;36m81668[0;m[0;m points]
+
+it took 235.787s
+
+saved npz file:  /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params_model17-6viewPairs-resol1.600-strideRatio0.250-batch-0_8.npz
+rectified imgs are loaded
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 89 182 289 414 582 741 849 940 1025 1110 1196 1286 1388 1505 1655 1833 1947 2040 2125 2208 2292 2379 2471 2579 2708 2889 3028 3128 3214 3297 3379 3463 3551 3648 3759 3909 4091 4202 4292 4375 4457 4540 4624 4713 4811 4930 
+There are 586 inScope_nearSurf_Cubes will be processed. 1 / 8
+save 432211 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-1_8.pcd
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-1_8.pcd [0;m[0;m[done, [0;36m2470[0;m[0;m ms : [0;36m432211[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-1_8.ply [0;m[0;m[done, [0;36m80[0;m[0;m ms : [0;36m432211[0;m[0;m points]
+
+it took 603.214s
+
+saved npz file:  /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params_model17-6viewPairs-resol1.600-strideRatio0.250-batch-1_8.npz
+rectified imgs are loaded
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 194 310 402 486 568 651 735 822 914 1025 1175 1358 1465 1552 1634 1716 1798 1882 1969 2066 2177 2340 2513 2612 2697 2778 2860 2943 3028 3116 3209 3325 3501 3660 3754 3836 3916 3998 4081 4166 4254 4351 4472 4659 4801 4892 4974 
+There are 1262 inScope_nearSurf_Cubes will be processed. 2 / 8
+save 1172818 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-2_8.pcd
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-2_8.pcd [0;m[0;m[done, [0;36m6695[0;m[0;m ms : [0;36m1172818[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-2_8.ply [0;m[0;m[done, [0;36m219[0;m[0;m ms : [0;36m1172818[0;m[0;m points]
+
+it took 1206.204s
+
+saved npz file:  /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params_model17-6viewPairs-resol1.600-strideRatio0.250-batch-2_8.npz
+rectified imgs are loaded
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 81 163 247 334 429 529 672 872 973 1058 1139 1221 1304 1389 1477 1570 1679 1831 2022 2119 2201 2282 2364 2447 2533 2622 2722 2836 3014 3176 3267 3348 3429 3512 3597 3684 3775 3878 4001 4220 4333 4419 4500 4582 4666 4752 4841 4934 
+There are 2451 inScope_nearSurf_Cubes will be processed. 3 / 8
+save 4884336 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-3_8.pcd
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-3_8.pcd [0;m[0;m[done, [0;36m28132[0;m[0;m ms : [0;36m4884336[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-3_8.ply [0;m[0;m[done, [0;36m915[0;m[0;m ms : [0;36m4884336[0;m[0;m points]
+
+it took 2288.569s
+
+saved npz file:  /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params_model17-6viewPairs-resol1.600-strideRatio0.250-batch-3_8.npz
+rectified imgs are loaded
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 129 355 465 551 633 716 800 887 977 1071 1181 1344 1549 1641 1723 1805 1888 1973 2061 2158 2258 2393 2632 2739 2823 2905 2989 3074 3162 3259 3358 3482 3712 3851 3938 4021 4105 4191 4280 4372 4477 4597 4818 4979 
+There are 2659 inScope_nearSurf_Cubes will be processed. 4 / 8
+save 9323752 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-4_8.pcd
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-4_8.pcd [0;m[0;m[done, [0;36m57981[0;m[0;m ms : [0;36m9323752[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-4_8.ply [0;m[0;m[done, [0;36m1921[0;m[0;m ms : [0;36m9323752[0;m[0;m points]
+
+it took 3563.394s
+
+saved npz file:  /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params_model17-6viewPairs-resol1.600-strideRatio0.250-batch-4_8.npz
+rectified imgs are loaded
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 85 168 253 340 434 529 639 784 1047 1147 1233 1318 1405 1494 1588 1690 1807 2005 2225 2321 2407 2494 2583 2675 2771 2882 3044 3321 3427 3514 3601 3690 3782 3885 3992 4148 4448 4558 4647 4735 4825 4919ConvAE_3D.py:356: VisibleDeprecationWarning: boolean index did not match indexed array along dimension 0; dimension is 5000 but corresponding boolean dimension is 4906
+  test_param = _param[desicion_onSurf]
+ 
+There are 1605 inScope_nearSurf_Cubes will be processed. 5 / 8
+save 12289223 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-5_8.pcd
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-5_8.pcd [0;m[0;m[done, [0;36m74875[0;m[0;m ms : [0;36m12289223[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-5_8.ply [0;m[0;m[done, [0;36m2339[0;m[0;m ms : [0;36m12289223[0;m[0;m points]
+
+it took 4462.638s
+
+saved npz file:  /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params_model17-6viewPairs-resol1.600-strideRatio0.250-batch-5_8.npz
+rectified imgs are loaded
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 113 277 594 698 789 879 975 1071 1181 1309 1671 1797 1895 1988 2081 2177 2287 2423 2761 2931 3035 3127 3222 3328 3443 3593 3993 4114 4212 4311 4410 4522 4663ConvAE_3D.py:356: VisibleDeprecationWarning: boolean index did not match indexed array along dimension 0; dimension is 5000 but corresponding boolean dimension is 4224
+  test_param = _param[desicion_onSurf]
+ 
+There are 787 inScope_nearSurf_Cubes will be processed. 6 / 8
+save 13518120 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-6_8.pcd
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-6_8.pcd [0;m[0;m[done, [0;36m77362[0;m[0;m ms : [0;36m13518120[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-6_8.ply [0;m[0;m[done, [0;36m2527[0;m[0;m ms : [0;36m13518120[0;m[0;m points]
+
+it took 4968.244s
+
+saved npz file:  /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params_model17-6viewPairs-resol1.600-strideRatio0.250-batch-6_8.npz
+rectified imgs are loaded
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 5000 points: 
+0 215 326 423 530 645 791 1249 1396 1500 1606 1719 1852 2197 2507 2628 2738 2854 2999 3517 3696 3819 3939 4075 4530 4827 4971ConvAE_3D.py:356: VisibleDeprecationWarning: boolean index did not match indexed array along dimension 0; dimension is 5000 but corresponding boolean dimension is 4325
+  test_param = _param[desicion_onSurf]
+ 
+There are 546 inScope_nearSurf_Cubes will be processed. 7 / 8
+save 14918907 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-7_8.pcd
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-7_8.pcd [0;m[0;m[done, [0;36m87695[0;m[0;m ms : [0;36m14918907[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-7_8.ply [0;m[0;m[done, [0;36m2924[0;m[0;m ms : [0;36m14918907[0;m[0;m points]
+
+it took 5372.874s
+
+saved npz file:  /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params_model17-6viewPairs-resol1.600-strideRatio0.250-batch-7_8.npz
+rectified imgs are loaded
+ N_views: 49 
+ views_4_reconstr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49] 
+ NOofViewPairs: 1176 
+ color_filter: gray range thresh 0.900 / hue variance thresh 0.250
+
+*****vgg triplet threshold = [None, 0.5]
+processing 4109 points: 
+0 139 339 926 1102 1269 1660 2180 2405 3105 3422 3906 
+There are 279 inScope_nearSurf_Cubes will be processed. 8 / 8
+save 15476162 points to: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-8_8.pcd
+[0;mConvert a PCD file to PLY format. For more information, use: /home/mengqi/Downloads/pcl-trunk/build/bin/pcl_pcd2ply -h
+[0;mPLY output format: [0;36mbinary, [0;m[0;36musing camera
+[0;m[1;32m> [0;mLoading [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-8_8.pcd [0;m[0;m[done, [0;36m87945[0;m[0;m ms : [0;36m15476162[0;m[0;m points]
+[0;mAvailable dimensions: [0;36mx y z rgb
+[0;m[1;32m> [0;mSaving [0;36m/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/model17-6viewPairs-resol1.600-strideRatio0.250-batch-8_8.ply [0;m[0;m[done, [0;36m2919[0;m[0;m ms : [0;36m15476162[0;m[0;m points]
+
+it took 5654.016s
+
+saved npz file:  /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/saved_prediction_rgb_params_model17-6viewPairs-resol1.600-strideRatio0.250-batch-8_8.npz
+Done
+
+----------------- end -----------------
+Mo 31. Okt 23:19:30 CET 2016
+elapsed time: 001:34:58
+---------------------------------------

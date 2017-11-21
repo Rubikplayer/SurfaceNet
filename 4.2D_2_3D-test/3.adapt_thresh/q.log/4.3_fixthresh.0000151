@@ -1,0 +1,65 @@
+---------------- start ----------------
+Thu Jun 22 2017 14:05:41
+max threads: 2
+max memory: 20000 MB
+time limit: 100 hours
+use gpu: false
+---------------------------------------
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 0, 0.5)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.5_rp0.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 0, 0.7)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.7_rp0.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 0, 0.9)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.9_rp0.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 5, 0.5)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.5_rp5.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 5, 0.7)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.7_rp5.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 5, 0.9)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.9_rp5.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 10, 0.5)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.5_rp10.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 10, 0.7)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.7_rp10.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 10, 0.9)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.9_rp10.ply
+async eval_ply ing.
+Error using knnsearchmex
+Out of memory. Type HELP MEMORY for your options.
+
+Error in KDTreeSearcher/rangesearch (line 140)
+    idx = knnsearchmex(X2, Y', [], minExp, obj.cutDim, obj.cutVal, ...
+
+Error in reducePts_haa (line 22)
+    idx = rangesearch(NS,pts(:,RandOrd(Range))',dst);
+
+Error in PointCompareMain (line 7)
+Qdata=reducePts_haa(Qdata,dst);
+
+Error in eval_ply (line 11)
+BaseEval=PointCompareMain(cSet,Qdata,dst,dataPath);
+
+/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/results_fixthresh/model9-5viewPairs/t0.5_rp0.ply ('async eval_ply raised error.', <type 'exceptions.Exception'>, MatlabExecutionError('\n  File /usr/local/MATLAB/R2016a/toolbox/stats/stats/@KDTreeSearcher/rangesearch.m, line 140, in rangesearch\n\n  File /media/work/mengqi/miniDataset/SampleSet/Matlab evaluation code/reducePts_haa.m, line 22, in reducePts_haa\n\n  File /media/work/mengqi/miniDataset/SampleSet/Matlab evaluation code/PointCompareMain.m, line 7, in PointCompareMain\n\n  File /media/work/mengqi/miniDataset/SampleSet/Matlab evaluation code/eval_ply.m, line 11, in eval_ply\nOut of memory. Type HELP MEMORY for your options.\n',))
+the matlab engine is exited.
+Done
+----------------- end -----------------
+Thu Jun 22 2017 14:55:28
+elapsed time: 000:49:47
+---------------------------------------

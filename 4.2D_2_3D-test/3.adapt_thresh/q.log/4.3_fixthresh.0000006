@@ -1,0 +1,167 @@
+---------------- start ----------------
+Wed Jul 19 2017 10:57:21
+max threads: 2
+max memory: 40000 MB
+time limit: 100 hours
+use gpu: false
+---------------------------------------
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 0, 0.5)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.5_rp0.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 0, 0.7)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.7_rp0.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 0, 0.9)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.9_rp0.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 5, 0.5)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.5_rp5.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 5, 0.7)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.7_rp5.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 5, 0.9)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.9_rp5.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 10, 0.5)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.5_rp10.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 10, 0.7)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.7_rp10.ply
+async eval_ply ing.
+modelIndx, N_viewPairs, weight_AND_term:  (9, 5, 10, 0.9)
+loaded sparseCubes to file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/model9-5viewPairs.npz
+saved ply file: /home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.9_rp10.ply
+async eval_ply ing.
+downsample factor: 1.8635
+Elapsed time is 540.985877 seconds.
+Computing Data 2 Stl distances
+Elapsed time is 552.502118 seconds.
+Computing Stl 2 Data distances
+Distances computed
+Elapsed time is 676.533887 seconds.
+
+eval_acc_compl =
+
+    2.8513         0    0.3514    0.1821
+
+/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.5_rp0.ply [[2.85129403567,0.0,0.351437043351,0.182085443206]]
+downsample factor: 2.5478
+Elapsed time is 88.570605 seconds.
+Computing Data 2 Stl distances
+Elapsed time is 139.087139 seconds.
+Computing Stl 2 Data distances
+Distances computed
+Elapsed time is 96.845394 seconds.
+
+eval_acc_compl =
+
+    0.5737    0.2840    0.6274    0.2020
+
+/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.7_rp0.ply [[0.573728240438,0.284000385877,0.627422356084,0.202008711277]]
+downsample factor: 1.5561
+Elapsed time is 4.381431 seconds.
+Computing Data 2 Stl distances
+Elapsed time is 132.388060 seconds.
+Computing Stl 2 Data distances
+Distances computed
+Elapsed time is 12.290357 seconds.
+
+eval_acc_compl =
+
+    0.3311    0.2238    2.5232    0.9184
+
+/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.9_rp0.ply [[0.331091299683,0.223821450677,2.52320728815,0.918445851115]]
+downsample factor: 1.5574
+Elapsed time is 131.765345 seconds.
+Computing Data 2 Stl distances
+Elapsed time is 287.067393 seconds.
+Computing Stl 2 Data distances
+Distances computed
+Elapsed time is 282.206457 seconds.
+
+eval_acc_compl =
+
+    2.9522    0.1204    0.3892    0.1944
+
+/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.5_rp5.ply [[2.95224601175,0.120374889835,0.389202273968,0.194393352029]]
+downsample factor: 2.1257
+Elapsed time is 50.395322 seconds.
+Computing Data 2 Stl distances
+Elapsed time is 134.084348 seconds.
+Computing Stl 2 Data distances
+Distances computed
+Elapsed time is 64.264004 seconds.
+
+eval_acc_compl =
+
+    0.4983    0.2511    0.6611    0.2173
+
+/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.7_rp5.ply [[0.498252527633,0.251054250795,0.661082956492,0.217315546901]]
+downsample factor: 1.5081
+Elapsed time is 3.791966 seconds.
+Computing Data 2 Stl distances
+Elapsed time is 126.998510 seconds.
+Computing Stl 2 Data distances
+Distances computed
+Elapsed time is 11.281835 seconds.
+
+eval_acc_compl =
+
+    0.3203    0.2217    2.5282    0.9253
+
+/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.9_rp5.ply [[0.32031372466,0.221733900333,2.52816691999,0.92526778508]]
+downsample factor: 1.3267
+Elapsed time is 34.620775 seconds.
+Computing Data 2 Stl distances
+Elapsed time is 157.710287 seconds.
+Computing Stl 2 Data distances
+Distances computed
+Elapsed time is 70.259402 seconds.
+
+eval_acc_compl =
+
+    2.3500    0.1767    0.5205    0.2540
+
+/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.5_rp10.ply [[2.34999579063,0.176742829529,0.520461049419,0.253959091126]]
+downsample factor: 1.5136
+Elapsed time is 14.710317 seconds.
+Computing Data 2 Stl distances
+Elapsed time is 128.680554 seconds.
+Computing Stl 2 Data distances
+Distances computed
+Elapsed time is 27.384009 seconds.
+
+eval_acc_compl =
+
+    0.4181    0.2242    0.7836    0.2961
+
+/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.7_rp10.ply [[0.41807841322,0.224211371086,0.783645493673,0.29612822377]]
+downsample factor: 1.299
+Elapsed time is 0.814580 seconds.
+Computing Data 2 Stl distances
+Elapsed time is 126.599232 seconds.
+Computing Stl 2 Data distances
+Distances computed
+Elapsed time is 7.606811 seconds.
+
+eval_acc_compl =
+
+    0.3060    0.2124    2.5907    1.0126
+
+/home/mengqi/dataset/MVS/lasagne/save_reconstruction_result/weighted_ON-randView_OFF-cubeSize32/results_cubes_modelBB/results_fixthresh/model9-5viewPairs/t0.9_rp10.ply [[0.306037031719,0.212447757386,2.59065065493,1.01261123902]]
+async eval_ply done.
+the matlab engine is exited.
+Done
+----------------- end -----------------
+Wed Jul 19 2017 12:55:03
+elapsed time: 001:57:42
+---------------------------------------
